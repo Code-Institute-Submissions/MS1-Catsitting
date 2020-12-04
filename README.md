@@ -1,12 +1,15 @@
-# Your Project's Name
+# The little florist school
 
 *One or two paragraph providing overview of project*
 
 ## **Overview**
-One or two paragraphs providing an overview of your project.
-Sale pitch 
-The litte florist workshop responsive website - customer brief
-(screenshots)
+*One or two paragraphs providing an overview of your project.*
+*Sale pitch* 
+*The litte florist workshop responsive website - customer brief*
+*(screenshots)*
+This project html, css and bootstrap and user experience
+The little florist school is a fictional business who provide flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry.
+responsive mobile, tablet and desktop regardless of the browser on which the website is displayed. 
 
 ## **User Experience Design**
 
@@ -39,15 +42,25 @@ As a site owner,
 
 ### Design
 
+#### Fonts
+*Primary font - explain choice* 
+*Secondary font - explain choice - complement primary font / impact*
+#### Icons
+*Explain choice - font awesome* 
 #### Colour scheme
-#### Typography
+*Explain choice - how they chosen? Color picker? Palette?*
+*Go for contrast*
+#### Styling
+*Explain if you applied a particular style of styling for particular reason - ex using rounded corners because it's more child friendly*
 #### Imagery
-
+*Background-image/hero image/carousel/other*
+*explain your choice - eg it illustrate what type of flower arrangement could be achieved in the course and illustrate the purpose the courses / appealing image sell experience customers can expect form the course*
 #### Wireframes
 *Desktop | Mobile | Tablet*
 *Include links* 
 *Explain software used and which wireframes are provided*
-
+The wireframes displayed below were created using Balsamic during the skeleton plane of the project and illustrates how the website will be structured across different devices and screen widths.
+You will find the link below should the images do not display properly. 
 #### Differences to design
 (*If any*)
 
@@ -77,7 +90,7 @@ HTML
 CSS
 Bootstrap
 
-
+*Testing & Deployment should be done towards the end of coding project*
 ## Testing
 *In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.*
 
@@ -98,8 +111,14 @@ Bootstrap
 
 ### Scope 
 *Different browser/layout/links/navigation/image rendered*
-### Test validation criteria
+*Most common path Home/courses/book*
 
+
+### Test validation criteria
+*Testing user stories*
+*w3c html validation*
+*w3c css validation*
+*google inspect*
 ### Test results
 *table with bugs and debugs*
 
@@ -118,11 +137,17 @@ Bootstrap
 *In addition, if it is not obvious, you should also describe how to run your code locally.*
 
 ### Project inception
-### GitHub
-### Run locally
+*ex This project was developed using Gitpod, committed to git then pushed onto GitHub using the built-in function withing Gitpod.*
+*Updates were committed frequently to git and the project pushed onto GitHub on a regular basis to make sure it was saved properly*
+### Deployment on GitHub
+*Explain the process of deploying the project on GitHub from Login to publishing a note*
+*Indicate the branch on which the site was deployed*
+### How to run the project locally
 
 ## Credits
 
+### Code
+*Make sure to include code from other sources in the either the html/css files*
 ### Content
 *The text for section Y was copied from the Wikipedia article Z*
 ### Media

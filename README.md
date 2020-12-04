@@ -1,27 +1,32 @@
-# The little florist school
+# **The little florist school**
 
 *One or two paragraph providing overview of project*
 
-## **Overview**
+
+# Overview
 *One or two paragraphs providing an overview of your project.*
 *Sale pitch* 
 *The litte florist workshop responsive website - customer brief*
 *(screenshots)*
+
 This project html, css and bootstrap and user experience
 The little florist school is a fictional business who provide flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry.
 responsive mobile, tablet and desktop regardless of the browser on which the website is displayed. 
 
-## **User Experience Design**
+# User Experience Design 
 
 The little florist school has relied until now on facebook and other social website to advertise their services. 
 They have now reached a level where they have rented a workshop to host their classes and wish to have a website to increase their customer base, reaching beyond their local area, 
 offering clear and concise information on the course they offer - progression opportunities to existing customers - practical information. 
 
+*Intro strategy site owner*
 
-###  **User stories**
+### **User stories**
 (first time visitor goal/ returning visitor goal/ frequent visitor goal)
-External user goals: intro
-As a potential customer, I want to understand the learning outcome of the courses so that I can make an informed decision if the course is right for me.
+External user goals: 
+*intro*
+*list user type goals*
+As a potential customer, I want to understand the learning outcome of the courses so that I can make an informed decision wether the course is right for me.
 As a potential customer, I want to contact the school so that I can make further queries about the courses and activities provided by the school.
 As a potential customer, I want to visulize where the school is located so that I can assess if it's easily accessible from where I live.
 
@@ -40,7 +45,7 @@ As a site owner,
 *As a user type, I want to perform an action, so that I can achieve a goal.*
 *This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser*
 
-### Design
+### **Design**
 
 #### Fonts
 *Primary font - explain choice* 
@@ -67,9 +72,9 @@ You will find the link below should the images do not display properly.
 #### Limitations
 
 
-## Features
+# Features
 
-### Existing Features
+### **Existing Features**
 *Feature 1 - allows users X to achieve Y, by having them fill out Z*
 ...
 *For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.*
@@ -77,10 +82,10 @@ You will find the link below should the images do not display properly.
 *In addition, you may also use this section to discuss plans for additional features to be implemented in the future:*
 *Example nav bar / homepage / footer / contact form / location map*
 
-### Features left to implement
+### **Features left to implement**
 
 
-## Technologies used
+# Technologies used
 *In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.*
 
 *JQuery*
@@ -91,7 +96,7 @@ CSS
 Bootstrap
 
 *Testing & Deployment should be done towards the end of coding project*
-## Testing
+# Testing
 *In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.*
 
 *Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.*
@@ -109,23 +114,23 @@ Bootstrap
 
 *If this section grows too long, you may want to split it off into a separate file and link to it from here.*
 
-### Scope 
+### **Scope** 
 *Different browser/layout/links/navigation/image rendered*
 *Most common path Home/courses/book*
 
-
-### Test validation criteria
+### **Test validation criteria**
 *Testing user stories*
 *w3c html validation*
 *w3c css validation*
 *google inspect*
-### Test results
+
+### **Test results**
 *table with bugs and debugs*
 
-### Issues and resolutions
+### **Issues and resolutions**
 
 
-## Deployment
+# Deployment
 
 *This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).*
 
@@ -136,23 +141,29 @@ Bootstrap
 *Separate git branch?*
 *In addition, if it is not obvious, you should also describe how to run your code locally.*
 
-### Project inception
+### **Project inception**
 *ex This project was developed using Gitpod, committed to git then pushed onto GitHub using the built-in function withing Gitpod.*
 *Updates were committed frequently to git and the project pushed onto GitHub on a regular basis to make sure it was saved properly*
-### Deployment on GitHub
+
+### **Deployment on GitHub**
 *Explain the process of deploying the project on GitHub from Login to publishing a note*
 *Indicate the branch on which the site was deployed*
-### How to run the project locally
 
-## Credits
+### **How to run the project locally**
 
-### Code
+
+# Credits
+
+### **Code**
 *Make sure to include code from other sources in the either the html/css files*
-### Content
+
+### **Content**
 *The text for section Y was copied from the Wikipedia article Z*
-### Media
+
+### **Media**
 *The photos used in this site were obtained from ...*
-### Acknowlegements
+
+### **Acknowlegements**
 *I received inspiration for this project from X*
 
 to fellow student Scott, Daisy McGirr and Michelle on how to build a well defined ReadMe

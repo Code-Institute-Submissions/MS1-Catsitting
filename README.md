@@ -12,6 +12,9 @@ The little florist school offers flower arrangement courses to individuals who e
 
 Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a new responsive website to reach out to potential customers beyond their local area and to provide engaging yet practical information about their courses to prospective and existing customers, as well as the abitility to book classes via their website to convert interest into sales. 
 
+The little florist school is a convivial organisation set up by , many of their current customers have developed friendship some have embarked on a career as freelance florist.
+The little florist school is keeno on conveying the spirit of conviviality 
+
 
 ### **User stories**
 (first time visitor goal/ returning visitor goal/ frequent visitor goal)
@@ -23,14 +26,16 @@ External user goals:
 Potential customer
 - As a potential customer, I want to understand the learning outcome of the courses so that I can make an informed decision wether the course is right for me.
 - As a potential customer, I want to know the dates, times and duration of the course so that I can check my availabilities and if I can commit to the duration of the course.
-- As a potential customer, I want to know if refreshments will be provided so that 
+- As a potential customer, I want to know if refreshments will be provided so that I can organise drinking and/or eating before or after the class.
+- As a potential customer, I want to have a feel of the atmosphere of the course, so that I can assess if I will feel at ease and if the course match my expectations.
+- As a potential customer, I want to find more information about the organisation so that I can better understand what the organisation is about.
 - As a potential customer, I want to be able to book so that I can secure a place on the course.
 - As a potential customer, I want to contact the school so that I can make further queries about the courses and activities provided by the school.
 - As a potential customer, I want to visualize where the school is located so that I can assess if it's easily accessible from where I live.
-- As a potential customer, I want to know 
 
-Existing customer
-- As an existing customer, I want to know what 
+Returning customer
+- As a returning customer, I want to know what other courses are on offer so 
+- As a returning customer, I want to able to book, so that I can secure a place on the next course. 
 
 Site owner goals: intro
 - As a site owner, I want to do this so that I can achieve that

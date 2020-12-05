@@ -8,9 +8,11 @@ Based on a fictional business offering floral arrangement classes, this website 
 
 *(add screenshots)*
 
+## Business goal
+
 The little florist school offers flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry. Until now the courses were run in various locations and advertised on local facebook pages and nextdoor. 
 
-Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a new responsive website to reach out to potential customers beyond their local area and to provide engaging yet practical information about their courses to prospective and existing customers, as well as the abitility to book classes via their website to convert interest into sales. 
+Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a new responsive website to formalise their online presence and reach out to potential customers beyond their local area and to provide engaging yet practical information about their courses to prospective and existing customers, as well as the abitility to book classes via their website to convert interest into sales. 
 
 The little florist school was first set up as small-scale local business by two mums who wanted to share their knowledge with others is a convivial organisation set up by , many of their current customers have developed friendship some have embarked on a career as freelance florist.
 The little florist school is keeno on conveying the spirit of conviviality 
@@ -24,23 +26,30 @@ External user goals:
 *list user type goals*
 
 Potential customer
-- As a potential customer, I want to understand the learning outcome of the courses so that I can make an informed decision wether the course is right for me.
+- As a potential customer, I want to understand the format and learning outcome of the courses so that I can make an informed decision wether the course is right for me.
 - As a potential customer, I want to know the dates, times and duration of the course so that I can check my availabilities and if I can commit to the duration of the course.
 - As a potential customer, I want to know if refreshments will be provided so that I can organise drinking and/or eating before or after the class.
 - As a potential customer, I want to have a feel of the atmosphere of the course, so that I can assess if I will feel at ease and if the course match my expectations.
 - As a potential customer, I want to find more information about the organisation so that I can better understand what the organisation is about.
-- As a potential customer, I want to be able to book so that I can save time and secure a place on the course.
+- As a potential customer, I want to read other participants reviews to see what they thought of the course.
+- As a potential customer, I want to be able to book a course so that I can save time and secure a place.
 - As a potential customer, I want to contact the school so that I can make further queries about the courses and activities provided by the school.
 - As a potential customer, I want to visualize where the school is located so that I can assess if it's easily accessible from where I live.
 
 Returning customer
 - As a returning customer, I want to know what other courses are on offer so 
-- As a returning customer, I want to able to book, so that I can save time and secure a place on the next course. 
+- As a returning customer, I want to able to book a course, so that I can save time and secure a place. 
+- As a returning customer, I want to check the location of the school to see if has changed since I last attented.
+- As a returning customer, I also want to be able to contact the organisation for further queries.
 
 Site owner goals: intro
-- As a site owner, I want to do this so that I can achieve that
-- As a site owner, I want to encourage customer to contact me via a form to decrease telephone queries. 
-- As a site owner, 
+- As a site owner I want to provide information about the course structure, content and progression route so that potential customer can make an informed decision about the course
+- As a site owner, I want to convey a warm and convivial atmosphere so that potential customers can feel confident and encouraged to sign up for the introduction session or one of the course on offer.
+- As a site owner, I want to encourage potential and existing customer to contact us so that queries can be responded promptly *add more here*
+- As a site owner, I want to provide pratictal information about the course, such as date, times and durations so that potential customer can make an informed decision and check their availabilities. 
+- Location
+- As a site owner, I want to provide links to our social media accounts so that (*add more*)
+- As a site owner, I want potential and returning customers to be able to book their class online.
 
 ### **Structure**
 *(try to link to user story)*
@@ -53,6 +62,9 @@ Site owner goals: intro
 *This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser*
 
 ### **Design**
+
+#### Wireframes
+Desktop | Mobile | Tablet Include links Explain software used and which wireframes are provided The wireframes displayed below were created using Balsamic during the skeleton plane of the project and illustrates how the website will be structured across different devices and screen widths. You will find the link below should the images do not display properly.
 
 #### Fonts
 *Primary font - explain choice* 
@@ -67,12 +79,7 @@ Site owner goals: intro
 #### Imagery
 *Background-image/hero image/carousel/other*
 *explain your choice - eg it illustrate what type of flower arrangement could be achieved in the course and illustrate the purpose the courses / appealing image sell experience customers can expect form the course*
-#### Wireframes
-*Desktop | Mobile | Tablet*
-*Include links* 
-*Explain software used and which wireframes are provided*
-The wireframes displayed below were created using Balsamic during the skeleton plane of the project and illustrates how the website will be structured across different devices and screen widths.
-You will find the link below should the images do not display properly. 
+
 #### Differences to design
 (*If any*)
 

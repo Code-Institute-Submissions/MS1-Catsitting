@@ -47,7 +47,10 @@ Site owner goals: intro
 - As a site owner, I want to convey a warm and convivial atmosphere so that potential customers can feel confident and encouraged to sign up for the introduction session or one of the course on offer.
 - As a site owner, I want to encourage potential and existing customer to contact us so that queries can be responded promptly *add more here*
 - As a site owner, I want to provide pratictal information about the course, such as date, times and durations so that potential customer can make an informed decision and check their availabilities. 
-- Location
+- As a site owner, I want to provide the location of our premises so that potential customer can easily access our course. 
+- As a site owner, I want to tell about the story behind our business, so that potential customer can connect and feel encourage to join one of our course.
+- As a site owner, I want to provide customers testimonials so that the benefits of course can showcased from existing customer perspective and encourage potential customers to join the introduction session or one of the courses on offer. 
+- As a site owner, I want to to highlight a promotion on introduction class so that increse sign-up to the course. 
 - As a site owner, I want to provide links to our social media accounts so that (*add more*)
 - As a site owner, I want potential and returning customers to be able to book their class online.
 

@@ -1,17 +1,15 @@
 # **The little florist school**
 
-*One or two paragraph providing overview of project*
-
+Based on a fictional business offering floral arrangement classes, this website was built for educational purposes as part of the Code Institute's Full Stack Development course. This fully responsive website was designed using the principles of User Experience Design and developed using HTLM, CSS and bootstrap framework. 
 
 # Overview
 *One or two paragraphs providing an overview of your project.*
 *Sale pitch* 
 *The litte florist workshop responsive website - customer brief*
-*(screenshots)*
+*(add screenshots)*
 
-Based on a fictional business offering floral arrangement classes to all levels, this fuly responsive website was designed for the sole purpose of the Code Institute Full Stack Development course in order to put into practice HTML, CSS and Bootstrap using the principles of User Experience design
+The little florist school offers flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry. Until now the courses were run in various locations and advertised on local facebook pages and nextdoor. Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a website to advertise 
 
-This project html, css and bootstrap and user experience
 The little florist school is a fictional business who provide flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry.
 responsive mobile, tablet and desktop regardless of the browser on which the website is displayed. 
 

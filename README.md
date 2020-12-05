@@ -9,6 +9,8 @@
 *The litte florist workshop responsive website - customer brief*
 *(screenshots)*
 
+Based on a fictional business offering floral arrangement classes to all levels, this fuly responsive website was designed for the sole purpose of the Code Institute Full Stack Development course in order to put into practice HTML, CSS and Bootstrap using the principles of User Experience design
+
 This project html, css and bootstrap and user experience
 The little florist school is a fictional business who provide flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry.
 responsive mobile, tablet and desktop regardless of the browser on which the website is displayed. 

@@ -10,7 +10,7 @@ Based on a fictional business offering floral arrangement classes, this website 
 
 The little florist school offers flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry. Until now the courses were run in various locations and advertised on local facebook pages and nextdoor. 
 
-Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a new responsive website to reach out to potential customers beyond their local area and to provide engaging and practical information about their courses to prospective and existing customers, as well as the abitility to book classes via their website to convert interest into sales. 
+Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a new responsive website to reach out to potential customers beyond their local area and to provide engaging yet practical information about their courses to prospective and existing customers, as well as the abitility to book classes via their website to convert interest into sales. 
 
 
 ### **User stories**

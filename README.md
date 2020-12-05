@@ -6,7 +6,9 @@ Based on a fictional business offering floral arrangement classes, this website 
 
 *(add screenshots)*
 
-The little florist school offers flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry. Until now the courses were run in various locations and advertised on local facebook pages and nextdoor. Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a new responsive website to increase their customer base and provide engaging and practical information about their courses to new and existing customers as well as the abitility to book courses online to convert interest into sales.  
+The little florist school offers flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry. Until now the courses were run in various locations and advertised on local facebook pages and nextdoor. 
+
+Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a new responsive website to increase their customer base and provide engaging and practical information about their courses to new and existing customers as well as the abitility to book courses online to convert interest into sales.  
  
 
 # User Experience Design 

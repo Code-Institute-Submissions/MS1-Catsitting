@@ -15,6 +15,7 @@ Since the business has grown, The Little Florist School has moved to a permanent
 
 ### **User stories**
 (first time visitor goal/ returning visitor goal/ frequent visitor goal)
+
 External user goals: 
 *intro*
 *list user type goals*

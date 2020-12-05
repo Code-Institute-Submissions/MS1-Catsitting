@@ -2,8 +2,6 @@
 
 Based on a fictional business offering floral arrangement classes, this website was built for educational purposes as part of the Code Institute's Full Stack Development course. This fully responsive and user centric website was designed using the principles of User Experience Design and developed using HTLM, CSS and bootstrap framework. 
 
-
-
 # User Experience Design 
 
 ### Overview
@@ -12,14 +10,8 @@ Based on a fictional business offering floral arrangement classes, this website 
 
 The little florist school offers flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry. Until now the courses were run in various locations and advertised on local facebook pages and nextdoor. 
 
-Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a new responsive website to provide engaging and practical information about their courses to prospective and existing customers, as well as the abitility to book classes via their website to 
-increase their customer base. 
+Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a new responsive website to reach out to potential customers beyond their local area and to provide engaging and practical information about their courses to prospective and existing customers, as well as the abitility to book classes via their website to convert interest into sales. 
 
-The little florist school has relied until now on facebook and other social website to advertise their services. 
-They have now reached a level where they have rented a workshop to host their classes and wish to have a website to increase their customer base, reaching beyond their local area, 
-offering clear and concise information on the course they offer - progression opportunities to existing customers - practical information. 
-
-*Intro strategy site owner*
 
 ### **User stories**
 (first time visitor goal/ returning visitor goal/ frequent visitor goal)

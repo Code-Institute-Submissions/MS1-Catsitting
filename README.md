@@ -1,17 +1,13 @@
 # **The little florist school**
 
-Based on a fictional business offering floral arrangement classes, this website was built for educational purposes as part of the Code Institute's Full Stack Development course. This fully responsive website was designed using the principles of User Experience Design and developed using HTLM, CSS and bootstrap framework. 
+Based on a fictional business offering floral arrangement classes, this website was built for educational purposes as part of the Code Institute's Full Stack Development course. This fully responsive and user centric website was designed using the principles of User Experience Design and developed using HTLM, CSS and bootstrap framework. 
 
 # Overview
-*One or two paragraphs providing an overview of your project.*
-*Sale pitch* 
-*The litte florist workshop responsive website - customer brief*
+
 *(add screenshots)*
 
-The little florist school offers flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry. Until now the courses were run in various locations and advertised on local facebook pages and nextdoor. Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a website to advertise 
-
-The little florist school is a fictional business who provide flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry.
-responsive mobile, tablet and desktop regardless of the browser on which the website is displayed. 
+The little florist school offers flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry. Until now the courses were run in various locations and advertised on local facebook pages and nextdoor. Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a new responsive website to increase their customer base and provide engaging and practical information about their courses to new and existing customers as well as the abitility to book courses online to convert interest into sales.  
+ 
 
 # User Experience Design 
 

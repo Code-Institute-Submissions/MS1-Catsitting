@@ -19,14 +19,14 @@ Since the business has grown, The Little Florist School has moved to a permanent
 External user goals: 
 *intro*
 *list user type goals*
-As a potential customer, I want to understand the learning outcome of the courses so that I can make an informed decision wether the course is right for me.
-As a potential customer, I want to contact the school so that I can make further queries about the courses and activities provided by the school.
-As a potential customer, I want to visulize where the school is located so that I can assess if it's easily accessible from where I live.
+- As a potential customer, I want to understand the learning outcome of the courses so that I can make an informed decision wether the course is right for me.
+- As a potential customer, I want to contact the school so that I can make further queries about the courses and activities provided by the school.
+- As a potential customer, I want to visulize where the school is located so that I can assess if it's easily accessible from where I live.
 
 Site owner goals: intro
-As a site owner, I want to do this so that I can achieve that
-As a site owner, I want to encourage customer to contact me via a form to decrease telephone queries. 
-As a site owner, 
+- As a site owner, I want to do this so that I can achieve that
+- As a site owner, I want to encourage customer to contact me via a form to decrease telephone queries. 
+- As a site owner, 
 
 ### **Structure**
 *(try to link to user story)*

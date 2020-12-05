@@ -19,6 +19,8 @@ Since the business has grown, The Little Florist School has moved to a permanent
 External user goals: 
 *intro*
 *list user type goals*
+
+Potential customer
 - As a potential customer, I want to understand the learning outcome of the courses so that I can make an informed decision wether the course is right for me.
 - As a potential customer, I want to know the dates, times and duration of the course so that I can check my availabilities and if I can commit to the duration of the course.
 - As a potential customer, I want to know if refreshments will be provided so that 
@@ -26,6 +28,9 @@ External user goals:
 - As a potential customer, I want to contact the school so that I can make further queries about the courses and activities provided by the school.
 - As a potential customer, I want to visualize where the school is located so that I can assess if it's easily accessible from where I live.
 - As a potential customer, I want to know 
+
+Existing customer
+- As an existing customer, I want to know what 
 
 Site owner goals: intro
 - As a site owner, I want to do this so that I can achieve that

@@ -19,9 +19,9 @@ The little florist school is keeno on conveying the spirit of conviviality
 
 
 ### **User stories**
-(first time visitor goal/ returning visitor goal/ frequent visitor goal)
 
-External user goals: 
+
+1. External user goals: 
 *intro*
 *list user type goals*
 
@@ -42,7 +42,7 @@ Returning customer
 - As a returning customer, I want to check the location of the school to see if has changed since I last attented.
 - As a returning customer, I also want to be able to contact the organisation for further queries.
 
-Site owner goals: intro
+2. Site owner goals: intro
 - As a site owner I want to provide information about the course structure, content and progression route so that potential customer can make an informed decision about the course
 - As a site owner, I want to convey a warm and convivial atmosphere so that potential customers can feel confident and encouraged to sign up for the introduction session or one of the course on offer.
 - As a site owner, I want to encourage potential and existing customer to contact us so that queries can be responded promptly *add more here*
@@ -50,25 +50,19 @@ Site owner goals: intro
 - As a site owner, I want to provide the location of our premises so that potential customer can easily access our course. 
 - As a site owner, I want to tell about the story behind our business, so that potential customer can connect and feel encourage to join one of our course.
 - As a site owner, I want to provide customers testimonials so that the benefits of course can showcased from existing customer perspective and encourage potential customers to join the introduction session or one of the courses on offer. 
-- As a site owner, I want to to highlight a promotion on introduction class so that increse sign-up to the course. 
+- As a site owner, I want to to highlight the promotion on the introduction class to increase sign-up on the course.
 - As a site owner, I want to provide links to our social media accounts so that (*add more*)
 - As a site owner, I want potential and returning customers to be able to book their class online.
 
 ### **Structure**
-*(try to link to user story)*
 
-*Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.*
-
-*In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:*
-
-*As a user type, I want to perform an action, so that I can achieve a goal.*
-*This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser*
 
 ### **Design**
 
-#### Wireframes
+#### Wireframes | Skeleton
 Desktop | Mobile | Tablet Include links Explain software used and which wireframes are provided The wireframes displayed below were created using Balsamic during the skeleton plane of the project and illustrates how the website will be structured across different devices and screen widths. You will find the link below should the images do not display properly.
 
+### Surface (below)
 #### Fonts
 *Primary font - explain choice* 
 *Secondary font - explain choice - complement primary font / impact*

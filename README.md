@@ -1,6 +1,6 @@
 # **The little florist school**
 
-Based on a fictional business offering floral arrangement classes, this website was built for educational purposes as part of the Code Institute's Full Stack Development course. This fully responsive and user centric website was designed using the principles of User Experience Design and developed using HTLM, CSS and bootstrap framework. 
+Based on a fictional business offering cat sitting services, this website was built for educational purposes as part of the Code Institute's Full Stack Development course. This fully responsive and user centric website was designed using the principles of User Experience Design and developed using HTLM, CSS and bootstrap framework. 
 
 # User Experience Design 
 
@@ -10,12 +10,12 @@ Based on a fictional business offering floral arrangement classes, this website 
 
 ## Business goal
 
-The little florist school offers flower arrangement courses to individuals who either want to start a new hobby or gain further skills in floristry. Until now the courses were run in various locations and advertised on local facebook pages and nextdoor. 
+Snuggle cat is a brand new cat sitting compagny created by two friends who have worked a occasional cat-sitter
+responsive website to formalise their online presence and reach out to potential customers beyond their local area and to provide engaging yet practical information about their courses to prospective and existing customers, as well as the abitility to book classes via their website to convert interest into sales.
 
-Since the business has grown, The Little Florist School has moved to a permanent location and they wish to create a new responsive website to formalise their online presence and reach out to potential customers beyond their local area and to provide engaging yet practical information about their courses to prospective and existing customers, as well as the abitility to book classes via their website to convert interest into sales. 
+### **Business goals**
 
-The little florist school was first set up as small-scale local business by two mums who wanted to share their knowledge with others is a convivial organisation set up by , many of their current customers have developed friendship some have embarked on a career as freelance florist.
-The little florist school is keeno on conveying the spirit of conviviality 
+### **User goals**
 
 
 ### **User stories**

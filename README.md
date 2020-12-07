@@ -8,15 +8,17 @@ Based on a fictional business offering cat sitting services, this website was bu
 
 *(add screenshots)*
 
-## Business goal
+## Business goals
 
-Snuggle cat is a brand new cat sitting compagny created by two friends who have worked a occasional cat-sitter
-responsive website to formalise their online presence and reach out to potential customers beyond their local area and to provide engaging yet practical information about their courses to prospective and existing customers, as well as the abitility to book classes via their website to convert interest into sales.
+Snuggle cats is a cat sitting compagny originally set up by two friends who have extensive knowledge and experience in caring for animals and well known in their local area. They have now recruited 5 other cat sitters to join their venture and they want a responsive website to
 
-### **Business goals**
+- create an online presence
+- generate new leads and new customers.
+- engaging and practical about their course
 
 ### **User goals**
 
+Cat owners can feel quite anxious at the idea of leaving their pets at home whilst away at work, for weekend or longer, they need to feel they can trust that pets will be well looked after. 
 
 ### **User stories**
 
@@ -25,34 +27,24 @@ responsive website to formalise their online presence and reach out to potential
 *intro*
 *list user type goals*
 
-Potential customer
-- As a potential customer, I want to understand the format and learning outcome of the courses so that I can make an informed decision wether the course is right for me.
-- As a potential customer, I want to know the dates, times and duration of the course so that I can check my availabilities and if I can commit to the duration of the course.
-- As a potential customer, I want to know if refreshments will be provided so that I can organise drinking and/or eating before or after the class.
-- As a potential customer, I want to have a feel of the atmosphere of the course, so that I can assess if I will feel at ease and if the course match my expectations.
-- As a potential customer, I want to find more information about the organisation so that I can better understand what the organisation is about.
-- As a potential customer, I want to read other participants reviews to see what they thought of the course.
-- As a potential customer, I want to be able to book a course so that I can save time and secure a place.
-- As a potential customer, I want to contact the school so that I can make further queries about the courses and activities provided by the school.
-- As a potential customer, I want to visualize where the school is located so that I can assess if it's easily accessible from where I live.
+prospective customer
+- As a prospective customer, I want to understand the benefits of cat sitting services so that I can asses if it is the best solution to look after my pet whilst I am away.
+- As a prospective customer, I want to read customer reviews so that I can assess if Snuggle Cats is a trusworthy, reliable and true pet-lovers.
+- As a prospective customer, I want to understand the different services the company offer so that I can decide if any / which ones are suitable to my needs 
+- As a prospective customer
+- As a prospective customer, I want to easily contact Snuggle Cats so that I can book their services or make a query
 
-Returning customer
-- As a returning customer, I want to know what other courses are on offer so 
-- As a returning customer, I want to able to book a course, so that I can save time and secure a place. 
-- As a returning customer, I want to check the location of the school to see if has changed since I last attented.
-- As a returning customer, I also want to be able to contact the organisation for further queries.
+Returning visitor
+- As a returning visitor, I want to easily contact the company so that I can book their services or make a query
+- As a returning visitor, I want
 
 2. Site owner goals: intro
-- As a site owner I want to provide information about the course structure, content and progression route so that potential customer can make an informed decision about the course
-- As a site owner, I want to convey a warm and convivial atmosphere so that potential customers can feel confident and encouraged to sign up for the introduction session or one of the course on offer.
-- As a site owner, I want to encourage potential and existing customer to contact us so that queries can be responded promptly *add more here*
-- As a site owner, I want to provide pratictal information about the course, such as date, times and durations so that potential customer can make an informed decision and check their availabilities. 
-- As a site owner, I want to provide the location of our premises so that potential customer can easily access our course. 
-- As a site owner, I want to tell about the story behind our business, so that potential customer can connect and feel encourage to join one of our course.
-- As a site owner, I want to provide customers testimonials so that the benefits of course can showcased from existing customer perspective and encourage potential customers to join the introduction session or one of the courses on offer. 
+- As a site owner, I want to highlights our credentials so that new a turst
+- As a site owner, I want to encourage potential and customers to contact us so that queries can be responded promptly *add more here*
+- As a site owner, I want to provide information about the services we provide
+- As a site owner, I want to provide customers testimonials
 - As a site owner, I want to to highlight the promotion on the introduction class to increase sign-up on the course.
 - As a site owner, I want to provide links to our social media accounts so that (*add more*)
-- As a site owner, I want potential and returning customers to be able to book their class online.
 
 ### **Structure**
 

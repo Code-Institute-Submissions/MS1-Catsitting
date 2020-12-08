@@ -1,21 +1,10 @@
+
+
 .navbar .navbar-toggler {
   border: 0;
 }
 .hero-background{
- height: 100vh;
-background: url("../assets/images/pexels-александар-цветановић-1560424.jpg") no-repeat bottom right
-    fixed;;
-  /*
-   height: 100vh;
-  background: url("../images/whiskey-background.jpg") no-repeat bottom right
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  */
+  height: 90vh;
+  width: 100%;
+  background: url("../images/cat-hero.jpg") no-repeat center left;
 }

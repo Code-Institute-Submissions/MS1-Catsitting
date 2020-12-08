@@ -3,9 +3,12 @@
     position: fixed;
     z-index: 1;
 }*/
+/*Background colors*/
+
 .navbar-style{
     background-color: black;
 }
+/*Nav bar*/
 .navbar .navbar-toggler {
   border: 0;
   
@@ -17,6 +20,8 @@
 .navbar .active{
 text-decoration: underline;
 }
+/*Hero image*/
+/*code from whiskey project --> change to background position*/
 .hero-background{
   height: 90vh;
   background: url("../images/cat-hero.jpg") no-repeat bottom left fixed;
@@ -38,7 +43,7 @@ padding-bottom: 20px;
     height: 3px;
     background-color: black;
 }
-/*Featurse section*/
+/*Features section*/
 
 /*Services section*/
 .service-container{
@@ -46,3 +51,11 @@ border: 1px solid black;
 text-align: center;
 }
 /*Testimonials section*/
+
+/*form*/
+.form-container{
+margin: 0 auto;
+max-width: 70%;
+padding-bottom: 30px;
+}
+/*media queries

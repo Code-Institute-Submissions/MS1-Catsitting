@@ -1,7 +1,21 @@
 
-
+/*.header-container{
+    position: fixed;
+    z-index: 1;
+}*/
+.navbar-style{
+    background-color: black;
+}
 .navbar .navbar-toggler {
   border: 0;
+  
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar .active{
+text-decoration: underline;
 }
 .hero-background{
   height: 90vh;
@@ -12,6 +26,17 @@
   background-size: cover;
   display: flex;
   align-items: center;
+}
+/* Headings & Subheadings formatting*/
+.section-heading{
+text-align: center;
+padding-top: 30px;
+padding-bottom: 20px;
+}
+.section-strip{
+    width: 90px;
+    height: 3px;
+    background-color: black;
 }
 /*Featurse section*/
 

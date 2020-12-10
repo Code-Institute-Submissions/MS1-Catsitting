@@ -1,57 +1,62 @@
 
-/*.header-container{
-    position: fixed;
-    z-index: 1;
-}*/
-/*Background colors*/
 .body{
+    margin: 0 auto;
+}
+/*Background colors*/
 
-}
-.border{
-border: 1px solid dark;
-}
-.container-fluid{
-margin: 0;
-padding: 0;
-}
-.navbar-style{
-    background-color: black;
+/*Text colors*/
 
-}
 /*Nav bar*/
-.navbar .navbar-toggler {
+
+navbar .navbar-toggler {
   border: 0;
-  
 }
+
 .navbar a{
     color: white;
     text-decoration: none;
 }
+
 .navbar .active{
 text-decoration: underline;
 }
-/*Hero image*/
+
+
+/*Hero image & jumbotron*/
+
 /*code from whiskey project --> change to background position*/
+
 .hero-background{
-  height: 90vh;
-  background: url("../images/cat-hero.jpg") no-repeat bottom left fixed;
-  /*fixed*/
+  height: 750px;
+  bakckground-color: black;
+  background: url("../images/Cat_hero1.jpg") no-repeat top center fixed;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
-  /*display: flex
-  align-items: flex-start;
-  border: 1px solid black;*/
+  display: flex;
+  align-items: flex-end;
 }
+
+.jumbotron-container{
+background: transparent;
+width: 100%;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+
 /* Headings & Subheadings formatting*/
+
 .section-heading{
 text-align: center;
 padding-top: 30px;
 padding-bottom: 20px;
 }
-.section-strip{
+
+.section-divider{
     width: 90px;
     height: 3px;
     background-color: black;
@@ -63,9 +68,10 @@ padding-bottom: 20px;
 /*Testimonials section*/
 
 /*form*/
+
 .form-container{
 margin: 0 auto;
 max-width: 70%;
 padding-bottom: 30px;
 }
-/*media queries
+/*media queries*/

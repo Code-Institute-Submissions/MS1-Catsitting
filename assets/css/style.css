@@ -28,8 +28,8 @@ text-decoration: underline;
 
 .hero-background{
   height: 750px;
-  bakckground-color: black;
-  background: url("../images/Cat_hero1.jpg") no-repeat top center fixed;
+  background: url("../images/Cat_hero1.jpg")no-repeat top center fixed;
+  /*backgroundÏ: url("../images/Cat_hero1.jpg") no-repeat top center fixed;*/
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

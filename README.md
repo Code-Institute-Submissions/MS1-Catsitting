@@ -10,11 +10,12 @@ Based on a fictional business offering cat sitting services, this website was bu
 
 ## Business goals
 
-Snuggle cats is a cat sitting compagny originally set up by two friends who have extensive knowledge and experience in caring for animals and well known in their local area. They have now recruited 5 other cat sitters to join their venture and they want a responsive website to
-
+Snuggle cats is a cat sitting compagnyset up by a former veterinary nurse  who have extensive knowledge and experience in caring for animals and well known in their local area. 
+She is now expending her company and has recruited 5 other cat sitters to join their venture and want a website to advertise their cat sitting services across London.
 - create an online presence
-- generate new leads and new customers.
-- engaging and practical about their course
+- generate new leads 
+
+
 
 ### **User goals**
 
@@ -27,27 +28,33 @@ Cat owners can feel quite anxious at the idea of leaving their pets at home whil
 *intro*
 *list user type goals*
 
-prospective customer
+prospective customer & new visitors
 - As a prospective customer, I want to understand the benefits of cat sitting services so that I can asses if it is the best solution to look after my pet whilst I am away.
 - As a prospective customer, I want to read customer reviews so that I can assess if Snuggle Cats is a trusworthy, reliable and true pet-lovers.
 - As a prospective customer, I want to understand the different services the company offer so that I can decide if any / which ones are suitable to my needs 
-- As a prospective customer
 - As a prospective customer, I want to easily contact Snuggle Cats so that I can book their services or make a query
 
 Returning visitor
 - As a returning visitor, I want to easily contact the company so that I can book their services or make a query
-- As a returning visitor, I want
+- As a returning visitor,
 
 2. Site owner goals: intro
-- As a site owner, I want to highlights our credentials so that new a turst
+
+- As a site owner, I want to highlights our credentials so that potential customers 
 - As a site owner, I want to encourage potential and customers to contact us so that queries can be responded promptly *add more here*
-- As a site owner, I want to provide information about the services we provide
-- As a site owner, I want to provide customers testimonials
-- As a site owner, I want to to highlight the promotion on the introduction class to increase sign-up on the course.
+- As a site owner, I want to provide information and prices about the services we provide
 - As a site owner, I want to provide links to our social media accounts so that (*add more*)
 
 ### **Structure**
 
+- Navigation bar 
+- Section introducing benefits of cat sitting 
+- Section services & pricing
+- Testimonials
+- Call for action - arrange a meet & greet
+- Form contact me 
+- Gallery 
+- About us page 
 
 ### **Design**
 

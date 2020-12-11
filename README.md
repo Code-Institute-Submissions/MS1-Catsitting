@@ -1,4 +1,4 @@
-# **The little florist school**
+# **Snuggle Cats - Cat sitting agency in North West London**
 
 Based on a fictional business offering cat sitting services, this website was built for educational purposes as part of the Code Institute's Full Stack Development course. This fully responsive and user centric website was designed using the principles of User Experience Design and developed using HTLM, CSS and bootstrap framework. 
 
@@ -10,37 +10,41 @@ Based on a fictional business offering cat sitting services, this website was bu
 
 ## Business goals
 
-Snuggle cats is a cat sitting compagnyset up by a former veterinary nurse  who have extensive knowledge and experience in caring for animals and well known in their local area. 
-She is now expending her company and has recruited 5 other cat sitters to join their venture and want a website to advertise their cat sitting services across London.
-- create an online presence
-- generate new leads 
+Snuggle cats is a cat sitting compagny set up by a former veterinary nurse, who has extensive knowledge and experience in caring for animals with an already formidable reputation for cat sitting in her local area. 
+Snuggle cats is fast expending and has recruited additional cat sitters from a trusted network of animal carers to face an ever increasingly demand. 
 
-
-
-### **User goals**
-
-Cat owners can feel quite anxious at the idea of leaving their pets at home whilst away at work, for weekend or longer, they need to feel they can trust that pets will be well looked after. 
+Snuggle cats need a responsive website in order to achieve the following:
+- To create an online presence
+- To raise their brand awareness as a professional, trustworthy and reliable cat sitting services. 
+- To advertise their cat sitting services across North West London.
+- To generate new leads and expand customer base
 
 ### **User stories**
 
+Cat owners can feel quite anxious at the idea of leaving their pets at home whilst away at work, for weekend or longer, they need to feel they can trust that their pets will be well looked after. 
 
 1. External user goals: 
-*intro*
-*list user type goals*
 
-prospective customer & new visitors
-- As a prospective customer, I want to understand the benefits of cat sitting services so that I can asses if it is the best solution to look after my pet whilst I am away.
-- As a prospective customer, I want to read customer reviews so that I can assess if Snuggle Cats is a trusworthy, reliable and true pet-lovers.
-- As a prospective customer, I want to understand the different services the company offer so that I can decide if any / which ones are suitable to my needs 
-- As a prospective customer, I want to easily contact Snuggle Cats so that I can book their services or make a query
+First time visitor
+- I want to learn about the benefits of cat sitting services so that I can decide if it's the right solution for me
+- I want to learn what's included in the services offered by Snuggle cats so that 
+- I want to read customer testimonials so that I can assess if Snuggle Cat is trustworthy and reliable company.
+- I want to check the areas covered by Snuggle Cat so that I know if they provide their services where I live. 
+- I want to easily contact Snuggle Cats so that I can make further queries or arrange a meet & greet. 
+- I want to able to navigate easily across the website so that I can find the information I need. 
 
-Returning visitor
-- As a returning visitor, I want to easily contact the company so that I can book their services or make a query
-- As a returning visitor,
+- I want to check Snuggle cats credentials
+
+
+
+
+Returning visitors
+- I want to be able to quickly contact Snuggle Cats 
+- I 
 
 2. Site owner goals: intro
 
-- As a site owner, I want to highlights our credentials so that potential customers 
+- As a site owner, I want to highlights our credentials so that prospective customers
 - As a site owner, I want to encourage potential and customers to contact us so that queries can be responded promptly *add more here*
 - As a site owner, I want to provide information and prices about the services we provide
 - As a site owner, I want to provide links to our social media accounts so that (*add more*)
@@ -55,6 +59,18 @@ Returning visitor
 - Form contact me 
 - Gallery 
 - About us page 
+# Features
+
+### **Existing Features**
+*Feature 1 - allows users X to achieve Y, by having them fill out Z*
+...
+*For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.*
+
+*In addition, you may also use this section to discuss plans for additional features to be implemented in the future:*
+*Example nav bar / homepage / footer / contact form / location map*
+
+### **Features left to implement**
+
 
 ### **Design**
 
@@ -82,17 +98,6 @@ Desktop | Mobile | Tablet Include links Explain software used and which wirefram
 #### Limitations
 
 
-# Features
-
-### **Existing Features**
-*Feature 1 - allows users X to achieve Y, by having them fill out Z*
-...
-*For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.*
-
-*In addition, you may also use this section to discuss plans for additional features to be implemented in the future:*
-*Example nav bar / homepage / footer / contact form / location map*
-
-### **Features left to implement**
 
 
 # Technologies used

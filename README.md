@@ -11,38 +11,46 @@ Based on a fictional business offering cat sitting services, this website was bu
 ## Business goals
 
 Snuggle cats is a cat sitting compagny set up by a former veterinary nurse, who has extensive knowledge and experience in caring for animals with an already formidable reputation for cat sitting in her local area. 
-Snuggle cats is fast expending and has recruited additional cat sitters from a trusted network of animal carers to face an ever increasingly demand. 
+Snuggle cats is fast expending and has recruited additional cat sitters from a trusted network of animal carers to face an ever increasingly demand. The company now needs a responsive website to advertise their services online.
 
-Snuggle cats need a responsive website in order to achieve the following:
+Business goals
+
+Snuggle cats need a fully responsive and user centric website in order to achieve the following goals:
 - To create an online presence
 - To raise their brand awareness as a professional, trustworthy and reliable cat sitting services. 
 - To advertise their cat sitting services across North West London.
 - To generate new leads and expand customer base
 
+User goals
+
+Cat owners can feel quite anxious at the idea of leaving their pets at home whilst away on holiday, they need to feel they can trust that their pets will be well looked after and will have the following goals in mind: 
+
+- To decide if cat sitting is the right solution for my needs
+- To understand what is included in the proposed services
+- To assess the company credentials, reliability and professionalism
+- To seek reassurance that the company is cat friendly
+- To check if prices are affordable
+- To check wether the services are available where they live
+
 ### **User stories**
 
-Cat owners can feel quite anxious at the idea of leaving their pets at home whilst away at work, for weekend or longer, they need to feel they can trust that their pets will be well looked after. 
-
-1. External user goals: 
+1. External user stories: 
 
 First time visitor
 - I want to learn about the benefits of cat sitting services so that I can decide if it's the right solution for me
 - I want to learn what's included in the services offered by Snuggle cats so that 
+- I want to check the prices 
 - I want to read customer testimonials so that I can assess if Snuggle Cat is trustworthy and reliable company.
 - I want to check the areas covered by Snuggle Cat so that I know if they provide their services where I live. 
 - I want to easily contact Snuggle Cats so that I can make further queries or arrange a meet & greet. 
 - I want to able to navigate easily across the website so that I can find the information I need. 
+- I want a responsive website so that I can view the website across different devices. 
+- I want to check Snuggle cats credentials so that qualified professionals
+- I want to read more about the company and its cat sitters
+- I want to see examples of cats the company looked after so that I can see how much the company loves cats
 
-- I want to check Snuggle cats credentials
 
-
-
-
-Returning visitors
-- I want to be able to quickly contact Snuggle Cats 
-- I 
-
-2. Site owner goals: intro
+2. Site owner stories
 
 - As a site owner, I want to highlights our credentials so that prospective customers
 - As a site owner, I want to encourage potential and customers to contact us so that queries can be responded promptly *add more here*
@@ -59,6 +67,8 @@ Returning visitors
 - Form contact me 
 - Gallery 
 - About us page 
+
+
 # Features
 
 ### **Existing Features**

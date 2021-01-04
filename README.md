@@ -23,31 +23,43 @@ Snuggle cats need a fully responsive and user centric website in order to achiev
 
 User goals
 
-Cat owners can feel quite anxious at the idea of leaving their pets at home whilst away on holiday, they need to feel they can trust that their pets will be well looked after and will have the following goals in mind: 
+Cat owners can feel quite anxious at the idea of leaving their pets at home whilst away on holiday, they need to feel they can trust that their pets will be well looked after.
 
+Cat owners may have the following goals in mind: 
+- To access the website across different devices
+- To quickly find information 
 - To decide if cat sitting is the right solution for my needs
 - To understand what is included in the proposed services
 - To assess the company credentials, reliability and professionalism
 - To seek reassurance that the company is cat friendly
 - To check if prices are affordable
 - To check wether the services are available where they live
+- To arrange a meet & greet / make further queries
 
 ### **User stories**
 
 1. External user stories: 
 
 First time visitor
-- I want to learn about the benefits of cat sitting services so that I can decide if it's the right solution for me
-- I want to learn what's included in the services offered by Snuggle cats so that 
-- I want to check the prices 
-- I want to read customer testimonials so that I can assess if Snuggle Cat is trustworthy and reliable company.
-- I want to check the areas covered by Snuggle Cat so that I know if they provide their services where I live. 
-- I want to easily contact Snuggle Cats so that I can make further queries or arrange a meet & greet. 
-- I want to able to navigate easily across the website so that I can find the information I need. 
 - I want a responsive website so that I can view the website across different devices. 
+- I want to able to quickly navigate across the website so that I can find the information I need. 
+
+
+- I want to learn about the benefits of cat sitting services so that I can decide if it's the right solution for me
+- I want to learn what is included in the services offered by Snuggle cats so that 
+- I want to check the prices so that 
+
 - I want to check Snuggle cats credentials so that qualified professionals
-- I want to read more about the company and its cat sitters
-- I want to see examples of cats the company looked after so that I can see how much the company loves cats
+- I want to read customer testimonials so that I can assess if Snuggle Cat is a trustworthy and reliable company.
+
+
+- I want to view the areas covered by Katsit so that I can check that they provide services where I live
+- I want to easily contact Snuggle Cats so that I can make further queries or arrange a meet & greet. 
+
+
+
+- I want to read more about the company and its cat sitters so that 
+- I want to see examples of cats the company looked after so that I can see how cat friendy Katsit is.
 
 
 2. Site owner stories

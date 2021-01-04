@@ -24,27 +24,35 @@ text-decoration: underline;
 
 /*Hero image & jumbotron*/
 
-/*code from whiskey project --> change to background position*/
+/*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/
 
 .hero-background{
   height: 750px;
-  background: url("../images/Cat_hero1.jpg")no-repeat top center fixed;
+ background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url("../images/cat_hero6.jpg");
+ background-position: 50% 80%;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  /*position: relative;*/
   /*backgroundÏ: url("../images/Cat_hero1.jpg") no-repeat top center fixed;*/
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
-  display: flex;
-  align-items: flex-end;
+   position: relative;
+  
+  /*display: flex;
+  align-items: flex-start;*/
 }
 
 .jumbotron-container{
 background: transparent;
-width: 100%;
+position: absolute;
 text-align: center;
 margin: 0;
 padding: 0;
+top: 100px;
+
 }
 
 

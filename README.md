@@ -1,115 +1,176 @@
-# **Snuggle Cats - Cat sitting agency in North West London**
+# **Katsit London - Cat sitting agency in London **
 
 Based on a fictional business offering cat sitting services, this website was built for educational purposes as part of the Code Institute's Full Stack Development course. This fully responsive and user centric website was designed using the principles of User Experience Design and developed using HTLM, CSS and bootstrap framework. 
 
-# User Experience Design 
+# Strategy
 
-### Overview
+
 
 *(add screenshots)*
 
-## Business goals
 
-Snuggle cats is a cat sitting compagny set up by a former veterinary nurse, who has extensive knowledge and experience in caring for animals with an already formidable reputation for cat sitting in her local area. 
-Snuggle cats is fast expending and has recruited additional cat sitters from a trusted network of animal carers to face an ever increasingly demand. The company now needs a responsive website to advertise their services online.
 
-Business goals
-
-Snuggle cats need a fully responsive and user centric website in order to achieve the following goals:
+Katsit London is a cat sitting company set up by a former veterinary nurse, who has extensive knowledge and experience in caring for animals with an already formidable reputation for cat-sitting.
+ 
+Katsit London is fast expanding and has recruited additional cat sitters from a trusted network of animal carers to face an increasing demand. The company now needs a responsive website to create an online presence and to advertise their services. 
+ 
+### <ins>Business goals</ins>
+ 
+The company needs a fully responsive and user centric website in order to:
 - To create an online presence
-- To raise their brand awareness as a professional, trustworthy and reliable cat sitting services. 
-- To advertise their cat sitting services across North West London.
-- To generate new leads and expand customer base
+- To advertise their services and pricing
+- To raise company’s brand awareness and credentials
+- To generate new leads and expand their customer base.
+- To grow their on-line community.
+ 
+### <ins>User goals</ins>
+ 
+Cat owners can feel quite anxious at the idea of leaving their pets at home whilst on holiday and need to trust that their pets will be well looked when they are away. Therefore they may have the main following goals in mind when visiting a website:
+ 
+- To access the website across different devices and quickly find information.
+- To assess whether cat sitting is a suitable solution.
+- To assess business’s credentials.
+- To decide whether the services offered by the company fit their needs.
+- To check whether the prices are affordable.
+- To seek reassurance that the company is cat friendly.
+- To reach the company for further queries and/or to arrange a meet & greet. 
 
-User goals
+# Scope
 
-Cat owners can feel quite anxious at the idea of leaving their pets at home whilst away on holiday, they need to feel they can trust that their pets will be well looked after.
+## **User stories**
 
-Cat owners may have the following goals in mind: 
-- To access the website across different devices
-- To quickly find information 
-- To decide if cat sitting is the right solution for my needs
-- To understand what is included in the proposed services
-- To assess the company credentials, reliability and professionalism
-- To seek reassurance that the company is cat friendly
-- To check if prices are affordable
-- To check wether the services are available where they live
-- To arrange a meet & greet / make further queries
-
-### **User stories**
-
-1. External user stories: 
-
-First time visitor
+**<ins>1 - External user stories:</ins>** 
+ 
+**As a first time visitor,**
 - I want a responsive website so that I can view the website across different devices. 
-- I want to able to quickly navigate across the website so that I can find the information I need. 
+- I want to be able to easily navigate across the website so that I can quickly find information.
+- I want to view features so that I can assess whether cat sitting is a suitable solution.  
+- I want to view what is included in the services so that I can decide whether the services offered by the company fit my needs.
+- I want to look at prices so that I can check that I can afford services on offer. 
+ 
+**As a returning visitor**
+- I want to read customer testimonials so that I can assess if the company is reliable and professional.
+- I want to read more about the company and its cat sitters so that I can assess the company credentials, professionalism and cat friendliness. 
+- I want to access contact options so that I can reach the company for further queries.
+ 
+**As a frequent visitor:**
+- I want to see images of cats the company looked after so that I can feel reassured that the company is cat friendly.
+- I want to quickly access the company social media account so that I can further check their credentials.
+- I want to contact the company so that I can arrange a meet & greet.
 
+<ins>**2 - Business owner stories**</ins> 
+ 
+As a business owner: 
+ 
+- I want a user-friendly responsive website so that I can create an online presence.
+- I want to provide clear and concise information so that I can advertise services and pricing.
+- I want a call for action so that I can generate leads.
+- I want to feature the company and staff profile so that I can raise brand awareness and credentials.
+- I want an image library so that I can raise the company's brand awareness and credentials.
+- I want to encourage users to contact us so that we can answer queries promptly and arrange meets & greets.
+- I want to provide links to our social media accounts so that I grow my online community.
 
-- I want to learn about the benefits of cat sitting services so that I can decide if it's the right solution for me
-- I want to learn what is included in the services offered by Snuggle cats so that 
-- I want to check the prices so that 
+## **Features**
 
-- I want to check Snuggle cats credentials so that qualified professionals
-- I want to read customer testimonials so that I can assess if Snuggle Cat is a trustworthy and reliable company.
+**Responsive layout:** 
 
+Each page will resize according to the device used for better visibility and user experience. 
 
-- I want to view the areas covered by Katsit so that I can check that they provide services where I live
-- I want to easily contact Snuggle Cats so that I can make further queries or arrange a meet & greet. 
+```
+- As a first time visitor, I want a responsive website so that I can view the website across different devices. 
+- As a business owner, I want a user-friendly responsive website so that I can create an online presence.
+```
 
+**Collapsible navigation menu:** 
 
+Each webpage will feature a navigation menu on top of the page to allow users  to easily navigate across the website. The navigation will be collapsible on mobile devices for better visibility and user experience.
 
-- I want to read more about the company and its cat sitters so that 
-- I want to see examples of cats the company looked after so that I can see how cat friendy Katsit is.
+```
+- As a first time visitor, I want a responsive website so that I can view the website across different devices. 
+- As a first time visitor, I want to be able to easily navigate across the website so that I can quickly find the information I need. 
+- As a business owner, I want a user-friendly responsive website so that I can create an online presence.
+```
 
+**Homepage:** 
 
-2. Site owner stories
+This page will first feature a hero image with a tagline and a call for action. 
+The homepage will then display the following sections: 
+    cat-sitting main benefits,:hamster: 
+    * services and pricing with a call for action and customer testimonials. 
+    * The call for action is to encourage users to arrange for a meet & greet via the contact form. 
+```
+- As a first time user, I want to view features so that I can assess whether cat sitting is a suitable solution.  
+- As a first time user, I want to view what is included in the services so that I can decide whether the services offered by the company fit my needs.
+- As a first time user, I want to look at prices so that I can check that I can afford services on offer. 
+- As a returning visitor, I want to read customer testimonials so that I can assess if the company is reliable and professional.
+- As a business owner, I want to provide clear and concise information so that I can advertise services and pricing.
+- As a business owner, I want a call for action so that I can generate leads.
+```
 
-- As a site owner, I want to highlights our credentials so that prospective customers
-- As a site owner, I want to encourage potential and customers to contact us so that queries can be responded promptly *add more here*
-- As a site owner, I want to provide information and prices about the services we provide
-- As a site owner, I want to provide links to our social media accounts so that (*add more*)
+**About us page:** 
+ This page will feature a short history of the business, as well as cat sitters profiles and qualification to provide users with business’ insight and to highlight company’s credentials. 
+```
+- As a returning visitor,I want to read more about the company and its cat sitters so that I can assess the company credentials, professionalism and cat friendliness. 
+- As a business owner, I want to feature the company and staff profile so that I can raise brand awareness and credentials.
+```
 
-### **Structure**
+**Gallery page:** 
 
-- Navigation bar 
-- Section introducing benefits of cat sitting 
-- Section services & pricing
-- Testimonials
-- Call for action - arrange a meet & greet
-- Form contact me 
-- Gallery 
-- About us page 
+The gallery page will feature images of the cats the business has looked after.
 
+```
+- As a frequent visitor,I want to see images of cats the company looked after so that I can feel reassured that the company is cat friendly.
+- As a business owner, I want an image library so that I can raise the company's brand awareness and credentials.
+```
 
-# Features
+**Contact page:** 
 
-### **Existing Features**
-*Feature 1 - allows users X to achieve Y, by having them fill out Z*
-...
-*For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.*
+The contact page will feature a form to allow users to contact the business directly via the website. The form will include an option to select the subject of the message so that users can either make a general query or arrange a meet & greet.
 
-*In addition, you may also use this section to discuss plans for additional features to be implemented in the future:*
-*Example nav bar / homepage / footer / contact form / location map*
+```
+- As a returning visitor, I want to access contact options so that I can reach the company for further queries.
+- As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.
+- As a business owner, I want to encourage users to contact us so that we can answer queries promptly and arrange meets & greets.
+```
+
+**Footer:** 
+ 
+ The footer will display contact information and a button opening the contact form page to give users different options to contact the business, as well as icons linking to business’s social media accounts to allow users browsing these into a new tab so that they don’t lose access to the website. 
+```
+- As a returning visitor,  I want to access contact options so that I can reach the company for further queries.
+- As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.
+- As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.
+- As a business owner, I want to provide links to our social media accounts so that I grow my online community.
+```
 
 ### **Features left to implement**
 
+(if any)
 
-### **Design**
+# Skeleton
 
-#### Wireframes | Skeleton
+## **Wireframes** 
 Desktop | Mobile | Tablet Include links Explain software used and which wireframes are provided The wireframes displayed below were created using Balsamic during the skeleton plane of the project and illustrates how the website will be structured across different devices and screen widths. You will find the link below should the images do not display properly.
 
-### Surface (below)
+
+# Design
+
+
+
 #### Fonts
 *Primary font - explain choice* 
 *Secondary font - explain choice - complement primary font / impact*
+
 #### Icons
 *Explain choice - font awesome* 
+
 #### Colour scheme
 *Explain choice - how they chosen? Color picker? Palette?*
 *Go for contrast*
+
 #### Styling
 *Explain if you applied a particular style of styling for particular reason - ex using rounded corners because it's more child friendly*
+
 #### Imagery
 *Background-image/hero image/carousel/other*
 *explain your choice - eg it illustrate what type of flower arrangement could be achieved in the course and illustrate the purpose the courses / appealing image sell experience customers can expect form the course*
@@ -132,8 +193,13 @@ HTML
 CSS
 Bootstrap
 
-*Testing & Deployment should be done towards the end of coding project*
+Tools used
+Balsamiq for Wireframe 
+
 # Testing
+
+*Testing & Deployment should be done towards the end of coding project*
+
 *In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.*
 
 *Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.*

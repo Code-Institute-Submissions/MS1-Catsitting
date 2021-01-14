@@ -1,10 +1,46 @@
 
-.body{
+body {
     margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+    color: #2C2C2B;
 }
-/*Background colors*/
+
+
+h2, h4 {
+font-family: "Poppins", sans-serif;
+}
+
+/* Background colors */
+
+.bg-grey{
+background-color: #D6D8D7;
+}
+.bg-dark{
+background-color: #2C2C2B;
+}
+.bg-fushia{
+/*background-color: #A02662;*/
+background-color: #c51281;
+}
+.bg-white{
+background-color: #F1F5F6;
+}
 
 /*Text colors*/
+
+.txt-grey{
+color: #D6D8D7;
+}
+.txt-dark{
+color: #2C2C2B;
+}
+.txt-fushia{
+/*color: #9B0D64;*/
+color: #c51281;
+}
+.txt-white{
+color: #F1F5F6;
+}
 
 /*Nav bar*/
 
@@ -13,37 +49,28 @@ navbar .navbar-toggler {
 }
 
 .navbar a{
-    color: white;
+    color: #2C2C2B;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .navbar .active{
 text-decoration: underline;
 }
 /*test*/
-.pad{
-padding-top: 30px;
-}
+
 .test{
-padding-right: 30px;
-padding-left: 30px;
+
 border: 1px solid red;
 }
-.img{
-border: 1px solid black;
-height: 130px;
-width: 130px;
-border-radius: 50%;
-padding-left: 10px;
-padding-right: 20px;
-}
+
 /*Hero image & jumbotron*/
 
 /*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/
 
 .hero-background{
-  height: 750px;
- background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url("../images/cat_hero6.jpg");
+  height: 100vh;
+ background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
  background-position: 50% 80%;
   background-repeat: no-repeat;
   /*background-size: cover;*/
@@ -77,15 +104,25 @@ top: 100px;
 text-align: center;
 padding-top: 30px;
 padding-bottom: 20px;
+text-transform: uppercase;
+font-weight: bold;
 }
 
 .section-divider{
     width: 90px;
     height: 3px;
-    background-color: black;
 }
 /*Features section*/
 
+.features{
+padding-left: 40px;
+padding-right: 40px;
+margin-bottom: 20px;
+}
+
+.icon{
+font-size: 2.5em;;
+}
 /*Services section*/
 
 /*Testimonials section*/

@@ -178,35 +178,35 @@ The gallery wireframe features an extra structure for large desktops.
 
 #### Imagery
 
-The hero image on the homepage featue 
+The hero image on the homepage - featuring a cat lying next to a home plant - helps to illustrate the purpose of the business. 
+The image was sourced from Pexels. 
 
-*Background-image/hero image/carousel/other*
-*explain your choice - eg it illustrate what type of flower arrangement could be achieved in the course and illustrate the purpose the courses / appealing image sell experience customers can expect form the course*
 ![Homepage hero image](assets/images/cat_hero.jpg)
+
+All images on the website are featuring cats and were sourced from Pexels. Please find using the link below the full list of credits. 
 
 #### Colour scheme
 
+The colour palette was created using Adobe Color and the hero image from the homepage.
 
-Colors were picked using Adobe Color using the hero image on the homepage. 
 ![Colour palette](assets/design/colourpalette.jpeg)
 
-Button 
-Header and footer
-Text 
-Section panels 
+The following colours from the palette are used across the website and have been selected for their contrast whilst keeping in harmony with the main image.
+
+- Light grey #D6D8D7 is used for both header and footer.
+- Dark grey #2C2C2B is used for all text on light background and also for some section panels to add contrast.
+- Fushia #A02662 is used for headers, icons, buttons and horizontal lines when on light background.
+- Off white #F1F5F6 is used for text, icons and buttons on dark background. 
+
 
 #### Fonts
-*Primary font - explain choice* 
-*Secondary font - explain choice - complement primary font / impact*
 
-Google font 
-Main text Open Sans
-Headings and subheadings Poppin 
+The website uses Open Sans as primary font, whilst the headings and subheadings uses the secondary font Poppin, which pairs nicely with Open Sans. 
+Both fonts were sourced from Google fonts and were selected for their round edges, which add softness to the website.  
 
 #### Icons
-*Explain choice - font awesome* 
-Icons were chosen from font awesome library, to illustrate and 
 
+Icons from the Font Awesome library are used across the website to illustrate and hihglight some text and headings. 
 
 #### Styling
 *Explain if you applied a particular style of styling for particular reason - ex using rounded corners because it's more child friendly*

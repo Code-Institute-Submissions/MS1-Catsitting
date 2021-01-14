@@ -20,8 +20,23 @@ navbar .navbar-toggler {
 .navbar .active{
 text-decoration: underline;
 }
-
-
+/*test*/
+.pad{
+padding-top: 30px;
+}
+.test{
+padding-right: 30px;
+padding-left: 30px;
+border: 1px solid red;
+}
+.img{
+border: 1px solid black;
+height: 130px;
+width: 130px;
+border-radius: 50%;
+padding-left: 10px;
+padding-right: 20px;
+}
 /*Hero image & jumbotron*/
 
 /*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/

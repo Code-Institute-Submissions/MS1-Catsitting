@@ -150,30 +150,67 @@ The contact page will feature a form to allow users to contact the business dire
 # Skeleton
 
 ## **Wireframes** 
-Desktop | Mobile | Tablet Include links Explain software used and which wireframes are provided The wireframes displayed below were created using Balsamic during the skeleton plane of the project and illustrates how the website will be structured across different devices and screen widths. You will find the link below should the images do not display properly.
 
+
+The wireframes were created using Balsamic during the skeleton plane of the project and illustrates the structure of the website across different devices.
+
+You can download the pdf version of the wireframes should the images not display properly. 
+[download pdf wireframes](https://a45c73f1-3de6-45f3-bdf8-7fdbe308ac5f.ws-eu03.gitpod.io/files/download/?id=1931fa75-d67e-4584-9191-f76e1fc495f3)
+
+## **Homepage**
+
+![Homepage wireframe](assets/wireframes/homepage.png)
+
+## **About us**
+
+![About us wireframe](assets/wireframes/aboutus.png)
+
+## **Gallery**
+
+The gallery wireframe features an extra structure for large desktops.
+![Gallery page wireframe](assets/wireframes/gallery.png)
+
+## **Contact us**
+
+![Contact us wireframe](assets/wireframes/contactus.png)
 
 # Design
 
+#### Imagery
 
+The hero image on the homepage featue 
+
+*Background-image/hero image/carousel/other*
+*explain your choice - eg it illustrate what type of flower arrangement could be achieved in the course and illustrate the purpose the courses / appealing image sell experience customers can expect form the course*
+![Homepage hero image](assets/images/cat_hero.jpg)
+
+#### Colour scheme
+
+
+Colors were picked using Adobe Color using the hero image on the homepage. 
+![Colour palette](assets/design/colourpalette.jpeg)
+
+Button 
+Header and footer
+Text 
+Section panels 
 
 #### Fonts
 *Primary font - explain choice* 
 *Secondary font - explain choice - complement primary font / impact*
 
+Google font 
+Main text Open Sans
+Headings and subheadings Poppin 
+
 #### Icons
 *Explain choice - font awesome* 
+Icons were chosen from font awesome library, to illustrate and 
 
-#### Colour scheme
-*Explain choice - how they chosen? Color picker? Palette?*
-*Go for contrast*
 
 #### Styling
 *Explain if you applied a particular style of styling for particular reason - ex using rounded corners because it's more child friendly*
 
-#### Imagery
-*Background-image/hero image/carousel/other*
-*explain your choice - eg it illustrate what type of flower arrangement could be achieved in the course and illustrate the purpose the courses / appealing image sell experience customers can expect form the course*
 
 #### Differences to design
 (*If any*)
@@ -195,6 +232,9 @@ Bootstrap
 
 Tools used
 Balsamiq for Wireframe 
+Addobe color for the colour palette
+Google fonts for the fonts 
+
 
 # Testing
 

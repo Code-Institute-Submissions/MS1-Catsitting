@@ -28,12 +28,12 @@ The company needs a fully responsive and user centric website in order to:
 Cat owners can feel quite anxious at the idea of leaving their pets at home whilst on holiday and need to trust that their pets will be well looked when they are away. Therefore they may have the main following goals in mind when visiting a website:
  
 - To access the website across different devices and quickly find information.
-- To assess whether cat sitting is a suitable solution.
 - To assess business’s credentials.
 - To decide whether the services offered by the company fit their needs.
 - To check whether the prices are affordable.
 - To seek reassurance that the company is cat friendly.
-- To reach the company for further queries and/or to arrange a meet & greet. 
+- To check whether the company operates where they live.
+- To reach the company for further queries and/or to arrange a meet-up. 
 
 # Scope
 
@@ -44,17 +44,16 @@ Cat owners can feel quite anxious at the idea of leaving their pets at home whil
 **As a first time visitor,**
 - I want a responsive website so that I can view the website across different devices. 
 - I want to be able to easily navigate across the website so that I can quickly find information.
-- I want to view features so that I can assess whether cat sitting is a suitable solution.  
-- I want to view what is included in the services so that I can decide whether the services offered by the company fit my needs.
+- I want to read about the company's services so that I can assess whether they fit my needs   
 - I want to look at prices so that I can check that I can afford services on offer. 
  
 **As a returning visitor**
 - I want to read customer testimonials so that I can assess if the company is reliable and professional.
-- I want to read more about the company and its cat sitters so that I can assess the company credentials, professionalism and cat friendliness. 
+- I want to read more about the company so that I can assess the company credentials, professionalism and cat friendliness. 
 - I want to access contact options so that I can reach the company for further queries.
+- I want to view the areas where the company operates so that I can check that they provide services where I live.
  
 **As a frequent visitor:**
-- I want to see images of cats the company looked after so that I can feel reassured that the company is cat friendly.
 - I want to quickly access the company social media account so that I can further check their credentials.
 - I want to contact the company so that I can arrange a meet & greet.
 
@@ -155,10 +154,10 @@ The contact page will feature a form to allow users to contact the business dire
 The wireframes were created using Balsamic during the skeleton plane of the project and illustrates the structure of the website across different devices.
 
 You can download the pdf version of the wireframes should the images not display properly. 
-[download pdf wireframes](https://a45c73f1-3de6-45f3-bdf8-7fdbe308ac5f.ws-eu03.gitpod.io/files/download/?id=a82d5cea-73e2-473f-ab7d-c561e8cfb5a9)
+[download pdf wireframes](https://a45c73f1-3de6-45f3-bdf8-7fdbe308ac5f.ws-eu03.gitpod.io/files/download/?id=bdb7e86e-0825-49b6-a2f7-0cc69646e029)
 
 
-![website wireframe](assets/wireframes/wireframes.png)
+![website wireframe](documentation/wireframes/wireframes.png)
 
 
 
@@ -177,15 +176,15 @@ All images on the website are featuring cats and were sourced from Pexels. Pleas
 
 The colour palette was created using Adobe Color and the hero image from the homepage.
 
-![Colour palette light](assets/design/colourpalette1.jpeg)
-![Colour palette dark](assets/design/colourpalette2.jpeg)
+![Colour palette light](documentation/design/colourpalette1.jpeg)
+![Colour palette dark](documentation/design/colourpalette2.jpeg)
 
 The following colours from the palette are used across the website and have been selected for their contrast whilst keeping in harmony with the main image.
 
-- Light grey #D6D8D7 is used for both header and footer.
-- Dark grey #2C2C2B is used for all text on light background and also for some section panels to add contrast.
-- Fushia #A02662 is used for headers, icons, buttons and horizontal lines when on light background.
-- Off white #F1F5F6 is used for text, icons and buttons on dark background. 
+- ... is used for both header and footer.
+- ... is used for all text on light background and also for some section panels to add contrast.
+- ... is used for headers, icons, buttons and horizontal lines when on light background.
+- ... is used for text, icons and buttons on dark background. 
 
 
 #### Fonts

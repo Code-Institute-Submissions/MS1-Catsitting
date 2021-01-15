@@ -49,7 +49,7 @@ Cat owners can feel quite anxious at the idea of leaving their pets at home whil
  
 **As a returning visitor**
 - I want to read customer testimonials so that I can assess if the company is reliable and professional.
-- I want to read more about the company so that I can assess the company credentials, professionalism and cat friendliness. 
+- I want to read more about the company so that I can assess its credentials, professionalism and cat friendliness. 
 - I want to access contact options so that I can reach the company for further queries.
 - I want to view the areas where the company operates so that I can check that they provide services where I live.
  
@@ -64,16 +64,15 @@ As a business owner:
 - I want a user-friendly responsive website so that I can create an online presence.
 - I want to provide clear and concise information so that I can advertise services and pricing.
 - I want a call for action so that I can generate leads.
-- I want to feature the company and staff profile so that I can raise brand awareness and credentials.
-- I want an image library so that I can raise the company's brand awareness and credentials.
-- I want to encourage users to contact us so that we can answer queries promptly and arrange meets & greets.
-- I want to provide links to our social media accounts so that I grow my online community.
+- I want to feature my profile so that I can raise my company's brand awareness and credentials.
+- I want to encourage users to contact us so that we can answer queries promptly and arrange meet-ups.
+- I want to provide links to our social media accounts so that I can grow my online community.
 
 ## **Features**
 
 **Responsive layout:** 
 
-Each page will resize according to the device used for better visibility and user experience. 
+The website will resize according to the device used for better visibility and user experience. 
 
 ```
 - As a first time visitor, I want a responsive website so that I can view the website across different devices. 
@@ -82,7 +81,7 @@ Each page will resize according to the device used for better visibility and use
 
 **Collapsible navigation menu:** 
 
-Each webpage will feature a navigation menu on top of the page to allow users  to easily navigate across the website. The navigation will be collapsible on mobile devices for better visibility and user experience.
+Each webpage will feature a navigation menu on top of the page to allow users to easily navigate across the website. The navigation will be collapsible on mobile devices for better visibility and user experience.
 
 ```
 - As a first time visitor, I want a responsive website so that I can view the website across different devices. 
@@ -90,41 +89,53 @@ Each webpage will feature a navigation menu on top of the page to allow users  t
 - As a business owner, I want a user-friendly responsive website so that I can create an online presence.
 ```
 
-**Homepage:** 
+**Hero banner section:** 
 
 This page will first feature a hero image with a tagline and a call for action. 
-The homepage will then display the following sections: 
-    cat-sitting main benefits,:hamster: 
-    * services and pricing with a call for action and customer testimonials. 
-    * The call for action is to encourage users to arrange for a meet & greet via the contact form. 
+
 ```
-- As a first time user, I want to view features so that I can assess whether cat sitting is a suitable solution.  
-- As a first time user, I want to view what is included in the services so that I can decide whether the services offered by the company fit my needs.
-- As a first time user, I want to look at prices so that I can check that I can afford services on offer. 
-- As a returning visitor, I want to read customer testimonials so that I can assess if the company is reliable and professional.
+- As a business owner, I want a call for action so that I can generate leads.
+```
+
+**Services section:**
+
+This section will feature a description of what is included in the services as well pricing and a call for action to encourage users to contact the company.
+
+```
+- As a first time user, I want to read about the company's services so that I can assess whether they fit my needs   
+- As a first time user, I want to look at prices so that I can check that I can afford services on offer.
+
 - As a business owner, I want to provide clear and concise information so that I can advertise services and pricing.
 - As a business owner, I want a call for action so that I can generate leads.
 ```
 
-**About us page:** 
- This page will feature a short history of the business, as well as cat sitters profiles and qualification to provide users with business’ insight and to highlight company’s credentials. 
-```
-- As a returning visitor,I want to read more about the company and its cat sitters so that I can assess the company credentials, professionalism and cat friendliness. 
-- As a business owner, I want to feature the company and staff profile so that I can raise brand awareness and credentials.
-```
-
-**Gallery page:** 
-
-The gallery page will feature images of the cats the business has looked after.
+**About us section:** 
+ 
+ This page will feature the profile, experience and relevant qualification of the business owner to provide users with information company’s credentials. 
 
 ```
-- As a frequent visitor,I want to see images of cats the company looked after so that I can feel reassured that the company is cat friendly.
-- As a business owner, I want an image library so that I can raise the company's brand awareness and credentials.
+- As a returning visitor, I want to read more about the company so that I can assess its credentials, professionalism and cat friendliness.  
+- As a business owner, I want to feature my profile so that I can raise my company's brand awareness and credentials.
 ```
 
-**Contact page:** 
+**Testimonials section:**
 
-The contact page will feature a form to allow users to contact the business directly via the website. The form will include an option to select the subject of the message so that users can either make a general query or arrange a meet & greet.
+```
+- As a returning visitor, I want to read customer testimonials so that I can assess if the company is reliable and professional.
+
+```
+
+**Areas we cover section:**
+
+This section will list the areas the business covers and will feature a map to help users to visualise the locations where the business operates.
+
+```
+- I want to view the areas where the company operates so that I can check that they provide services where I live.
+```
+
+**Contact us section:** 
+
+The contact page will feature a form to allow users to contact the business directly via the website. The form will include an option to select the subject of the message so that users can either make a general query or arrange a meet up.
 
 ```
 - As a returning visitor, I want to access contact options so that I can reach the company for further queries.
@@ -139,7 +150,7 @@ The contact page will feature a form to allow users to contact the business dire
 - As a returning visitor,  I want to access contact options so that I can reach the company for further queries.
 - As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.
 - As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.
-- As a business owner, I want to provide links to our social media accounts so that I grow my online community.
+- As a business owner, I want to provide links to our social media accounts so that I can grow my online community.
 ```
 
 ### **Features left to implement**
@@ -150,7 +161,6 @@ The contact page will feature a form to allow users to contact the business dire
 
 ## **Wireframes** 
 
-
 The wireframes were created using Balsamic during the skeleton plane of the project and illustrates the structure of the website across different devices.
 
 You can download the pdf version of the wireframes should the images not display properly. 
@@ -158,7 +168,6 @@ You can download the pdf version of the wireframes should the images not display
 
 
 ![website wireframe](documentation/wireframes/wireframes.png)
-
 
 
 # Design

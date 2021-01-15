@@ -5,6 +5,7 @@ body {
     color: #180F0C;
     /*background-color: #EFEAE7;*/
     /*background-color: #F1EBEB;*/
+    /*background-color: #F4F3EA; */
     background-color: #faf9f9;
 }
 
@@ -17,12 +18,15 @@ font-family: "Poppins", sans-serif;
 /* Background colors */
 
 .bg--grey{
-background-color: #BFB8B8;
+background-color: #B4ACA9; /* #BFB8B8;*/
 }
 .bg--dark{
 /*background-color: #2C2C2B;*/
 /*background-color: #0D0D0D;*/
 background-color: #180F0C;
+}
+.bg--navy{
+background-color: #333D51 ;
 }
 .bg--brown{
 background-color: #0D0D0D;
@@ -34,19 +38,23 @@ background-color: #0D0D0D;
 /*background-color: #593C22;*/
 /*background-color: #0F5F75;*/
 /*background-color: #7F5833;*/
-background-color: #795729;
+/*background-color: #795729;*/
+/*background-color: #D3AC2B;*/
+background-color: #986D32;
 }
 .bg--blue{
-background-color: #1183a2;
+/*background-color: #1183a2;*/
+background-color: #085669;
 }
 .bg--white{
-background-color: #faf9f9;
+background-color:#faf9f9;;
 }
 
 /*Text colors*/
 
 .txt-grey{
-color: #BFB8B8;
+/*color: #BFB8B8;*/
+color: #B4ACA9;
 }
 .txt--dark{
 /*color: #2C2C2B;*/
@@ -59,8 +67,10 @@ color: #180F0C;
  /*color: #215F6E;*/
  /*color: #0e94b5*/
 /*color: #593C22  like colors #faf9f9 #795729 #1183a2*/
-/*color: #7F5833;*/
-color: #795729;
+/*color: #7F5833; #d39e00  #535354 #d39e00*/
+/*color: #D3AC2B; /*#795729;*/
+/*color: #D3AC2B;*/
+color: #986D32
 }
 .txt--white{
 color: #faf9f9;
@@ -71,8 +81,9 @@ border-color: #faf9f9;
 }
 
 /*Nav bar*/
-navbar-dark{
-color: #faf9f9;
+
+.navbar{
+height: 70px;
 }
 navbar .navbar-toggler {
   border: 0;
@@ -102,7 +113,9 @@ border: 1px solid red;
 .hero-background{
   height: 85vh;
  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
- background-position: 80% 85%;
+ background-position-x: 80%;
+ background-position-y: top;
+ /*background-position: 80% 85%;*/
  
   background-repeat: no-repeat;
    -webkit-background-size: cover;
@@ -168,8 +181,8 @@ max-width: 70%;
 padding-bottom: 30px;
 }
 /*media queries*/
-@media only screen and (max-width: 480px) {
+/*@media only screen and (max-width: 480px) {
 .hero-background{
 background-position: 90% 0%;
 }
-}
+}*/

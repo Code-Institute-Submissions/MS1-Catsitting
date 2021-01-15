@@ -155,24 +155,12 @@ The contact page will feature a form to allow users to contact the business dire
 The wireframes were created using Balsamic during the skeleton plane of the project and illustrates the structure of the website across different devices.
 
 You can download the pdf version of the wireframes should the images not display properly. 
-[download pdf wireframes](https://a45c73f1-3de6-45f3-bdf8-7fdbe308ac5f.ws-eu03.gitpod.io/files/download/?id=1931fa75-d67e-4584-9191-f76e1fc495f3)
+[download pdf wireframes](https://a45c73f1-3de6-45f3-bdf8-7fdbe308ac5f.ws-eu03.gitpod.io/files/download/?id=a82d5cea-73e2-473f-ab7d-c561e8cfb5a9)
 
-## **Homepage**
 
-![Homepage wireframe](assets/wireframes/homepage.png)
+![website wireframe](assets/wireframes/wireframes.png)
 
-## **About us**
 
-![About us wireframe](assets/wireframes/aboutus.png)
-
-## **Gallery**
-
-The gallery wireframe features an extra structure for large desktops.
-![Gallery page wireframe](assets/wireframes/gallery.png)
-
-## **Contact us**
-
-![Contact us wireframe](assets/wireframes/contactus.png)
 
 # Design
 
@@ -189,7 +177,8 @@ All images on the website are featuring cats and were sourced from Pexels. Pleas
 
 The colour palette was created using Adobe Color and the hero image from the homepage.
 
-![Colour palette](assets/design/colourpalette.jpeg)
+![Colour palette light](assets/design/colourpalette1.jpeg)
+![Colour palette dark](assets/design/colourpalette2.jpeg)
 
 The following colours from the palette are used across the website and have been selected for their contrast whilst keeping in harmony with the main image.
 

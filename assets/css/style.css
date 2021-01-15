@@ -2,54 +2,85 @@
 body {
     margin: 0 auto;
     font-family: "Open Sans", sans-serif;
-    color: #2C2C2B;
+    color: #180F0C;
+    /*background-color: #EFEAE7;*/
+    /*background-color: #F1EBEB;*/
+    background-color: #faf9f9;
 }
 
 
-h2, h4 {
+h1, h2, h3, h4 {
 font-family: "Poppins", sans-serif;
+
 }
 
 /* Background colors */
 
-.bg-grey{
-background-color: #D6D8D7;
+.bg--grey{
+background-color: #BFB8B8;
 }
-.bg-dark{
-background-color: #2C2C2B;
+.bg--dark{
+/*background-color: #2C2C2B;*/
+/*background-color: #0D0D0D;*/
+background-color: #180F0C;
 }
-.bg-fushia{
+.bg--brown{
+background-color: #0D0D0D;
+}
+.bg--fushia{
 /*background-color: #A02662;*/
-background-color: #c51281;
+/*background-color: #c51281;*/
+/*background-color: #296573;*/
+/*background-color: #593C22;*/
+/*background-color: #0F5F75;*/
+/*background-color: #7F5833;*/
+background-color: #795729;
 }
-.bg-white{
-background-color: #F1F5F6;
+.bg--blue{
+background-color: #1183a2;
+}
+.bg--white{
+background-color: #faf9f9;
 }
 
 /*Text colors*/
 
 .txt-grey{
-color: #D6D8D7;
+color: #BFB8B8;
 }
-.txt-dark{
-color: #2C2C2B;
+.txt--dark{
+/*color: #2C2C2B;*/
+color: #180F0C;
 }
-.txt-fushia{
+.txt--fushia{
 /*color: #9B0D64;*/
-color: #c51281;
+/*color: #296573;*/
+/*color: #5E4C38;*/
+ /*color: #215F6E;*/
+ /*color: #0e94b5*/
+/*color: #593C22  like colors #faf9f9 #795729 #1183a2*/
+/*color: #7F5833;*/
+color: #795729;
 }
-.txt-white{
-color: #F1F5F6;
+.txt--white{
+color: #faf9f9;
+}
+/*border colors*/
+b-white{
+border-color: #faf9f9;
 }
 
 /*Nav bar*/
-
+navbar-dark{
+color: #faf9f9;
+}
 navbar .navbar-toggler {
   border: 0;
+ 
 }
 
 .navbar a{
-    color: #2C2C2B;
+    color: #faf9f9;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -69,22 +100,17 @@ border: 1px solid red;
 /*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/
 
 .hero-background{
-  height: 100vh;
- background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
- background-position: 50% 80%;
+  height: 85vh;
+ background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
+ background-position: 80% 85%;
+ 
   background-repeat: no-repeat;
-  /*background-size: cover;*/
-  /*position: relative;*/
-  /*backgroundÏ: url("../images/Cat_hero1.jpg") no-repeat top center fixed;*/
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
    position: relative;
-  
-  /*display: flex;
-  align-items: flex-start;*/
 }
 
 .jumbotron-container{
@@ -94,7 +120,6 @@ text-align: center;
 margin: 0;
 padding: 0;
 top: 100px;
-
 }
 
 
@@ -105,7 +130,7 @@ text-align: center;
 padding-top: 30px;
 padding-bottom: 20px;
 text-transform: uppercase;
-font-weight: bold;
+font-weight: bolder;
 }
 
 .section-divider{
@@ -115,16 +140,24 @@ font-weight: bold;
 /*Features section*/
 
 .features{
-padding-left: 40px;
-padding-right: 40px;
+/*padding-left: 40px;
+padding-right: 40px;*/
 margin-bottom: 20px;
 }
 
 .icon{
-font-size: 2.5em;;
+font-size: 25px;
 }
 /*Services section*/
 
+.buttons{
+background-color: transparent;
+border-radius: 5px;
+border: 1px solid;
+padding: 5px 10px 5px 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
 /*Testimonials section*/
 
 /*form*/
@@ -135,3 +168,8 @@ max-width: 70%;
 padding-bottom: 30px;
 }
 /*media queries*/
+@media only screen and (max-width: 480px) {
+.hero-background{
+background-position: 90% 0%;
+}
+}

@@ -61,6 +61,7 @@ b-white{
 border-color: #faf9f9;
 }
 
+
 /*Nav bar*/
 
 .navbar{
@@ -81,12 +82,13 @@ navbar .navbar-toggler {
 text-decoration: underline;
 }
 
+
 /*Hero image & jumbotron*/
 
 /*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/
 
 .hero-background{
-    height: 85vh;
+    height: 87vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
     background-position-x: 80%;
     background-position-y: top;
@@ -123,19 +125,29 @@ text-decoration: underline;
     height: 3px;
 }
 /*Section spacing*/
-.section-spacing{
+
+.section-layout {
 padding-bottom: 25px;
 padding-top: 25px;
+min-height:95vh;
+position: relative;
 }
-/*test*/
+
+/*anchors*/
+
 /*https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors/*/
 .anchors{
   display: block;
   position: absolute;
-  top: -60px; 
+  top: -69px; 
+  z-index: 5;
   /*visibility: hidden;*/
   border: 1px solid red;
 }
+
+/*test*/
+
+
 
 /*Services section*/
 
@@ -149,6 +161,7 @@ padding-top: 25px;
 }
 
 /*about section*/
+
 .portrait{
 background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url("../images/portrait.jpg");
     background-position-x: 80%;
@@ -209,9 +222,7 @@ padding: 0px;
 
 /*media queries sm 480px md */
 @media only screen and (min-width: 768px) {
-.portrait{
-height:95vh;
-}
+/*footer*/
 .ft-left{
 text-align: left;
 padding-left: 3%;

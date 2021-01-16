@@ -2,8 +2,7 @@
 body {
     margin: 0 auto;
     font-family: "Open Sans", sans-serif;
-    color: #180F0C;
-    background-color: #faf9f9;
+    color: #261C18;
 }
 
 /*headings*/
@@ -12,21 +11,26 @@ h1, h2, h3, h4, h5, h6 {
 font-family: "Poppins", sans-serif;
 }
 
-/* Background colors */
-.bg--grey{
-background-color: #B4ACA9; 
+/* Background colors background-color: #986D32;*/
+
+.bg--grey{ 
+background-color: #BFB6AE;
 }
 .bg--dark{
-background-color: #180F0C;
+background-color: #262221;
 }
 .bg--navy{
 background-color: #333D51 ;
 }
 .bg--brown{
-background-color: #0D0D0D;
-}
-.bg--fushia{
 background-color: #986D32;
+}
+.bg-beige{
+background-color: #BFB6AE;
+}
+.bg--whiskey{
+
+background-color:#D99E6A;
 }
 .bg--blue{
 /*background-color: #1183a2;*/
@@ -42,7 +46,7 @@ background-color:#faf9f9;;
 color: #B4ACA9;
 }
 .txt--dark{
-color: #180F0C;
+color: #262221;
 }
 .txt--brown{
 color: #986D32
@@ -50,7 +54,9 @@ color: #986D32
 .txt--white{
 color: #faf9f9;
 }
+
 /*border colors*/
+
 b-white{
 border-color: #faf9f9;
 }
@@ -73,12 +79,6 @@ navbar .navbar-toggler {
 
 .navbar .active{
 text-decoration: underline;
-}
-/*test*/
-
-.test{
-
-border: 1px solid red;
 }
 
 /*Hero image & jumbotron*/
@@ -107,7 +107,7 @@ border: 1px solid red;
     padding: 0;
     top: 100px;
 }
-/*Section spacing*/
+
 
 
 
@@ -118,17 +118,24 @@ border: 1px solid red;
     text-transform: uppercase;
     font-weight: 500;
 }
-
 .section-divider{
-    width: 90px;
+    width: 80px;
     height: 3px;
 }
+/*Section spacing*/
 .section-spacing{
-margin-bottom: 40px;
+padding-bottom: 25px;
+padding-top: 25px;
 }
-/*Features section*/
-
-
+/*test*/
+/*https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors/*/
+.anchors{
+  display: block;
+  position: absolute;
+  top: -60px; 
+  /*visibility: hidden;*/
+  border: 1px solid red;
+}
 
 /*Services section*/
 
@@ -139,6 +146,38 @@ margin-bottom: 40px;
     padding: 5px 10px 5px 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/*about section*/
+.portrait{
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url("../images/portrait.jpg");
+    background-position-x: 80%;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    min-height: 250px;
+}
+.profile{
+padding-top: 15px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 15px;
+ text-align: justify;
+  text-justify: inter-word;
+  
+}
+.creds{
+font-weight: 600;
+padding-left: 25px;
+list-style: none;
+}
+.creds i{
+font-size: 20px;
 }
 /*Testimonials section*/
 
@@ -170,6 +209,9 @@ padding: 0px;
 
 /*media queries sm 480px md */
 @media only screen and (min-width: 768px) {
+.portrait{
+height:95vh;
+}
 .ft-left{
 text-align: left;
 padding-left: 3%;

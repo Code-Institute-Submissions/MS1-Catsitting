@@ -3,6 +3,7 @@ body {
     margin: 0 auto;
     font-family: "Open Sans", sans-serif;
     color: #261C18;
+    position: relative;
 }
 
 /*headings*/
@@ -12,9 +13,12 @@ font-family: "Poppins", sans-serif;
 }
 
 /* Background colors background-color: #986D32;*/
-
+.bg--h{
+background-color: #F9FAFC;
+}
 .bg--grey{ 
-background-color: #BFB6AE;
+background-color: #D0D7D9;
+background-color: #EBEEF2;
 }
 .bg--dark{
 background-color: #262221;
@@ -41,6 +45,10 @@ background-color:#faf9f9;;
 }
 
 /*Text colors*/
+/*
+#e6e3df
+#fffefd
+*/
 
 .txt-grey{
 color: #B4ACA9;
@@ -52,7 +60,8 @@ color: #262221;
 color: #986D32
 }
 .txt--white{
-color: #faf9f9;
+/*color: #faf9f9;*/
+color: #fffefd;
 }
 
 /*border colors*/
@@ -67,20 +76,38 @@ border-color: #faf9f9;
 .navbar{
 height: 70px;
 }
-
+/*note*/
+/*
+navbar-light - dark font colour
+navbar - navbar-dark for a light/white toggler 
+*/
 navbar .navbar-toggler {
   border: 0;
 }
-
+.toggle-btn{
+color: #fffefd; 
+font-size:28px;
+}
+                        
 .navbar a{
-    color: #faf9f9;
+    /*color: #262221;*/
+    color: inherit;
     text-decoration: none;
-    text-transform: uppercase;
+    font-size: 90%;
+    /*text-transform: uppercase;*/
 }
 
 .navbar .active{
 text-decoration: underline;
 }
+.nav-pills .nav-link.active{
+/*color: #262221;*/
+color: inherit;
+font-weight: 700;
+background-color: inherit;
+}
+
+
 
 
 /*Hero image & jumbotron*/
@@ -88,10 +115,10 @@ text-decoration: underline;
 /*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/
 
 .hero-background{
-    height: 87vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
+    height: 90vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
     background-position-x: 80%;
-    background-position-y: top;
+    background-position-y: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -163,7 +190,7 @@ position: relative;
 /*about section*/
 
 .portrait{
-background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url("../images/portrait.jpg");
+background-image: url("../images/portrait.jpg");
     background-position-x: 80%;
     background-position-y: top;
     background-repeat: no-repeat;

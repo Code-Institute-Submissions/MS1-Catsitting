@@ -72,36 +72,36 @@ border-color: #faf9f9;
 
 
 /*Nav bar*/
-
-.navbar{
-height: 70px;
-}
 /*note*/
 /*
 navbar-light - dark font colour
 navbar - navbar-dark for a light/white toggler 
 */
+
+.navbar-nav {
+padding-left: 5%;
+}
+
 navbar .navbar-toggler {
   border: 0;
 }
+
 .toggle-btn{
 color: #fffefd; 
-font-size:28px;
+font-size:26px;
 }
-                        
+           
 .navbar a{
-    /*color: #262221;*/
     color: inherit;
     text-decoration: none;
     font-size: 90%;
-    /*text-transform: uppercase;*/
 }
 
 .navbar .active{
 text-decoration: underline;
 }
+
 .nav-pills .nav-link.active{
-/*color: #262221;*/
 color: inherit;
 font-weight: 700;
 background-color: inherit;

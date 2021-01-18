@@ -70,24 +70,21 @@ b-white{
 border-color: #faf9f9;
 }
 
-
 /*Nav bar*/
 
 .navbar{
-height: 75px;
-padding: 15px 0px 18px 0px;
-
+height: 78px;
+/*padding: 8px 0px 15px 0px;*/
+align-items: stretch;
 }
 
 button.navbar-toggler {
-  border: none;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 15px;
+  border: 0px;
+  padding: 0px 15px 0px 15px;
 }
 
 .toggle-btn{
-font-size:26px;
+font-size:28px;
 padding: 0px;
 height: initial;
 }
@@ -95,15 +92,19 @@ height: initial;
 .navbar a{
     color: inherit;
     text-decoration: none;
-    font-size: 90%;
-    font-weight: 300;    
+    font-size: 95%;
+    font-weight: 300;  
+    text-align: center; 
+    padding-top: 12px;
+    padding-bottom: 12px; 
 }
 
 a.navbar-brand{
 font-family: "Poppins", sans-serif;
 font-size: 22px;
 font-weight: 500;
-padding-left: 15px;
+letter-spacing: 2px;
+padding: 0px 0px 0px 15px;
 }
 
 .navbar .active{
@@ -113,11 +114,6 @@ font-weight: 700;
 background-color: inherit;
 }
 
-
-
-
-
-
 /*Hero image & jumbotron*/
 
 /*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/
@@ -126,7 +122,7 @@ background-color: inherit;
     height: 100vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
     background-position-x: 80%;
-    background-position-y: center;
+    background-position-y: top;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -142,7 +138,7 @@ background-color: inherit;
     text-align: center;
     margin: 0;
     padding: 0;
-    top: 100px;
+    top: 60vh;
 }
 
 
@@ -174,7 +170,7 @@ position: relative;
 .anchors{
   display: block;
   position: absolute;
-  top: -74px; 
+  top: -77px; 
   z-index: 5;
   visibility: hidden;
 }
@@ -184,7 +180,15 @@ position: relative;
 
 
 /*Services section*/
+.price-col{
+border: 1px solid blue;
 
+
+}
+.test{
+border: 1px solid red;
+height: 33.3%;
+}
 .btn-style{
     background-color: transparent;
     border-radius: 5px;
@@ -256,7 +260,12 @@ padding: 0px;
 
 /*media queries sm 480px md */
 @media only screen and (min-width: 768px) {
-
+.navbar-collapse{
+padding-right: 15px;
+}
+#navbarNavDropdown{
+align-items: flex-end;
+}
 
 /*footer*/
 

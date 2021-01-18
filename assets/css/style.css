@@ -174,10 +174,9 @@ position: relative;
 .anchors{
   display: block;
   position: absolute;
-  top: -79px; 
+  top: -74px; 
   z-index: 5;
-  /*visibility: hidden;*/
-  border: 1px solid red;
+  visibility: hidden;
 }
 
 /*test*/

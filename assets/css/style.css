@@ -72,40 +72,48 @@ border-color: #faf9f9;
 
 
 /*Nav bar*/
-/*note*/
-/*
-navbar-light - dark font colour
-navbar - navbar-dark for a light/white toggler 
-*/
 
-.navbar-nav {
-padding-left: 5%;
+.navbar{
+height: 75px;
+padding: 15px 0px 18px 0px;
+
 }
 
-navbar .navbar-toggler {
-  border: 0;
+button.navbar-toggler {
+  border: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 15px;
 }
 
 .toggle-btn{
-color: #fffefd; 
 font-size:26px;
+padding: 0px;
+height: initial;
 }
            
 .navbar a{
     color: inherit;
     text-decoration: none;
     font-size: 90%;
+    font-weight: 300;    
+}
+
+a.navbar-brand{
+font-family: "Poppins", sans-serif;
+font-size: 22px;
+font-weight: 500;
+padding-left: 15px;
 }
 
 .navbar .active{
 text-decoration: underline;
-}
-
-.nav-pills .nav-link.active{
 color: inherit;
 font-weight: 700;
 background-color: inherit;
 }
+
+
 
 
 
@@ -115,7 +123,7 @@ background-color: inherit;
 /*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/
 
 .hero-background{
-    height: 90vh;
+    height: 100vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
     background-position-x: 80%;
     background-position-y: center;
@@ -166,7 +174,7 @@ position: relative;
 .anchors{
   display: block;
   position: absolute;
-  top: -69px; 
+  top: -79px; 
   z-index: 5;
   /*visibility: hidden;*/
   border: 1px solid red;
@@ -249,7 +257,10 @@ padding: 0px;
 
 /*media queries sm 480px md */
 @media only screen and (min-width: 768px) {
+
+
 /*footer*/
+
 .ft-left{
 text-align: left;
 padding-left: 3%;

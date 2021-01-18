@@ -26,68 +26,55 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body data-spy="scroll" data-target="#navigation" data-offset="0">
+<!--Scrollspy https://getbootstrap.com/docs/4.5/components/scrollspy/-->
+<body data-spy="scroll" data-target="#navigation" data-offset="79">
 
-    <!--Navbar code from bootstrap with following personnalisation:
-    - <ul class="navbar-nav mr-auto"> to ml-auto to align menu items to the left on desktop devices
-    - remove the border around the toggle icon
-    
-    <span class="sr-only">(current)</span>
-    Added scrollspy code from Boostrap to show active link in page
-    Scroll spy from Boostrap
-    solution to style toggler button stackover flow 'https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color'
-    bg--dark txt--white
-    navbar-expand-sm 
-    -->
     <header class="container-fluid">
-        <nav class="navbar navbar-expand-sm  fixed-top bg--dark txt--white" id="navigation">
+        <!--Navbar code from bootstrap with following personnalisation with css style applied
+        https://getbootstrap.com/docs/4.0/components/navbar/
+        -->
+        <nav class="navbar navbar-expand-md fixed-top bg--dark txt--white" id="navigation">
+        
+            <a class="navbar-brand" href="#">Katsit London</a>
             
-                <a href="/" class="navbar-brand">Katsit London</a>
-
-                <!--Mobile navbar toggler button id#navbarNavDropdown navbar-toggler <i class="fas fa-bars toggle-btn"></i>-->
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><i class="fas fa-bars toggle-btn"></i></span>
-                </button>
-                <!--/Moble navbar button-->
-
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <!-- from ul -->
-                    <ul class="navbar-nav nav-pills ml-auto bg--dark">
-                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                            <a class="nav-link page-scroll" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                            <a class="nav-link page-scroll" href="#about">About me</a>
-                        </li>
-                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                            <a class="nav-link page-scroll" href="#testimonials">Testimonials</a>
-                        </li>
-                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                            <a class="nav-link page-scroll" href="#areas">Areas covered</a>
-                        </li>
-                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                        <a class="nav-link page-scroll" href="#contact">Contact</a>
-                        </li>
-                        <!--
-                        
-                        code li from stackoverflow for collapsible menu 
-                        https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437
-                        -->
-                    </ul>
-                </div>
-           
-        </nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <!--solution to style toggler button inspired by stackover flow 'https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color'
+            Personalisation: span removed and apply toggle-btn navbar-toggler-icon to icon
+            -->
+            <i class="fas fa-bars toggle-btn navbar-toggler-icon txt--white"></i>
+            </button>
+           <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto bg--dark">
+            <!--<ul class="navbar-nav navbar-collapse collapse ml-auto bg--dark"  id="navbarNavDropdown">-->
+             <!-- Solution for menu to collapse back on click from slack overflow
+             https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
+            -->   
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link page-scroll" href="#home">Home</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link page-scroll" href="#services" >Services</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link page-scroll" href="#about">About me</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link page-scroll" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link page-scroll" href="#areas">Areas covered</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link page-scroll" href="#contact">Contact</a>
+                </li>            
+            </ul>  
+            </div>
+        </nav>  
+        
     </header>
 
     
-
-    <!--Test -->
-   
     <!--Hero image-->
 
     <section class="container-fluid hero-background" >
@@ -170,10 +157,10 @@
     <section class="container-fluid" >
         <div class="row">
             <div class="col-sm-12 col-md-6 portrait">
-            
+            <div class="anchors" id="about">test</div>
             </div>
             <div class="col-sm-12 col-md-6 section-layout txt--dark bg-beige">
-            <div class="anchors" id="about">test</div>
+            
             <h2 class="section-heading" >About me</h2>
             <hr class="section-divider bg--dark">
             <p class="profile">

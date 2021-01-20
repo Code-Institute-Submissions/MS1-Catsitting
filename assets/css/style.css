@@ -202,8 +202,8 @@ height: 33.3%;
 /*about section*/
 
 .portrait{
-background-image: url("../images/portrait.jpg");
-    background-position-x: 80%;
+background-image: url("../images/portrait1.jpg");
+    background-position-x: left;
     background-position-y: top;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -212,7 +212,7 @@ background-image: url("../images/portrait.jpg");
     background-size: cover;
     overflow: hidden;
     position: relative;
-    min-height: 250px;
+    min-height: 350px;
 }
 .profile{
 padding-top: 15px;

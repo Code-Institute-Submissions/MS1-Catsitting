@@ -265,10 +265,24 @@ border-box;
 width: 31%;
 }
 }
-
+.testimonial1{
+background-image: url("../images/testimonial1.jpg");
+}
+.testimonial2{
+background-image: url("../images/testimonial2.jpg");
+}
+.testimonial3{
+background-image: url("../images/testimonial3.jpg");
+}
+.testimonial4{
+background-image: url("../images/testimonial4.jpg");
+}
+.testimonial5{
+background-image: url("../images/testimonial5.jpg");
+}
 .img {
   display: block;
-  background-image: url("../images/testimonial1.jpg");
+  
   width: 100px;
   height: 100px;
   overflow: hidden;

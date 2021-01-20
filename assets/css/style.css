@@ -10,6 +10,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 font-family: "Poppins", sans-serif;
+text-align: center;
 }
 
 /* Background colors background-color: #986D32;*/
@@ -232,6 +233,96 @@ font-size: 20px;
 }
 /*Testimonials section*/
 
+.flickity-viewport {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+* { box-sizing: 
+border-box;
+ }
+.carousel {
+  background: white;
+   height: 100%;
+   margin: 0 60px;
+}
+
+.carousel-cell {
+  width: 100%;
+  margin-right: 3.5%;
+  padding: 5px;
+}
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+/*carousel  */
+.carousel-cell {
+  width: 47%;
+  
+}
+ }
+@media only screen and (min-width: 992px) {
+.carousel-cell{
+width: 31%;
+}
+}
+
+.img {
+  display: block;
+  background-image: url("../images/testimonial1.jpg");
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 50%;
+-webkit-border-radius: 50%;	
+-moz-border-radius: 50%;
+-o-border-radius: 50%;
+-ms-border-radius: 50%;
+background-position-x: center;
+    background-position-y: center;
+    background-repeat: no repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.testimonial-text{
+text-align: justify;
+  text-justify: inter-word;
+}
+
+
+/* smaller, dark, rounded square */
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: #333;
+}
+.flickity-prev-next-button:hover {
+  background: #F90;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+/* position outside */
+.flickity-prev-next-button.previous {
+  left: -40px;
+}
+.flickity-prev-next-button.next {
+  right: -40px;
+}
+
+
+
+
+
+
 /*form*/
 
 
@@ -257,18 +348,23 @@ font-size: 25px;
 letter-spacing: 3px;
 padding: 0px;
 }
+/*end footer */
 
-/*media queries sm 480px md */
+/* Media queries */
+
+
+
 @media only screen and (min-width: 768px) {
+/*navbar*/
 .navbar-collapse{
 padding-right: 15px;
 }
 #navbarNavDropdown{
 align-items: flex-end;
 }
+/**/
 
 /*footer*/
-
 .ft-left{
 text-align: left;
 padding-left: 3%;
@@ -281,7 +377,6 @@ padding-right: 3%;
 }
 .ft-right-element{
 flex-basis: initial;
-
+}
 }
 
-}

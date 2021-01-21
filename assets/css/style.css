@@ -175,16 +175,13 @@ position: relative;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
+    padding-top: 30px;
 }
 .section-divider{
     width: 80px;
     height: 3px;
+    margin-bottom: 30px;
 }
-
-
-/*test*/
-
-
 
 /*Services section*/
 .p-intro{
@@ -211,10 +208,6 @@ height: 30%;
     text-align:center;
 }
 
-/*about section*/
-/*.aboutme-col{
-height: inherit;
-}*/
 .portrait{
 background-image: url("../images/portrait1.jpg");
     background-position-x: left;

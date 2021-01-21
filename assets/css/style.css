@@ -353,7 +353,9 @@ background-color: #f2f6f9;
 
 /*form*/
 
-
+.contact-li{
+line-height: 2;
+}
 
 /*footer*/
 

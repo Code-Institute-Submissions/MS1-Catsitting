@@ -182,7 +182,9 @@ position: relative;
     height: 3px;
     margin-bottom: 30px;
 }
-
+.bottom-padding{
+padding-bottom: 25px
+}
 /*Services section*/
 .p-intro{
 text-align: center;

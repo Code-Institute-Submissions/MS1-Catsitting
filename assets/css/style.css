@@ -212,7 +212,9 @@ height: 30%;
 }
 
 /*about section*/
-
+/*.aboutme-col{
+height: inherit;
+}*/
 .portrait{
 background-image: url("../images/portrait1.jpg");
     background-position-x: left;
@@ -226,6 +228,7 @@ background-image: url("../images/portrait1.jpg");
     position: relative;
     min-height: 350px;
 }
+
 .profile{
 padding-top: 15px;
 padding-left: 10px;
@@ -233,7 +236,6 @@ padding-right: 10px;
 padding-bottom: 15px;
  text-align: justify;
   text-justify: inter-word;
-  
 }
 .creds{
 font-weight: 600;
@@ -358,6 +360,14 @@ background-color: #f2f6f9;
 
 /*form*/
 
+.contact-section{
+display: block;
+margin: 0 auto;
+}
+form{
+width: 95%;
+margin: 0 auto;
+}
 /*.contact-li{
 line-height: 2;
 }*/

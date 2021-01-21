@@ -344,15 +344,13 @@ text-align: justify;
 .col-map{
 padding-left: 0px;
 padding-right: 0px;
-
-}
-.map-frame{
-
+padding-bottom: 0px;
+margin-bottom: 0px;
 }
 
-
-
-
+.map-frame {
+height: 592px;
+}
 
 /*form*/
 

@@ -13,6 +13,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+/*list*/
+
+li{
+line-height: 2;
+}
 /* Background colors background-color: #986D32;*/
 .bg--h{
     background-color: #F9FAFC;
@@ -141,7 +146,26 @@ background-color: inherit;
     padding: 0;
     top: 60vh;
 }
+/*Section spacing*/
 
+.section-layout {
+/*padding-bottom: 25px;
+padding-top: 25px;*/
+min-height:90vh;
+position: relative;
+/*margin: 0 auto;*/
+}
+
+/*anchors*/
+
+/*https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors/*/
+.anchors{
+  display: block;
+  position: absolute;
+  top: -77px; 
+  z-index: 5;
+  /*visibility: hidden;*/
+}
 
 
 
@@ -156,26 +180,7 @@ background-color: inherit;
     width: 80px;
     height: 3px;
 }
-/*Section spacing*/
 
-.section-layout {
-padding-bottom: 25px;
-padding-top: 25px;
-min-height:80vh;
-position: relative;
-/*margin: 0 auto;*/
-}
-
-/*anchors*/
-
-/*https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors/*/
-.anchors{
-  display: block;
-  position: absolute;
-  top: -77px; 
-  z-index: 5;
-  visibility: hidden;
-}
 
 /*test*/
 
@@ -353,9 +358,9 @@ background-color: #f2f6f9;
 
 /*form*/
 
-.contact-li{
+/*.contact-li{
 line-height: 2;
-}
+}*/
 
 /*footer*/
 

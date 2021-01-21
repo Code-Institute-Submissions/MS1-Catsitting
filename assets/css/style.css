@@ -9,17 +9,17 @@ body {
 /*headings*/
 
 h1, h2, h3, h4, h5, h6 {
-font-family: "Poppins", sans-serif;
-text-align: center;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 /* Background colors background-color: #986D32;*/
 .bg--h{
-background-color: #F9FAFC;
+    background-color: #F9FAFC;
 }
 .bg--grey{ 
-background-color: #D0D7D9;
-background-color: #EBEEF2;
+    background-color: #D0D7D9;
+
 }
 .bg--dark{
 background-color: #262221;
@@ -342,14 +342,13 @@ text-align: justify;
 /* Areas we covered */
 
 .col-map{
-padding-left: 0px;
+    padding-left: 0px;
 padding-right: 0px;
-padding-bottom: 0px;
-margin-bottom: 0px;
 }
 
 .map-frame {
-height: 592px;
+height: 100%;
+background-color: #f2f6f9;
 }
 
 /*form*/

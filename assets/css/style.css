@@ -161,8 +161,9 @@ background-color: inherit;
 .section-layout {
 padding-bottom: 25px;
 padding-top: 25px;
-min-height:90vh;
+min-height:50vh;
 position: relative;
+/*margin: 0 auto;*/
 }
 
 /*anchors*/
@@ -340,9 +341,15 @@ text-align: justify;
 
 /* Areas we covered */
 
+.col-map{
+padding-left: 0px;
+padding-right: 0px;
+
+}
 .map-frame{
 
 }
+
 
 
 

@@ -222,10 +222,26 @@ a.navbar-brand{
 }
 
 .price-col{
-    height: 50vh;
+    /*height: 50vh;*/
+    /*d-flex flex-column align-content-stretch justify-content-around */
+        background-image: url("../images/portrait1.jpg");
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    min-height: 350px;
 }
 .price-box{
-    height: 30%;
+    /*height: 30%;*/
+    margin-top: 8px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
 }
 /* end service section */
 

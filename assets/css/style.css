@@ -25,6 +25,8 @@ line-height: 2;
 padding: 8px 12px 8px 12px;
 margin-top: 15px;
 border-radius: 5px;
+border: none;
+font-family: "Poppins", sans-serif;
 }
 
 /* Background colors background-color: #986D32;*/
@@ -52,8 +54,10 @@ background-color: #BFB6AE;
 background-color:#D99E6A;
 }
 .bg--blue{
-/*background-color: #1183a2;*/
 background-color: #3aabc3;
+}
+.bg--green{
+background-color: #71bf75;
 }
 .bg--white{
 background-color:#faf9f9;;

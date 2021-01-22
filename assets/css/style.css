@@ -13,70 +13,64 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-
-
-/*buttons*/
+/* Buttons*/
 
 .btn-style {
-padding: 8px 12px 8px 12px;
-margin-top: 15px;
-border-radius: 5px;
-border: none;
-font-family: "Poppins", sans-serif;
+    padding: 8px 12px 8px 12px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Poppins", sans-serif;
 }
 
-/* Background colors background-color: #986D32;*/
+/* Background colours */
+
 .bg--h{
     background-color: #F9FAFC;
 }
+
 .bg--grey{ 
     background-color: #D0D7D9;
-
 }
+
 .bg--dark{
-background-color: #262221;
+    background-color: #262221;
 }
-.bg--navy{
-background-color: #333D51 ;
-}
-.bg--brown{
-background-color: #986D32;
-}
-.bg--beige{
-background-color: #BFB6AE;
-}
-.bg--whiskey{
 
-background-color:#D99E6A;
+.bg--brown{
+    background-color: #986D32;
 }
+
+.bg--beige{
+    background-color: #BFB6AE;
+}
+.bg--whiskey{  
+    background-color:#D99E6A;
+}
+
 .bg--blue{
-background-color: #3aabc3;
+    background-color: #3aabc3;
 }
+
 .bg--green{
-background-color: #71bf75;
+    background-color: #71bf75;
 }
 .bg--white{
-background-color:#faf9f9;;
+    background-color:#faf9f9;;
 }
 
 /*Text colors*/
-/*
-#e6e3df
-#fffefd
-*/
 
-.txt-grey{
-color: #B4ACA9;
-}
 .txt--dark{
-color: #262221;
+    color: #262221;
 }
+
 .txt--brown{
-color: #986D32
+    color: #986D32
 }
+
 .txt--white{
-/*color: #faf9f9;*/
-color: #fffefd;
+    color: #fffefd;
 }
 
 /*border colors*/
@@ -85,107 +79,7 @@ b-white{
 border-color: #faf9f9;
 }
 
-/*Nav bar*/
-
-.navbar{
-height: 78px;
-/*padding: 8px 0px 15px 0px;*/
-align-items: stretch;
-}
-
-button.navbar-toggler {
-  border: 0px;
-  padding: 0px 15px 0px 15px;
-}
-
-.toggle-btn{
-font-size:28px;
-padding: 0px;
-height: initial;
-}
-           
-.navbar a{
-    color: inherit;
-    text-decoration: none;
-    font-size: 95%;
-    font-weight: 300;  
-    text-align: center; 
-    padding-top: 12px;
-    padding-bottom: 12px; 
-}
-
-a.navbar-brand{
-font-family: "Poppins", sans-serif;
-font-size: 22px;
-font-weight: 500;
-letter-spacing: 2px;
-padding: 0px 0px 0px 15px;
-}
-
-.navbar .active{
-text-decoration: underline;
-color: inherit;
-font-weight: 700;
-background-color: inherit;
-}
-
-/*Hero image & jumbotron*/
-
-/*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/
-
-.hero-background{
-    height: 100vh;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
-    background-position-x: 70%;
-    background-position-y: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
-}
-
-.jumbotron-container{
-    background: transparent; 
-    position: absolute;
-   width: 100%;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    margin: 0 auto;
-    left: 0px;
-    bottom: 0px;
-    padding-bottom: 40px;
-}
-/*https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
-.p-jumbotron{
-margin-bottom: 0px;
-/*font-size: 2.2vmax;*/
-font-size: clamp(18px, 2.2vmax, 34px);
-}
-
-.hr-jumbotron{
-width: 25px;
-height: 1px;
-margin-bottom: 12px;
-margin-top: 8px;
-}
-
-.h-jumbotron{
-margin-bottom: 0px;
-/*font-size: 3.5vmax;*/
-font-size: clamp(28px, 3.5vmax, 54px);
-}
-
-.p-promo{
-/*font-size: 73%;*/
-font-size: clamp(11px, 1.3vmax, 18px);
-padding-top: 30px;
-margin-bottom: 8px;
-}
-
-/*Section spacing*/
+/*Section sizing */
 
 .section-layout {
     min-height:90vh;
@@ -216,29 +110,129 @@ margin-bottom: 8px;
     margin-bottom: 30px;
 }
 .bottom-padding{
-padding-bottom: 28px;
+    padding-bottom: 28px;
 }
 
-/*Services section*/
+/* Nav bar */
+
+.navbar{
+    height: 78px;
+    align-items: stretch;
+}
+
+button.navbar-toggler {
+  border: 0px;
+  padding: 0px 15px 0px 15px;
+}
+
+.toggle-btn{
+    font-size:28px;
+    padding: 0px;
+    height: initial;
+}
+           
+.navbar a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 95%;
+    font-weight: 300;  
+    text-align: center; 
+    padding-top: 12px;
+    padding-bottom: 12px; 
+}
+
+a.navbar-brand{
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 0px 0px 0px 15px;
+}
+
+.navbar .active{
+    text-decoration: underline;
+    color: inherit;
+    font-weight: 700;
+    background-color: inherit;
+}
+/* end Navbar */
+
+/* Hero image & jumbotron */
+
+/*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/
+
+.hero-background{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
+    background-position-x: 70%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.jumbotron-container{
+    background: transparent; 
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    left: 0px;
+    bottom: 0px;
+    padding-bottom: 40px;
+}
+
+/*Flexible font size --> https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
+
+.p-jumbotron{
+    margin-bottom: 0px;
+    font-size: clamp(18px, 2.2vmax, 34px);
+}
+
+.hr-jumbotron{
+    width: 25px;
+    height: 1px;
+    margin-bottom: 12px;
+    margin-top: 8px;
+}
+
+.h-jumbotron{
+    margin-bottom: 0px;
+    font-size: clamp(28px, 3.5vmax, 54px);
+}
+
+.p-promo{
+    font-size: clamp(11px, 1.3vmax, 18px);
+    padding-top: 30px;
+    margin-bottom: 8px;
+}
+
+/* Services section */
 
 .p-intro{
-text-align: center;
+    text-align: center;
 }
 .b-green{
-border: 1px solid green;
-
+    border: 1px solid green;
 }
 
 .price-col{
-height: 50vh;
+    height: 50vh;
 }
 .price-box{
-height: 30%;
+    height: 30%;
 }
+/* end service section */
 
+/*About me section*/
 
 .portrait{
-background-image: url("../images/portrait1.jpg");
+    background-image: url("../images/portrait1.jpg");
     background-position-x: left;
     background-position-y: top;
     background-repeat: no-repeat;
@@ -252,21 +246,24 @@ background-image: url("../images/portrait1.jpg");
 }
 
 .profile{
-padding-top: 15px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 15px;
- text-align: justify;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    text-align: justify;
   text-justify: inter-word;
 }
+
 .creds{
-font-weight: 600;
-padding-left: 25px;
-list-style: none;
+    font-weight: 600;
+    padding-left: 25px;
+    list-style: none;
 }
 .creds i{
-font-size: 20px;
+    font-size: 20px;
 }
+/* end of about me section */
+
 /*Testimonials section*/
 
 .flickity-viewport {
@@ -275,12 +272,12 @@ font-size: 20px;
     height: 100%;
 }
 
-* { box-sizing: 
-border-box;
- }
+* { 
+    box-sizing: border-box;
+}
 
 .carousel {
-  background: white;
+   background: white;
    height: 100%;
    margin: 0 60px;
 }
@@ -291,37 +288,39 @@ border-box;
   padding: 5px;
 }
 
-
-
 .testimonial1{
-background-image: url("../images/testimonial1.jpg");
+    background-image: url("../images/testimonial1.jpg");
 }
+
 .testimonial2{
-background-image: url("../images/testimonial2.jpg");
+    background-image: url("../images/testimonial2.jpg");
 }
+
 .testimonial3{
-background-image: url("../images/testimonial3.jpg");
+    background-image: url("../images/testimonial3.jpg");
 }
+
 .testimonial4{
-background-image: url("../images/testimonial4.jpg");
+    background-image: url("../images/testimonial4.jpg");
 }
+
 .testimonial5{
-background-image: url("../images/testimonial5.jpg");
+    background-image: url("../images/testimonial5.jpg");
 }
+
 .img {
-  display: block;
-  
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  margin: 0 auto;
-  margin-bottom: 15px;
-  border-radius: 50%;
--webkit-border-radius: 50%;	
--moz-border-radius: 50%;
--o-border-radius: 50%;
--ms-border-radius: 50%;
-background-position-x: center;
+    display: block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;	
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    background-position-x: center;
     background-position-y: center;
     background-repeat: no repeat;
     -webkit-background-size: cover;
@@ -329,148 +328,147 @@ background-position-x: center;
     -o-background-size: cover;
     background-size: cover;
 }
-.testimonial-text{
-text-align: justify;
-  text-justify: inter-word;
-}
 
+.testimonial-text{
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 /* smaller, dark, rounded square */
 .flickity-prev-next-button {
-  width: 30px;
-  height: 30px;
-  border-radius: 5px;
-  background: #333;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: #333;
 }
 .flickity-prev-next-button:hover {
-  background: #F90;
+    background: #F90;
 }
 /* arrow color */
 .flickity-prev-next-button .arrow {
-  fill: white;
+    fill: white;
 }
 .flickity-prev-next-button.no-svg {
-  color: white;
+    color: white;
 }
 /* position outside */
 .flickity-prev-next-button.previous {
-  left: -40px;
+    left: -40px;
 }
 .flickity-prev-next-button.next {
-  right: -40px;
+    right: -40px;
 }
+/* end testimonials */
 
-/* Areas we covered */
+/* Areas we cover section */
 
 .col-map{
     padding-left: 0px;
-padding-right: 0px;
+    padding-right: 0px;
 }
 
 .map-frame {
-height: 100%;
-background-color: #f2f6f9;
+    height: 100%;
+    background-color: #f2f6f9;
 }
+/* end area we cover section*/
 
-/*form*/
+/* Contact us section */
 
 .contdetails{
-padding-right: 25px;
-padding-left: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 form{
-width: 95%;
-margin: 0 auto;
-padding-top: 50px;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 50px;
 }
+/* end contact us section*/
 
-
-/*footer*/
+/* Footer */
 
 footer{
-margin: 0 auto;
-padding-top: 30px;
-text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
 }
 .ft-left{
-margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 .ft-right{
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 .footer-headings{
-font-weight: 500;
+    font-weight: 500;
 }
 .sm-icons{
-font-size: 25px;
-letter-spacing: 3px;
-padding: 0px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding: 0px;
 }
 /*end footer */
 
 
 /* Media queries */
 
-/*medium screen*/
-
+/* medium screen */
 @media only screen and (min-width: 768px) {
 
-/*list*/
-
+/* list */
 li{
-line-height: 2;
+    line-height: 2;
 }
 
-/*navbar*/
+/* navbar */
 .navbar-collapse{
-padding-right: 15px;
+    padding-right: 15px;
 }
 #navbarNavDropdown{
-align-items: flex-end;
+    align-items: flex-end;
 }
 
-/*footer*/
+/* footer */
 .ft-left{
-text-align: left;
-padding-left: 3%;
-margin-bottom: 10px;
+    text-align: left;
+    padding-left: 3%;
+    margin-bottom: 10px;
 }
 .ft-right{
-display: flex;
-justify-content: flex-end;
-padding-right: 3%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3%;
 }
 .ft-right-element{
-flex-basis: initial;
+    flex-basis: initial;
 }
 }
 
-/*medium to large screen*/
-
-/*medium size*/
+/* medium size to large screen */
 @media only screen and (min-width: 577px) and (max-width: 991px) {
-/*carousel  */
+
+/* carousel  */
 .carousel-cell {
-  width: 47%;
+    width: 47%;
 }
- }
+}
 
-/*large screen*/
+/* large screen */
 @media only screen and (min-width: 992px) {
-
+/* carousel */
 .carousel-cell{
 width: 31%;
 }
-
 }
 
 /*extra large screen*/
 @media only screen and (min-width: 1200px) {
+/* hero image */
 .hero-background{
     height: 100vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
    }
-   .jumbotron-container{
+.jumbotron-container{
     max-width: 700px;
     bottom: 25vh;
 }

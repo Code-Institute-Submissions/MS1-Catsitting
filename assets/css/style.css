@@ -13,11 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-/*list*/
 
-li{
-line-height: 2;
-}
 
 /*buttons*/
 
@@ -418,6 +414,13 @@ padding: 0px;
 /*medium screen*/
 
 @media only screen and (min-width: 768px) {
+
+/*list*/
+
+li{
+line-height: 2;
+}
+
 /*navbar*/
 .navbar-collapse{
 padding-right: 15px;
@@ -425,6 +428,7 @@ padding-right: 15px;
 #navbarNavDropdown{
 align-items: flex-end;
 }
+
 /*footer*/
 .ft-left{
 text-align: left;

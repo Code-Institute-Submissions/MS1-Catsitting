@@ -23,7 +23,7 @@ line-height: 2;
 
 .btn-style {
 padding: 8px 12px 8px 12px;
-margin: 15px;
+margin-top: 15px;
 border-radius: 5px;
 }
 
@@ -135,7 +135,7 @@ background-color: inherit;
 
 .hero-background{
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
     background-position-x: 70%;
     background-position-y: center;
     background-repeat: no-repeat;
@@ -148,18 +148,21 @@ background-color: inherit;
 }
 
 .jumbotron-container{
-    background: transparent;  
+    background: transparent; 
     position: absolute;
    width: 100%;
     text-align: center;
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
     left: 0px;
-    bottom: 0;
+    bottom: 0px;
+    padding-bottom: 40px;
 }
-*
+/*https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
 .p-jumbotron{
 margin-bottom: 0px;
+/*font-size: 2.2vmax;*/
+font-size: clamp(18px, 2.2vmax, 34px);
 }
 
 .hr-jumbotron{
@@ -171,11 +174,14 @@ margin-top: 8px;
 
 .h-jumbotron{
 margin-bottom: 0px;
+/*font-size: 3.5vmax;*/
+font-size: clamp(28px, 3.5vmax, 54px);
 }
 
 .p-promo{
-font-size: 73%;
-margin-top: 25px;
+/*font-size: 73%;*/
+font-size: clamp(11px, 1.3vmax, 18px);
+padding-top: 30px;
 margin-bottom: 8px;
 }
 
@@ -443,9 +449,21 @@ flex-basis: initial;
 
 /*large screen*/
 @media only screen and (min-width: 992px) {
+
 .carousel-cell{
 width: 31%;
 }
+
 }
 
 /*extra large screen*/
+@media only screen and (min-width: 1200px) {
+.hero-background{
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
+   }
+   .jumbotron-container{
+    max-width: 700px;
+    bottom: 25vh;
+}
+}

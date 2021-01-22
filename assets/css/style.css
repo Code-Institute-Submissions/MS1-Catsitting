@@ -447,13 +447,12 @@ footer{
 /* Media queries */
 
 /* medium screen */
-@media only screen and (min-width: 768px) {
 
+@media only screen and (min-width: 768px) {
 /* list */
 li{
     line-height: 2;
 }
-
 /* navbar */
 .navbar-collapse{
     padding-right: 15px;
@@ -487,7 +486,6 @@ li{
 .price-col button{
     margin-top: 35px;
 }
-
 /* footer */
 .ft-left{
     text-align: left;
@@ -505,8 +503,8 @@ li{
 }
 
 /* medium size to large screen */
-@media only screen and (min-width: 577px) and (max-width: 991px) {
 
+@media only screen and (min-width: 577px) and (max-width: 991px) {
 /* carousel  */
 .carousel-cell {
     width: 47%;
@@ -514,12 +512,9 @@ li{
 }
 
 /* large screen */
+
 @media only screen and (min-width: 992px) {
-
 /* services section */
-
-
-
 /* carousel */
 .carousel-cell{
 width: 31%;
@@ -527,6 +522,7 @@ width: 31%;
 }
 
 /*extra large screen*/
+
 @media only screen and (min-width: 1200px) {
 /* hero image */
 .hero-background{

@@ -18,6 +18,15 @@ h1, h2, h3, h4, h5, h6 {
 li{
 line-height: 2;
 }
+
+/*buttons*/
+
+.btn-style {
+padding: 8px 12px 8px 12px;
+margin: 15px;
+border-radius: 5px;
+}
+
 /* Background colors background-color: #986D32;*/
 .bg--h{
     background-color: #F9FAFC;
@@ -44,7 +53,7 @@ background-color:#D99E6A;
 }
 .bg--blue{
 /*background-color: #1183a2;*/
-background-color: #085669;
+background-color: #3aabc3;
 }
 .bg--white{
 background-color:#faf9f9;;
@@ -127,8 +136,8 @@ background-color: inherit;
 .hero-background{
     height: 100vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
-    background-position-x: 80%;
-    background-position-y: top;
+    background-position-x: 70%;
+    background-position-y: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -139,13 +148,37 @@ background-color: inherit;
 }
 
 .jumbotron-container{
-    background: transparent;
+    background: transparent;  
     position: absolute;
+   width: 100%;
     text-align: center;
-    margin: 0;
-    padding: 0;
-    top: 60vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    left: 0px;
+    bottom: 0;
 }
+*
+.p-jumbotron{
+margin-bottom: 0px;
+}
+
+.hr-jumbotron{
+width: 25px;
+height: 1px;
+margin-bottom: 12px;
+margin-top: 8px;
+}
+
+.h-jumbotron{
+margin-bottom: 0px;
+}
+
+.p-promo{
+font-size: 73%;
+margin-top: 25px;
+margin-bottom: 8px;
+}
+
 /*Section spacing*/
 
 .section-layout {
@@ -160,7 +193,7 @@ background-color: inherit;
   position: absolute;
   top: -77px; 
   z-index: 5;
-  /*visibility: hidden;*/
+  visibility: hidden;
 }
 
 /* Headings & Subheadings formatting*/
@@ -179,7 +212,9 @@ background-color: inherit;
 .bottom-padding{
 padding-bottom: 28px;
 }
+
 /*Services section*/
+
 .p-intro{
 text-align: center;
 }
@@ -194,15 +229,7 @@ height: 50vh;
 .price-box{
 height: 30%;
 }
-.btn-style{
-    background-color: transparent;
-    border-radius: 5px;
-    border: 1px solid;
-    padding: 5px 10px 5px 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align:center;
-}
+
 
 .portrait{
 background-image: url("../images/portrait1.jpg");
@@ -245,6 +272,7 @@ font-size: 20px;
 * { box-sizing: 
 border-box;
  }
+
 .carousel {
   background: white;
    height: 100%;
@@ -256,6 +284,7 @@ border-box;
   margin-right: 3.5%;
   padding: 5px;
 }
+
 @media only screen and (min-width: 577px) and (max-width: 991px) {
 /*carousel  */
 .carousel-cell {

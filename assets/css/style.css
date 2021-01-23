@@ -116,6 +116,18 @@ border: 1px solid red;
     padding-bottom: 28px;
 }
 
+/* Background image common feature */
+
+.bg-img{
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
 /* Nav bar */
 
 .navbar{
@@ -169,13 +181,6 @@ a.navbar-brand{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
     background-position-x: 70%;
     background-position-y: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
 }
 
 .jumbotron-container{
@@ -249,41 +254,20 @@ a.navbar-brand{
     margin-bottom: 12px;
     padding: 18px 0 0 0;
 }
-.price-bg1{
+.price-img1{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../images/cat-1.jpg");
     background-position-x: center;
     background-position-y: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
 }
-.price-bg2{
+.price-img2{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url("../images/cat2.jpg");
     background-position-x: center;
     background-position-y: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
 }
-.price-bg3{
+.price-img3{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("../images/cat3.jpg");
     background-position-x: center;
     background-position-y: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
 }
 .cont-col{
     display: flex;
@@ -298,13 +282,6 @@ a.navbar-brand{
     background-image: url("../images/portrait1.jpg");
     background-position-x: left;
     background-position-y: top;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
     min-height: 350px;
 }
 
@@ -375,7 +352,8 @@ a.navbar-brand{
     display: block;
     width: 100px;
     height: 100px;
-    overflow: hidden;
+    background-position-x: center;
+    background-position-y: center;
     margin: 0 auto;
     margin-bottom: 15px;
     border-radius: 50%;
@@ -383,13 +361,6 @@ a.navbar-brand{
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
-    background-position-x: center;
-    background-position-y: center;
-    background-repeat: no repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .testimonial-text{

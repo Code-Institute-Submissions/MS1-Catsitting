@@ -85,7 +85,7 @@ border: 1px solid red;
 /*Section sizing */
 
 .section-layout {
-    min-height:90vh;
+    min-height:80vh;
     position: relative;
 }
 
@@ -459,7 +459,6 @@ footer{
 .price-box{
 flex: 0 0 31%;
 max-width: 31%;
-
 }
 }
 

@@ -217,21 +217,18 @@ a.navbar-brand{
 .p-intro{
     text-align: center;
 }
-
-.serv-list{
-    padding-bottom: 10px;
-
-}
-.serv-list-intro{
-    text-align: center;
+.p-intro span{
     font-weight: 700;
 }
+/*.serv-list{
+    padding-bottom: 10px;
+}*/
 .serv-li{
     padding-right: 5px;
     color: #986D32;
 }
 .price-col{
-    padding-bottom: 25px;
+    /*padding-bottom: 25px;
     padding-top: 15px;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.1)), url("../images/cat-691175_1280.jpg");
     background-position-x: center;
@@ -242,24 +239,69 @@ a.navbar-brand{
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
-    position: relative;
+    position: relative;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 .price-box{
     margin-top: 12px;
     text-align: center;
+    vertical-align: middle;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.5);
     color:  #faf9f9;
-    border: 1px solid #faf9f9;
-    width: 70%;
+    /*border: 1px solid #faf9f9;*/
+    width: 15em;
+    height: 6em;
 }
+
+.price-bg1{
+
+
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../images/cat-4262034_640.jpg");
+background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.price-bg2{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url("../images/cats-paws-1693839_640.jpg");
+background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.price-bg3{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("../images/cat-2563681_640.jpg");
+background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.cont-col{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* end service section */
 
@@ -460,7 +502,7 @@ li{
 #navbarNavDropdown{
     align-items: flex-end;
 }
-/* service section */
+/* service section 
 .lg-bottom-padding{
     padding-bottom: 35px;
 }
@@ -486,6 +528,7 @@ li{
 .price-col button{
     margin-top: 35px;
 }
+*/
 /* footer */
 .ft-left{
     text-align: left;

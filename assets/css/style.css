@@ -224,6 +224,9 @@ a.navbar-brand{
     display: flex;
     justify-content: center;
 }
+.list-content{
+    display: flex;
+}
 .serv-list li span{
     padding-right: 5px;
     color: #986D32;
@@ -235,7 +238,7 @@ a.navbar-brand{
     justify-content: center;
 }
 .price-box{
-    margin-top: 12px;
+    margin-bottom: 12px;
     text-align: center;
     vertical-align: middle;
     font-family: "Poppins", sans-serif;
@@ -246,12 +249,13 @@ a.navbar-brand{
     width: 100%;
     height: 6em;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .price-bg1{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../images/cat1.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../images/cat-1.jpg");
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
@@ -477,6 +481,26 @@ footer{
 
 /* Media queries */
 
+/* small size to large screen */
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+/* carousel  */
+.carousel-cell {
+    width: 47%;
+}
+}
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+/* carousel  */
+.price-col{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.price-box{
+    width: 32%;
+}
+}
+
+
 /* medium screen */
 
 @media only screen and (min-width: 768px) {
@@ -508,15 +532,6 @@ li{
 }
 .ft-right-element{
     flex-basis: initial;
-}
-}
-
-/* medium size to large screen */
-
-@media only screen and (min-width: 577px) and (max-width: 991px) {
-/* carousel  */
-.carousel-cell {
-    width: 47%;
 }
 }
 

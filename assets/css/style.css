@@ -85,7 +85,6 @@ border: 1px solid red;
 /*Section sizing */
 
 .section-layout {
-    min-height:89vh;
     position: relative;
 }
 
@@ -297,7 +296,7 @@ a.navbar-brand{
     justify-content: space-evenly;
     align-content: space-evenly;
     margin: 0px 0px 10px 0px;
-    padding: 0px;
+    padding: 0px 0px 28px 0px;
 }
 .flex-item{
     flex: 0 0 30%;
@@ -498,9 +497,6 @@ max-width: 31%;
 /* medium screen */
 
 @media only screen and (min-width: 768px) {
-.section-layout {
-    min-height: 75vh;
-}
 /* list */
 li{
     line-height: 2;
@@ -526,11 +522,11 @@ min-width: 240px;
 .md-reverse{
     flex-direction: row-reverse;
 }
-.profile{
+/*.profile{
     padding-bottom: 8%;
-}
+}*/
 .portrait{
-    min-height: 40vw;
+    min-height: 100%;
 }
 /* footer */
 .ft-left{
@@ -568,7 +564,7 @@ width: 31%;
     padding-top: 2%;
     padding-left: 8%;
     padding-right: 8%;
-    padding-bottom: 8%;
+    /*padding-bottom: 8%;*/
 }
 }
 

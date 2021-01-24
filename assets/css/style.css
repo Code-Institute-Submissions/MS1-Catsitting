@@ -438,6 +438,7 @@ Change to button colours and position
 
 .map-frame {
     height: 100%;
+    min-height: 50vh;
     background-color: #f2f6f9;
 }
 /* end area we cover section*/
@@ -489,6 +490,9 @@ footer{
     width: 47%;
 }
 }
+
+/*small to medium screen*/
+
 @media only screen and (min-width: 577px) and (max-width: 767px) {
 /*services*/
 .price-box{
@@ -496,7 +500,6 @@ flex: 0 0 31%;
 max-width: 31%;
 }
 }
-
 
 /* medium screen */
 
@@ -526,12 +529,10 @@ min-width: 240px;
 .md-reverse{
     flex-direction: row-reverse;
 }
-/*.profile{
-    padding-bottom: 8%;
-}*/
 .portrait{
     min-height: 100%;
 }
+
 /* footer */
 .ft-left{
     text-align: left;

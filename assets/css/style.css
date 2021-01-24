@@ -441,14 +441,17 @@ Change to button colours and position
 .area-list{
    padding-left: 0px;
 }
-
+.area-list li{
+    list-style-position: inside;
+}
 .col-map{
     padding-left: 0px;
     padding-right: 0px;
 }
 
 .map-frame {
-    min-height: 325px;
+    min-height: 55vh;
+    height: 100%;
     background-color: #f2f6f9;
 }
 /* end area we cover section*/
@@ -492,6 +495,25 @@ footer{
 
 /* Media queries */
 
+/* x small to medium screen*/
+/*https://stackoverflow.com/questions/23897946/how-do-i-combine-two-media-queries/23898019*/
+@media only screen and (min-width: 450px) and (max-width: 767px), only screen and (min-width: 1000px){
+/* Area we cover */
+.container-list{
+    max-width: 100%;
+}
+/*https://www.w3schools.com/cssref/css3_pr_columns.asp
+https://www.w3schools.com/cssref/css3_pr_column-gap.asp
+*/
+.area-list{
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+}
+}
 /* small size to large screen */
 
 @media only screen and (min-width: 577px) and (max-width: 991px) {
@@ -509,14 +531,7 @@ footer{
 flex: 0 0 31%;
 max-width: 31%;
 }
-/* Area we cover */
 
-/*https://www.w3schools.com/cssref/css3_pr_columns.asp*/
-.area-list{
-    column-count: 2;
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-}
 }
 
 /* medium screen */

@@ -85,7 +85,7 @@ border: 1px solid red;
 /*Section sizing */
 
 .section-layout {
-    min-height:85vh;
+    min-height:89vh;
     position: relative;
 }
 
@@ -282,7 +282,7 @@ a.navbar-brand{
     background-image: url("../images/portrait1.jpg");
     background-position-x: left;
     background-position-y: top;
-    min-height: 260px;
+    min-height: 49vw;
 }
 
 .profile{
@@ -498,6 +498,9 @@ max-width: 31%;
 /* medium screen */
 
 @media only screen and (min-width: 768px) {
+.section-layout {
+    min-height: 75vh;
+}
 /* list */
 li{
     line-height: 2;
@@ -519,9 +522,15 @@ flex: 0 0 240px;
 max-width: 240px;
 min-width: 240px;
 }
-/*about us section*/
+/*about me section*/
 .md-reverse{
     flex-direction: row-reverse;
+}
+.profile{
+    padding-bottom: 8%;
+}
+.portrait{
+    min-height: 40vw;
 }
 /* footer */
 .ft-left{
@@ -538,6 +547,14 @@ min-width: 240px;
     flex-basis: initial;
 }
 }
+/* medium to large screen */
+
+@media only screen and (min-width: 768px) and (max-width: 860px) {
+/* about me*/
+.flex-item{ 
+    max-width: 105px;
+}
+}
 
 /* large screen */
 
@@ -545,6 +562,13 @@ min-width: 240px;
 /* carousel */
 .carousel-cell{
 width: 31%;
+}
+/*about me section*/
+.profile{
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 8%;
 }
 }
 
@@ -559,5 +583,13 @@ width: 31%;
 .jumbotron-container{
     max-width: 700px;
     bottom: 25vh;
+}
+/* about me*/
+.flex-container{
+padding-right: 15px;
+padding-left: 15px;
+}
+.flex-item{
+max-width: 137px;
 }
 }

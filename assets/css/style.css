@@ -430,7 +430,9 @@ Change to button colours and position
 /* end testimonials */
 
 /* Areas we cover section */
-
+.container-list{
+    padding: 0px;
+}
 .col-map{
     padding-left: 0px;
     padding-right: 0px;
@@ -440,6 +442,9 @@ Change to button colours and position
     height: 100%;
     min-height: 50vh;
     background-color: #f2f6f9;
+}
+.CDB-Embed-tab {
+    padding: 0px;
 }
 /* end area we cover section*/
 
@@ -498,6 +503,14 @@ footer{
 .price-box{
 flex: 0 0 31%;
 max-width: 31%;
+}
+/* Area we cover */
+
+/*https://www.w3schools.com/cssref/css3_pr_columns.asp*/
+.area-list{
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
 }
 }
 

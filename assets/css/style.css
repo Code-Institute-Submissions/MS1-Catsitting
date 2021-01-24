@@ -423,6 +423,10 @@ Change to button colours and position
     right: -40px;
     top: 55px;
 }
+/* carousel dots */
+.flickity-page-dots {
+    position: initial;
+}
 /* end testimonials */
 
 /* Areas we cover section */

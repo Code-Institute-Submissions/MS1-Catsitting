@@ -23,6 +23,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif;
 }
 
+li {
+padding-left: 8px;
+}
 /* Background colours */
 
 .bg--h{
@@ -490,6 +493,13 @@ footer{
 .ft-left{
     margin-bottom: 15px;
 }
+.ft-left p{
+    line-height: 1.8;
+}
+.ft-left i{
+    padding-right: 8px;
+    font-size: 18px;
+}
 .ft-right{
     margin-bottom: 10px;
 }
@@ -497,8 +507,8 @@ footer{
     font-weight: 500;
 }
 .sm-icons{
-    font-size: 25px;
-    letter-spacing: 3px;
+    font-size: 28px;
+    letter-spacing: 4px;
     padding: 0px;
 }
 /*end footer */
@@ -583,6 +593,9 @@ min-width: 240px;
     text-align: left;
     padding-left: 3%;
     margin-bottom: 10px;
+}
+.ft-left h6{
+    text-align: left;
 }
 .ft-right{
     display: flex;

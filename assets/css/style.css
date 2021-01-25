@@ -458,13 +458,15 @@ Change to button colours and position
 
 /* Contact us section */
 
-.contdetails{
-    padding-right: 25px;
-    padding-left: 25px;
+.contdetails{  
+    padding-top: 15px;
     padding-bottom: 25px;
 }
+.form-container{
+padding-bottom: 20px;
+padding-top: 8px;
+}
 form{
-    width: 95%;
     margin: 0 auto;
     /*padding-top: 50px;*/
 }
@@ -566,7 +568,13 @@ min-width: 240px;
 .portrait{
     min-height: 100%;
 }
-
+/* Contact us */
+.contdetails{
+width: 80%;
+}
+form{
+width: 80%;
+}
 /* footer */
 .ft-left{
     text-align: left;

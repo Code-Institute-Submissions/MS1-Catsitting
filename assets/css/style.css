@@ -655,7 +655,7 @@ width: 90%;
 /* hero image */
 .hero-background{
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
+    background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
    }
 .jumbotron-container{
     max-width: 700px;

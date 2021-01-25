@@ -477,7 +477,6 @@ padding-top: 8px;
 }
 form{
     margin: 0 auto;
-    /*padding-top: 50px;*/
 }
 /* end contact us section*/
 
@@ -564,6 +563,7 @@ li{
 .price-container{
 justify-content: space-around;
 height: 100%;
+max-width: 500px;
 }
 .price-box{
 flex: 0 0 240px;
@@ -577,13 +577,7 @@ min-width: 240px;
 .portrait{
     min-height: 100%;
 }
-/* Contact us */
-.contdetails{
-width: 80%;
-}
-form{
-width: 80%;
-}
+
 /* footer */
 .ft-left{
     text-align: left;
@@ -622,6 +616,13 @@ width: 31%;
     padding-right: 8%;
     /*padding-bottom: 8%;*/
 }
+/* Contact us */
+.contdetails{
+width: 90%;
+}
+.form-container{
+width: 90%;
+}
 }
 
 /*extra large screen*/
@@ -643,5 +644,13 @@ padding-left: 15px;
 }
 .flex-item{
 max-width: 137px;
+}
+/* Contact us */
+
+.contdetails{
+margin-left: 10%;
+}
+.form-container{
+margin-right: 10%;
 }
 }

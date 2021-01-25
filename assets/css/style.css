@@ -81,9 +81,7 @@ padding-left: 8px;
 b-white{
 border-color: #faf9f9;
 }
-.b{
-border: 1px solid red;
-}
+
 
 /*Section sizing */
 
@@ -96,7 +94,7 @@ border: 1px solid red;
 .anchors{
   display: block;
   position: absolute;
-  top: -77px; 
+  top: -84px; 
   z-index: 5;
   visibility: hidden;
 }
@@ -107,7 +105,7 @@ border: 1px solid red;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 .section-divider{
     width: 80px;
@@ -115,7 +113,7 @@ border: 1px solid red;
     margin-bottom: 30px;
 }
 .bottom-padding{
-    padding-bottom: 28px;
+    padding-bottom: 40px;
 }
 
 /* Background image common feature */
@@ -133,7 +131,7 @@ border: 1px solid red;
 /* Nav bar */
 
 .navbar{
-    height: 78px;
+    height: 85px;
     align-items: stretch;
 }
 
@@ -182,7 +180,7 @@ a.navbar-brand{
     height: 100vh;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
     background-position-x: 70%;
-    background-position-y: center;
+    background-position-y: 20%;
 }
 
 .jumbotron-container{
@@ -475,7 +473,7 @@ padding-left: 10px;
     font-size: 22px;
 }
 .form-container{
-padding-bottom: 20px;
+/*padding-bottom: 20px;*/
 padding-top: 8px;
 }
 form{
@@ -493,15 +491,17 @@ footer{
 .ft-left{
     margin-bottom: 15px;
 }
-.ft-left p{
+.ft-left p {
     line-height: 1.8;
 }
+
 .ft-left i{
     padding-right: 8px;
     font-size: 18px;
 }
+
 .ft-right{
-    margin-bottom: 10px;
+    padding-bottom: 25px;
 }
 .footer-headings{
     font-weight: 500;
@@ -566,9 +566,9 @@ li{
 .navbar-collapse{
     padding-right: 15px;
 }
-#navbarNavDropdown{
+/*#navbarNavDropdown{
     align-items: flex-end;
-}
+}*/
 /* service section */
 .price-container{
 justify-content: space-around;

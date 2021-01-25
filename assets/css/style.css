@@ -232,9 +232,10 @@ a.navbar-brand{
 .serv-list{
     display: flex;
     justify-content: center;
+    padding-top: 8px;
 }
 .list-content{
-    display: flex;
+    padding-bottom: 12px;
 }
 .serv-list li span{
     padding-right: 5px;
@@ -243,7 +244,7 @@ a.navbar-brand{
 .price-container{
     justify-content: space-around;
     align-content: space-around;
-    padding: 0px 15px;
+    padding: 0px 15px 12px 15px;
 }
 .price-box{
     font-family: "Poppins", sans-serif;

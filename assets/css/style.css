@@ -462,6 +462,15 @@ Change to button colours and position
     padding-top: 15px;
     padding-bottom: 25px;
 }
+.contdetails li{
+padding-left: 10px;
+}
+.cont-i{
+    font-size: 18px;
+}
+.social-media-i{
+    font-size: 22px;
+}
 .form-container{
 padding-bottom: 20px;
 padding-top: 8px;

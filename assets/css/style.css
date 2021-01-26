@@ -381,12 +381,20 @@ a.navbar-brand{
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
 }
-
 .testimonial-text{
     text-align: justify;
     text-justify: inter-word;
+    padding-top: 10px;
 }
-
+.testimonial-text i{
+    font-size: 60%;
+}
+.fa-quote-left{
+    padding-right: 3px;
+}
+.fa-quote-right{
+    padding-left: 3px;
+}
 /* smaller, dark, rounded square */
 /*
 https://flickity.metafizzy.co/style.html
@@ -421,7 +429,7 @@ Change to button colours and position
 /* carousel dots */
 .flickity-page-dots {
     position: initial;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 /* end testimonials */
 

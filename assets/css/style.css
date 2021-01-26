@@ -102,7 +102,7 @@ padding-left: 8px;
     margin-bottom: 30px;
 }
 .bottom-padding{
-    padding-bottom: 40px;
+    padding-bottom: 45px;
 }
 
 /* Background image common feature */
@@ -287,7 +287,7 @@ a.navbar-brand{
     justify-content: space-evenly;
     align-content: space-evenly;
     margin: 0px 0px 10px 0px;
-    padding: 0px 0px 28px 0px;
+    /*padding: 0px 0px 28px 0px;*/
 }
 .flex-item{
     flex: 0 0 30%;
@@ -366,12 +366,13 @@ a.navbar-brand{
 
 .img {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 115px;
+    height: 115px;
     background-position-x: center;
     background-position-y: center;
     margin: 0 auto;
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
+    margin-bottom: 25px;
     border-radius: 50%;
     -webkit-border-radius: 50%;	
     -moz-border-radius: 50%;

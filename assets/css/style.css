@@ -512,6 +512,9 @@ footer{
 .footer-headings{
     font-weight: 500;
 }
+footer a:hover{
+color: rgba(255, 255, 255, 0.5);
+}
 .sm-icons{
     font-size: 28px;
     letter-spacing: 4px;

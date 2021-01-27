@@ -23,7 +23,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
 }
-
+/*.btn:hover{
+background-color: #187b4a;
+background-color: #15693f;
+background-color: #115835;
+color: inherit;
+}*/
 li {
 padding-left: 8px;
 }
@@ -33,11 +38,11 @@ padding-left: 8px;
 .bg--dark{
     background-color: #262221;
 }
-
+/*
 .bg--brown{
     background-color: #986D32;
 }
-
+*/
 .bg--beige{
     background-color: #BFB6AE;
 }
@@ -513,7 +518,7 @@ footer{
     font-weight: 500;
 }
 footer a:hover{
-color: rgba(255, 255, 255, 0.5);
+color: #f8f7f6;
 }
 .sm-icons{
     font-size: 28px;
@@ -523,7 +528,16 @@ color: rgba(255, 255, 255, 0.5);
 }
 /*end footer */
 
-
+/* hover effect */
+/*from Rosie Boostrap project - http://ianlunn.github.io/Hover/
+https://github.com/IanLunn/Hover/blob/master/css/hover.css
+*/
+.hvr-fade:hover{
+  background: #b06a23;
+}
+.hvr-icon-grow{
+  vertical-align: initial;
+}
 /* Media queries */
 
 /* x small to medium screen*/

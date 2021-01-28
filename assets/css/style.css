@@ -133,6 +133,7 @@ button.navbar-toggler {
 }
            
 .navbar a{
+    font-family: "Poppins", sans-serif;
     color: inherit;
     text-decoration: none;
     font-size: 95%;
@@ -565,6 +566,7 @@ max-width: 31%;
 /* medium screen */
 
 @media only screen and (min-width: 768px) {
+
 /* list */
 li{
     line-height: 2;
@@ -616,6 +618,38 @@ min-width: 240px;
 /* about me*/
 .credentials-item{ 
     max-width: 105px;
+}
+}
+
+/* New collapsible breakpoint */
+
+@media only screen and (min-width: 900px){
+.navbar-expand-p {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.navbar-expand-p .navbar-toggler {
+    display: none;
+}
+.navbar-expand-p .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}
+.navbar-collapse{
+    padding-right: 15px;
+}
+.navbar-expand-p .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.navbar-expand-p .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
 }
 }
 

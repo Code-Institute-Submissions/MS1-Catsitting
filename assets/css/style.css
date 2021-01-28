@@ -125,7 +125,9 @@ button.navbar-toggler {
   border: 0px;
   padding: 0px 15px 0px 15px;
 }
-
+button.navbar-toggler:focus {
+    outline: 1px dotted;
+}
 .toggle-btn{
     font-size:28px;
     padding: 0px;

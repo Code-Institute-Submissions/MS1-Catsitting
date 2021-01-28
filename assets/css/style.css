@@ -72,7 +72,6 @@ padding-left: 8px;
 }
 .container{
     margin: 0 auto;
-    padding: 0;
 }
 
 /*anchors*/
@@ -267,7 +266,6 @@ a.navbar-brand{
 
 /*About me section*/
 
-
 .about-container{
     margin: 0 auto;
     padding-bottom: 28px;
@@ -313,7 +311,7 @@ a.navbar-brand{
     background-image: url("../images/portrait1.jpg");
     background-position-x: left;
     background-position-y: top;
-    min-height: min(50vw,60vh); /* x-small & small screen only*/
+    min-height: min(50vw,67vh); /* x-small & small screen only*/
 }
 /* end of about me section */
 
@@ -436,6 +434,7 @@ Change to button colours and position
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
 }
 .area-container p{
     text-align: center;
@@ -452,7 +451,7 @@ Change to button colours and position
     padding-right: 0px;
 }
 .map-frame {
-    min-height: min(50vw,60vh);
+    min-height: min(75vw,40vh);
     height: 100%;
     background-color: #f2f6f9;
 }

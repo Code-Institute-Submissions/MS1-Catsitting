@@ -23,41 +23,31 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
 }
-/*.btn:hover{
-background-color: #187b4a;
-background-color: #15693f;
-background-color: #115835;
-color: inherit;
-}*/
+
+/* list bullet */ 
 li {
 padding-left: 8px;
 }
-/* Background colours */
 
+/* Background colours */
 
 .bg--dark{
     background-color: #262221;
 }
-/*
-.bg--brown{
-    background-color: #986D32;
-}
-*/
+
 .bg--beige{
     background-color: #BFB6AE;
 }
+
 .bg--brown{  
-    /*background-color:#D99E6A;*/
-    /* background-color:#D99E6A;*/
     background-color: #b06a23
 }
 
 .bg--green{
-    /*background-color: #71bf75;*/
     background-color: #23B06A
 }
+
 .bg--white{
-    /*background-color:#faf9f9;*/
     background-color: #f8f7f6;
 }
 
@@ -68,12 +58,10 @@ padding-left: 8px;
 }
 
 .txt--brown{
-    /*color: #986D32;*/
     color: #b06a23;
 }
 
 .txt--white{
-    /*color: #fffefd;*/
     color: #f8f7f6;
 }
 
@@ -116,7 +104,7 @@ padding-left: 8px;
 
 /* Background image common feature */
 
-.bg-img{
+.bg-img-commonfeatures{
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -220,21 +208,21 @@ a.navbar-brand{
 
 /* Services section */
 
-.p-intro{
+.service-intro-p{
     text-align: center;
 }
-.p-intro span{
+.service-intro-p span{
     font-weight: 700;
 }
-.serv-list{
+.service-row{
     display: flex;
     justify-content: center;
     padding-top: 8px;
 }
-.list-content{
+.service-container{
     padding-bottom: 12px;
 }
-.serv-list li span{
+.service-container li span{
     padding-right: 5px;
 }
 .price-container{
@@ -242,7 +230,7 @@ a.navbar-brand{
     align-content: space-around;
     padding: 0px 15px 12px 15px;
 }
-.price-box{
+.price-item{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     border-radius: 5px;
@@ -277,25 +265,20 @@ a.navbar-brand{
 /*About me section*/
 
 
-.cont-aboutme{
+.about-container{
     margin: 0 auto;
     padding-bottom: 28px;
 }
-.profile{
-    /*padding-top: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;*/
+.personal-intro-p{
     padding-bottom: 15px;
     text-align: justify;
 }
-.flex-container{
+.credentials-container{
     justify-content: center;
-    /*align-content: center;*/
     margin: 0px 0px 10px 0px;
 }
 
-.flex-item{
+.credentials-item{
     flex: 0 0 30%;
     max-width: 120px;
     padding: 0px;
@@ -303,7 +286,7 @@ a.navbar-brand{
 }
 
 /*https://www.w3schools.com/howto/howto_css_aspect_ratio.asp*/
-.box-size{
+.credentials-box{
     width: 100%;
     padding-top: 100%;
     background-color: rgba(248, 247, 246, 0.5);
@@ -312,22 +295,21 @@ a.navbar-brand{
 }
 
 /*https://medium.com/front-end-weekly/absolute-centering-in-css-ea3a9d0ad72e*/
-.text{
+.credentials-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
 }
-.text h6{
+.credentials-text h6{
     font-weight: 600;
 }
 
-.portrait{
+.bg-img-about{
     background-image: url("../images/portrait1.jpg");
     background-position-x: left;
     background-position-y: top;
-    /*min-height: 65vw;*/
     min-height: min(50vw,60vh); /* x-small & small screen only*/
 }
 /* end of about me section */
@@ -346,9 +328,7 @@ a.navbar-brand{
 }
 
 .carousel {
-   /*background: white;*/
    height: 100%;
-   /*margin: 0 60px;*/
    margin: 0 30px;
 }
 
@@ -358,32 +338,32 @@ a.navbar-brand{
   padding: 5px;
 }
 
-.testimonial1{
+.img-testimonial1{
     background-image: url("../images/testimonial1.jpg");
     background-position-y: 30%;
 }
 
-.testimonial2{
+.img-testimonial2{
     background-image: url("../images/testimonial2.jpg");
     background-position-y: 60%;
 }
 
-.testimonial3{
+.img-testimonial3{
     background-image: url("../images/testimonial3.jpg");
     background-position-x: 20%;
 }
 
-.testimonial4{
+.img-testimonial4{
     background-image: url("../images/testimonial4.jpg");
     background-position-y: 80%;
 }
 
-.testimonial5{
+.img-testimonial5{
     background-image: url("../images/testimonial5.jpg");
     background-position-x: center;
 }
 
-.img {
+.img-block {
     display: block;
     width: 115px;
     height: 115px;
@@ -464,7 +444,7 @@ Change to button colours and position
 .area-list li{
     list-style-position: inside;
 }
-.col-map{
+.map-column{
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -477,14 +457,14 @@ Change to button colours and position
 
 /* Contact us section */
 
-.contdetails{  
+.contact-details-container{  
     padding-top: 15px;
     padding-bottom: 25px;
 }
-.contdetails li{
+.contact-details-container li{
 padding-left: 10px;
 }
-.cont-i{
+.contact-details-i{
     font-size: 18px;
 }
 .social-media-i{
@@ -529,7 +509,7 @@ footer{
 footer a:hover{
 color: #f8f7f6;
 }
-.sm-icons{
+.ft-social-icons{
     font-size: 28px;
     letter-spacing: 4px;
     padding: 0px;
@@ -551,7 +531,7 @@ https://github.com/IanLunn/Hover/blob/master/css/hover.css
 
 /* x small to medium screen*/
 /*https://stackoverflow.com/questions/23897946/how-do-i-combine-two-media-queries/23898019*/
-@media only screen and (min-width: 410px) /*and (max-width: 769px), only screen and (min-width: 820px)*/{
+@media only screen and (min-width: 410px){
 /* Area we cover */
 /*https://www.w3schools.com/cssref/css3_pr_columns.asp
 https://www.w3schools.com/cssref/css3_pr_column-gap.asp
@@ -561,8 +541,8 @@ https://www.w3schools.com/cssref/css3_pr_column-gap.asp
     -moz-column-count: 2;
     -webkit-column-count: 2;
 }
-
 }
+
 /* small size to large screen */
 
 @media only screen and (min-width: 577px) and (max-width: 991px) {
@@ -576,18 +556,15 @@ https://www.w3schools.com/cssref/css3_pr_column-gap.asp
 
 @media only screen and (min-width: 577px) and (max-width: 767px) {
 /*services*/
-.price-box{
+.price-item{
 flex: 0 0 31%;
 max-width: 31%;
 }
-
 }
 
 /* medium screen */
 
 @media only screen and (min-width: 768px) {
-/*about me*/
-
 /* list */
 li{
     line-height: 2;
@@ -596,16 +573,13 @@ li{
 .navbar-collapse{
     padding-right: 15px;
 }
-/*#navbarNavDropdown{
-    align-items: flex-end;
-}*/
 /* service section */
 .price-container{
 justify-content: space-around;
 height: 100%;
 max-width: 500px;
 }
-.price-box{
+.price-item{
 flex: 0 0 240px;
 max-width: 240px;
 min-width: 240px;
@@ -614,10 +588,9 @@ min-width: 240px;
 .md-reverse{
     flex-direction: row-reverse;
 }
-.portrait{
+.bg-img-about{
     min-height: auto;
 }
-
 /* footer */
 .ft-left{
     text-align: left;
@@ -636,11 +609,12 @@ min-width: 240px;
     flex-basis: initial;
 }
 }
+
 /* medium to large screen */
 
 @media only screen and (min-width: 768px) and (max-width: 860px) {
 /* about me*/
-.flex-item{ 
+.credentials-item{ 
     max-width: 105px;
 }
 }
@@ -662,17 +636,16 @@ width: 31%;
     right: -15px;
 }
 /*about me section*/
-.cont-aboutme{
+.about-container{
     padding-bottom: 48px;
 }
-.profile{
+.personal-intro-p{
     padding-top: 2%;
     padding-left: 8%;
     padding-right: 8%;
-    /*padding-bottom: 8%;*/
 }
 /* Contact us */
-.contdetails{
+.contact-details-container{
 width: 90%;
 }
 .form-container{
@@ -693,14 +666,11 @@ width: 90%;
     top: 25%;
 }
 /* about me*/
-
-.flex-item{
+.credentials-item{
 max-width: 137px;
 }
-
 /* Contact us */
-
-.contdetails{
+.contact-details-container{
 margin-left: 10%;
 }
 .form-container{

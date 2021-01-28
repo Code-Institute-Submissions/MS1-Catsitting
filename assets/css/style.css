@@ -272,33 +272,30 @@ a.navbar-brand{
 
 /*About me section*/
 
-.portrait{
-    background-image: url("../images/portrait1.jpg");
-    background-position-x: left;
-    background-position-y: top;
-    /*min-height: 65vw;*/
-    min-height: min(65vw,60vh);
-}
 
+.cont-aboutme{
+    margin: 0 auto;
+    padding-bottom: 28px;
+}
 .profile{
-    padding-top: 8px;
+    /*padding-top: 8px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;*/
+    padding-bottom: 15px;
     text-align: justify;
-    text-justify: inter-word;
 }
 .flex-container{
-    justify-content: space-evenly;
-    align-content: space-evenly;
+    justify-content: center;
+    /*align-content: center;*/
     margin: 0px 0px 10px 0px;
-    /*padding: 0px 0px 28px 0px;*/
 }
+
 .flex-item{
     flex: 0 0 30%;
     max-width: 120px;
     padding: 0px;
-    margin: 0px;
+    margin: 0 1.5% 0% 1.5%;
 }
 
 /*https://www.w3schools.com/howto/howto_css_aspect_ratio.asp*/
@@ -320,6 +317,14 @@ a.navbar-brand{
 }
 .text h6{
     font-weight: 600;
+}
+
+.portrait{
+    background-image: url("../images/portrait1.jpg");
+    background-position-x: left;
+    background-position-y: top;
+    /*min-height: 65vw;*/
+    min-height: min(50vw,60vh); /* x-small & small screen only*/
 }
 /* end of about me section */
 
@@ -582,6 +587,8 @@ max-width: 31%;
 /* medium screen */
 
 @media only screen and (min-width: 768px) {
+/*about me*/
+
 /* list */
 li{
     line-height: 2;
@@ -609,7 +616,7 @@ min-width: 240px;
     flex-direction: row-reverse;
 }
 .portrait{
-    min-height: 100%;
+    min-height: auto;
 }
 
 /* footer */

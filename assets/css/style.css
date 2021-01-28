@@ -503,7 +503,7 @@ footer{
 }
 
 .ft-right{
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 .footer-headings{
     font-weight: 500;
@@ -516,6 +516,11 @@ color: #f8f7f6;
     letter-spacing: 4px;
     padding: 0px;
     margin-bottom:0px;
+}
+.copyright-p{
+    font-size: 80%;
+    padding-top: 15px;
+    margin-bottom: 0px;
 }
 /*end footer */
 

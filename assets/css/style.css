@@ -82,6 +82,10 @@ padding-left: 8px;
 .section-layout {
     position: relative;
 }
+.container{
+    margin: 0 auto;
+    padding: 0;
+}
 
 /*anchors*/
 /*https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors/*/
@@ -444,6 +448,7 @@ Change to button colours and position
 /* end testimonials */
 
 /* Areas we cover section */
+
 .container-list{
     display: flex;
     flex-direction: column;
@@ -453,7 +458,7 @@ Change to button colours and position
     text-align: center;
 }
 .area-list{
-   padding-left: 0px;
+    padding: 0px;
 }
 .area-list li{
     list-style-position: inside;
@@ -462,7 +467,6 @@ Change to button colours and position
     padding-left: 0px;
     padding-right: 0px;
 }
-
 .map-frame {
     min-height: 55vh;
     height: 100%;
@@ -486,7 +490,6 @@ padding-left: 10px;
     font-size: 22px;
 }
 .form-container{
-/*padding-bottom: 20px;*/
 padding-top: 8px;
 }
 form{
@@ -547,11 +550,8 @@ https://github.com/IanLunn/Hover/blob/master/css/hover.css
 
 /* x small to medium screen*/
 /*https://stackoverflow.com/questions/23897946/how-do-i-combine-two-media-queries/23898019*/
-@media only screen and (min-width: 450px) and (max-width: 767px), only screen and (min-width: 1000px){
+@media only screen and (min-width: 410px) /*and (max-width: 769px), only screen and (min-width: 820px)*/{
 /* Area we cover */
-.container-list{
-    max-width: 100%;
-}
 /*https://www.w3schools.com/cssref/css3_pr_columns.asp
 https://www.w3schools.com/cssref/css3_pr_column-gap.asp
 */
@@ -559,10 +559,8 @@ https://www.w3schools.com/cssref/css3_pr_column-gap.asp
     column-count: 2;
     -moz-column-count: 2;
     -webkit-column-count: 2;
-    column-gap: 20px;
-    -moz-column-gap: 20px;
-    -webkit-column-gap: 20px;
 }
+
 }
 /* small size to large screen */
 
@@ -663,6 +661,9 @@ width: 31%;
     right: -15px;
 }
 /*about me section*/
+.cont-aboutme{
+    padding-bottom: 48px;
+}
 .profile{
     padding-top: 2%;
     padding-left: 8%;
@@ -691,13 +692,11 @@ width: 90%;
     top: 25%;
 }
 /* about me*/
-.flex-container{
-padding-right: 15px;
-padding-left: 15px;
-}
+
 .flex-item{
 max-width: 137px;
 }
+
 /* Contact us */
 
 .contdetails{

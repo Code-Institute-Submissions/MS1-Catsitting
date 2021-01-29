@@ -91,7 +91,7 @@ padding-left: 8px;
     text-transform: uppercase;
     font-weight: 500;
     /*padding-top: 40px;*/
-    padding-top: clamp(43px, 4.5%, 60px)
+    padding-top: clamp(43px, 4%, 60px)
 }
 .section-divider{
     width: 80px;
@@ -685,7 +685,8 @@ width: 31%;
 }
 /*about me section*/
 .about-container{
-    padding-bottom: 48px;
+    /*padding-bottom: clamp(45px, 4.5%, 60px);*/
+    padding: clamp(2px, 3%, 20px) 15px clamp(48px, 7%, 60px) 15px;
 }
 .personal-intro-p{
     padding-top: 2%;
@@ -714,8 +715,18 @@ width: 90%;
     top: 25%;
 }
 /* about me*/
+.personal-intro-p{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 4.5%;
+}
 .credentials-item{
-max-width: 137px;
+max-width: 130px;
+}
+/* testimonials */
+.img-block{
+width: 130px;
+height: 130px;
 }
 /* Contact us */
 .contact-details-container{

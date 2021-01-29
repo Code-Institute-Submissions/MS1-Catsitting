@@ -444,7 +444,8 @@ Change to button colours and position
     margin-bottom: 0px;
 }
 .area-list{
-    padding: 16px 0px 0px 0px;
+    padding: 16px 0px 16px 0px;
+    margin-bottom: 0;
 }
 .area-list li{
     list-style-position: inside;
@@ -694,6 +695,13 @@ width: 31%;
     padding-left: 8%;
     padding-right: 8%;
 }
+/* Area we cover */
+.area-container p{
+    padding-top: 2%;
+}
+.area-list{
+    padding: 5% 0 3.5%;
+}
 /* Contact us */
 .contact-details-container{
 width: 90%;
@@ -716,7 +724,7 @@ width: 90%;
     top: 25%;
 }
 /* about me*/
-.personal-intro-p{
+.personal-intro-p {
     padding-left: 12%;
     padding-right: 12%;
     padding-bottom: 4.5%;
@@ -729,6 +737,7 @@ max-width: 130px;
 width: 130px;
 height: 130px;
 }
+
 /* Contact us */
 .contact-details-container{
 margin-left: 10%;

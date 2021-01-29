@@ -597,11 +597,12 @@ li{
 justify-content: space-around;
 height: 100%;
 max-width: 500px;
+margin: 0 auto;
 }
 .price-item{
-flex: 0 0 240px;
+flex: 0 0 33%;
 max-width: 240px;
-min-width: 240px;
+min-width: 220px;
 }
 /*about me section*/
 .md-reverse{
@@ -672,6 +673,16 @@ min-width: 240px;
 /* large screen */
 
 @media only screen and (min-width: 992px) {
+/*services*/
+.service-intro-p{
+    margin-bottom: 0px;
+    padding-bottom: 2%;
+}
+.price-item{
+flex: 0 0 240px;
+/*max-width: 240px;
+min-width: 240px;*/
+}
 /* carousel */
 .carousel {
    margin: 0 max(5%, 60px);

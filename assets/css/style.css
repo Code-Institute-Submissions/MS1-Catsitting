@@ -90,7 +90,8 @@ padding-left: 8px;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
+    padding-top: clamp(43px, 4.5%, 60px)
 }
 .section-divider{
     width: 80px;
@@ -98,7 +99,8 @@ padding-left: 8px;
     margin-bottom: 30px;
 }
 .bottom-padding{
-    padding-bottom: 45px;
+    /*padding-bottom: 45px;*/
+    padding-bottom: clamp(45px, 4.5%, 60px);
 }
 
 /* Background image common feature */
@@ -463,6 +465,13 @@ Change to button colours and position
     padding-top: 15px;
     padding-bottom: 25px;
 }
+.contact-details-container a{
+    display: block;
+}
+.contact-details-container a:hover{
+    color: #262221;
+    text-decoration: none;
+}
 .contact-details-container li{
 padding-left: 10px;
 }
@@ -534,6 +543,7 @@ https://github.com/IanLunn/Hover/blob/master/css/hover.css
 .hvr-icon-grow{
   vertical-align: initial;
 }
+
 /* Media queries */
 
 /* x small to medium screen*/

@@ -582,7 +582,6 @@ max-width: 31%;
 /* medium screen */
 
 @media only screen and (min-width: 768px) {
-
 /* list */
 li{
     line-height: 2;
@@ -646,7 +645,6 @@ min-width: 240px;
     -ms-flex-pack: start;
     justify-content: flex-start;
 }
-
 .navbar-expand-p .navbar-toggler {
     display: none;
 }
@@ -674,7 +672,7 @@ min-width: 240px;
 @media only screen and (min-width: 992px) {
 /* carousel */
 .carousel {
-   margin: 0 60px;
+   margin: 0 max(5%, 60px);
 }
 .carousel-cell{
 width: 31%;

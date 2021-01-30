@@ -1,4 +1,4 @@
-# **Katsit London - Cat sitting agency in London **
+# **Katsit London - Cat sitting agency in London**
 
 Based on a fictional business offering cat sitting services, this website was built for educational purposes as part of the Code Institute's Full Stack Development course. This fully responsive and user centric website was designed using the principles of User Experience Design and developed using HTLM, CSS and bootstrap framework. 
 
@@ -10,16 +10,16 @@ Based on a fictional business offering cat sitting services, this website was bu
 
 
 
-Katsit London is a cat sitting company set up by a former veterinary nurse, who has extensive knowledge and experience in caring for animals with an already formidable reputation for cat-sitting.
+Katsit London is a small cat sitting company set up by a previous veterinary nurse, who has extensive knowledge and experience in caring for animals. The business has already a formidable reputation, attracting new customers from recommendations and local pages on social media.
  
-Katsit London is fast expanding and has recruited additional cat sitters from a trusted network of animal carers to face an increasing demand. The company now needs a responsive website to create an online presence and to advertise their services. 
+Katsit London is fast expanding  and needs a simple, yet comprehensive and responsive website to create an online presence and advertise their services. 
  
 ### <ins>Business goals</ins>
  
 The company needs a fully responsive and user centric website in order to:
 - To create an online presence
 - To advertise their services and pricing
-- To raise company’s brand awareness and credentials
+- To raise business' brand awareness and credentials
 - To generate new leads and expand their customer base.
 - To grow their on-line community.
  
@@ -33,7 +33,7 @@ Cat owners can feel quite anxious at the idea of leaving their pets at home whil
 - To check whether the prices are affordable.
 - To seek reassurance that the company is cat friendly.
 - To check whether the company operates where they live.
-- To reach the company for further queries and/or to arrange a meet-up. 
+- To reach the company for further queries and/or to arrange a meeting. 
 
 # Scope
 
@@ -45,7 +45,7 @@ Cat owners can feel quite anxious at the idea of leaving their pets at home whil
 - I want a responsive website so that I can view the website across different devices. 
 - I want to be able to easily navigate across the website so that I can quickly find information.
 - I want to read about the company's services so that I can assess whether they fit my needs   
-- I want to look at prices so that I can check that I can afford services on offer. 
+- I want to look at prices so that I can check wether I can afford their services. 
  
 **As a returning visitor**
 - I want to read customer testimonials so that I can assess if the company is reliable and professional.
@@ -64,7 +64,8 @@ As a business owner:
 - I want a user-friendly responsive website so that I can create an online presence.
 - I want to provide clear and concise information so that I can advertise services and pricing.
 - I want a call for action so that I can generate leads.
-- I want to feature my profile so that I can raise my company's brand awareness and credentials.
+- I want to feature a logo and a tagline so that I can raise my business brand awareness.
+- I want to feature my profile so that I can raise my business credentials.
 - I want to encourage users to contact us so that we can answer queries promptly and arrange meet-ups.
 - I want to provide links to our social media accounts so that I can grow my online community.
 
@@ -81,19 +82,21 @@ The website will resize according to the device used for better visibility and u
 
 **Collapsible navigation menu:** 
 
-Each webpage will feature a navigation menu on top of the page to allow users to easily navigate across the website. The navigation will be collapsible on mobile devices for better visibility and user experience.
+The website will feature a fixed navigation menu on top of the page to allow users to easily navigate back and forth. The navigation will be collapsible on mobile devices for better visibility and automatically update according to the user's position on the page for better user experience.
 
 ```
 - As a first time visitor, I want a responsive website so that I can view the website across different devices. 
 - As a first time visitor, I want to be able to easily navigate across the website so that I can quickly find the information I need. 
+
 - As a business owner, I want a user-friendly responsive website so that I can create an online presence.
 ```
 
 **Hero banner section:** 
 
-This page will first feature a hero image with a tagline and a call for action. 
+This section will feature a hero image with a tagline and a call for action. 
 
 ```
+- As a business owner I want to feature a logo and a tagline so that I can raise my business brand awareness.
 - As a business owner, I want a call for action so that I can generate leads.
 ```
 
@@ -103,7 +106,7 @@ This section will feature a description of what is included in the services as w
 
 ```
 - As a first time user, I want to read about the company's services so that I can assess whether they fit my needs   
-- As a first time user, I want to look at prices so that I can check that I can afford services on offer.
+- As a first time user, I want to look at prices so that I can check wether I can afford their services. 
 
 - As a business owner, I want to provide clear and concise information so that I can advertise services and pricing.
 - As a business owner, I want a call for action so that I can generate leads.
@@ -111,7 +114,7 @@ This section will feature a description of what is included in the services as w
 
 **About us section:** 
  
- This page will feature the profile, experience and relevant qualification of the business owner to provide users with information company’s credentials. 
+ This section will feature the profile, a photo and the relevant qualification of the business owner to provide users with information about the business' credentials. 
 
 ```
 - As a returning visitor, I want to read more about the company so that I can assess its credentials, professionalism and cat friendliness.  
@@ -120,6 +123,8 @@ This section will feature a description of what is included in the services as w
 
 **Testimonials section:**
 
+This section will feature quotes from customers, including full names and photos to add further credibility. The testimonials will be presented in a responsive carousel for better user experience.
+
 ```
 - As a returning visitor, I want to read customer testimonials so that I can assess if the company is reliable and professional.
 
@@ -127,7 +132,7 @@ This section will feature a description of what is included in the services as w
 
 **Areas we cover section:**
 
-This section will list the areas the business covers and will feature a map to help users to visualise the locations where the business operates.
+This section will list the areas the business covers and will feature an embedded map to help users to visualise  where the business operates. Users can use the search tool on the map to look-up if their post-code is in the area covered by the business.
 
 ```
 - I want to view the areas where the company operates so that I can check that they provide services where I live.
@@ -135,21 +140,24 @@ This section will list the areas the business covers and will feature a map to h
 
 **Contact us section:** 
 
-The contact page will feature a form to allow users to contact the business directly via the website. The form will include an option to select the subject of the message so that users can either make a general query or arrange a meet up.
+The contact page will feature the business' contact details and social media accounts including links opening into new tabs so that users can browse without losing access to the website. This section will also feature a form to allow users to contact the business directly via the website. The form will include an option to select the subject of the message so that users can either make a general query or arrange a meet and greet. 
 
 ```
 - As a returning visitor, I want to access contact options so that I can reach the company for further queries.
 - As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.
+- As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.
+
 - As a business owner, I want to encourage users to contact us so that we can answer queries promptly and arrange meets & greets.
 ```
 
 **Footer:** 
  
- The footer will display contact information and a button opening the contact form page to give users different options to contact the business, as well as icons linking to business’s social media accounts to allow users browsing these into a new tab so that they don’t lose access to the website. 
+ The footer will display contact information  and icons with links to the business’s social media accounts opening onto a new tab, so that users can browse without losing access to the website. 
+
 ```
-- As a returning visitor,  I want to access contact options so that I can reach the company for further queries.
 - As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.
 - As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.
+
 - As a business owner, I want to provide links to our social media accounts so that I can grow my online community.
 ```
 
@@ -174,12 +182,14 @@ You can download the pdf version of the wireframes should the images not display
 
 #### Imagery
 
-The hero image on the homepage - featuring a cat lying next to a home plant - helps to illustrate the purpose of the business. 
+The hero image on the homepage - featuring a cat - has for main objective to illustrate the purpose of the business. 
 The image was sourced from Pexels. 
 
 ![Homepage hero image](assets/images/cat_hero.jpg)
 
-All images on the website are featuring cats and were sourced from Pexels. Please find using the link below the full list of credits. 
+All images on the website are featuring cats and were sourced from Pexels. 
+
+Please find using the link below the full list of credits. 
 
 #### Colour scheme
 
@@ -198,12 +208,12 @@ The following colours from the palette are used across the website and have been
 
 #### Fonts
 
-The website uses Open Sans as primary font, whilst the headings and subheadings uses the secondary font Poppin, which pairs nicely with Open Sans. 
+The website uses Open Sans as primary font, whilst the headings and subheadings uses the secondary font Poppins, which pairs nicely with Open Sans. 
 Both fonts were sourced from Google fonts and were selected for their round edges, which add softness to the website.  
 
 #### Icons
 
-Icons from the Font Awesome library are used across the website to illustrate and hihglight some text and headings. 
+Icons are from the Font Awesome library and used mostly to bring attention to contact details and social media accounts. Icons will also be used to reinforce the services offered. 
 
 #### Styling
 *Explain if you applied a particular style of styling for particular reason - ex using rounded corners because it's more child friendly*
@@ -218,19 +228,25 @@ Icons from the Font Awesome library are used across the website to illustrate an
 
 
 # Technologies used
-*In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.*
 
-*JQuery*
-*The project uses JQuery to simplify DOM manipulation.*
+The following technology were used during the development and testing of the website:
 
-HTML
-CSS
-Bootstrap
+Technology | Usage
+------------ | -------------
+HTML | HTML was used to structure the page 
+CSS | CSS was used to style the different elements on the page.
+[Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)  | Bootstrap library was used to build the layout using the grid system, the navigation and part of the form.
+[Flickity](https://flickity.metafizzy.co/) | Flickity was used to build the responsive carousel in testimonial section.
+[Hover.css](http://ianlunn.github.io/Hover/) | Hover.css library was used for hovering effects on buttons and social media icons.
+[Carto](https://carto.com/) | Carto was used to draw and personalise the embedded map.
+[Google font](https://fonts.google.com/) | Google font API was used for the fonts on the website.
+[Font Awesome](https://fontawesome.com/) | Font awesome library was used for the icons the website. 
+[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) | Google inspect was used to test and fix code and page responsiveness.
+[Responsive viewer](https://www.producthunt.com/posts/responsive-viewer) | This add-on was used to test website responsiveness across different devices.
+[Balsamiq](https://balsamiq.com/wireframes/) | Balsamiq was used to design the wireframe.
+[Ibis Paint](https://ibispaint.com/?lang=en-US) | Ibis Paint app was used to alter the logo and the favicon.
 
-Tools used
-Balsamiq for Wireframe 
-Addobe color for the colour palette
-Google fonts for the fonts 
+
 
 
 # Testing
@@ -272,20 +288,18 @@ Google fonts for the fonts
 
 # Deployment
 
-*This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).*
+There is no difference between the developed and the deployed version. 
 
-*In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:*
 
-*Different values for environment variables (Heroku Config Vars)?*
-*Different configuration files?*
-*Separate git branch?*
-*In addition, if it is not obvious, you should also describe how to run your code locally.*
 
 ### **Project inception**
-*ex This project was developed using Gitpod, committed to git then pushed onto GitHub using the built-in function withing Gitpod.*
-*Updates were committed frequently to git and the project pushed onto GitHub on a regular basis to make sure it was saved properly*
+
+This project was developed using Gitpod, committed to git then pushed onto GitHub using the built-in function within Gitpod.
+Updates were committed frequently to git and the project pushed onto GitHub on a regular basis to make sure it was saved properly.
 
 ### **Deployment on GitHub**
+
+--> deployment on github
 *Explain the process of deploying the project on GitHub from Login to publishing a note*
 *Indicate the branch on which the site was deployed*
 
@@ -297,13 +311,63 @@ Google fonts for the fonts
 ### **Code**
 *Make sure to include code from other sources in the either the html/css files*
 
+Favicon in metadata
+ <!--https://www.w3.org/2005/10/howto-favicon-->
+Navigation bar 
+<!--Scrollspy https://getbootstrap.com/docs/4.5/components/scrollspy/-->
+ <!--Navbar code from bootstrap with following personnalisation with css style applied
+        https://getbootstrap.com/docs/4.0/components/navbar/
+-->
+Nav > toggler
+ <!--solution to style toggler button inspired by stackover flow 'https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color'
+            Personalisation: span removed and apply toggle-btn navbar-toggler-icon to icon
+
+ <!-- Solution for menu to collapse back on click from slack overflow
+https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
+Carouse
+ <!--  https://codepen.io/desandro/pen/zxRYMP
+                  https://flickity.metafizzy.co/options.html#setup
+            -->
+<!--Form-->
+                    <!--Form elements from W3School with customisation of names, IDs and styles-->
+                    <!--Style from CSS bootstrap <div class="form-row"> <div class="form-group col-md-6">-->
+
+/*anchors*/
+/*https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors/*/
+
+/*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/
+/*https://www.w3schools.com/howto/howto_css_hero_image.asp*/
+
+/*Flexible font size --> https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
+
+/*https://www.w3schools.com/howto/howto_css_aspect_ratio.asp*/
+.credentials-box{
+
+/*https://medium.com/front-end-weekly/absolute-centering-in-css-ea3a9d0ad72e*/
+.credentials-text
+
+https://flickity.metafizzy.co/style.html
+https://codepen.io/desandro/pen/zxRYMP
+Change to button colours and position
+
+/* hover effect */
+/*from Rosie Boostrap project - http://ianlunn.github.io/Hover/
+https://github.com/IanLunn/Hover/blob/master/css/hover.css
+*/
+
+/*https://www.w3schools.com/cssref/css3_pr_columns.asp
+https://www.w3schools.com/cssref/css3_pr_column-gap.asp
+
 ### **Content**
-*The text for section Y was copied from the Wikipedia article Z*
+
+The content was created by myself. 
 
 ### **Media**
-*The photos used in this site were obtained from ...*
+
+The photos used in this website were obtained from Pexels and Pixabay .
+list 
+
+
 
 ### **Acknowlegements**
-*I received inspiration for this project from X*
 
-to fellow student Scott, Daisy McGirr and Michelle on how to build a well defined ReadMe

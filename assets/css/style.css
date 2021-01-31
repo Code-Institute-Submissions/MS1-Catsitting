@@ -6,14 +6,14 @@ body {
     position: relative;
 }
 
-/*headings*/
+/*---------------------------------[ HEADINGS ]----------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif;
     text-align: center;
 }
 
-/* Buttons*/
+/*----------------------------------[ BUTTONS ]-----------------------------------*/
 
 .btn-style {
     padding: 10px 20px;
@@ -24,12 +24,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
 }
 
-/* list bullet */ 
+/*---------------------------------[ LIST LI ]-----------------------------------*/
 li {
 padding-left: 8px;
 }
 
-/* Background colours */
+/*----------------------------[ BACKGROUND COLOURS ]----------------------------*/
 
 .bg--dark{
     background-color: #262221;
@@ -40,18 +40,18 @@ padding-left: 8px;
 }
 
 .bg--brown{  
-    background-color: #b06a23
+    background-color: #b06a23;
 }
 
 .bg--green{
-    background-color: #23B06A
+    background-color: #23B06A;
 }
 
 .bg--white{
     background-color: #f8f7f6;
 }
 
-/*Text colors*/
+/*--------------------------------[ TEXT COLOUR]---------------------------------*/
 
 .txt--dark{
     color: #262221;
@@ -65,7 +65,7 @@ padding-left: 8px;
     color: #f8f7f6;
 }
 
-/*Section sizing */
+/*---------------------------[ SECTION / CONTAINER ]------------------------------*/
 
 .section-layout {
     position: relative;
@@ -74,7 +74,8 @@ padding-left: 8px;
     margin: 0 auto;
 }
 
-/*anchors*/
+/*-----------------------------------[ ANCHORS]-----------------------------------*/
+
 /*https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors/*/
 .anchors{
   display: block;
@@ -84,13 +85,12 @@ padding-left: 8px;
   visibility: hidden;
 }
 
-/* Headings & Subheadings formatting*/
+/*---------------------------------[ HEADINGS ]----------------------------------*/
 
 .section-heading{
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
-    /*padding-top: 40px;*/
     padding-top: clamp(43px, 4%, 60px)
 }
 .section-divider{
@@ -99,13 +99,12 @@ padding-left: 8px;
     margin-bottom: 30px;
 }
 .bottom-padding{
-    /*padding-bottom: 45px;*/
     padding-bottom: clamp(45px, 4.5%, 60px);
 }
 
-/* Background image common feature */
+/*----------------------[ BACKGROUND IMAGE FEATURES]-----------------------------*/
 
-.bg-img-commonfeatures{
+.bg-img-features{
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -115,7 +114,7 @@ padding-left: 8px;
     position: relative;
 }
 
-/* Nav bar */
+/*---------------------------------[ NAV BAR]----------------------------------*/
 
 .navbar{
     height: 85px;
@@ -160,11 +159,10 @@ a.navbar-brand{
     font-weight: 700;
     background-color: inherit;
 }
-/* end Navbar */
 
-/* Hero image & jumbotron */
+/*-------------------------[ HERO IMAGE & JUMBOTRON]-----------------------------*/
 
-/*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/
+/*https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 
 .hero-background{
     height: 100vh;
@@ -185,7 +183,7 @@ a.navbar-brand{
     padding-bottom: 40px;
 }
 
-/*Flexible font size --> https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
+/*flexible font size - https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
 
 .p-jumbotron{
     margin-bottom: 0px;
@@ -210,7 +208,7 @@ a.navbar-brand{
     margin-bottom: 8px;
 }
 
-/* Services section */
+/*---------------------------------[ SERVICES ]----------------------------------*/
 
 .service-intro-p{
     text-align: center;
@@ -264,18 +262,18 @@ a.navbar-brand{
     justify-content: center;
 }
 
-/* end service section */
-
-/*About me section*/
+/*--------------------------------[ ABOUT ME ]---------------------------------*/
 
 .about-container{
     margin: 0 auto;
     padding-bottom: 28px;
 }
+
 .personal-intro-p{
     padding-bottom: 15px;
     text-align: justify;
 }
+
 .credentials-container{
     justify-content: center;
     margin: 0px 0px 10px 0px;
@@ -313,11 +311,10 @@ a.navbar-brand{
     background-image: url("../images/portrait1.jpg");
     background-position-x: left;
     background-position-y: top;
-    min-height: min(50vw,67vh); /* x-small & small screen only*/
+    min-height: min(50vw,67vh); 
 }
-/* end of about me section */
 
-/*Testimonials section*/
+/*-------------------------------[ TESTIMONIALS ]--------------------------------*/
 
 .flickity-viewport {
     overflow: hidden;
@@ -392,12 +389,8 @@ a.navbar-brand{
 .fa-quote-right{
     padding-left: 3px;
 }
-/* smaller, dark, rounded square */
-/*
-https://flickity.metafizzy.co/style.html
-https://codepen.io/desandro/pen/zxRYMP
-Change to button colours and position
-*/
+/* Flickity small rounded square buttons*/
+/*https://flickity.metafizzy.co/style.html*/
 .flickity-prev-next-button {
     width: 30px;
     height: 30px;
@@ -416,7 +409,7 @@ Change to button colours and position
 }
 /* position outside */
 .flickity-prev-next-button.previous {
-    left: -10px; /*initial -40px*/
+    left: -10px; 
     top: 60px;
 }
 .flickity-prev-next-button.next {
@@ -429,9 +422,8 @@ Change to button colours and position
     padding-top: 20px;
     height: 40px;
 }
-/* end testimonials */
 
-/* Areas we cover section */
+/*-------------------------------[ AREA WE COVER ]-------------------------------*/
 
 .area-container{
     display: flex;
@@ -459,9 +451,8 @@ Change to button colours and position
     height: 100%;
     background-color: #f2f6f9;
 }
-/* end area we cover section*/
 
-/* Contact us section */
+/*--------------------------------[ CONTACT US ]---------------------------------*/
 
 .contact-details-container{  
     padding-top: 15px;
@@ -475,7 +466,7 @@ Change to button colours and position
     text-decoration: none;
 }
 .contact-details-container li{
-padding-left: 10px;
+    padding-left: 10px;
 }
 .contact-details-i{
     font-size: 18px;
@@ -484,7 +475,7 @@ padding-left: 10px;
     font-size: 22px;
 }
 .form-container{
-padding-top: 8px;
+    padding-top: 8px;
 }
 form{
     margin: 0 auto;
@@ -492,9 +483,8 @@ form{
 #submit{
    font-size: 16px;
 }
-/* end contact us section*/
 
-/* Footer */
+/*----------------------------------[ FOOTER ]-----------------------------------*/
 
 footer{
     margin: 0 auto;
@@ -533,12 +523,11 @@ color: #f8f7f6;
     padding-top: 15px;
     margin-bottom: 0px;
 }
-/*end footer */
 
-/* hover effect */
-/*from Rosie Boostrap project - http://ianlunn.github.io/Hover/
-https://github.com/IanLunn/Hover/blob/master/css/hover.css
-*/
+/*-------------------------------[ HOVER EFFECT ]--------------------------------*/
+
+/*From Code Institute mini-project - https://github.com/IanLunn/Hover/blob/master/css/hover.css*/
+
 .hvr-fade:hover{
   background: #b06a23;
 }
@@ -546,15 +535,13 @@ https://github.com/IanLunn/Hover/blob/master/css/hover.css
   vertical-align: initial;
 }
 
-/* Media queries */
+/*------------------------------[ MEDIA QUERIES ]--------------------------------*/
 
-/* x small to medium screen*/
-/*https://stackoverflow.com/questions/23897946/how-do-i-combine-two-media-queries/23898019*/
+/*------------------------x-small to medium screen-------------------------------*/
+
 @media only screen and (min-width: 410px){
-/* Area we cover */
-/*https://www.w3schools.com/cssref/css3_pr_columns.asp
-https://www.w3schools.com/cssref/css3_pr_column-gap.asp
-*/
+/*----------------------area we cover--------------------------*/
+/*https://www.w3schools.com/cssref/css3_pr_columns.asp*/
 .area-list{
     column-count: 2;
     -moz-column-count: 2;
@@ -562,38 +549,37 @@ https://www.w3schools.com/cssref/css3_pr_column-gap.asp
 }
 }
 
-
-/* small size to large screen */
+/*------------------------small size to large screen-------------------------------*/
 
 @media only screen and (min-width: 577px) and (max-width: 991px) {
-/* carousel  */
+/*-----------------------carousel-----------------------------*/
 .carousel-cell {
     width: 48%;
 }
 }
 
-/*small to medium screen*/
+/*---------------------------small to medium screen----------------------------------*/
 
 @media only screen and (min-width: 577px) and (max-width: 767px) {
-/*services*/
+/*------------------------services----------------------------*/
 .price-item{
 flex: 0 0 31%;
 max-width: 31%;
 }
 }
 
-/* medium screen */
+/*------------------------------from medium screen----------------------------------*/
 
 @media only screen and (min-width: 768px) {
-/* list */
+/*---------------------------list------------------------------*/
 li{
     line-height: 2;
 }
-/* navbar */
+/*-------------------------navbar------------------------------*/
 .navbar-collapse{
     padding-right: 15px;
 }
-/* service section */
+/*------------------------services-----------------------------*/
 .price-container{
 justify-content: space-around;
 height: 100%;
@@ -605,14 +591,14 @@ flex: 0 0 33%;
 max-width: 240px;
 min-width: 220px;
 }
-/*about me section*/
+/*---------------------about me section----------------------*/
 .md-reverse{
     flex-direction: row-reverse;
 }
 .bg-img-about{
     min-height: auto;
 }
-/* footer */
+/*------------------------footer-----------------------------*/
 .ft-left{
     text-align: left;
     padding-left: 3%;
@@ -631,16 +617,16 @@ min-width: 220px;
 }
 }
 
-/* medium to large screen */
+/*------------------------------medium to large screen ----------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 860px) {
-/* about me*/
+/*---------------------about me section----------------------*/
 .credentials-item{ 
     max-width: 105px;
 }
 }
 
-/* New collapsible breakpoint */
+/*--------------------------New navbar collapsible breakpoint-----------------------------*/
 
 @media only screen and (min-width: 900px){
 .navbar-expand-p {
@@ -671,20 +657,18 @@ min-width: 220px;
 }
 }
 
-/* large screen */
+/*-------------------------------------large screen--------------------------------------*/
 
 @media only screen and (min-width: 992px) {
-/*services*/
+/*------------------------services-----------------------------*/
 .service-intro-p{
     margin-bottom: 0px;
     padding-bottom: 2%;
 }
 .price-item{
 flex: 0 0 240px;
-/*max-width: 240px;
-min-width: 240px;*/
 }
-/* carousel */
+/*-----------------------carousel-----------------------------*/
 .carousel {
    margin: 0 max(5%, 60px);
 }
@@ -692,14 +676,13 @@ min-width: 240px;*/
 width: 31%;
 }
 .flickity-prev-next-button.previous {
-    left: -15px; /*initial -40px*/
+    left: -15px; 
 }
 .flickity-prev-next-button.next {
     right: -15px;
 }
-/*about me section*/
+/*---------------------about me section----------------------*/
 .about-container{
-    /*padding-bottom: clamp(45px, 4.5%, 60px);*/
     padding: clamp(2px, 3%, 20px) 15px clamp(48px, 7%, 60px) 15px;
 }
 .personal-intro-p{
@@ -707,14 +690,14 @@ width: 31%;
     padding-left: 8%;
     padding-right: 8%;
 }
-/* Area we cover */
+/*---------------------area we cover------------------------*/
 .area-container p{
     padding-top: 2%;
 }
 .area-list{
     padding: 5% 0 3.5%;
 }
-/* Contact us */
+/*----------------------contact us-------------------------*/
 .contact-details-container{
 width: 90%;
 }
@@ -723,10 +706,10 @@ width: 90%;
 }
 }
 
-/*extra large screen*/
+/*---------------------------------extra large screen------------------------------------*/
 
 @media only screen and (min-width: 1200px) {
-/* hero image */
+/*-----------------------hero image---------------------------*/
 .hero-background{
     height: 100vh;
     background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
@@ -735,7 +718,7 @@ width: 90%;
     max-width: 700px;
     top: 25%;
 }
-/* about me*/
+/*---------------------about me section----------------------*/
 .personal-intro-p {
     padding-left: 12%;
     padding-right: 12%;
@@ -744,13 +727,12 @@ width: 90%;
 .credentials-item{
 max-width: 130px;
 }
-/* testimonials */
+/*----------------------testimonials------------------------*/
 .img-block{
 width: 130px;
 height: 130px;
 }
-
-/* Contact us */
+/*-----------------------contact us-------------------------*/
 .contact-details-container{
 margin-left: 10%;
 }

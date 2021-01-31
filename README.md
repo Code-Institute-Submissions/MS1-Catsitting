@@ -186,13 +186,9 @@ Based on a fictional business offering cat sitting services, this website was bu
     ![Colour palette](documentation/design/colourfinal.jpeg)  
 
      - Dark #262221 is used for text including headings, header and footer background (colour picked).  
-
      - Brown #B06A23 is used for horizontal lines on light background and hover effect on buttons (color-picked).  
-
      - White #F8f7F6 is used for white background and on dark background (tint of #BFB6AE).  
-
      - Beige #BFB6AE is used for light background to create contrast between sections of the website (color picked).  
-
      - Green #23B06A is used for the buttons (triadic colour of #B06A23).  
  
   - ### **Fonts**
@@ -207,26 +203,33 @@ Based on a fictional business offering cat sitting services, this website was bu
   - ### **Styling**
  
      - Buttons and some text boxes have slightly rounded corners to add a softer feeling and make these elements more noticeable whilst improving user experience on the website.  
-
      - Credentials information are presented in a circular block to draw the eye to the uniqueness of these elements and breathe life to this section of the website.  
-
      - Testimonials images are also circular for a more visually appealing design whilst giving breathing space to the testimonial section.  
 
 
   - ### **Differences to design**
 
     - An initial hero image was tested but did not fulfil the desired visual impact, as it would not resize and accommodate the call for action in an appealing way.  
-
     - An initial palette was created using Adobe Color however the colour did not render as well as on screen, therefore different choices were made and the palette was finalised more towards the end for better and striking visual impact. 
 
 
 - # **Features** 
 
-## Existing features 
+- ## **Existing features**   
+      
+    - Responsive design to allow user to browse the website on all devices  
+    - Collapsible fixed navigation with scrollspy option to allow users to easily navigate across the website on all screen sizes.  
+    - A call for action in form of a hoverable button in the hero banner and service section to invite and allow users to contact the business.   
+    - Responsive non-automated carousel with controls and indicators to allow users to flick through customer testimonials.   
+    - An embedded map showing the areas covered by the business with search and zoom option so that users can quickly see if the business operates where they live.  
+    - Form with validation control to allow users to make contact with the business.  
+    - Clickable and hoverable icons to allow users to open social media links into new tabs, whilst retaining navigation on the website. This feature is present in both contact section and footer.  
 
-## **Features left to implement**
+- ## **Features left to implement**  
 
-
+    - GDPR compliant cookie policy via a banner when users first visit the website.    
+    - Link the form to a webserver to collect data entered.   
+    - A blog to build relationships with current and potential customers, adding further credibility to the business.   
 
 # Technologies used
 

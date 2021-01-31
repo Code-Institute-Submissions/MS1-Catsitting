@@ -1,332 +1,350 @@
 
 body {
-    margin: 0 auto;
-    font-family: "Open Sans", sans-serif;
-    color: #262221;
-    position: relative;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  color: #262221;
+  position: relative;
 }
 
 /*---------------------------------[ HEADINGS ]----------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Poppins", sans-serif;
-    text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 /*----------------------------------[ BUTTONS ]-----------------------------------*/
 
 .btn-style {
-    padding: 10px 20px;
-    margin-top: 15px;
-    border-radius: 5px;
-    border: none;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
 }
 
 /*---------------------------------[ LIST LI ]-----------------------------------*/
 li {
-padding-left: 8px;
+  padding-left: 8px;
 }
 
 /*----------------------------[ BACKGROUND COLOURS ]----------------------------*/
 
-.bg--dark{
-    background-color: #262221;
+.bg--dark {
+  background-color: #262221;
 }
 
-.bg--beige{
-    background-color: #BFB6AE;
+.bg--beige {
+  background-color: #BFB6AE;
 }
 
-.bg--brown{  
-    background-color: #b06a23;
+.bg--brown {
+  background-color: #b06a23;
 }
 
-.bg--green{
-    background-color: #23B06A;
+.bg--green {
+  background-color: #23B06A;
 }
 
-.bg--white{
-    background-color: #f8f7f6;
+.bg--white {
+  background-color: #f8f7f6;
 }
 
 /*--------------------------------[ TEXT COLOUR]---------------------------------*/
 
-.txt--dark{
-    color: #262221;
+.txt--dark {
+  color: #262221;
 }
 
-.txt--brown{
-    color: #b06a23;
+.txt--brown {
+  color: #b06a23;
 }
 
-.txt--white{
-    color: #f8f7f6;
+.txt--white {
+  color: #f8f7f6;
 }
 
 /*---------------------------[ SECTION / CONTAINER ]------------------------------*/
 
 .section-layout {
-    position: relative;
+  position: relative;
 }
-.container{
-    margin: 0 auto;
+
+.container {
+  margin: 0 auto;
 }
 
 /*-----------------------------------[ ANCHORS]-----------------------------------*/
 
 /*https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors/*/
-.anchors{
+.anchors {
   display: block;
   position: absolute;
-  top: -84px; 
+  top: -84px;
   z-index: 5;
   visibility: hidden;
 }
 
 /*---------------------------------[ HEADINGS ]----------------------------------*/
 
-.section-heading{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 500;
-    padding-top: clamp(43px, 4%, 60px)
+.section-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-top: clamp(43px, 4%, 60px);
 }
-.section-divider{
-    width: 80px;
-    height: 3px;
-    margin-bottom: 30px;
+
+.section-divider {
+  width: 80px;
+  height: 3px;
+  margin-bottom: 30px;
 }
-.bottom-padding{
-    padding-bottom: clamp(45px, 4.5%, 60px);
+
+.bottom-padding {
+  padding-bottom: clamp(45px, 4.5%, 60px);
 }
 
 /*----------------------[ BACKGROUND IMAGE FEATURES]-----------------------------*/
 
-.bg-img-features{
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
+.bg-img-features {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
 }
 
 /*---------------------------------[ NAV BAR]----------------------------------*/
 
-.navbar{
-    height: 85px;
-    align-items: stretch;
+.navbar {
+  height: 85px;
+  align-items: stretch;
 }
 
 button.navbar-toggler {
   border: 0px;
   padding: 0px 15px 0px 15px;
 }
+
 button.navbar-toggler:focus {
-    outline: 1px dotted;
-}
-.toggle-btn{
-    font-size:28px;
-    padding: 0px;
-    height: initial;
-}
-           
-.navbar a{
-    font-family: "Poppins", sans-serif;
-    color: inherit;
-    text-decoration: none;
-    font-size: 95%;
-    font-weight: 300;  
-    text-align: center; 
-    padding-top: 12px;
-    padding-bottom: 12px; 
+  outline: 1px dotted;
 }
 
-a.navbar-brand{
-    font-family: "Poppins", sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    padding: 0px 0px 0px 15px;
+.toggle-btn {
+  font-size: 28px;
+  padding: 0px;
+  height: initial;
 }
 
-.navbar .active{
-    text-decoration: underline;
-    color: inherit;
-    font-weight: 700;
-    background-color: inherit;
+.navbar a {
+  font-family: "Poppins", sans-serif;
+  color: inherit;
+  text-decoration: none;
+  font-size: 95%;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+a.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 0px 0px 0px 15px;
+}
+
+.navbar .active {
+  text-decoration: underline;
+  color: inherit;
+  font-weight: 700;
+  background-color: inherit;
 }
 
 /*-------------------------[ HERO IMAGE & JUMBOTRON]-----------------------------*/
 
 /*https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 
-.hero-background{
-    height: 100vh;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
-    background-position-x: 70%;
-    background-position-y: 20%;
+.hero-background {
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
+  background-position-x: 70%;
+  background-position-y: 20%;
 }
 
-.jumbotron-container{
-    background: transparent; 
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    margin: 0 auto;
-    left: 0px;
-    bottom: 0px;
-    padding-bottom: 40px;
+.jumbotron-container {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  left: 0px;
+  bottom: 0px;
+  padding-bottom: 40px;
 }
 
 /*flexible font size - https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
 
-.p-jumbotron{
-    margin-bottom: 0px;
-    font-size: clamp(18px, 2.2vmax, 34px);
+.p-jumbotron {
+  margin-bottom: 0px;
+  font-size: clamp(18px, 2.2vmax, 34px);
 }
 
-.hr-jumbotron{
-    width: 25px;
-    height: 1px;
-    margin-bottom: 12px;
-    margin-top: 8px;
+.hr-jumbotron {
+  width: 25px;
+  height: 1px;
+  margin-bottom: 12px;
+  margin-top: 8px;
 }
 
-.h-jumbotron{
-    margin-bottom: 0px;
-    font-size: clamp(28px, 3.5vmax, 54px);
+.h-jumbotron {
+  margin-bottom: 0px;
+  font-size: clamp(28px, 3.5vmax, 54px);
 }
 
-.p-promo{
-    font-size: clamp(11px, 1.3vmax, 18px);
-    padding-top: 30px;
-    margin-bottom: 8px;
+.p-promo {
+  font-size: clamp(11px, 1.3vmax, 18px);
+  padding-top: 30px;
+  margin-bottom: 8px;
 }
 
 /*---------------------------------[ SERVICES ]----------------------------------*/
 
-.service-intro-p{
-    text-align: center;
+.service-intro-p {
+  text-align: center;
 }
-.service-intro-p span{
-    font-weight: 700;
+
+.service-intro-p span {
+  font-weight: 700;
 }
-.service-row{
-    display: flex;
-    justify-content: center;
-    padding-top: 8px;
+
+.service-row {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
 }
-.service-container{
-    padding-bottom: 12px;
+
+.service-container {
+  padding-bottom: 12px;
 }
-.service-container li span{
-    padding-right: 5px;
+
+.service-container li span {
+  padding-right: 5px;
 }
-.price-container{
-    justify-content: space-around;
-    padding: 0px 15px 12px 15px;
-    margin: 0 auto;
+
+.price-container {
+  justify-content: space-around;
+  padding: 0px 15px 12px 15px;
+  margin: 0 auto;
 }
-.price-item{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    border-radius: 5px;
-    color:  #faf9f9;
-    height: 6em;
-    margin-bottom: 12px;
-    padding: 18px 0 0 0;
+
+.price-item {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #faf9f9;
+  height: 6em;
+  margin-bottom: 12px;
+  padding: 18px 0 0 0;
 }
-.price-img1{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../images/cat-1.jpg");
-    background-position: center center;
+
+.price-img1 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../images/cat-1.jpg");
+  background-position: center center;
 }
-.price-img2{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url("../images/cat2.jpg");
-    background-position: center center;
+
+.price-img2 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url("../images/cat2.jpg");
+  background-position: center center;
 }
-.price-img3{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("../images/cat3.jpg");
-    background-position: center center;
+
+.price-img3 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("../images/cat3.jpg");
+  background-position: center center;
 }
-.serv-button-container{
-    display: flex;
-    justify-content: center;
+
+.serv-button-container {
+  display: flex;
+  justify-content: center;
 }
 
 /*--------------------------------[ ABOUT ME ]---------------------------------*/
 
-.about-container{
-    margin: 0 auto;
-    padding-bottom: 28px;
+.about-container {
+  margin: 0 auto;
+  padding-bottom: 28px;
 }
 
-.personal-intro-p{
-    padding-bottom: 15px;
-    text-align: justify;
+.personal-intro-p {
+  padding-bottom: 15px;
+  text-align: justify;
 }
 
-.credentials-container{
-    justify-content: center;
-    margin: 0px 0px 10px 0px;
+.credentials-container {
+  justify-content: center;
+  margin: 0px 0px 10px 0px;
 }
 
-.credentials-item{
-    flex: 0 0 30%;
-    max-width: 120px;
-    padding: 0px;
-    margin: 0 1.5% 0% 1.5%;
+.credentials-item {
+  flex: 0 0 30%;
+  max-width: 120px;
+  padding: 0px;
+  margin: 0 1.5% 0% 1.5%;
 }
 
 /*https://www.w3schools.com/howto/howto_css_aspect_ratio.asp*/
-.credentials-box{
-    width: 100%;
-    padding-top: 100%;
-    background-color: rgba(248, 247, 246, 0.5);
-    position: relative;
-    border-radius: 50%;
+.credentials-box {
+  width: 100%;
+  padding-top: 100%;
+  background-color: rgba(248, 247, 246, 0.5);
+  position: relative;
+  border-radius: 50%;
 }
 
 /*https://medium.com/front-end-weekly/absolute-centering-in-css-ea3a9d0ad72e*/
 .credentials-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-}
-.credentials-text h6{
-    font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
 }
 
-.bg-img-about{
-    background-image: url("../images/portrait1.jpg");
-    background-position: left top;
-    min-height: min(50vw,67vh); 
+.credentials-text h6 {
+  font-weight: 600;
+}
+
+.bg-img-about {
+  background-image: url("../images/portrait1.jpg");
+  background-position: left top;
+  min-height: min(50vw,67vh);
 }
 
 /*-------------------------------[ TESTIMONIALS ]--------------------------------*/
+
 /* Carousel https://flickity.metafizzy.co/options.html#setup
 and  https://codepen.io/desandro/pen/zxRYMP
 */
+
 .flickity-viewport {
-    overflow: hidden;
-    position: relative;
-    height: 100%;
-    margin-top: 15px;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  margin-top: 15px;
 }
 
-* { 
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 .carousel {
-   height: 100%;
-   margin: 0 30px;
+  height: 100%;
+  margin: 0 30px;
 }
 
 .carousel-cell {
@@ -337,197 +355,224 @@ and  https://codepen.io/desandro/pen/zxRYMP
 /* Flickity small rounded square buttons*/
 /*https://flickity.metafizzy.co/style.html*/
 .flickity-prev-next-button {
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-    background: #262221;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: #262221;
 }
+
 .flickity-prev-next-button:hover {
-    background: #b06a23;
+  background: #b06a23;
 }
 /* arrow color */
 .flickity-prev-next-button .arrow {
-    fill: white;
+  fill: white;
 }
+
 .flickity-prev-next-button.no-svg {
-    color: white;
+  color: white;
 }
 /* position outside */
 .flickity-prev-next-button.previous {
-    left: -10px; 
-    top: 60px;
+  left: -10px;
+  top: 60px;
 }
+
 .flickity-prev-next-button.next {
-    right: -10px;
-    top: 60px;
+  right: -10px;
+  top: 60px;
 }
 /* carousel dots */
 .flickity-page-dots {
-    position: initial;
-    padding-top: 20px;
-    height: 40px;
-}
-.img-testimonial1{
-    background-image: url("../images/testimonial1.jpg");
-    background-position-y: 30%;
+  position: initial;
+  padding-top: 20px;
+  height: 40px;
 }
 
-.img-testimonial2{
-    background-image: url("../images/testimonial2.jpg");
-    background-position-y: 60%;
+.img-testimonial1 {
+  background-image: url("../images/testimonial1.jpg");
+  background-position-y: 30%;
 }
 
-.img-testimonial3{
-    background-image: url("../images/testimonial3.jpg");
-    background-position-x: 20%;
+.img-testimonial2 {
+  background-image: url("../images/testimonial2.jpg");
+  background-position-y: 60%;
 }
 
-.img-testimonial4{
-    background-image: url("../images/testimonial4.jpg");
-    background-position-y: 80%;
+.img-testimonial3 {
+  background-image: url("../images/testimonial3.jpg");
+  background-position-x: 20%;
 }
 
-.img-testimonial5{
-    background-image: url("../images/testimonial5.jpg");
-    background-position-x: center;
+.img-testimonial4 {
+  background-image: url("../images/testimonial4.jpg");
+  background-position-y: 80%;
+}
+
+.img-testimonial5 {
+  background-image: url("../images/testimonial5.jpg");
+  background-position-x: center;
 }
 
 .img-block {
-    display: block;
-    width: 115px;
-    height: 115px;
-    margin: 0 auto;
-    margin-bottom: 25px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;	
-    -moz-border-radius: 50%;
-    -o-border-radius: 50%;
-    -ms-border-radius: 50%;
-}
-.testimonial-text{
-    text-align: justify;
-    padding-top: 10px;
-}
-.testimonial-text i{
-    font-size: 60%;
-}
-.fa-quote-left{
-    padding-right: 3px;
-}
-.fa-quote-right{
-    padding-left: 3px;
+  display: block;
+  width: 115px;
+  height: 115px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
 }
 
+.testimonial-text {
+  text-align: justify;
+  padding-top: 10px;
+}
+
+.testimonial-text i {
+  font-size: 60%;
+}
+
+.fa-quote-left {
+  padding-right: 3px;
+}
+
+.fa-quote-right {
+  padding-left: 3px;
+}
 
 /*-------------------------------[ AREA WE COVER ]-------------------------------*/
 
-.area-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
+.area-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
 }
-.area-container p{
-    text-align: center;
-    margin-bottom: 0px;
+
+.area-container p {
+  text-align: center;
+  margin-bottom: 0px;
 }
-.area-list{
-    padding: 16px 0px 16px 0px;
-    margin-bottom: 0;
+
+.area-list {
+  padding: 16px 0px 16px 0px;
+  margin-bottom: 0;
 }
-.area-list li{
-    list-style-position: inside;
+
+.area-list li {
+  list-style-position: inside;
 }
-.map-column{
-    padding-left: 0px;
-    padding-right: 0px;
+
+.map-column {
+  padding-left: 0px;
+  padding-right: 0px;
 }
+
 .map-frame {
-    min-height: 375px;
-    height: 100%;
-    background-color: #f2f6f9;
+  min-height: 375px;
+  height: 100%;
+  background-color: #f2f6f9;
 }
 
 /*--------------------------------[ CONTACT US ]---------------------------------*/
 
-.contact-details-container{  
-    padding-top: 15px;
-    padding-bottom: 25px;
+.contact-details-container {
+  padding-top: 15px;
+  padding-bottom: 25px;
 }
-.contact-details-container a{
-    display: block;
+
+.contact-details-container a {
+  display: block;
 }
-.contact-details-container a:hover{
-    color: #262221;
-    text-decoration: none;
+
+.contact-details-container a:hover {
+  color: #262221;
+  text-decoration: none;
 }
-.contact-details-container li{
-    padding-left: 10px;
+
+.contact-details-container li {
+  padding-left: 10px;
 }
-.contact-details-i{
-    font-size: 18px;
+
+.contact-details-i {
+  font-size: 18px;
 }
-.social-media-i{
-    font-size: 22px;
+
+.social-media-i {
+  font-size: 22px;
 }
-.form-container{
-    padding-top: 8px;
+
+.form-container {
+  padding-top: 8px;
 }
-form{
-    margin: 0 auto;
+
+form {
+  margin: 0 auto;
 }
-#submit{
-   font-size: 16px;
+
+#submit {
+  font-size: 16px;
 }
 
 /*----------------------------------[ FOOTER ]-----------------------------------*/
 
-footer{
-    margin: 0 auto;
-    padding-top: 30px;
-    text-align: center;
+footer {
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
 }
-.ft-left{
-    margin-bottom: 15px;
+
+.ft-left {
+  margin-bottom: 15px;
 }
+
 .ft-left p {
-    line-height: 1.8;
+  line-height: 1.8;
 }
 
-.ft-left i{
-    padding-right: 8px;
-    font-size: 18px;
+.ft-left i {
+  padding-right: 8px;
+  font-size: 18px;
 }
 
-.ft-right{
-    padding-bottom: 20px;
+.ft-right {
+  padding-bottom: 20px;
 }
-.footer-headings{
-    font-weight: 500;
+
+.footer-headings {
+  font-weight: 500;
 }
-footer a:hover{
-color: #f8f7f6;
+
+footer a:hover {
+  color: #f8f7f6;
 }
-.ft-social-icons{
-    font-size: 28px;
-    letter-spacing: 4px;
-    padding: 0px;
-    margin-bottom:0px;
+
+.ft-social-icons {
+  font-size: 28px;
+  letter-spacing: 4px;
+  padding: 0px;
+  margin-bottom: 0px;
 }
-.copyright-p{
-    font-size: 80%;
-    padding-top: 15px;
-    margin-bottom: 0px;
+
+.copyright-p {
+  font-size: 80%;
+  padding-top: 15px;
+  margin-bottom: 0px;
 }
 
 /*-------------------------------[ HOVER EFFECT ]--------------------------------*/
 
 /*From Code Institute mini-project - https://github.com/IanLunn/Hover/blob/master/css/hover.css*/
 
-.hvr-fade:hover{
+.hvr-fade:hover {
   background: #b06a23;
 }
-.hvr-icon-grow{
+
+.hvr-icon-grow {
   vertical-align: initial;
 }
 
@@ -535,193 +580,212 @@ color: #f8f7f6;
 
 /*------------------------x-small to medium screen-------------------------------*/
 
-@media only screen and (min-width: 410px){
+@media only screen and (min-width: 410px) {
 /*----------------------area we cover--------------------------*/
 /*https://www.w3schools.com/cssref/css3_pr_columns.asp*/
-.area-list{
+  .area-list {
     column-count: 2;
     -moz-column-count: 2;
     -webkit-column-count: 2;
-}
+  }
 }
 
 /*------------------------small size to large screen-------------------------------*/
 
 @media only screen and (min-width: 576px) and (max-width: 991px) {
 /*------------------------services----------------------------*/
-.price-item{
-flex: 0 0 31%;
-/*max-width: 31%;*/
-}
+  .price-item {
+    flex: 0 0 31%;
+/*max-width: 31%;*/;
+  }
 /*-----------------------carousel-----------------------------*/
-.carousel-cell {
+  .carousel-cell {
     width: 48%;
-}
+  }
 }
 
 /*------------------------------from medium screen----------------------------------*/
 
 @media only screen and (min-width: 768px) {
 /*---------------------------list------------------------------*/
-li{
+  li {
     line-height: 2;
-}
+  }
 /*-------------------------navbar------------------------------*/
-.navbar-collapse{
+  .navbar-collapse {
     padding-right: 15px;
-}
+  }
 /*------------------------services-----------------------------*/
-.price-container{
-height: 100%;
-max-width: 500px;
-}
-.price-item{
-max-width: 240px;
-min-width: 220px;
-}
+  .price-container {
+    height: 100%;
+    max-width: 500px;
+  }
+
+  .price-item {
+    max-width: 240px;
+    min-width: 220px;
+  }
 /*---------------------about me section----------------------*/
-.md-reverse{
+  .md-reverse {
     flex-direction: row-reverse;
-}
-.bg-img-about{
+  }
+
+  .bg-img-about {
     min-height: auto;
-}
+  }
 /*------------------------footer-----------------------------*/
-.ft-left{
+  .ft-left {
     text-align: left;
     padding-left: 3%;
     margin-bottom: 10px;
-}
-.ft-left h6{
+  }
+
+  .ft-left h6 {
     text-align: left;
-}
-.ft-right{
+  }
+
+  .ft-right {
     display: flex;
     justify-content: flex-end;
     padding-right: 3%;
-}
-.ft-right-element{
+  }
+
+  .ft-right-element {
     flex-basis: initial;
-}
+  }
 }
 
 /*------------------------------medium to large screen ----------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 860px) {
 /*---------------------about me section----------------------*/
-.credentials-item{ 
+  .credentials-item {
     max-width: 105px;
-}
+  }
 }
 
 /*--------------------------New navbar collapsible breakpoint-----------------------------*/
 
-@media only screen and (min-width: 900px){
-.navbar-expand-p {
+@media only screen and (min-width: 900px) {
+  .navbar-expand-p {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     -ms-flex-pack: start;
     justify-content: flex-start;
-}
-.navbar-expand-p .navbar-toggler {
+  }
+
+  .navbar-expand-p .navbar-toggler {
     display: none;
-}
-.navbar-expand-p .navbar-collapse {
+  }
+
+  .navbar-expand-p .navbar-collapse {
     display: -ms-flexbox!important;
     display: flex!important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
-}
-.navbar-collapse{
+  }
+
+  .navbar-collapse {
     padding-right: 15px;
-}
-.navbar-expand-p .navbar-nav {
+  }
+
+  .navbar-expand-p .navbar-nav {
     -ms-flex-direction: row;
     flex-direction: row;
-}
-.navbar-expand-p .navbar-nav .nav-link {
+  }
+
+  .navbar-expand-p .navbar-nav .nav-link {
     padding-right: .5rem;
     padding-left: .5rem;
-}
+  }
 }
 
 /*-------------------------------------large screen--------------------------------------*/
 
 @media only screen and (min-width: 992px) {
 /*------------------------services-----------------------------*/
-.service-intro-p{
+  .service-intro-p {
     margin-bottom: 0px;
     padding-bottom: 2%;
-}
+  }
 /*---------------------about me section----------------------*/
-.about-container{
+  .about-container {
     padding: clamp(2px, 3%, 20px) 15px clamp(48px, 7%, 60px) 15px;
-}
-.personal-intro-p{
+  }
+
+  .personal-intro-p {
     padding-top: 2%;
     padding-left: 8%;
     padding-right: 8%;
-}
+  }
 /*-----------------------carousel-----------------------------*/
-.carousel {
-   margin: 0 max(5%, 60px);
-}
-.carousel-cell{
-width: 31%;
-}
-.flickity-prev-next-button.previous {
-    left: -15px; 
-}
-.flickity-prev-next-button.next {
+  .carousel {
+    margin: 0 max(5%, 60px);
+  }
+
+  .carousel-cell {
+    width: 31%;
+  }
+
+  .flickity-prev-next-button.previous {
+    left: -15px;
+  }
+
+  .flickity-prev-next-button.next {
     right: -15px;
-}
+  }
 /*---------------------area we cover------------------------*/
-.area-container p{
+  .area-container p {
     padding-top: 2%;
-}
-.area-list{
+  }
+
+  .area-list {
     padding: 5% 0 3.5%;
-}
+  }
 /*----------------------contact us-------------------------*/
-.contact-details-container{
-width: 90%;
-}
-.form-container{
-width: 90%;
-}
+  .contact-details-container {
+    width: 90%;
+  }
+
+  .form-container {
+    width: 90%;
+  }
 }
 
 /*---------------------------------extra large screen------------------------------------*/
 
 @media only screen and (min-width: 1200px) {
 /*-----------------------hero image---------------------------*/
-.hero-background{
+  .hero-background {
     height: 100vh;
     background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
-   }
-.jumbotron-container{
+  }
+
+  .jumbotron-container {
     max-width: 700px;
     top: 25%;
-}
+  }
 /*---------------------about me section----------------------*/
-.personal-intro-p {
+  .personal-intro-p {
     padding-left: 12%;
     padding-right: 12%;
     padding-bottom: 4.5%;
-}
-.credentials-item{
-max-width: 130px;
-}
+  }
+
+  .credentials-item {
+    max-width: 130px;
+  }
 /*----------------------testimonials------------------------*/
-.img-block{
-width: 130px;
-height: 130px;
-}
+  .img-block {
+    width: 130px;
+    height: 130px;
+  }
 /*-----------------------contact us-------------------------*/
-.contact-details-container{
-margin-left: 10%;
-}
-.form-container{
-margin-right: 10%;
-}
+  .contact-details-container {
+    margin-left: 10%;
+  }
+
+  .form-container {
+    margin-right: 10%;
+  }
 }

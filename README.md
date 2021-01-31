@@ -160,9 +160,7 @@ Based on a fictional business offering cat sitting services, this website was bu
     ### **Differences to wireframes** 
  
      - In the very early inception of the project (early commits, then removed), the wireframes indicated a three page website, this was quickly changed to a single page website as the project was redefined for a more balanced and eye-catching design with adjustment to UX design.
- 
      - The contact button in the footer doesn’t feature in the final version of the website, as the contact form is close to the footer. 
- 
      - Background images were not used in the contact section as they interfered with, rather than enhanced, the visibility of the contact form.  
 
 
@@ -177,7 +175,7 @@ Based on a fictional business offering cat sitting services, this website was bu
      - The service section uses background images of cats as a way to highlight the text by creating a striking contrast
      - The testimonial section features images of customers to increase credibility of their recommendations.
  
-     - Please find using the full [list of credits](#media) below.
+    Please find using the full [list of credits](#media) below.
  
   - ### **Colour scheme**
   
@@ -231,25 +229,52 @@ Based on a fictional business offering cat sitting services, this website was bu
     - Link the form to a webserver to collect data entered.   
     - A blog to build relationships with current and potential customers, adding further credibility to the business.   
 
-# Technologies used
+# **Technologies used**
 
-The following technology were used during the development and testing of the website:
+  The following technology were used during the development and testing of the website:
+  
+  - **Languages**
 
-Technology | Usage
------------- | -------------
-HTML | HTML was used to structure the page 
-CSS | CSS was used to style the different elements on the page.
-[Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)  | Bootstrap library was used to build the layout using the grid system, the navigation and part of the form.
-[Flickity](https://flickity.metafizzy.co/) | Flickity was used to build the responsive carousel in testimonial section.
-[Hover.css](http://ianlunn.github.io/Hover/) | Hover.css library was used for hovering effects on buttons and social media icons.
-[Carto](https://carto.com/) | Carto was used to draw and personalise the embedded map.
-[Google font](https://fonts.google.com/) | Google font API was used for the fonts on the website.
-[Font Awesome](https://fontawesome.com/) | Font awesome library was used for the icons the website. 
-[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) | Google inspect was used to test and fix code and page responsiveness.
-[Responsive viewer](https://www.producthunt.com/posts/responsive-viewer) | This add-on was used to test website responsiveness across different devices.
-[Balsamiq](https://balsamiq.com/wireframes/) | Balsamiq was used to design the wireframe.
-[Ibis Paint](https://ibispaint.com/?lang=en-US) | Ibis Paint app was used to alter the logo and the favicon.
- 
+     Languages | Usage
+     ------------ | -------------
+     HTML | HTML was used to structure the page 
+     CSS | CSS was used to style the different elements on the page.
+
+  - **Frameworks and libraries**
+
+     Libraries| Usage
+     ------------ | -------------
+     [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)  | Bootstrap library was used to build the layout using the grid system, the navigation and part of the form.
+     [Flickity](https://flickity.metafizzy.co/) | Flickity was used to build the responsive carousel in testimonial section.
+     [Hover.css](http://ianlunn.github.io/Hover/) | Hover.css library was used for hovering effects on buttons and social media icons.
+     [Google font](https://fonts.google.com/) | Google font API was used for the fonts on the website.
+     [Font Awesome](https://fontawesome.com/) | Font awesome library was used for the icons the website. 
+
+  - **Media & wireframes**
+  
+    Libraries| Usage
+    ------------ | -------------
+     [Balsamiq](https://balsamiq.com/wireframes/) | Balsamiq was used to design the wireframe.
+     [Ibis Paint](https://ibispaint.com/?lang=en-US) | Ibis Paint app was used to alter the logo and the favicon.
+     [Google drawing](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme)| Google drawing was used for the final palette in this document.
+     [Carto](https://carto.com/) | Carto was used to draw and personalise the embedded map.
+
+  - **Workspaces & respository hosting**
+
+    Technology | Usage
+    ------------ | -------------
+     [Gitpod](https://www.gitpod.io/) | Gitpod was used as a local respoitory to develop the code.
+     [Git](https://git-scm.com/) | Git was used for version control from gitpod to save commits and push code onto GitHub.
+     [GitHub](https://github.com/) | GitHub was used to save the code and deploy the live site.  
+
+  - **Testing**
+
+     Technology | Usage
+     ------------ | -------------
+     [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) | Google inspect was used to test and fix code and page responsiveness.
+     [Responsive viewer](https://www.producthunt.com/posts/responsive-viewer) | This add-on was used to test website responsiveness across different devices.
+
+
 # Testing
 
 ### **Issues and resolutions**

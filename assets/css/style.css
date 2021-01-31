@@ -172,7 +172,7 @@ a.navbar-brand {
 .hero-background {
   height: 100vh;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
-  background-position-x: 70%;
+  background-position-x: 71%;
   background-position-y: 20%;
 }
 
@@ -614,6 +614,10 @@ footer a:hover {
 /*-------------------------navbar------------------------------*/
   .navbar-collapse {
     padding-right: 15px;
+  }
+/*-----------------------hero image----------------------------*/
+  .hero-background{
+    background-position-x: 78%;
   }
 /*------------------------services-----------------------------*/
   .price-container {

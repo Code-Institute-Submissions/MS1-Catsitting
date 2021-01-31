@@ -275,36 +275,30 @@ Based on a fictional business offering cat sitting services, this website was bu
      [Responsive viewer](https://www.producthunt.com/posts/responsive-viewer) | This add-on was used to test website responsiveness across different devices.
 
 
-# Testing
-
-### **Issues and resolutions**
-
- 
-### **Scope** 
-
-
-### **Test validation criteria**
-
-
-### **Test results**
+-# **Testing**
+    *checklist*
+    - ## **Issues and resolutions**
+    - ## **Scope** 
+    - ## **Test validation criteria**
+    - ## **Test results**
 
 
 # Deployment
 
 There is no difference between the developed and the deployed version. 
 
-### **Project inception**
+## **Project inception**
 
 This project was developed using Gitpod, committed to git then pushed onto GitHub using the built-in function within Gitpod.
 Updates were committed frequently to git and the project pushed onto GitHub on a regular basis to make sure it was saved properly.
 
-### **Deployment on GitHub**
+## **Deployment on GitHub**
 
 --> deployment on github
 *Explain the process of deploying the project on GitHub from Login to publishing a note*
 *Indicate the branch on which the site was deployed*
 
-### **How to run the project locally**
+## **How to run the project locally**
 
 
 - # Credits
@@ -331,8 +325,9 @@ Updates were committed frequently to git and the project pushed onto GitHub on a
 
 ### **Content**
 
-
-
+The content was created by the developer taking inspirations from various cat-sitting companies, more specifically [Chatty Cats Care](https://www.chattycatscare.co.uk/)
+and the [The London Cat Sitter](https://www.thelondoncatsitter.co.uk/). 
+  
 ### **Media**
 
 The logo was obtained from Shutterstock and the photos used in this website were from Pexels and Pixabay as follow:

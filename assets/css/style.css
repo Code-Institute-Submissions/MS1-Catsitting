@@ -443,7 +443,7 @@ and  https://codepen.io/desandro/pen/zxRYMP
     padding-right: 0px;
 }
 .map-frame {
-    min-height: min(75vw,40vh);
+    min-height: 375px;
     height: 100%;
     background-color: #f2f6f9;
 }

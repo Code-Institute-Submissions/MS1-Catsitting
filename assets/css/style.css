@@ -229,14 +229,13 @@ a.navbar-brand{
 }
 .price-container{
     justify-content: space-around;
-    align-content: space-around;
     padding: 0px 15px 12px 15px;
+    margin: 0 auto;
 }
 .price-item{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.5);
     color:  #faf9f9;
     height: 6em;
     margin-bottom: 12px;
@@ -244,20 +243,17 @@ a.navbar-brand{
 }
 .price-img1{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../images/cat-1.jpg");
-    background-position-x: center;
-    background-position-y: center;
+    background-position: center center;
 }
 .price-img2{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url("../images/cat2.jpg");
-    background-position-x: center;
-    background-position-y: center;
+    background-position: center center;
 }
 .price-img3{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("../images/cat3.jpg");
-    background-position-x: center;
-    background-position-y: center;
+    background-position: center center;
 }
-.cont-col{
+.serv-button-container{
     display: flex;
     justify-content: center;
 }
@@ -309,13 +305,14 @@ a.navbar-brand{
 
 .bg-img-about{
     background-image: url("../images/portrait1.jpg");
-    background-position-x: left;
-    background-position-y: top;
+    background-position: left top;
     min-height: min(50vw,67vh); 
 }
 
 /*-------------------------------[ TESTIMONIALS ]--------------------------------*/
-
+/* Carousel https://flickity.metafizzy.co/options.html#setup
+and  https://codepen.io/desandro/pen/zxRYMP
+*/
 .flickity-viewport {
     overflow: hidden;
     position: relative;
@@ -337,7 +334,39 @@ a.navbar-brand{
   margin-right: 3.5%;
   padding: 5px;
 }
-
+/* Flickity small rounded square buttons*/
+/*https://flickity.metafizzy.co/style.html*/
+.flickity-prev-next-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: #262221;
+}
+.flickity-prev-next-button:hover {
+    background: #b06a23;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+    fill: white;
+}
+.flickity-prev-next-button.no-svg {
+    color: white;
+}
+/* position outside */
+.flickity-prev-next-button.previous {
+    left: -10px; 
+    top: 60px;
+}
+.flickity-prev-next-button.next {
+    right: -10px;
+    top: 60px;
+}
+/* carousel dots */
+.flickity-page-dots {
+    position: initial;
+    padding-top: 20px;
+    height: 40px;
+}
 .img-testimonial1{
     background-image: url("../images/testimonial1.jpg");
     background-position-y: 30%;
@@ -377,7 +406,6 @@ a.navbar-brand{
 }
 .testimonial-text{
     text-align: justify;
-    text-justify: inter-word;
     padding-top: 10px;
 }
 .testimonial-text i{
@@ -389,39 +417,7 @@ a.navbar-brand{
 .fa-quote-right{
     padding-left: 3px;
 }
-/* Flickity small rounded square buttons*/
-/*https://flickity.metafizzy.co/style.html*/
-.flickity-prev-next-button {
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-    background: #262221;
-}
-.flickity-prev-next-button:hover {
-    background: #b06a23;
-}
-/* arrow color */
-.flickity-prev-next-button .arrow {
-    fill: white;
-}
-.flickity-prev-next-button.no-svg {
-    color: white;
-}
-/* position outside */
-.flickity-prev-next-button.previous {
-    left: -10px; 
-    top: 60px;
-}
-.flickity-prev-next-button.next {
-    right: -10px;
-    top: 60px;
-}
-/* carousel dots */
-.flickity-page-dots {
-    position: initial;
-    padding-top: 20px;
-    height: 40px;
-}
+
 
 /*-------------------------------[ AREA WE COVER ]-------------------------------*/
 
@@ -551,20 +547,15 @@ color: #f8f7f6;
 
 /*------------------------small size to large screen-------------------------------*/
 
-@media only screen and (min-width: 577px) and (max-width: 991px) {
-/*-----------------------carousel-----------------------------*/
-.carousel-cell {
-    width: 48%;
-}
-}
-
-/*---------------------------small to medium screen----------------------------------*/
-
-@media only screen and (min-width: 577px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 991px) {
 /*------------------------services----------------------------*/
 .price-item{
 flex: 0 0 31%;
-max-width: 31%;
+/*max-width: 31%;*/
+}
+/*-----------------------carousel-----------------------------*/
+.carousel-cell {
+    width: 48%;
 }
 }
 
@@ -581,13 +572,10 @@ li{
 }
 /*------------------------services-----------------------------*/
 .price-container{
-justify-content: space-around;
 height: 100%;
 max-width: 500px;
-margin: 0 auto;
 }
 .price-item{
-flex: 0 0 33%;
 max-width: 240px;
 min-width: 220px;
 }
@@ -665,8 +653,14 @@ min-width: 220px;
     margin-bottom: 0px;
     padding-bottom: 2%;
 }
-.price-item{
-flex: 0 0 240px;
+/*---------------------about me section----------------------*/
+.about-container{
+    padding: clamp(2px, 3%, 20px) 15px clamp(48px, 7%, 60px) 15px;
+}
+.personal-intro-p{
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 /*-----------------------carousel-----------------------------*/
 .carousel {
@@ -680,15 +674,6 @@ width: 31%;
 }
 .flickity-prev-next-button.next {
     right: -15px;
-}
-/*---------------------about me section----------------------*/
-.about-container{
-    padding: clamp(2px, 3%, 20px) 15px clamp(48px, 7%, 60px) 15px;
-}
-.personal-intro-p{
-    padding-top: 2%;
-    padding-left: 8%;
-    padding-right: 8%;
 }
 /*---------------------area we cover------------------------*/
 .area-container p{

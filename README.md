@@ -280,8 +280,6 @@ Based on a fictional business offering cat sitting services, this website was bu
 ### **Issues and resolutions**
 
  
-
-
 ### **Scope** 
 
 
@@ -291,17 +289,9 @@ Based on a fictional business offering cat sitting services, this website was bu
 ### **Test results**
 
 
-
-
-
-
-
-
 # Deployment
 
 There is no difference between the developed and the deployed version. 
-
-
 
 ### **Project inception**
 
@@ -317,61 +307,31 @@ Updates were committed frequently to git and the project pushed onto GitHub on a
 ### **How to run the project locally**
 
 
-# Credits
+- # Credits
 
-### **Code**
-*Make sure to include code from other sources in the either the html/css files*
-
-Favicon in metadata
- <!--https://www.w3.org/2005/10/howto-favicon-->
-Navigation bar 
-<!--Scrollspy https://getbootstrap.com/docs/4.5/components/scrollspy/-->
- <!--Navbar code from bootstrap with following personnalisation with css style applied
-        https://getbootstrap.com/docs/4.0/components/navbar/
--->
-Nav > toggler
- <!--solution to style toggler button inspired by stackover flow 'https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color'
-            Personalisation: span removed and apply toggle-btn navbar-toggler-icon to icon
-
- <!-- Solution for menu to collapse back on click from slack overflow
-https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
-Carouse
- <!--  https://codepen.io/desandro/pen/zxRYMP
-                  https://flickity.metafizzy.co/options.html#setup
-            -->
-<!--Form-->
-                    <!--Form elements from W3School with customisation of names, IDs and styles-->
-                    <!--Style from CSS bootstrap <div class="form-row"> <div class="form-group col-md-6">-->
-
-/*anchors*/
-/*https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors/*/
-
-/*code w3cschool on how to do hero image, changed to linear gradient added to right, changed the rgba transparency*/
-/*https://www.w3schools.com/howto/howto_css_hero_image.asp*/
-
-/*Flexible font size --> https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
-
-/*https://www.w3schools.com/howto/howto_css_aspect_ratio.asp*/
-.credentials-box{
-
-/*https://medium.com/front-end-weekly/absolute-centering-in-css-ea3a9d0ad72e*/
-.credentials-text
-
-https://flickity.metafizzy.co/style.html
-https://codepen.io/desandro/pen/zxRYMP
-Change to button colours and position
-
-/* hover effect */
-/*from Rosie Boostrap project - http://ianlunn.github.io/Hover/
-https://github.com/IanLunn/Hover/blob/master/css/hover.css
-*/
-
-/*https://www.w3schools.com/cssref/css3_pr_columns.asp
-https://www.w3schools.com/cssref/css3_pr_column-gap.asp
+ - ## **Code**
+   
+    What | Code source and link 
+   ------------ | -------------
+   Favicon in metadata | Source code form [W3C](https://www.w3.org/2005/10/howto-favicon)
+   Navigation bar:  | Source code from [Boostrap components](https://getbootstrap.com/docs/4.0/components/navbar/), personalised with own css
+   Scrollspy | Source from [Boostrap components](https://getbootstrap.com/docs/4.5/components/scrollspy/) 
+   Nav toggler button  | Source to style toggler button inspired by this [stackover flow post](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color) personalised with css
+   Collapse back menu | Solution for menu to collapse back on click from this [slack overflow post](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click)
+   Hero image | Source code from [W3School](https://www.w3schools.com/howto/howto_css_hero_image.asp) with change to gradient and image position.
+   Invisible anchors | Source code from [Caktus Group blog post](https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors) adapted to own needs.
+   Circular text box | Source code for block with equal height and width from [W3School](https://www.w3schools.com/howto/howto_css_aspect_ratio.asp) and for perfect centering from this [medium blog post](https://medium.com/front-end-weekly/absolute-centering-in-css-ea3a9d0ad72) adapted for for own needs.
+   Carousel | Source code from [Flickity](https://flickity.metafizzy.co/options.html#setup) adapted for site own needs
+   Carousel buttons | Source code from [Flickity](https://flickity.metafizzy.co/style.html) adapted for site own need (style, position, width )
+   Areas list | Source code from [W3School](https://www.w3schools.com/cssref/css3_pr_columns.asp) on how to display list in different columns.
+   Form | Source code from [Boostrap components](https://getbootstrap.com/docs/4.5/components/forms/)
+   Hover effects | Both fade and icon grow effects are from [Ian Lunn Hover.css](https://github.com/IanLunn/Hover/blob/master/css/hover.css), personalised with CSS. This resource was introduced during resume min-project by Code Institute. 
+   Responsive font size | Source code for the clamp function for responsive font size from [css-trick](https://css-tricks.com/how-do-you-do-max-font-size-in-css/), changed value for own needs.
+   Responsive padding | In addition of responsive font size, the following [slackoverflow post](https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css/38079002) explained how clamp function could be used for margin & paddings.
 
 ### **Content**
 
-The content was created by myself. 
+
 
 ### **Media**
 

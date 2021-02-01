@@ -275,13 +275,15 @@ Based on a fictional business offering cat sitting services, this website was bu
      [Responsive viewer](https://www.producthunt.com/posts/responsive-viewer) | This add-on was used to test website responsiveness across different devices.
 
 
--# **Testing**
-    *checklist*
-    - ## **Issues and resolutions**
-    - ## **Scope** 
-    - ## **Test validation criteria**
-    - ## **Test results**
+# **Testing**
+  
+  Testing has been an on-going process during the coding stage of the project with further tests conducted toward the end on the following aspects:
+   - User stories 
+   - Interactive elements
+   - Accessibility 
+   - HTML & CSS validation.  
 
+  Full testing process and results can be found [here](documentation/testing/testing.md).
 
 # Deployment
 
@@ -310,7 +312,7 @@ Updates were committed frequently to git and the project pushed onto GitHub on a
    Favicon in metadata | Source code form [W3C](https://www.w3.org/2005/10/howto-favicon)
    Navigation bar:  | Source code from [Boostrap components](https://getbootstrap.com/docs/4.0/components/navbar/), personalised with own css
    Scrollspy | Source from [Boostrap components](https://getbootstrap.com/docs/4.5/components/scrollspy/) 
-   Nav toggler button  | Source to style toggler button inspired by this [stackover flow post](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color) personalised with css
+   Nav toggler button  | Source to style toggler button inspired by this [stack overflow post](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color) personalised with css
    Collapse back menu | Solution for menu to collapse back on click from this [slack overflow post](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click)
    Hero image | Source code from [W3School](https://www.w3schools.com/howto/howto_css_hero_image.asp) with change to gradient and image position.
    Invisible anchors | Source code from [Caktus Group blog post](https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors) adapted to own needs.

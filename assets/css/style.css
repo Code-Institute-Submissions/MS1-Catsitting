@@ -195,7 +195,7 @@ a.navbar-brand {
 .p-jumbotron {
   margin-bottom: 0px;
   /*font-size: clamp(18px, 2.2vmax, 34px);*/
-  font-size: max(18px, min(2.2vmax, 34px));
+  font-size: max(20px, min(2.3vmax, 34px));
 }
 
 .hr-jumbotron {
@@ -208,12 +208,12 @@ a.navbar-brand {
 .h-jumbotron {
   margin-bottom: 0px;
   /*font-size: clamp(28px, 3.5vmax, 54px);*/
-  font-size: max(28px, min(3.5vmax, 54px));
+  font-size: max(28px, min(3.7vmax, 54px));
 }
 
 .p-promo {
   /*font-size: clamp(11px, 1.3vmax, 18px);*/
-  font-size: max(11px, min(1.3vmax, 18px));
+  font-size: max(12px, min(1.4vmax, 18px));
   padding-top: 30px;
   margin-bottom: 8px;
 }

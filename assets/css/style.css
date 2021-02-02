@@ -180,6 +180,8 @@ a.navbar-brand {
 }
 
 .jumbotron-container {
+  display: flex;
+  align-items: center;
   background: transparent;
   position: absolute;
   width: 100%;
@@ -593,11 +595,9 @@ footer a:hover {
   }
 
   .jumbotron-container {
-    max-width: fit-content;
-    max-height: fit-content;
-    top: 34%;
     padding-top: 0;
-    padding-left: 3.75%;
+    top: 84px;
+    width: max(430px, min(53vw, 1050px));
   }
 }
 

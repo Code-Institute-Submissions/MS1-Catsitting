@@ -592,7 +592,7 @@ footer a:hover {
   }
 
   .jumbotron-container {
-    max-width: fit-content;
+    max-width: 58%;
     max-height: fit-content;
     top: 34%;
     padding-top: 0;

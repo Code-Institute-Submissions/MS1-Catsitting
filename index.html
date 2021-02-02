@@ -11,27 +11,20 @@
 
     <title>Katsit London</title>
     <!--https://www.w3.org/2005/10/howto-favicon-->
-    <link rel="icon" href="assets/images/flavicon.png" type="image/gif">
+    <link rel="icon" href="assets/images/flavicon.png" type="image/png">
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <!--Flickity carousel-->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-   <!--Ian Lunn hover open resources - from User Centric mini-project-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!--Ian Lunn hover open resources - from User Centric mini-project-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
     <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -40,26 +33,19 @@
 <body data-spy="scroll" data-target="#navigation" data-offset="10" class="bg--white">
 
     <header class="container-fluid">
-        <!--Navbar code from bootstrap with following personnalisation with css style applied
-        https://getbootstrap.com/docs/4.0/components/navbar/
-        -->
+        <!--https://getbootstrap.com/docs/4.0/components/navbar/-->
         <nav class="navbar navbar-expand-p fixed-top bg--dark txt--white" id="navigation">
 
-            <a class="navbar-brand" href="#index.html"><img src="../assets/images/logo.png" width="30" height="30"
-                    border="1px solid white" alt="logo"><br>Katsit London</a>
+            <a class="navbar-brand" href="#index.html"><img src="../assets/images/logo.png" width="30" height="30" border="1px solid white" alt="logo"><br>Katsit London</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <!--solution to style toggler button inspired by stackover flow 'https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color'
-            Personalisation: span removed and apply toggle-btn navbar-toggler-icon to icon
-            -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <!--Styling toggler button 'https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color'-->
                 <i class="fas fa-bars toggle-btn navbar-toggler-icon txt--white"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto bg--dark">
-                    <!-- Solution for menu to collapse back on click from slack overflow
-                    https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
-                    -->
+                    <!-- Solution for menu to collapse back on click 
+                    https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click-->
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="nav-link page-scroll" href="#home">Home</a>
                     </li>
@@ -85,26 +71,26 @@
 
     <!--Hero image-->
 
-    <section class="container-fluid bg-img-commonfeatures hero-background">
+    <section class="container-fluid bg-img-features hero-background">
         <div class="anchors" id="home">home</div>
-            <div class="jumbotron jumbotron-fluid jumbotron-container txt--white">
-                <div class="container">
-                    <p class= "p-jumbotron">North West London</p>
-                    <hr class="hr-jumbotron bg--white">
-                    <h3 class="h-jumbotron">Professional & Reliable</h3>
-                    <hr class="hr-jumbotron bg--white">
-                    <p class= "p-jumbotron">Cat Sitting Services</p>
-                    <p class="p-promo">Arrange a meet-up today to get 10% off on your first booking </p>
-                    <a class=" btn btn-style bg--green txt--white hvr-fade" href="#contact" role="button">Contact us
-                    </a>
-                 
-                </div>
-            </div>       
+        <div class="jumbotron jumbotron-fluid jumbotron-container txt--white">
+            <div class="container">
+                <p class="p-jumbotron">North West London</p>
+                <hr class="hr-jumbotron bg--white">
+                <h3 class="h-jumbotron">Professional & Reliable</h3>
+                <hr class="hr-jumbotron bg--white">
+                <p class="p-jumbotron">Cat Sitting Services</p>
+                <p class="p-promo">Arrange a meet-up today to get 10% off on your first booking </p>
+                <a class=" btn btn-style bg--green txt--white hvr-fade" href="#contact" role="button">Contact us
+                </a>
+
+            </div>
+        </div>
     </section>
-  
+
     <!--Services section-->
 
-    <section class="container-fluid bg--white txt--dark section-layout bottom-padding">
+    <section class="container-fluid bg--white section-layout bottom-padding">
         <div class="anchors" id="services">services</div>
         <div class="row">
             <div class="col-12 service-intro-p">
@@ -135,24 +121,24 @@
             </div>
             <div class="col-sm-12 col-md-4">
                 <div class="row price-container">
-                    <div class="col-xs-12 col-sm-4 col-md-12 price-item bg-img-commonfeatures price-img1">
+                    <div class="col-xs-12 col-sm-4 col-md-12 price-item bg-img-features price-img1">
                         <h5>1 visit a day</h5>
                         <h5>£15</h5>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-12 price-item bg-img-commonfeatures price-img2">
+                    <div class="col-xs-12 col-sm-4 col-md-12 price-item bg-img-features price-img2">
                         <h5>2 visit a day</h5>
                         <h5>£25</h5>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-12 price-item bg-img-commonfeatures price-img3">
+                    <div class="col-xs-12 col-sm-4 col-md-12 price-item bg-img-features price-img3">
                         <h5>Overnight stay</h5>
                         <h5>£60</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-12 cont-col">
-                <a class="btn btn-style bg--green txt--white hvr-fade" href="#contact" role="button">Contact us</a> 
-            </div> 
-        </div>  
+            <div class="col-12 serv-button-container">
+                <a class="btn btn-style bg--green txt--white hvr-fade" href="#contact" role="button">Contact us</a>
+            </div>
+        </div>
     </section>
 
     <!--About us section-->
@@ -160,110 +146,112 @@
     <section class="container-fluid section-layout">
         <div class="anchors" id="about">about me</div>
         <div class="row md-reverse">
-            <div class="col-sm-12 col-md-6 txt--dark bg--beige">
+            <div class="col-sm-12 col-md-6 bg--beige">
                 <div class="container about-container">
-                <h2 class="section-heading">About me</h2>
-                <hr class="section-divider bg--dark">
-                <p class="personal-intro-p">
-                    My name is Sian and I am a qualified veterinary nurse with extensive knowledge and experience of
-                    cats.
-                    I have volunteered with many animal charities such as the Mayhew and Battersea home for cats and
-                    dogs, helping nursing and hosting cats to help them find their forever homes.
-                    I am also the proud human of Elmer.
-                </p>
-               
-                <div class="row credentials-container">
-                    <div class="col-4 credentials-item">
-                        <div class="credentials-box">
-                            <div class="credentials-text"><h6>Feline First Aid Qualified</h6></div>
+                    <h2 class="section-heading">About me</h2>
+                    <hr class="section-divider bg--dark">
+                    <p class="personal-intro-p">
+                        My name is Sian and I am a qualified veterinary nurse with extensive knowledge and experience of
+                        cats.
+                        I have volunteered with many animal charities such as the Mayhew and Battersea home for cats and
+                        dogs, helping nursing and hosting cats to help them find their forever homes.
+                        I am also the proud human of Elmer.
+                    </p>
+                    <div class="row credentials-container">
+                        <div class="col-4 credentials-item">
+                            <div class="credentials-box">
+                                <div class="credentials-text">
+                                    <h6>Feline First Aid Qualified</h6>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-4 credentials-item">
-                        <div class="credentials-box">
-                            <div class="credentials-text"><h6>DBS Checked</h6></div>
+                        <div class="col-4 credentials-item">
+                            <div class="credentials-box">
+                                <div class="credentials-text">
+                                    <h6>DBS Checked</h6>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-4 credentials-item">
-                        <div class="credentials-box">   
-                            <div class="credentials-text"><h6>Fully Insured</h6></div>
-                        </div> 
+                        <div class="col-4 credentials-item">
+                            <div class="credentials-box">
+                                <div class="credentials-text">
+                                    <h6>Fully Insured</h6>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 bg-img-commonfeatures bg-img-about"></div>
+            <div class="col-sm-12 col-md-6 bg-img-features bg-img-about"></div>
         </div>
     </section>
 
     <!--Testimonials-->
 
     <section class="container-fluid section-layout bottom-padding">
-            <div class="anchors" id="testimonials">testimonials</div>
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="section-heading">Testimonials</h2>
-                    <hr class="section-divider bg--brown">
-                </div>
+        <div class="anchors" id="testimonials">testimonials</div>
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-heading">Testimonials</h2>
+                <hr class="section-divider bg--brown">
             </div>
-            <!--  https://codepen.io/desandro/pen/zxRYMP
-                  https://flickity.metafizzy.co/options.html#setup
-            -->
-            <div class="carousel"
-                data-flickity='{"wrapAround": true, "imagesLoaded": true, "cellAlign": "left"}'>
-                <div class="carousel-cell is-initial-select">
-                    <div class="bg-img-commonfeatures img-testimonial1 img-block"></div>
-                    <h5>Alex Jones</h5>
-                    <p class="testimonial-text">
-                        <i class="fas fa-quote-left"></i>
-                         Wonderful services, I’ve been using Katsit for a while now and my cat is always content and relaxed when we come back home. 
-                         I couldn't me more than happy with the care Sian provided. Plus the plants are well looked after. <i class="fas fa-quote-right"></i>
-                    </p>
-                </div>
-                <div class="carousel-cell">
-                    <div class="bg-img-commonfeatures img-testimonial2 img-block"></div>
-                    <h5>Valentina Crisby</h5>
-                    <p class="testimonial-text"><i class="fas fa-quote-left"></i>  Katsit has been absolutely brilliant with my aging cat
-                        Oliver. Sian has been staying overnight when I need to travel for work and has provided excellent care and managed his health condition
-                        perfectly. <i class="fas fa-quote-right"></i>
-                    </p>
-                </div>
-                <div class="carousel-cell">
-                    <div class="bg-img-commonfeatures img-testimonial3 img-block"></div>
-                    <h5>Joe Tanning</h5>
-                    <p class="testimonial-text">
-                        <i class="fas fa-quote-left"></i> Katsit London has provided outstanding care for our cat, who has a serious medical condition. 
-                        We can now go away with peace of mind having found a person we can trust to look after our cat. <i class="fas fa-quote-right"></i> 
-                    </p>
-                </div>
-                <div class="carousel-cell">
-                    <div class="bg-img-commonfeatures img-testimonial4 img-block"></div>
-                    <h5>Carlos Menza </h5>
-                    <p class="testimonial-text">
-                        <i class="fas fa-quote-left"></i> 
-                        We were a bit anxious to leave our kittens for the first time 
-                        and Sian provided all the reinsurance we needed. We received regular videos
-                        of
-                        Merlin
-                        and Sasha playing and purring. We will definitively use Katsit again.
-                        <i class="fas fa-quote-right"></i>
-                    </p>
-                </div>
-                <div class="carousel-cell">
-                    <div class="bg-img-commonfeatures img-testimonial5 img-block"></div>
-                    <h5>Milly Smith</h5>
-                    <p class="testimonial-text">
-                        <i class="fas fa-quote-left"></i> 
-                        Since I went back to work full time, Katsit has
-                        been providing an excellent care for Angel, my rescue cat who has a very anxious nature, visiting him once a day. Angel is a lot more
-                        relaxed now and Sian also took some amazing photos.
-                        <i class="fas fa-quote-right"></i>
-                    </p>
-                </div>
+        </div>
+        <!-- https://flickity.metafizzy.co/options.html#setup and https://codepen.io/desandro/pen/zxRYMP-->
+        <div class="carousel" data-flickity='{"wrapAround": true, "imagesLoaded": true, "cellAlign": "left"}'>
+            <div class="carousel-cell is-initial-select">
+                <div class="bg-img-features img-testimonial1 img-block"></div>
+                <h5>Alex Jones</h5>
+                <p class="testimonial-text">
+                    <i class="fas fa-quote-left"></i>
+                    Wonderful services, I’ve been using Katsit for a while now and my cat is always content and relaxed when we come back home.
+                    I couldn't me more than happy with the care Sian provided. Plus the plants are well looked after. <i class="fas fa-quote-right"></i>
+                </p>
             </div>
+            <div class="carousel-cell">
+                <div class="bg-img-features img-testimonial2 img-block"></div>
+                <h5>Valentina Crisby</h5>
+                <p class="testimonial-text"><i class="fas fa-quote-left"></i> Katsit has been absolutely brilliant with my aging cat
+                    Oliver. Sian has been staying overnight when I need to travel for work and has provided excellent care and managed his health condition
+                    perfectly. <i class="fas fa-quote-right"></i>
+                </p>
+            </div>
+            <div class="carousel-cell">
+                <div class="bg-img-features img-testimonial3 img-block"></div>
+                <h5>Joe Tanning</h5>
+                <p class="testimonial-text">
+                    <i class="fas fa-quote-left"></i> Katsit London has provided outstanding care for our cat, who has a serious medical condition.
+                    We can now go away with peace of mind having found a person we can trust to look after our cat. <i class="fas fa-quote-right"></i>
+                </p>
+            </div>
+            <div class="carousel-cell">
+                <div class="bg-img-features img-testimonial4 img-block"></div>
+                <h5>Carlos Menza </h5>
+                <p class="testimonial-text">
+                    <i class="fas fa-quote-left"></i>
+                    We were a bit anxious to leave our kittens for the first time
+                    and Sian provided all the reinsurance we needed. We received regular videos
+                    of
+                    Merlin
+                    and Sasha playing and purring. We will definitively use Katsit again.
+                    <i class="fas fa-quote-right"></i>
+                </p>
+            </div>
+            <div class="carousel-cell">
+                <div class="bg-img-features img-testimonial5 img-block"></div>
+                <h5>Milly Smith</h5>
+                <p class="testimonial-text">
+                    <i class="fas fa-quote-left"></i>
+                    Since I went back to work full time, Katsit has
+                    been providing an excellent care for Angel, my rescue cat who has a very anxious nature, visiting him once a day. Angel is a lot more
+                    relaxed now and Sian also took some amazing photos.
+                    <i class="fas fa-quote-right"></i>
+                </p>
+            </div>
+        </div>
     </section>
 
     <!--Areas we cover section-->
-    
+
     <section class="container-fluid section-layout">
         <div class="anchors" id="areas">areas</div>
         <div class="row">
@@ -290,9 +278,9 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 map-column">
-                <iframe class="map-frame" width="100%" frameborder="0"
-                    src="https://lemocla.carto.com/builder/f65987c8-ec09-4491-806a-3e9cc0c5a05e/embed">
+                <iframe class="map-frame" width="100%" frameborder="0" src="https://lemocla.carto.com/builder/f65987c8-ec09-4491-806a-3e9cc0c5a05e/embed">
                 </iframe>
+                <!--Embedded map from www.carto.com-->
             </div>
         </div>
     </section>
@@ -301,14 +289,14 @@
 
     <section class="container-fluid section-layout">
         <div class="anchors" id="contact">contact</div>
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="section-heading">Contact us</h2>
-                    <hr class="section-divider bg--brown">
-                </div>
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-heading">Contact us</h2>
+                <hr class="section-divider bg--brown">
             </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
                 <div class="container contact-details-container">
                     <p>Get in touch today to arrange a meet & greet or to get further information about our services. </p>
                     <hr class="section-divider">
@@ -319,22 +307,20 @@
                     <hr class="section-divider">
                     <ul class="fa-ul d-flex-column">
                         <a class="hvr-icon-grow txt--dark" href="https://en-gb.facebook.com/" target="_blank" rel="noopener noreferrer">
-                        <li><span class="fa-li"><i class="fab fa-facebook-square social-media-i hvr-icon"></i></span>Facebook</li>
+                            <li><span class="fa-li"><i class="fab fa-facebook-square social-media-i hvr-icon"></i></span>Facebook</li>
                         </a>
                         <a class="hvr-icon-grow txt--dark" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-                        <li><span class="fa-li"><i class="fab fa-twitter-square social-media-i hvr-icon"></i></span>Twitter</li>
+                            <li><span class="fa-li"><i class="fab fa-twitter-square social-media-i hvr-icon"></i></span>Twitter</li>
                         </a>
                         <a class="hvr-icon-grow txt--dark" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                        <li><span class="fa-li"><i class="fab fa-instagram-square social-media-i hvr-icon"></i></span>Instagram</li>
+                            <li><span class="fa-li"><i class="fab fa-instagram-square social-media-i hvr-icon"></i></span>Instagram</li>
                         </a>
                     </ul>
                 </div>
-                </div>
-                <div class="col-sm-12 col-md-6 bottom-padding">
-                    <div class="container form-container">
-                    <!--Form-->
-                    <!--Form elements from W3School with customisation of names, IDs and styles-->
-                    <!--Style from CSS bootstrap <div class="form-row"> <div class="form-group col-md-6">-->
+            </div>
+            <div class="col-sm-12 col-md-6 bottom-padding">
+                <div class="container form-container">
+                    <!--Form - https://getbootstrap.com/docs/4.5/components/forms/-->
                     <form>
                         <div class="form-group">
                             <label for="fullname">Full name</label>
@@ -359,12 +345,12 @@
                             <textarea class="form-control" id="message" name="message" rows="6" cols="30"></textarea>
                         </div>
                         <!--button-->
-                        <button type="submit" id="submit" href="#home" class="d-block mx-auto btn btn-style bg--green txt--white hvr-fade">Submit</button>    
+                        <button type="submit" id="submit" href="#home" class="d-block mx-auto btn btn-style bg--green txt--white hvr-fade">Submit</button>
                     </form>
                     <!--End form-->
                 </div>
-                </div>
             </div>
+        </div>
     </section>
 
     <!--Footer-->
@@ -373,18 +359,18 @@
         <div class="row">
             <div class="col-sm-12 col-md-6 ft-left">
                 <div class="container">
-                <h6 class="footer-headings">Contact details</h6>
-                <p><i class="fas fa-phone-alt"></i> Tel. 0208 2901 982<br>
-                    <i class="fas fa-envelope"></i> Email: info@katsitlondon.co.uk
-                </p>
+                    <h6 class="footer-headings">Contact details</h6>
+                    <p><i class="fas fa-phone-alt"></i> Tel. 0208 2901 982<br>
+                        <i class="fas fa-envelope"></i> Email: info@katsitlondon.co.uk
+                    </p>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 ft-right">
                 <div class="ft-right-element">
                     <h6 class="footer-headings">Find us on social media</h6>
                     <p class="ft-social-icons">
-                        <a class=" txt--white hvr-icon-grow" href="https://en-gb.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square hvr-icon"></i></a> 
-                        <a class="txt--white hvr-icon-grow" href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square hvr-icon"></i></a> 
+                        <a class=" txt--white hvr-icon-grow" href="https://en-gb.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square hvr-icon"></i></a>
+                        <a class="txt--white hvr-icon-grow" href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square hvr-icon"></i></a>
                         <a class="txt--white hvr-icon-grow" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram-square hvr-icon"></i></a>
                     </p>
                     <p class="copyright-p">Copyright @ katsit london 2020</p>
@@ -394,4 +380,5 @@
     </footer>
 
 </body>
+
 </html>

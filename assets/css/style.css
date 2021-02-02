@@ -172,7 +172,7 @@ a.navbar-brand {
 .hero-background {
   height: 100vh;
   max-height: -webkit-fill-available;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/hero-img.webp");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat-hero-compressed.jpg");
   background-position-x: 71%;
   background-position-y: 20%;
 }
@@ -585,7 +585,7 @@ footer a:hover {
 @media only screen and (orientation: landscape) and (min-aspect-ratio: 5/4) {
 /*-----------------------hero image---------------------------*/
   .hero-background {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/hero-img.webp");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/cat-hero-compressed.jpg");
   }
 
   .jumbotron-container {

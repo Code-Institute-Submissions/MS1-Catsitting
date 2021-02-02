@@ -578,6 +578,23 @@ footer a:hover {
 
 /*------------------------------[ MEDIA QUERIES ]--------------------------------*/
 
+/*------------------------Landscape-------------------------------*/
+@media only screen and (orientation: landscape) and (min-aspect-ratio: 5/4) {
+/*-----------------------hero image---------------------------*/
+  .hero-background {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
+  }
+
+  .jumbotron-container {
+    max-width: fit-content;
+    max-height: fit-content;
+    top: 34%;
+    padding-top: 0;
+    padding-left: 3.75%;
+  }
+}
+
 /*------------------------x-small to medium screen-------------------------------*/
 
 @media only screen and (min-width: 410px) {
@@ -707,16 +724,6 @@ footer a:hover {
 /*-------------------------------------large screen--------------------------------------*/
 
 @media only screen and (min-width: 992px) {
-/*-----------------------hero image---------------------------*/
-  .hero-background {
-    height: 100vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
-  }
-
-  .jumbotron-container {
-    max-width: 700px;
-    top: 25%;
-  }
 /*------------------------services-----------------------------*/
   .service-intro-p {
     margin-bottom: 0px;

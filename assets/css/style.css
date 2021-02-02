@@ -92,7 +92,8 @@ li {
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
-  padding-top: clamp(43px, 4%, 60px);
+  /*padding-top: clamp(43px, 4%, 60px);*/
+  padding-top: max(43px, min(4%, 60px));
 }
 
 .section-divider {

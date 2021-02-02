@@ -92,7 +92,6 @@ li {
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
-  /*padding-top: clamp(43px, 4%, 60px);*/
   padding-top: max(43px, min(4%, 60px));
 }
 
@@ -103,7 +102,6 @@ li {
 }
 
 .bottom-padding {
-  /*padding-bottom: clamp(45px, 4.5%, 60px);*/
   padding-bottom: max(45px, min(4.5%, 60px));
 }
 
@@ -174,7 +172,7 @@ a.navbar-brand {
 .hero-background {
   height: 100vh;
   max-height: -webkit-fill-available;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/hero-img.webp");
   background-position-x: 71%;
   background-position-y: 20%;
 }
@@ -197,7 +195,6 @@ a.navbar-brand {
 
 .p-jumbotron {
   margin-bottom: 0px;
-  /*font-size: clamp(18px, 2.2vmax, 34px);*/
   font-size: max(22px, min(2.3vmax, 34px));
 }
 
@@ -210,12 +207,10 @@ a.navbar-brand {
 
 .h-jumbotron {
   margin-bottom: 0px;
-  /*font-size: clamp(28px, 3.5vmax, 54px);*/
   font-size: max(28px, min(3.7vmax, 54px));
 }
 
 .p-promo {
-  /*font-size: clamp(11px, 1.3vmax, 18px);*/
   font-size: max(14px, min(1.4vmax, 18px));
   padding-top: 30px;
   margin-bottom: 8px;
@@ -590,8 +585,7 @@ footer a:hover {
 @media only screen and (orientation: landscape) and (min-aspect-ratio: 5/4) {
 /*-----------------------hero image---------------------------*/
   .hero-background {
-    /*height: 85vh;*/
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/cat_hero.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/hero-img.webp");
   }
 
   .jumbotron-container {
@@ -619,7 +613,6 @@ footer a:hover {
 /*------------------------services----------------------------*/
   .price-item {
     flex: 0 0 31%;
-/*max-width: 31%;*/;
   }
 /*-----------------------carousel-----------------------------*/
   .carousel-cell {
@@ -737,7 +730,6 @@ footer a:hover {
   }
 /*---------------------about me section----------------------*/
   .about-container {
-    /*padding: clamp(2px, 3%, 20px) 15px clamp(48px, 7%, 60px) 15px;*/
     padding: max(2px, min(3%, 20px)) 15px max(48px, min(7%, 60px)) 15px;
   }
 

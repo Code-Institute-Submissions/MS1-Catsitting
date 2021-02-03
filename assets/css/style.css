@@ -420,8 +420,8 @@ and  https://codepen.io/desandro/pen/zxRYMP
 
 .img-block {
   display: block;
-  width: 115px;
-  height: 115px;
+  width: 120px; /*115px*/
+  height: 120px;
   margin: 0 auto;
   margin-bottom: 25px;
   border-radius: 50%;

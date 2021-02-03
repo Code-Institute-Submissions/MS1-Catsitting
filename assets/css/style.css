@@ -171,9 +171,9 @@ a.navbar-brand {
 
 .hero-background {
   height: 100vh;
-  max-height: fill-available;
-  max-height: -webkit-fill-available;
-  max-height: -moz-fill-available;
+  min-height: fill-available;
+  min-height: -webkit-fill-available;
+  min-height: -moz-fill-available;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat-hero-compressed.jpg");
   background-position-x: 71%;
   background-position-y: 20%;

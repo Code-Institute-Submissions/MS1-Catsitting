@@ -486,7 +486,23 @@ and  https://codepen.io/desandro/pen/zxRYMP
 
 .contact-details-container {
   padding-top: 15px;
-  padding-bottom: 25px;
+}
+
+.contact-details-container p{
+  padding-bottom: 10px;
+}
+
+.contact-details-container hr{
+  width: 80px;
+}
+
+.contact-details-container ul{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.social-media-list li{
+ padding-left: 0;
 }
 
 .contact-details-container a {
@@ -498,16 +514,13 @@ and  https://codepen.io/desandro/pen/zxRYMP
   text-decoration: none;
 }
 
-.contact-details-container li {
-  padding-left: 10px;
-}
-
 .contact-details-i {
   font-size: 18px;
 }
 
 .social-media-i {
   font-size: 22px;
+  padding-right: 8px;
 }
 
 .form-container {
@@ -653,6 +666,10 @@ footer a:hover {
 
   .bg-img-about {
     min-height: auto;
+  }
+/*---------------------about me section----------------------*/
+  .hr-hide{
+    display: none;
   }
 /*------------------------footer-----------------------------*/
   .ft-left {

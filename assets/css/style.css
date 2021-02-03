@@ -325,7 +325,8 @@ a.navbar-brand {
 .bg-img-about {
   background-image: url("../images/portrait1.jpg");
   background-position: left top;
-  min-height: min(50vw,67vh);
+  /*min-height: min(50vw,67vh);*/
+  min-height: 250px;
 }
 
 /*-------------------------------[ TESTIMONIALS ]--------------------------------*/

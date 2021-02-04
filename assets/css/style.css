@@ -4,6 +4,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #262221;
   position: relative;
+  max-width: 2000px;
 }
 
 /*---------------------------------[ HEADINGS ]----------------------------------*/
@@ -826,4 +827,21 @@ footer a:hover {
   .form-container {
     margin-right: 10%;
   }
+}
+
+/*---------------------------------xxx large screen------------------------------------*/
+
+@media only screen and (min-width: 2000px) {
+    .container-fluid{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .fixed-top {
+        width: 2000px;
+        max-width: 2000px;
+        top: initial;
+        left: initial;
+        right: initial;   
+        padding: 0px; 
+    }
 }

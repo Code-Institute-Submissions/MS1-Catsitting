@@ -22,11 +22,7 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  /*font-size: 22px;*/
-  font-weight: 600;
-  
-  /*font-size: max(22px, min(2.3vmax, 34px));*/
-  
+  font-weight: 500;
 }
 
 /*---------------------------------[ LIST LI ]-----------------------------------*/
@@ -50,9 +46,6 @@ li {
 
 .bg--green {
   background-color: #23B06A;
-  /*background-color: #1C9A5D;*/
-  /*background-color: #16884f;*/
-  /*background-color: #28a745;*/
 }
 
 .bg--white {
@@ -297,7 +290,7 @@ a.navbar-brand {
 
 .personal-intro-p {
   padding-bottom: 15px;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 
 .credentials-container {
@@ -445,7 +438,7 @@ and  https://codepen.io/desandro/pen/zxRYMP
 }
 
 .testimonial-text {
-  text-align: justify;
+  /*text-align: justify;*/
   padding-top: 10px;
 }
 

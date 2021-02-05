@@ -606,7 +606,7 @@ footer a:hover {
   }
 }
 /*------------------------Landscape-------------------------------*/
-@media only screen and (orientation:landscape) and (max-width:420px){
+@media only screen and (orientation:landscape) and (max-height:420px){
 /*-----------------------hero image---------------------------*/
   .p-promo{
     display: none;

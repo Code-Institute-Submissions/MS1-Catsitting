@@ -482,6 +482,7 @@ and  https://codepen.io/desandro/pen/zxRYMP
 }
 
 .map-frame {
+  width: 100%;
   min-height: 375px;
   height: 100%;
   border: none;

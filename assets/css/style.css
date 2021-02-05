@@ -291,7 +291,6 @@ a.navbar-brand {
 
 .personal-intro-p {
   padding-bottom: 15px;
-  /*text-align: justify;*/
 }
 
 .credentials-container {
@@ -322,7 +321,6 @@ a.navbar-brand {
   left: 50%;
   transform: translate(-50%, -50%);
   display: block;
-  /*font-weight: 600;*/
 }
 
 .credentials-headings {
@@ -427,7 +425,7 @@ and  https://codepen.io/desandro/pen/zxRYMP
 
 .img-block {
   display: block;
-  width: 120px; /*115px*/
+  width: 120px; 
   height: 120px;
   margin: 0 auto;
   margin-bottom: 25px;
@@ -439,7 +437,6 @@ and  https://codepen.io/desandro/pen/zxRYMP
 }
 
 .testimonial-text {
-  /*text-align: justify;*/
   padding-top: 10px;
 }
 

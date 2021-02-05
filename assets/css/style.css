@@ -46,7 +46,8 @@ li {
 }
 
 .bg--green {
-  background-color: #23B06A;
+  /*background-color: #23B06A; original*/
+  background-color: #078847; /*contrast*/
 }
 
 .bg--white {

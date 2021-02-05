@@ -37,3 +37,15 @@ Issue | Solution
 ------------ | -------------
 The background image in about me section and i-frame of embedded map did not display properly on small screens when occupying the full width. | The solution was in the case of the background image to apply a vmin function to keep the size balanced with the container above. For the frame, a minimum height was applied, so the content of the map displayed properly and tools of the map did not interfere with the content on the map.
 
+
+# Testing user stories 
+
+The testing of  User Stories is set on the user’s journey across the website and covers interactive elements, as well as the responsiveness of the website across different platforms and browsers. 
+
+User stories were tested manually on the following devices and browsers:
+- Devices:  Iphone XR, Samsung S10, Ipad,  MacBook Pro and iMac
+- Browsers: Safari, firefox and Chrome
+
+
+
+

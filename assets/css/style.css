@@ -46,8 +46,7 @@ li {
 }
 
 .bg--green {
-  /*background-color: #23B06A; original*/
-  background-color: #078847; /*contrast*/
+  background-color: #078847;
 }
 
 .bg--white {
@@ -328,7 +327,6 @@ a.navbar-brand {
 .bg-img-about {
   background-image: url("../images/portrait.jpg");
   background-position: left top;
-  /*min-height: min(60vw,55vh);*/
   min-height: min(70vw,65vh);
 }
 
@@ -607,7 +605,9 @@ footer a:hover {
     width: max(430px, min(53vw, 1050px));
   }
 }
+/*------------------------Landscape-------------------------------*/
 @media only screen and (orientation:landscape) and (max-width:420px){
+/*-----------------------hero image---------------------------*/
   .p-promo{
     display: none;
   }

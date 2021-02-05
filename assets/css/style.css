@@ -483,7 +483,7 @@ and  https://codepen.io/desandro/pen/zxRYMP
 .map-frame {
   min-height: 375px;
   height: 100%;
-  background-color: #f2f6f9;
+  border: none;
 }
 
 /*--------------------------------[ CONTACT US ]---------------------------------*/

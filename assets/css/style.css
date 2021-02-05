@@ -833,4 +833,7 @@ footer a:hover {
     max-width: 2000px;
     margin: 0 auto;
   }
+  .hero-background{
+    max-height: 850px;
+  }
 }

@@ -177,7 +177,7 @@ a.navbar-brand {
 .hero-background {
   height: 95vh;
   max-height: -webkit-fill-available;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat-hero-compressed.jpg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat-hero.jpg");
   background-position-x: 71%;
   background-position-y: 20%;
 }
@@ -263,7 +263,7 @@ a.navbar-brand {
 }
 
 .price-img1 {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../images/cat-1.jpg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../images/cat1.jpg");
   background-position: center center;
 }
 
@@ -328,7 +328,7 @@ a.navbar-brand {
 }
 
 .bg-img-about {
-  background-image: url("../images/portrait1.jpg");
+  background-image: url("../images/portrait.jpg");
   background-position: left top;
   /*min-height: min(60vw,55vh);*/
   min-height: min(70vw,65vh);
@@ -603,7 +603,7 @@ footer a:hover {
 @media only screen and (orientation: landscape) and (min-aspect-ratio: 5/4) {
 /*-----------------------hero image---------------------------*/
   .hero-background {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/cat-hero-compressed.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/cat-hero.jpg");
   }
 
   .jumbotron-container {

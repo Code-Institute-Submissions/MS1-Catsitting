@@ -821,27 +821,20 @@ footer a:hover {
   }
 /*-----------------------contact us-------------------------*/
   .contact-details-container {
-    margin-left: 10%;
+    margin-left: 12.5%;
   }
 
   .form-container {
-    margin-right: 10%;
+    margin-right: 12.5%;
   }
 }
 
 /*---------------------------------xxx large screen------------------------------------*/
 
 @media only screen and (min-width: 2000px) {
-    .container-fluid{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
     .fixed-top {
-        width: 2000px;
+        width: 100%;
         max-width: 2000px;
-        top: initial;
-        left: initial;
-        right: initial;   
-        padding: 0px; 
+        margin: 0 auto;
     }
 }

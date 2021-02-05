@@ -171,7 +171,7 @@ a.navbar-brand {
 /*-------------------------[ HERO IMAGE & JUMBOTRON]-----------------------------*/
 
 /*https://www.w3schools.com/howto/howto_css_hero_image.asp*/
-
+/*https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser*/
 .hero-background {
   height: 95vh;
   max-height: -webkit-fill-available;

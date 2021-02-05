@@ -611,6 +611,9 @@ footer a:hover {
 
 @media only screen and (orientation:landscape) and (max-height:420px) {
 /*-----------------------hero image---------------------------*/
+  .jumbotron-container{
+    padding-bottom: 20px;
+  }
   .p-promo {
     display: none;
   }

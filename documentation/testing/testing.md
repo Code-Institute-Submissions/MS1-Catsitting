@@ -50,21 +50,42 @@ The background image in about me section and i-frame of embedded map did not dis
     **T01 - Acceptance criteria**  
     - When I visit the website using my device, all content is visible and visual elements are displayed proportionally,  
 
+        **Issues:**   
+        - Responsive paddings were not displayed on tablets
+        - Hero image covering more than viewport heights on mobile, resulting in the jumbotron text not being fully visible and centered, due to top and bottom menus on devices
+        - Responsive fonts style in jumbotron text not applied on tablets and mobile
+        - Phone number links automatically activated on iphones and ipad
+        - Hero image appeared quite slow to upload
+        - Some balance issues on very big screens 
+        
+        **Fix**
+        - Responsive fonts and paddings were adjusted using a different css function. 
+        - Additional media queries for landscape screens were set to adjust the hero image and jumbotron text
+        - A meta data was added in the header to remove automatic links of phone numbers
+        - Maximum height for the hero image was set to -webkit-fill-available so that it doesn’t fill more than the viewport height on mobile. 
+        - Background image size was compressed to optimise performance. 
+        - Body was set to a maximum  width of 2000px and media queries for medium screens were adjusted so that there’s a better balance on medium, large and extra large screens.
+
+    **Result after fixes: PASS**
+
     **T02 - Acceptance criteria**
     - When I use a small screen or,
     - When I resize my screen and the menu becomes too large, the navigation bar collapses and,
     - When the navigation is collapsed, a toggler button is displayed to right of the header, and
     - When I click on the toggler button, a vertical menu is displayed,
     - When I click again on the toggler button, the vertical menu collapses back. 
-    - When the vertical menu is displayed and I click on any items, the page scrolls to the relevant section and the menu will collapse back.
- 
+    - When the vertical menu is displayed and I click on any items, the page scrolls to the relevant section and the menu will collapse back.  
+
+    **Result: PASS**
  
 - ### **As a first time visitor, I want to be able to easily navigate across the website so that I can quickly find information.**
  
     **T03 - Acceptance criteria** 
     - When I scroll to any section of the website, the navigation remains fixed on top of the page and my position on the page is made clear by the relevant link changing appearance (white bold) in the navigation bar. 
     - When I click on a menu item in the navigation bar, the page scrolls to the top of the relevant section of the webpage without spacing or content being covered by the navigation bar.
- 
+    
+    **Result: PASS**
+
 - ### **As a first time visitor, I want to read about the company's services so that I can assess whether they fit my needs / As a first time visitor, I want to look at prices so that I can check whether I can afford their services.**
  
     **TO4 - Acceptance criteria**
@@ -74,6 +95,8 @@ The background image in about me section and i-frame of embedded map did not dis
     - when I hover over the button, its appearance changes from green to orange. 
     - when I click on the button, the page scrolls to the “contact us” section. 
  
+    **Result: PASS**
+
 - ### **As a returning visitor, I want to read customer testimonials so that I can assess if the company is reliable and professional.**
  
     **TO5 - Acceptance criteria**
@@ -83,18 +106,24 @@ The background image in about me section and i-frame of embedded map did not dis
     - When I click on the right button, the carousel moves one slide to the right,
     - When I click on the left button, the carousel moves one slide to the left, and
     - When I click on one of the dotted indicators, the first slide to be displayed is relevant to the position on the dotter indicator. 
+
+    **Result: PASS**
  
 - ### **As a returning visitor, I want to read more about the company so that I can assess its credentials, professionalism and cat friendliness.**
  
     **T06 - Acceptance criteria** 
     - when I click on the menu item “credentials” in the navigation bar, the page scrolls to the “credentials” section of the website.
-    - When I view / scroll to the testimonials section, text and a background image are visible and displayed responsively.
+    - When I view / scroll to the testimonials section, text and a background image are visible and displayed responsively.  
+
+    **Result: PASS**
  
 - ### **As a returning visitor, I want to access contact options so that I can reach the company for further queries.**
  
     **T07 - Acceptance criteria**
     - when I click on the menu item “contact us” in the navigation bar, the page scrolls to the “contact us” section of the website, 
     - when I view or scroll to the “contact us” section, contact details with a phone number, an email address and list of social media accounts is displayed as well as a contact form containing “full name”, “email address”, “subject” and “message” fields,
+
+    **Result: PASS**
     
     **T08 - Acceptance criteria - Form valid path**
     - when I enter my name in the “full name” field, and
@@ -102,6 +131,8 @@ The background image in about me section and i-frame of embedded map did not dis
     - when I go to the subject field, I can keep the existing selection “general queries” or select “Arrange a meet & greet” and,
     - when I enter a message in the “message field” and,
     - when I click submit, I am brought back to the top of the page (as the form is not linked with any server)
+
+    **Result: PASS**
     
     **T09 - Acceptance criteria - Form invalid path**
     - when I enter an invalid email address and when I click submit, a message prompts me to enter a valid email address. 
@@ -109,9 +140,19 @@ The background image in about me section and i-frame of embedded map did not dis
     - when I leave the “email” field empty and/or
     - when I leave the “message” field empty and/or
     - when I click submit, a message will appear to prompt me to enter the required fields.
+
+    **Issue:** 
+    - No message appears when the message field is empty.
+
+    **Fix:** 
+    - Add required to text area element 
+
+    **Result after fixes: PASS**
  
     **T10 - Acceptance criteria**
     - when I scroll to the footer of the webpage, company contact details with a phone number and an email address are displayed
+
+    **Result: PASS**
  
 - ### **As a returning visitor,I want to view the areas where the company operates so that I can check that they provide services where I live.**
  
@@ -119,21 +160,27 @@ The background image in about me section and i-frame of embedded map did not dis
     - when I click on the menu item “area we cover” in the navigation bar, the page scrolls to the section “Area we cover” of the website.
     - when I view / scroll to the “area we cover” section, a list of areas where the business operates is displayed responsively.
     - when I view the “area we cover” section, a map with a designated zone is displayed and I can zoom in and out, as well as searching my postcode.(the zoom and searching option are third party functionalities)
- 
+    
+    **Result: PASS**
+
 - ### **As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.**
  
     **T12 - Acceptance criteria**
     - when I scroll to the footer of the webpage, icons representing facebook, twitter and instagram are displayed and,
     - when I hover over one of the icons, the icon changes in appearance (grow),
     - when I click on one of the icons, I am redirected to the right website in a new tab (ex. Facebook icon redirects to www.facebook.com.).
- 
+    
+    **Result: PASS**
+
 - ### **As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.**
  
     **T13 - Acceptance criteria** 
     - When I land on the website, a hero image, jumbotron text and a “contact” us button are displayed responsively,
     - When I hover over the contact us button, it changes in appearance from green to orange.
     - When I click on the “contact us” button, the page scroll the “contact us” section, 
- 
+    
+    **Result: PASS**
+
     **T08 - Acceptance criteria - Form valid path**  
     - when I view or scroll to the “contact us” section, contact details with a phone number, an email address and a list social media accounts is displayed, as well as a contact form containing “full name”, “email address”, “subject” and “message” fields, 
     - when I enter my name in the “full name” field, and
@@ -141,17 +188,21 @@ The background image in about me section and i-frame of embedded map did not dis
     - when I go to the subject field, I can select “Arrange a meet & greet” and,
     - when I enter a message in the “message” field and,
     - when I click submit, I am brought back to the top of the page (as the form is not linked with any server)
- 
+       
+     **Result: PASS**
+
     **T09 - Acceptance criteria - Form invalid path**  
     - when I enter an invalid “email” address and when I click submit, a message prompts me to enter a valid address. 
     - when I leave the “full name” field empty and/or 
     - when I leave the “email” field empty and/or
     - when I leave the “message” field empty and/or
-    - when I click submit, a message will appear to prompt me to enter the required fields.
+    - when I click submit, a message will appear to prompt me to enter the required fields  
  
+    **Result: PASS (issue resolved earlier)**
+
     **T14 - Acceptance criteria**
-    - when I scroll to the footer of the webpage, the company contact details with a phone number and email address are displayed.
+    - when I scroll to the footer of the webpage, the company contact details with a phone number and email address are displayed.  
 
-
+    **Result: PASS**
 
 

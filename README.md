@@ -279,11 +279,11 @@ Based on a fictional business offering cat sitting services, this website was bu
   
   Testing has been an on-going process during the coding stage of the project with further tests conducted toward the end on the following aspects:
    - User stories 
-   - Interactive elements
    - Accessibility 
+   - Google lighthouse 
    - HTML & CSS validation.  
 
-  Full testing process and results can be found [here](documentation/testing/testing.md).
+  Full testing process and results can be found [here](documentation/testing.md).
 
 # Deployment
 

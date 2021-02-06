@@ -211,7 +211,16 @@ The background image in about me section and i-frame of embedded map did not dis
 
  Initial report can be found [here](documentation/testing/waveinitial.jpg)  
 
- ![initial report](documentation/testing/waveinitial.jpg)  
+ ![initial](documentation/testing/reports/waveinitial.jpg)  
+
+another image  
+
+ ![screenshot](documentation/testing/waveinitial.png)  
+
+
+third image test  
+
+![test](documentation/testing/reports/waveinitial1.png)
 
  - ### **Errors:**  
    - Contrast on buttons : Change color from to #078847 even if it meant compromising slightly the design
@@ -225,5 +234,6 @@ The background image in about me section and i-frame of embedded map did not dis
 
 Wave accessibility final report can be found [here](documentation/testing/wavefinal.jpg).  
 
-![Wave final report](documentation/testing/wavefinal.jpg)
+![Wave final report](documentation/testing/reports/wavefinal1.png)
 
+![website wireframe](documentation/wireframes/wireframes.png)

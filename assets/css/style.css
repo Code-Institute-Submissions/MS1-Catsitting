@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  width: fit-content;
+   -webkit-appearance: none;
 }
 
 /*---------------------------------[ LIST LI ]-----------------------------------*/
@@ -648,7 +648,7 @@ footer a:hover {
 @media only screen and (min-width: 768px) {
   .hero-background {
     height: 100vh;
-    max-height:850px;
+    
   }
 /*---------------------------list------------------------------*/
   li {
@@ -801,7 +801,10 @@ footer a:hover {
 /*---------------------------------extra large screen------------------------------------*/
 
 @media only screen and (min-width: 1200px) {
-
+/*------------------------Hero image-------------------------*/
+  .hero-background{
+    max-height:850px;
+  }
 /*---------------------about me section----------------------*/
   .personal-intro-p {
     padding-left: 12%;

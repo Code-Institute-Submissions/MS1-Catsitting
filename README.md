@@ -277,28 +277,44 @@ Based on a fictional business offering cat sitting services, this website was bu
 
 # Deployment
 
- There is no difference between the developed and the deployed version. 
-
  - ## **Project inception**  
+   This project was developed using Gitpod, committed to git then pushed onto GitHub using the built-in function within Gitpod.  
+   
+   Updates were committed frequently to git and the project pushed onto GitHub on a regular basis to make sure it was saved properly.
+   
+   There is no difference between the developed and the deployed version. 
  
- This project was developed using Gitpod, committed to git then pushed onto GitHub using the built-in function within Gitpod.  
- Updates were committed frequently to git and the project pushed onto GitHub on a regular basis to make sure it was saved properly.
-
  - ## **Deployment on GitHub**
 
- The project was deployed to GitHub Pages as follows:
- - Log in to GitHub and locate the GitHub Repository lemocla/MS1-Catsitting.
- - Click on "Settings" located in the menu above the repository.
- - Scroll down the "GitHub Pages" section. 
- - Under "Source", select "Master" in the dropdown menu.
- - In the tab next to "Source", select "/root" if not already selected by default 
- - Click save then the page will automatically refresh.
- - The link should show in a banner just above  "GitHub Pages" section.
+    The project was deployed to GitHub Pages as follows:  
+      - Log in to GitHub and locate the GitHub Repository lemocla/MS1-Catsitting.
+      - Click on "Settings" located in the menu above the repository.
+      - Scroll down the "GitHub Pages" section. 
+      - Under "Source", select "Master" in the dropdown menu.
+      - In the tab next to "Source", select "/root" if not already selected by default 
+      - Click save then the page will automatically refresh.
+      - The link should show in a banner just above  "GitHub Pages" section.  
 
 - ## **How to run the project locally**
+  
+  You can either fork or clone the github repository to use this project.
 
+  - ### **Forking the GitHub Repository**
+    - Log in to GitHub and locate the GitHub Repository mentioned above
+    - Make a copy of the GitHub Repository by "forking" the orginal repository onto your own account, where changes can be made without affecting original repository. 
+    - Click on the fork icon (located on top right of the page at the same level of repository name)
+    - You should now have a copy of this repository into your GitHub account
 
-- # Credits
+    For more information on how to clone a repository, please check this [github documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
+    
+  - ### **Cloning the GitHub Repository**
+    
+    - Log in to GitHub and locate the GitHub Repository
+    - Under the repository name, click "Clone or download".
+    
+    You can find all the steps to follow according your chosen method in this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on how to clone a reposistory.
+
+# Credits
 
  - ## **Code**
    
@@ -306,12 +322,14 @@ Based on a fictional business offering cat sitting services, this website was bu
    
  - ## **Content**
  
- The content was created by the developer taking inspirations from various cat-sitting companies, more specifically [Chatty Cats Care](https://www.chattycatscare.co.uk/) and the [The London Cat Sitter](https://www.thelondoncatsitter.co.uk/). 
+    The content was created by the developer taking inspirations from various cat-sitting companies, more specifically [Chatty Cats Care](https://www.chattycatscare.co.uk/) and the [The London Cat Sitter](https://www.thelondoncatsitter.co.uk/). 
   
  - ## **Media**
  
- The logo was obtained from Shutterstock and the photos used in this website were from Pexels and Pixabay. The full list of credits can be found [here](documentation/media_credit.md)
+    The logo was obtained from Shutterstock and the photos used in this website were from Pexels and Pixabay. The full list of credits can be found [here](documentation/media_credit.md)
 
 - ## **Acknowlegements**
 
-
+    - My mentor Can Sucullu for his advice and guidance during this project
+    - My peers Carlos, Becca, Tom, Sandra and Fran for their reviews and insights
+    - The slack community for general advices and solution to problems that others encountered 

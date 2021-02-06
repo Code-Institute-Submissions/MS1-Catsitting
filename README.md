@@ -277,20 +277,25 @@ Based on a fictional business offering cat sitting services, this website was bu
 
 # Deployment
 
-There is no difference between the developed and the deployed version. 
+ There is no difference between the developed and the deployed version. 
 
-## **Project inception**
+ - ## **Project inception**  
+ 
+ This project was developed using Gitpod, committed to git then pushed onto GitHub using the built-in function within Gitpod.  
+ Updates were committed frequently to git and the project pushed onto GitHub on a regular basis to make sure it was saved properly.
 
-This project was developed using Gitpod, committed to git then pushed onto GitHub using the built-in function within Gitpod.
-Updates were committed frequently to git and the project pushed onto GitHub on a regular basis to make sure it was saved properly.
+ - ## **Deployment on GitHub**
 
-## **Deployment on GitHub**
+ The project was deployed to GitHub Pages as follows:
+ - Log in to GitHub and locate the GitHub Repository lemocla/MS1-Catsitting.
+ - Click on "Settings" located in the menu above the repository.
+ - Scroll down the "GitHub Pages" section. 
+ - Under "Source", select "Master" in the dropdown menu.
+ - In the tab next to "Source", select "/root" if not already selected by default 
+ - Click save then the page will automatically refresh.
+ - The link should show in a banner just above  "GitHub Pages" section.
 
---> deployment on github
-*Explain the process of deploying the project on GitHub from Login to publishing a note*
-*Indicate the branch on which the site was deployed*
-
-## **How to run the project locally**
+- ## **How to run the project locally**
 
 
 - # Credits
@@ -299,14 +304,14 @@ Updates were committed frequently to git and the project pushed onto GitHub on a
    
    The full list of credits for code can be found [here](documentation/code_credit.md). 
    
-### **Content**
-
-The content was created by the developer taking inspirations from various cat-sitting companies, more specifically [Chatty Cats Care](https://www.chattycatscare.co.uk/)
-and the [The London Cat Sitter](https://www.thelondoncatsitter.co.uk/). 
+ - ## **Content**
+ 
+ The content was created by the developer taking inspirations from various cat-sitting companies, more specifically [Chatty Cats Care](https://www.chattycatscare.co.uk/) and the [The London Cat Sitter](https://www.thelondoncatsitter.co.uk/). 
   
-### **Media**
+ - ## **Media**
+ 
+ The logo was obtained from Shutterstock and the photos used in this website were from Pexels and Pixabay. The full list of credits can be found [here](documentation/media_credit.md)
 
-The logo was obtained from Shutterstock and the photos used in this website were from Pexels and Pixabay. The full list of credits can be found [here](documentation/media_credit.md)
+- ## **Acknowlegements**
 
-### **Acknowlegements**
 

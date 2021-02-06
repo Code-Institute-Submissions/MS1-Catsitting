@@ -225,51 +225,42 @@ Based on a fictional business offering cat sitting services, this website was bu
     - GDPR compliant cookie policy via a banner when users first visit the website.    
     - Link the form to a webserver to collect data entered.   
     - A blog to build relationships with current and potential customers, adding further credibility to the business.   
+    - Add links to email and phone number, not applicable at present since this website is for a fictional business.
 
 # **Technologies used**
 
   The following technology were used during the development and testing of the website:
   
   - **Languages**
-
-     Languages | Usage
-     ------------ | -------------
-     HTML | HTML was used to structure the page 
-     CSS | CSS was used to style the different elements on the page.
+     - HTML: HTML was used to structure the page 
+     - CSS: CSS was used to style the different elements on the page.
 
   - **Frameworks and libraries**
-
-     Libraries| Usage
-     ------------ | -------------
-     [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)  | Bootstrap library was used to build the layout using the grid system, the navigation and part of the form.
-     [Flickity](https://flickity.metafizzy.co/) | Flickity was used to build the responsive carousel in testimonial section.
-     [Hover.css](http://ianlunn.github.io/Hover/) | Hover.css library was used for hovering effects on buttons and social media icons.
-     [Google font](https://fonts.google.com/) | Google font API was used for the fonts on the website.
-     [Font Awesome](https://fontawesome.com/) | Font awesome library was used for the icons the website. 
+     - [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap library was used to build the layout using the grid system, the navigation and part of the form.
+     - [Flickity](https://flickity.metafizzy.co/): Flickity was used to build the responsive carousel in testimonial section.
+     - [Hover.css](http://ianlunn.github.io/Hover/): Hover.css library was used for hovering effects on buttons and social media icons.
+     - [Google font](https://fonts.google.com/): Google font API was used for the fonts on the website.
+     - [Font Awesome](https://fontawesome.com/): Font awesome library was used for the icons the website. 
 
   - **Media & wireframes**
   
-    Libraries| Usage
-    ------------ | -------------
-     [Balsamiq](https://balsamiq.com/wireframes/) | Balsamiq was used to design the wireframe.
-     [Ibis Paint](https://ibispaint.com/?lang=en-US) | Ibis Paint app was used to alter the logo and the favicon.
-     [Google drawing](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme)| Google drawing was used for the final palette in this document.
-     [Carto](https://carto.com/) | Carto was used to draw and personalise the embedded map.
+     - [Balsamiq](https://balsamiq.com/wireframes/): Balsamiq was used to design the wireframe.
+     - [Ibis Paint](https://ibispaint.com/?lang=en-US): Ibis Paint app was used to alter the logo and the favicon.
+     - [Google drawing](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme): Google drawing was used for the final palette in this document.
+     - [Carto](https://carto.com/): Carto was used to draw and personalise the embedded map.
 
   - **Workspaces & respository hosting**
 
-    Technology | Usage
-    ------------ | -------------
-     [Gitpod](https://www.gitpod.io/) | Gitpod was used as a local respoitory to develop the code.
-     [Git](https://git-scm.com/) | Git was used for version control from gitpod to save commits and push code onto GitHub.
-     [GitHub](https://github.com/) | GitHub was used to save the code and deploy the live site.  
+     - [Gitpod](https://www.gitpod.io/): Gitpod was used as a local respoitory to develop the code.
+     - [Git](https://git-scm.com/): Git was used for version control from gitpod to save commits and push code onto GitHub.
+     - [GitHub](https://github.com/): GitHub was used to save the code and deploy the live site.  
 
   - **Testing**
 
-     Technology | Usage
-     ------------ | -------------
-     [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) | Google inspect was used to test and fix code and page responsiveness.
-     [Responsive viewer](https://www.producthunt.com/posts/responsive-viewer) | This add-on was used to test website responsiveness across different devices.
+     - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools): Google inspect was used to test and fix code and page responsiveness.
+     - [Responsive viewer](https://www.producthunt.com/posts/responsive-viewer): This add-on was used to test website responsiveness across different devices.
+     - [Google lighthouse](https://developers.google.com/web/tools/lighthouse): Google lighthouse was used to assess performance of the site
+     - [Wave Accessibility](https://wave.webaim.org/): This tool was used to evaludate accessibility of the webiste.
 
 
 # **Testing**

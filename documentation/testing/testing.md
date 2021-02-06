@@ -209,18 +209,10 @@ The background image in about me section and i-frame of embedded map did not dis
 
  Wave evaluation report was used on the website to assess its accessibility. The report showed the following issues:  
 
- Initial report can be found [here](documentation/testing/waveinitial.jpg)  
+ Initial report can be found [here](documentation/testing/reports/waveinitial.jpg)  
 
- ![initial](documentation/testing/reports/waveinitial.jpg)  
+![Wave initial report](/workspace/MS1-Catsitting/documentation/testing/reports/waveinitial.jpg)
 
-another image  
-
- ![screenshot](documentation/testing/waveinitial.png)  
-
-
-third image test  
-
-![test](documentation/testing/reports/waveinitial1.png)
 
  - ### **Errors:**  
    - Contrast on buttons : Change color from to #078847 even if it meant compromising slightly the design
@@ -232,8 +224,6 @@ third image test
     - Not sufficient alt text for the logo: Include additional description
     - Broken link for the logo: Change logo src to #home
 
-Wave accessibility final report can be found [here](documentation/testing/wavefinal.jpg).  
+Wave accessibility final report can be found [here](documentation/testing/reports/wavefinal.jpg).  
 
-![Wave final report](documentation/testing/reports/wavefinal1.png)
-
-![website wireframe](documentation/wireframes/wireframes.png)
+![Wave final report](/workspace/MS1-Catsitting/documentation/testing/reports/wavefinal.jpg)

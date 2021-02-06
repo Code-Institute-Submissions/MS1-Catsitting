@@ -1,12 +1,11 @@
 # **Katsit London - Cat sitting agency in London**
 
+![mockup.png](documentation/design/mockup.png)  
+
+
 Based on a fictional business offering cat sitting services, this website was built for educational purposes as part of the Code Institute's Full Stack Development course. This fully responsive and user centric website was designed using the principles of User Experience Design and developed using HTLM, CSS and bootstrap framework. 
 
-
-
-
-
-*(add screenshots)*
+# **Table of content**
 
 # **UX Design**  
 
@@ -14,7 +13,7 @@ Based on a fictional business offering cat sitting services, this website was bu
 
     Katsit London is a small cat sitting company set up by a previous veterinary nurse, who has extensive knowledge and experience in caring for animals. The business has already a formidable reputation, attracting new customers from recommendations and local pages on social media.
  
-    Katsit London is fast expanding  and needs a simple, yet comprehensive and responsive website, to create an online presence and advertise their services. 
+    Katsit London is fast expanding  and needs a simple, yet comprehensive and responsive website, to create an online presence and advertise their services. The live website can be found [here](https://lemocla.github.io/MS1-Catsitting/).
  
     - ### **Business goals:**
  

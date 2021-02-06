@@ -227,3 +227,15 @@ The background image in about me section and i-frame of embedded map did not dis
 Wave accessibility final report can be found [here](documentation/testing/reports/wavefinal.jpg).  
 
 ![Wave final report](/workspace/MS1-Catsitting/documentation/testing/reports/wavefinal.jpg)
+
+
+# Google lighthouse
+
+Main action taken to improve performance:
+- Compress images using tinyjpg 
+- Move scripts to bottom from header to the bottom of the page 
+
+/*Include image report*/
+
+
+

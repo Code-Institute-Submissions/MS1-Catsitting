@@ -7,6 +7,27 @@ Based on a fictional business offering cat sitting services, this website was bu
 
 # **Table of content**
 
+  - [UX Design](#ux-design)
+    - [Strategy](#strategy)
+    - [User stories](#user-stories)
+    - [Structure](#structure)
+    - [Wireframes](#wireframes)
+    - [Design](#design)
+  - [Features](#features)
+    - [Existing features](#existing-features)
+    - [Features left to implement](#features-left-to-implement)
+  - [Technologies used](#technologies-used)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+    - [Project inception](#project-inception)
+    - [Deployment on GitHub](#deployment-on-github)
+    - [How to run the project locally](#how-to-run-the-project-locally)
+  - [Credits](#credits)
+    - [Code](#code)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowlegements](#acknowlegements)
+
 # **UX Design**  
 
 - ## **Strategy** 
@@ -207,7 +228,7 @@ Based on a fictional business offering cat sitting services, this website was bu
     - The Green #23B06A was replaced with #078847 to fit accessibility contrast requirements.
 
 
-- # **Features** 
+# **Features** 
 
 - ## **Existing features**   
       

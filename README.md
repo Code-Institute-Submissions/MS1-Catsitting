@@ -14,27 +14,26 @@ Based on a fictional business offering cat sitting services, this website was bu
 
     Katsit London is a small cat sitting company set up by a previous veterinary nurse, who has extensive knowledge and experience in caring for animals. The business has already a formidable reputation, attracting new customers from recommendations and local pages on social media.
  
-    Katsit London is fast expanding  and needs a simple, yet comprehensive and responsive website to create an online presence and advertise their services. 
+    Katsit London is fast expanding  and needs a simple, yet comprehensive and responsive website, to create an online presence and advertise their services. 
  
     - ### **Business goals:**
  
       The company needs a fully responsive and user centric website in order to:
         - To create an online presence
         - To advertise their services and pricing
-        - To raise business' brand awareness and credentials
-        - To generate new leads and expand their customer base.
-        - To grow their on-line community.
+        - To raise their business' brand awareness and credentials
+        - To generate new leads and expand their customer base
+        - To grow their on-line community
  
     - ### **User goals:**
  
       Cat owners can feel quite anxious at the idea of leaving their pets at home whilst on holiday and need to trust that their pets will be well looked when they are away. Therefore they may have the main following goals in mind when visiting a website:
-        - To access the website across different devices and quickly find information.
-        - To assess business’s credentials.
-        - To decide whether the services offered by the company fit their needs.
-        - To check whether the prices are affordable.
-        - To seek reassurance that the company is cat friendly.
-        - To check whether the company operates where they live.
-        - To reach the company for further queries and/or to arrange a meeting. 
+        - To access the website across different devices and to quickly find information
+        - To assess business’s credentials
+        - To decide whether the services offered by the company fit their needs
+        - To check whether the prices are affordable
+        - To check whether the company operates where they live
+        - To reach the company for further queries and/or to arrange a meeting 
 
 - ## **User stories**
 
@@ -42,13 +41,13 @@ Based on a fictional business offering cat sitting services, this website was bu
  
       - <ins>As a first time visitor,</ins>
         - I want a responsive website so that I can view the website across different devices. 
-        - I want to be able to easily navigate across the website so that I can quickly find information.
-        - I want to read about the company's services so that I can assess whether they fit my needs   
+        - I want to be able to easily navigate across the website so that I can find information quickly.
+        - I want to read about the company's services so that I can assess whether they fit my needs.   
         - I want to look at prices so that I can check wether I can afford their services. 
  
       - <ins>As a returning visitor</ins>
         - I want to read customer testimonials so that I can assess if the company is reliable and professional.
-        - I want to read more about the company so that I can assess its credentials, professionalism and cat friendliness. 
+        - I want to read more about the company so that I can assess its credentials and professionalism. 
         - I want to access contact options so that I can reach the company for further queries.
         - I want to view the areas where the company operates so that I can check that they provide services where I live.
  
@@ -64,7 +63,7 @@ Based on a fictional business offering cat sitting services, this website was bu
         - I want a call for action so that I can generate leads.
         - I want to feature a logo and a tagline so that I can raise my business brand awareness.
         - I want to feature my profile so that I can raise my business credentials.
-        - I want to encourage users to contact us so that we can answer queries promptly and arrange meet-ups.
+        - I want to encourage users to contact me so that I can answer queries promptly and arrange meet-ups.
         - I want to provide links to our social media accounts so that I can grow my online community.
 
 - ## **Structure**
@@ -73,8 +72,8 @@ Based on a fictional business offering cat sitting services, this website was bu
 
       The website will resize according to the device used for better visibility and user experience.  
 
-                - As a first time visitor, I want a responsive website so that I can view the website across different devices. 
-                - As a business owner, I want a user-friendly responsive website so that I can create an online presence.
+            - As a first time visitor, I want a responsive website so that I can view the website across different devices. 
+            - As a business owner, I want a user-friendly responsive website so that I can create an online presence.
 
 
     - ### **Collapsible navigation menu:**
@@ -97,7 +96,7 @@ Based on a fictional business offering cat sitting services, this website was bu
 
    - ### **Services section:**
 
-     This section will feature a description of what is included in the services as well pricing and a call for action to encourage users to contact the company.
+     This section will feature a description of what is included in the services as well pricing information and a call for action to encourage users to contact the company.
 
             - As a first time user, I want to read about the company's services so that I can assess whether they fit my needs   
             - As a first time user, I want to look at prices so that I can check wether I can afford their services. 
@@ -109,7 +108,7 @@ Based on a fictional business offering cat sitting services, this website was bu
     
       This section will feature the profile, a photo and the relevant qualification of the business owner to provide users with information about the business' credentials. 
 
-            - As a returning visitor, I want to read more about the company so that I can assess its credentials, professionalism and cat friendliness.  
+            - As a returning visitor, I want to read more about the company so that I can assess its credentials and professionalism.  
             - As a business owner, I want to feature my profile so that I can raise my company's brand awareness and credentials.
 
 
@@ -129,17 +128,17 @@ Based on a fictional business offering cat sitting services, this website was bu
 
     - ### **Contact us section:** 
 
-      The contact page will feature the business' contact details and social media accounts including links opening into new tabs so that users can browse without losing access to the website. This section will also feature a form to allow users to contact the business directly via the website. The form will include an option to select the subject of the message so that users can either make a general query or arrange a meet and greet. 
+      The contact page will feature the business' contact details and a form to allow users to contact the business directly via the website. The form will include an option to select the subject of the message so that users can either make a general query or arrange a meet and greet. 
 
             - As a returning visitor, I want to access contact options so that I can reach the company for further queries.
             - As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.
             - As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.
 
-            - As a business owner, I want to encourage users to contact us so that we can answer queries promptly and arrange meets & greets.
+            - As a business owner, I want to encourage users to contact me so that I can answer queries promptly and arrange meets & greets.
 
     - ### **Footer:** 
  
-      The footer will display contact information  and icons with links to the business’s social media accounts opening onto a new tab, so that users can browse without losing access to the website. 
+      The footer will display contact information  and icons with links to the business’s social media accounts opening onto a new tab, so that users can browse these without losing access to the website. 
 
             - As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.
             - As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.
@@ -151,11 +150,8 @@ Based on a fictional business offering cat sitting services, this website was bu
 
     The wireframes were created using Balsamic during the skeleton plane of the project and illustrates the structure of the website across different devices.
 
-    You can download the pdf version of the wireframes should the images not display properly. 
-    [download pdf wireframes](https://a45c73f1-3de6-45f3-bdf8-7fdbe308ac5f.ws-eu03.gitpod.io/files/download/?id=bdb7e86e-0825-49b6-a2f7-0cc69646e029)
-
-
-    ![website wireframe](documentation/wireframes/wireframes.png)
+    You can either view the wireframe [here](documentation/wireframes/wireframes.png) (in png format) or [download](https://a45c73f1-3de6-45f3-bdf8-7fdbe308ac5f.ws-eu03.gitpod.io/files/download/?id=bdb7e86e-0825-49b6-a2f7-0cc69646e029) the pdf version of the wireframes should the images not display properly. 
+    [download pdf wireframes]
 
     ### **Differences to wireframes** 
  
@@ -172,14 +168,14 @@ Based on a fictional business offering cat sitting services, this website was bu
      
      - The logo, a cat icon sourced from Shutterstock, features in the header and in browsers to help with brand recognition. For better visibility the favicon is in a dark colour as opposed to the white logo in the navigation. 
      - The hero image on top of the page has for main objectives to grab the user’s attention and to help create an instant connection with the service offered by the business. 
-     - The service section uses background images of cats as a way to highlight the text by creating a striking contrast
+     - The service section uses background images of cats as a way to highlight the text by creating a striking contrast.
      - The testimonial section features images of customers to increase credibility of their recommendations.
  
     Please find using the full [list of credits](#media) below.
  
   - ### **Colour scheme**
   
-    The following colours have been selected for their contrast whilst giving a soft yet modern feel to the website  in harmony with the main hero image. This colour palette was created using the Google inspect colour picker and research from [color-hex](https://color-hex.org/color/b06a23).  
+    The following colours have been selected for their contrast whilst giving a soft yet modern feel to the website in harmony with the main hero image. This colour palette was created using the Google inspect colour picker and further research from [color-hex](https://color-hex.org/color/b06a23).  
 
     ![Colour palette](documentation/design/colourfinal.jpeg)  
 
@@ -196,19 +192,20 @@ Based on a fictional business offering cat sitting services, this website was bu
  
   - ### **Icons**
  
-     Icons from the Font Awesome library are used to bring attention to contact details and social media accounts. Icons will also be used to reinforce the list of services offered.
+     Icons from the Font Awesome library are used to bring attention to contact details and social media accounts. Icons will also be used to add style to the list of services offered.
  
   - ### **Styling**
  
      - Buttons and some text boxes have slightly rounded corners to add a softer feeling and make these elements more noticeable whilst improving user experience on the website.  
-     - Credentials information are presented in a circular block to draw the eye to the uniqueness of these elements and breathe life to this section of the website.  
-     - Testimonials images are also circular for a more visually appealing design whilst giving breathing space to the testimonial section.  
+     - Credentials information are presented in a circular block to draw the eye to the uniqueness of these elements and breathe life into this section of the website.  
+     - Testimonials images are also circular for a more appealing design whilst giving breathing space to the testimonial section.  
 
 
   - ### **Differences to design**
 
     - An initial hero image was tested but did not fulfil the desired visual impact, as it would not resize and accommodate the call for action in an appealing way.  
-    - An initial palette was created using Adobe Color however the colour did not render as well as on screen, therefore different choices were made and the palette was finalised more towards the end for better and striking visual impact. 
+    - An initial palette was created using Adobe Color however the colour did not render as well as on screen, therefore different choices were made and the palette was finalised more towards the end for better and striking visual impact.  
+    - The Green #23B06A was replaced with #078847 to fit accessibility contrast requirements.
 
 
 - # **Features** 
@@ -217,11 +214,11 @@ Based on a fictional business offering cat sitting services, this website was bu
       
     - Responsive design to allow user to browse the website on all devices  
     - Collapsible fixed navigation with scrollspy option to allow users to easily navigate across the website on all screen sizes.  
-    - A call for action in form of a hoverable button in the hero banner and service section to invite and allow users to contact the business.   
+    - A call for action in form of a hoverable button in the hero banner and service section to invite users to contact the business.   
     - Responsive non-automated carousel with controls and indicators to allow users to flick through customer testimonials.   
     - An embedded map showing the areas covered by the business with search and zoom option so that users can quickly see if the business operates where they live.  
     - Form with validation control to allow users to make contact with the business.  
-    - Clickable and hoverable icons to allow users to open social media links into new tabs, whilst retaining navigation on the website. This feature is present in both contact section and footer.  
+    - Clickable and hoverable icons to allow users to open social media links into new tabs, whilst retaining navigation on the website.   
 
 - ## **Features left to implement**  
 

@@ -208,8 +208,11 @@ The background image in about me section and i-frame of embedded map did not dis
 # Testing user stories 
 
  Wave evaluation report was used on the website to assess its accessibility. The report showed the following issues:  
+
+ Initial report can be found [here](documentation/testing/waveinitial.jpg)  
+
  ![initial report](documentation/testing/waveinitial.jpg)  
- 
+
  - ### **Errors:**  
    - Contrast on buttons : Change color from to #078847 even if it meant compromising slightly the design
    - Missing aria-labels on links: Add aria-labels on links and aria-hidden is true to icons as suggested by [Font Awesome] (https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
@@ -220,4 +223,7 @@ The background image in about me section and i-frame of embedded map did not dis
     - Not sufficient alt text for the logo: Include additional description
     - Broken link for the logo: Change logo src to #home
 
-/*include image of last report*/
+Wave accessibility final report can be found [here](documentation/testing/wavefinal.jpg).  
+
+![Wave final report](documentation/testing/wavefinal.jpg)
+

@@ -173,7 +173,7 @@ a.navbar-brand {
 /*https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 /*https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser*/
 .hero-background {
-  height: 95vh;
+  height: 100vh;/*95vh*/
   max-height: -webkit-fill-available;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat-hero.jpg");
   background-position-x: 71%;

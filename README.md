@@ -171,7 +171,7 @@ Based on a fictional business offering cat sitting services, this website was bu
      - The service section uses background images of cats as a way to highlight the text by creating a striking contrast.
      - The testimonial section features images of customers to increase credibility of their recommendations.
  
-    Please find using the full [list of credits](#media) below.
+    Please find using the full list of credits can be found [here](documentation/media_credit.md).
  
   - ### **Colour scheme**
   
@@ -265,13 +265,15 @@ Based on a fictional business offering cat sitting services, this website was bu
 
 # **Testing**
   
-  Testing has been an on-going process during the coding stage of the project with further tests conducted toward the end on the following aspects:
-   - User stories 
-   - Accessibility 
-   - Google lighthouse 
+  Testing has been an on-going process during the coding stage of the project with further tests conducted toward the end. This section covers:
+
+   - Issues and solution during development process
+   - Testing User stories 
+   - Testing accessibility 
+   - Testing performance with Google lighthouse 
    - HTML & CSS validation.  
 
-  Full testing process and results can be found [here](documentation/testing.md).
+  Full testing process and results can be found [here](documentation/testing.md). 
 
 # Deployment
 
@@ -295,24 +297,8 @@ Updates were committed frequently to git and the project pushed onto GitHub on a
 
  - ## **Code**
    
-    What | Code source and link 
-   ------------ | -------------
-   Favicon in metadata | Source code form [W3C](https://www.w3.org/2005/10/howto-favicon)
-   Navigation bar:  | Source code from [Boostrap components](https://getbootstrap.com/docs/4.0/components/navbar/), personalised with own css
-   Scrollspy | Source from [Boostrap components](https://getbootstrap.com/docs/4.5/components/scrollspy/) 
-   Nav toggler button  | Source to style toggler button inspired by this [stack overflow post](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color) personalised with css
-   Collapse back menu | Solution for menu to collapse back on click from this [slack overflow post](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click)
-   Hero image | Source code from [W3School](https://www.w3schools.com/howto/howto_css_hero_image.asp) with change to gradient and image position.
-   Invisible anchors | Source code from [Caktus Group blog post](https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors) adapted to own needs.
-   Circular text box | Source code for block with equal height and width from [W3School](https://www.w3schools.com/howto/howto_css_aspect_ratio.asp) and for perfect centering from this [medium blog post](https://medium.com/front-end-weekly/absolute-centering-in-css-ea3a9d0ad72) adapted for for own needs.
-   Carousel | Source code from [Flickity](https://flickity.metafizzy.co/options.html#setup) adapted for site own needs
-   Carousel buttons | Source code from [Flickity](https://flickity.metafizzy.co/style.html) adapted for site own need (style, position, width )
-   Areas list | Source code from [W3School](https://www.w3schools.com/cssref/css3_pr_columns.asp) on how to display list in different columns.
-   Form | Source code from [Boostrap components](https://getbootstrap.com/docs/4.5/components/forms/)
-   Hover effects | Both fade and icon grow effects are from [Ian Lunn Hover.css](https://github.com/IanLunn/Hover/blob/master/css/hover.css), personalised with CSS. This resource was introduced during resume min-project by Code Institute. 
-   Responsive font size | Source code for the clamp function for responsive font size from [css-trick](https://css-tricks.com/how-do-you-do-max-font-size-in-css/), changed value for own needs.
-   Responsive padding | In addition of responsive font size, the following [slackoverflow post](https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css/38079002) explained how clamp function could be used for margin & paddings.
-
+   The full list of credits for code can be found [here](documentation/code_credit.md). 
+   
 ### **Content**
 
 The content was created by the developer taking inspirations from various cat-sitting companies, more specifically [Chatty Cats Care](https://www.chattycatscare.co.uk/)
@@ -320,21 +306,7 @@ and the [The London Cat Sitter](https://www.thelondoncatsitter.co.uk/).
   
 ### **Media**
 
-The logo was obtained from Shutterstock and the photos used in this website were from Pexels and Pixabay as follow:
-
-Section | Image & credits
------------- | -------------
-Logo & Flavicon | [Cat vector icon](https://www.shutterstock.com/image-vector/cat-vector-icon-1066343063) By Khayala Guliyeva from Shutterstock 
-Hero image | [Silver Tabby Cat Lying on Brown Wooden Surface](https://www.pexels.com/photo/gray-tabby-cat-lying-on-white-surface-177809/) Photo by Inge Wallumrød from Pexels
-Services - 1 visit a day | [Bengal cat](https://pixabay.com/photos/cat-funny-cat-cute-cat-cute-4262034/) by GidonPico from Pixabay
-Services - 2 visits a day | [Cat paws close up](https://pixabay.com/photos/cats-paws-animal-paw-cat-s-paw-paw-1693839/) by Pitsch from Pixabay
-Services - Overnight stay| [Cat being stroke](https://pixabay.com/photos/cat-kitten-animal-pet-blur-2563681/) by StockSnap from Pixabay
-About me | [Woman carrying brown tabby cat](https://www.pexels.com/photo/woman-carrying-brown-tabby-cat-3356488/) Photo by Engin Akyurt from Pexels
-Testimonials - Alex Jones | [Woman hugging himalayan cat](https://www.pexels.com/photo/woman-hugging-himalayan-cat-2188791/) Photo by Tranmautritam from Pexels
-Testimonials Valentina Crisby | [Woman standing near tree](https://www.pexels.com/photo/shallow-focus-photography-of-woman-standing-near-tree-1350663/) Photo by Mwabonje from Pexels
-Testimonials Joe Tanning| [Aged man](https://pixabay.com/photos/aged-man-elderly-man-old-man-1842327/) Photo by Pexels from Pixabay
-Testimonials - Carlos Menza| [Man portrait](https://pixabay.com/photos/portait-person-adults-portrait-4485371/) Photo by tgs-webdesign From Pixabay
-Testimonails - Milly Smith | [Woman on the beach](https://pixabay.com/photos/adult-beach-enjoyment-1867618/) Photo by Pexels from Pixabay
+The logo was obtained from Shutterstock and the photos used in this website were from Pexels and Pixabay. The full list of credits can be found [here](documentation/media_credit.md)
 
 ### **Acknowlegements**
 

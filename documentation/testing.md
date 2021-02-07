@@ -61,23 +61,23 @@ Testing has been an on-going process during the coding stage of the project with
     **T01 - Acceptance criteria**  
     - When I visit the website using my device, all content is visible and visual elements are displayed proportionally,  
 
-        **Issues:**   
-        - Responsive paddings were not displayed on tablets
-        - Hero image covering more than viewport heights on mobile, resulting in the jumbotron text not being fully visible and centered, due to top and bottom menus on devices
-        - Responsive font styles in jumbotron text not applied on tablets and mobile
-        - Buttons on ipad text wrapping on 2 lines
-        - Phone number links automatically activated on iphones and ipad
-        - Hero image appeared quite slow to upload
-        - Some balance issues on very big screens 
-        
-        **Fix**
-        - Responsive fonts and paddings were adjusted using a different css function. 
-        - Additional media queries for landscape screens were set to adjust the hero image and jumbotron text
-        - Add white-space: nowrap on button as suggested by this [stackoverflow post](https://stackoverflow.com/questions/12707317/ipad-breaks-button-text-into-two-separate-lines/12708061)
-        - A meta data was added in the header to remove automatic links of phone numbers
-        - Maximum height for the hero image was set to -webkit-fill-available so that it doesn’t fill more than the viewport height on mobile. 
-        - Hero image's size was compressed to optimise performance. 
-        - Body was set to a maximum  width of 2000px and media queries for medium screens were adjusted so that there’s a better balance on medium, large and extra large screens.
+       > **Issues:**   
+       > - Responsive paddings were not displayed on tablets
+       > - Hero image covering more than viewport heights on mobile, resulting in the jumbotron text not being fully visible and centered, due to top and bottom menus on devices
+       > - Responsive font styles in jumbotron text not applied on tablets and mobile
+       >  - Buttons on ipad text wrapping on 2 lines
+       >  - Phone number links automatically activated on iphones and ipad
+       >  - Hero image appeared quite slow to upload
+       >  - Some balance issues on very big screens     
+
+       >  **Fix**
+       >  - Responsive fonts and paddings were adjusted using a different css function. 
+       >  - Additional media queries for landscape screens were set to adjust the hero image and jumbotron text
+       >  - Add white-space: nowrap on button as suggested by this [stackoverflow post](https://stackoverflow.com/questions/12707317/ipad-breaks-button-text-into-two-separate-lines/12708061)
+       >  - A meta data was added in the header to remove automatic links of phone numbers as suggested by this [blog post](https://n8finch.com/disable-phone-number-linking-ios-safari)
+       >  - Maximum height for the hero image was set to -webkit-fill-available so that it doesn’t fill more than the viewport height on mobile as suggested in this [stack overflow post](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser)
+       >  - Hero image's size was compressed to optimise performance. 
+       >  - Body was set to a maximum  width of 2000px and media queries for medium screens were adjusted so that there’s a better balance on medium, large and extra large screens.
 
     **T01 Result after fixes: PASS**
 
@@ -154,11 +154,11 @@ Testing has been an on-going process during the coding stage of the project with
     - when I leave the “message” field empty and/or
     - when I click submit, a message will appear to prompt me to enter the required fields.
 
-    **Issue:** 
-    - No message appears when the message field is empty.
+        > **Issue:** 
+        > - No message appears when the message field is empty.
 
-    **Fix:** 
-    - Add required to text area element 
+        > **Fix:** 
+        > - Add required to text area element 
 
     **T09 Result after fixes: PASS**
  
@@ -229,7 +229,7 @@ Testing has been an on-going process during the coding stage of the project with
 
  - ### **Errors:**  
    - Contrast on buttons : Change color from #23B06A to #078847 even if it meant compromising slightly the design
-   - Missing aria-labels on links: Add aria-labels on links and aria-hidden is true to icons as suggested by [Font Awesome] (https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
+   - Missing aria-labels on links: Add aria-labels on links and aria-hidden is true to icons as suggested by [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
 
  - ### **Alerts:**
     - Semantics: Change headings where necessary and apply heading style to classes  as suggested in this post from [Solodev](https://www.solodev.com/blog/web-design/how-to-adjust-header-styles-with-css-and-bootstrap.stml)
@@ -247,7 +247,9 @@ The following actions taken to improve performance:
 - Compress images using tinyjpg 
 - Move scripts to bottom from header to the bottom of the page 
 
-/*Include image report*/
+The best performance that could be achieved:
+
+![Google lighthouse](reports/google_lighthouse.png)
 
 # HTML & CSS validation 
 

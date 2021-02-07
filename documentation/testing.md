@@ -58,184 +58,186 @@ Testing has been an on-going process during the coding stage of the project with
     
 - ### **As a first time visitor, I want a responsive website so that I can view the website across different devices.**
 
-    **T01 - Acceptance criteria**  
-    - When I visit the website using my device, all content is visible and visual elements are displayed proportionally,  
+    - **<ins>T01 - Acceptance criteria</ins>**  
 
-       > **Issues:**   
-       > - Responsive paddings were not displayed on tablets
-       > - Hero image covering more than viewport heights on mobile, resulting in the jumbotron text not being fully visible and centered, due to top and bottom menus on devices
-       > - Responsive font styles in jumbotron text not applied on tablets and mobile
-       >  - Buttons on ipad text wrapping on 2 lines
-       >  - Phone number links automatically activated on iphones and ipad
-       >  - Hero image appeared quite slow to upload
-       >  - Some balance issues on very big screens     
+        - When I visit the website using my device, all content is visible and visual elements are displayed proportionally,  
 
-       >  **Fix**
-       >  - Responsive fonts and paddings were adjusted using a different css function. 
-       >  - Additional media queries for landscape screens were set to adjust the hero image and jumbotron text
-       >  - Add white-space: nowrap on button as suggested by this [stackoverflow post](https://stackoverflow.com/questions/12707317/ipad-breaks-button-text-into-two-separate-lines/12708061)
-       >  - A meta data was added in the header to remove automatic links of phone numbers as suggested by this [blog post](https://n8finch.com/disable-phone-number-linking-ios-safari)
-       >  - Maximum height for the hero image was set to -webkit-fill-available so that it doesn’t fill more than the viewport height on mobile as suggested in this [stack overflow post](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser)
-       >  - Hero image's size was compressed to optimise performance. 
-       >  - Body was set to a maximum  width of 2000px and media queries for medium screens were adjusted so that there’s a better balance on medium, large and extra large screens.
+          > **Issues:**   
+          > - Responsive paddings were not displayed on tablets
+          > - Hero image covering more than viewport heights on mobile, resulting in the jumbotron text not being fully visible and centered, due to top and bottom menus on devices
+          > - Responsive font styles in jumbotron text not applied on tablets and mobile
+          >  - Buttons on ipad text wrapping on 2 lines
+          >  - Phone number links automatically activated on iphones and ipad
+          >  - Hero image appeared quite slow to upload
+          >  - Some balance issues on very big screens     
+          >
+          >  **Fix**
+          >  - Responsive fonts and paddings were adjusted using a different css function. 
+          >  - Additional media queries for landscape screens were set to adjust the hero image and jumbotron text
+          >  - Add white-space: nowrap on button as suggested by this [stackoverflow post](https://stackoverflow.com/questions/12707317/ipad-breaks-button-text-into-two-separate-lines/12708061)
+          >  - A meta data was added in the header to remove automatic links of phone numbers as suggested by this [blog post](https://n8finch.com/disable-phone-number-linking-ios-safari)
+          >  - Maximum height for the hero image was set to -webkit-fill-available so that it doesn’t fill more than the viewport height on mobile as suggested in this [stack overflow post](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser)
+          >  - Hero image's size was compressed to optimise performance. 
+          >  - Body was set to a maximum  width of 2000px and media queries for medium screens were adjusted so that there’s a better balance on medium, large and extra large screens.
 
-    **T01 Result after fixes: PASS**
+        **T01 Result after fixes: PASS**
 
-    **T02 - Acceptance criteria**
-    - When I use a small screen or,
-    - When I resize my screen and the menu becomes too large, the navigation bar collapses and,
-    - When the navigation is collapsed, a toggler button is displayed to right of the header, and
-    - When I click on the toggler button, a vertical menu is displayed,
-    - When I click again on the toggler button, the vertical menu collapses back. 
-    - When the vertical menu is displayed and I click on any items, the page scrolls to the relevant section and the menu will collapse back.  
+    - **<ins>T02 - Acceptance criteria</ins>**
+        - When I use a small screen or,
+        - When I resize my screen and the menu becomes too large, the navigation bar collapses and,
+        - When the navigation is collapsed, a toggler button is displayed to right of the header, and
+        - When I click on the toggler button, a vertical menu is displayed,
+        - When I click again on the toggler button, the vertical menu collapses back. 
+        - When the vertical menu is displayed and I click on any items, the page scrolls to the relevant section and the menu will collapse back.  
 
-    **T02 Result: PASS**
+        **T02 Result: PASS**
  
 - ### **As a first time visitor, I want to be able to easily navigate across the website so that I can quickly find information.**
  
-    **T03 - Acceptance criteria** 
-    - When I scroll to any section of the website, the navigation remains fixed on top of the page and my position on the page is made clear by the relevant link changing appearance (white bold) in the navigation bar. 
-    - When I click on a menu item in the navigation bar, the page scrolls to the top of the relevant section of the webpage without spacing or content being covered by the navigation bar.
+    - **<ins>T03 - Acceptance criteria</ins>** 
+       - When I scroll to any section of the website, the navigation remains fixed on top of the page and my position on the page is made clear by the relevant link changing appearance (white bold) in the navigation bar. 
+       - When I click on a menu item in the navigation bar, the page scrolls to the top of the relevant section of the webpage without spacing or content being covered by the navigation bar.
     
-    **T03 Result: PASS**
+       **T03 Result: PASS**
 
 - ### **As a first time visitor, I want to read about the company's services so that I can assess whether they fit my needs / As a first time visitor, I want to look at prices so that I can check whether I can afford their services.**
  
-    **TO4 - Acceptance criteria**
-    - when I click on the menu item “services” in the navigation bar, the page scrolls to the “services” section of the website.
-    - when I view / scroll to the “services” section, an introduction and a list of items included in the services are displayed as well as three text boxes showing pricing information laid out on top of different images, and
-    - when I scroll at the bottom of the section, a “contact-us” button is displayed,
-    - when I hover over the button, its appearance changes from green to orange. 
-    - when I click on the button, the page scrolls to the “contact us” section. 
+    - **<ins>TO4 - Acceptance criteria</ins>**  
+
+        - when I click on the menu item “services” in the navigation bar, the page scrolls to the “services” section of the website.
+        - when I view / scroll to the “services” section, an introduction and a list of items included in the services are displayed as well as three text boxes showing pricing information laid out on top of different images, and
+        - when I scroll at the bottom of the section, a “contact-us” button is displayed,
+        - when I hover over the button, its appearance changes from green to orange. 
+        - when I click on the button, the page scrolls to the “contact us” section. 
  
-    **T04 Result: PASS**
+       **T04 Result: PASS**
 
 - ### **As a returning visitor, I want to read customer testimonials so that I can assess if the company is reliable and professional.**
  
-    **TO5 - Acceptance criteria**
-    - when I click on the menu item “testimonials” in the navigation bar, the page scrolls to the “testimonials” section of the website.
-    - When I view / scroll to the “testimonials section”, a carousel with 2 side buttons and a dotted indicator displays an image, a name and text containing the customer recommendations in quotes.
-    - When I hover on either side buttons, the buttons appearance changes (to brown) and,
-    - When I click on the right button, the carousel moves one slide to the right,
-    - When I click on the left button, the carousel moves one slide to the left, and
-    - When I click on one of the dotted indicators, the first slide to be displayed is relevant to the position on the dotter indicator. 
+    - **<ins>TO5 - Acceptance criteria</ins>**
+        - when I click on the menu item “testimonials” in the navigation bar, the page scrolls to the “testimonials” section of the website.
+        - When I view / scroll to the “testimonials section”, a carousel with 2 side buttons and a dotted indicator displays an image, a name and text containing the customer recommendations in quotes.
+        - When I hover on either side buttons, the buttons appearance changes (to brown) and,
+        - When I click on the right button, the carousel moves one slide to the right,
+        - When I click on the left button, the carousel moves one slide to the left, and
+        - When I click on one of the dotted indicators, the first slide to be displayed is relevant to the position on the dotter indicator. 
 
-    **T05 Result: PASS**
+        **T05 Result: PASS**
  
 - ### **As a returning visitor, I want to read more about the company so that I can assess its credentials, professionalism and cat friendliness.**
  
-    **T06 - Acceptance criteria** 
-    - when I click on the menu item “credentials” in the navigation bar, the page scrolls to the “credentials” section of the website.
-    - When I view / scroll to the testimonials section, text and a background image are visible and displayed responsively.  
+    - **<ins>T06 - Acceptance criteria</ins>** 
+        - when I click on the menu item “credentials” in the navigation bar, the page scrolls to the “credentials” section of the website.
+        - When I view / scroll to the testimonials section, text and a background image are visible and displayed responsively.  
 
-    **T06 Result: PASS**
+        **T06 Result: PASS**
  
 - ### **As a returning visitor, I want to access contact options so that I can reach the company for further queries.**
  
-    **T07 - Acceptance criteria**
-    - when I click on the menu item “contact us” in the navigation bar, the page scrolls to the “contact us” section of the website, 
-    - when I view or scroll to the “contact us” section, contact details with a phone number and an email address are displayed as well as a contact form containing “full name”, “email address”, “subject” and “message” fields,
+    - **<ins>T07 - Acceptance criteria</ins>**
+        - when I click on the menu item “contact us” in the navigation bar, the page scrolls to the “contact us” section of the website, 
+        - when I view or scroll to the “contact us” section, contact details with a phone number and an email address are displayed as well as a contact form containing “full name”, “email address”, “subject” and “message” fields,
 
-    **T07 Result: PASS**
+      **T07 Result: PASS**
     
-    **T08 - Acceptance criteria - Form valid path**
-    - when I enter my name in the “full name” field, and
-    - when I enter a valid email address in the “email” field and,
-    - when I go to the subject field, I can keep the existing selection “general queries” or select “Arrange a meet & greet” and,
-    - when I enter a message in the “message field” and,
-    - when I click submit, I am brought back to the top of the page (as the form is not linked with any server)
+    - **<ins>T08 - Acceptance criteria - Form valid path</ins>**
+        - when I enter my name in the “full name” field, and
+        - when I enter a valid email address in the “email” field and,
+        - when I go to the subject field, I can keep the existing selection “general queries” or select “Arrange a meet & greet” and,
+        - when I enter a message in the “message field” and,
+        - when I click submit, I am brought back to the top of the page (as the form is not linked with any server)
 
-    **T08 Result: PASS**
+        **T08 Result: PASS**
     
-    **T09 - Acceptance criteria - Form invalid path**
-    - when I enter an invalid email address and when I click submit, a message prompts me to enter a valid email address. 
-    - when I leave the “full name” field empty and/or 
-    - when I leave the “email” field empty and/or
-    - when I leave the “message” field empty and/or
-    - when I click submit, a message will appear to prompt me to enter the required fields.
+    - **<ins>T09 - Acceptance criteria - Form invalid path</ins>**
+        - when I enter an invalid email address and when I click submit, a message prompts me to enter a valid email address. 
+        - when I leave the “full name” field empty and/or 
+        - when I leave the “email” field empty and/or
+        - when I leave the “message” field empty and/or
+        - when I click submit, a message will appear to prompt me to enter the required fields.
 
         > **Issue:** 
         > - No message appears when the message field is empty.
-
+        >
         > **Fix:** 
         > - Add required to text area element 
 
-    **T09 Result after fixes: PASS**
+        **T09 Result after fixes: PASS**
  
-    **T10 - Acceptance criteria**
-    - when I scroll to the footer of the webpage, the company contact details with a phone number and an email address are displayed
+    - **<ins>T10 - Acceptance criteria<</ins>**
+        - when I scroll to the footer of the webpage, the company contact details with a phone number and an email address are displayed
 
-    **T10 Result: PASS**
+        **T10 Result: PASS**
  
 - ### **As a returning visitor,I want to view the areas where the company operates so that I can check that they provide services where I live.**
  
-    **T11 - Acceptance criteria**
-    - when I click on the menu item “area we cover” in the navigation bar, the page scrolls to the section “Area we cover” of the website.
-    - when I view / scroll to the “area we cover” section, a list of areas where the business operates is displayed responsively.
-    - when I view the “area we cover” section, a map with a designated zone is displayed and I can zoom in and out, as well as searching my postcode.(the zoom and searching option are third party functionalities)
+    - **<ins>T11 - Acceptance criteria</ins>**
+        - when I click on the menu item “area we cover” in the navigation bar, the page scrolls to the section “Area we cover” of the website.
+        - when I view / scroll to the “area we cover” section, a list of areas where the business operates is displayed responsively.
+        - when I view the “area we cover” section, a map with a designated zone is displayed and I can zoom in and out, as well as searching my postcode.(the zoom and searching option are third party functionalities)
     
     **T11 Result: PASS**
 
 - ### **As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.**
  
-    **T12 - Acceptance criteria**
-    - when I scroll to the footer of the webpage, icons representing facebook, twitter and instagram are displayed and,
-    - when I hover over one of the icons, the icon changes in appearance (grow),
-    - when I click on one of the icons, I am redirected to the right website in a new tab (ex. Facebook icon redirects to www.facebook.com.).
+    - **<ins>T12 - Acceptance criteria</ins>**
+        - when I scroll to the footer of the webpage, icons representing facebook, twitter and instagram are displayed and,
+        - when I hover over one of the icons, the icon changes in appearance (grow),
+        - when I click on one of the icons, I am redirected to the right website in a new tab (ex. Facebook icon redirects to www.facebook.com.).
     
-    **T12 - Result: PASS**
+      **T12 - Result: PASS**
 
 - ### **As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.**
  
-    **T13 - Acceptance criteria** 
-    - When I land on the website, a hero image, jumbotron text and a “contact” us button are displayed responsively,
-    - When I hover over the contact us button, it changes in appearance from green to orange.
-    - When I click on the “contact us” button, the page scroll to the “contact us” section, 
+    - **<ins>T13 - Acceptance criteria</ins>** 
+        - When I land on the website, a hero image, jumbotron text and a “contact” us button are displayed responsively,
+        - When I hover over the contact us button, it changes in appearance from green to orange.
+        - When I click on the “contact us” button, the page scroll to the “contact us” section, 
     
-    **T13 - Result: PASS**
+      **T13 - Result: PASS**
 
-    **T08 - Acceptance criteria - Form valid path**  
-    - when I view or scroll to the “contact us” section, contact details with a phone number and an email address are displayed, as well as a contact form containing “full name”, “email address”, “subject” and “message” fields, 
-    - when I enter my name in the “full name” field, and
-    - when I enter a valid email address in the “email” field and,
-    - when I go to the subject field, I can select “Arrange a meet & greet” and,
-    - when I enter a message in the “message” field and,
-    - when I click submit, I am brought back to the top of the page (as the form is not linked with any server)
+    - **<ins>T08 - Acceptance criteria - Form valid path</ins>**  
+        - when I view or scroll to the “contact us” section, contact details with a phone number and an email address are displayed, as well as a contact form containing “full name”, “email address”, “subject” and “message” fields, 
+        - when I enter my name in the “full name” field, and
+        - when I enter a valid email address in the “email” field and,
+        - when I go to the subject field, I can select “Arrange a meet & greet” and,
+        - when I enter a message in the “message” field and,
+        - when I click submit, I am brought back to the top of the page (as the form is not linked with any server)
        
-     **T08 Result: PASS**
+        **T08 Result: PASS**
 
-    **T09 - Acceptance criteria - Form invalid path**  
-    - when I enter an invalid “email” address and when I click submit, a message prompts me to enter a valid address. 
-    - when I leave the “full name” field empty and/or 
-    - when I leave the “email” field empty and/or
-    - when I leave the “message” field empty and/or
-    - when I click submit, a message will appear to prompt me to enter the required fields  
+    - **<ins>T09 - Acceptance criteria - Form invalid path</ins>**  
+        - when I enter an invalid “email” address and when I click submit, a message prompts me to enter a valid address. 
+        - when I leave the “full name” field empty and/or 
+        - when I leave the “email” field empty and/or
+        - when I leave the “message” field empty and/or
+        - when I click submit, a message will appear to prompt me to enter the required fields  
  
-    **T09 Result: PASS (issue resolved earlier)**
+       **T09 Result: PASS (issue resolved earlier)**
 
-    **T14 - Acceptance criteria**
-    - when I scroll to the footer of the webpage, the company contact details with a phone number and email address are displayed.  
+    - **<ins>T14 - Acceptance criteria</ins>**
+        - when I scroll to the footer of the webpage, the company contact details with a phone number and email address are displayed.  
 
-    **T14 Result: PASS**
+      **T14 Result: PASS**
 
 # Testing accessibility
 
- Wave evaluation report was used on the website to assess its accessibility. The report showed the following issues:  
+  Wave evaluation report was used on the website to assess its accessibility. The report showed the following issues:  
 
  Initial report can be found [here](documentation/reports/waveinitial.jpg)  
 
-![Wave initial report](reports/waveinitial.jpg)
+ ![Wave initial report](reports/waveinitial.jpg)
 
 
  - ### **Errors:**  
-   - Contrast on buttons : Change color from #23B06A to #078847 even if it meant compromising slightly the design
-   - Missing aria-labels on links: Add aria-labels on links and aria-hidden is true to icons as suggested by [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
+   - **Contrast on buttons** : Change color from #23B06A to #078847 even if it meant compromising slightly the design
+   - **Missing aria-labels on links:** Add aria-labels on links and aria-hidden is true to icons as suggested by [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
 
  - ### **Alerts:**
-    - Semantics: Change headings where necessary and apply heading style to classes  as suggested in this post from [Solodev](https://www.solodev.com/blog/web-design/how-to-adjust-header-styles-with-css-and-bootstrap.stml)
-    - Text align: Remove text align  
-    - Not sufficient alt text for the logo: Include additional description
-    - Broken link for the logo: Change logo link to #home
+    - **Semantics**: Change headings where necessary and apply heading style to classes  as suggested in this post from [Solodev](https://www.solodev.com/blog/web-design/how-to-adjust-header-styles-with-css-and-bootstrap.stml)
+    - **Text align:** Remove text align  
+    - **Not sufficient alt text for the logo:** Include additional description
+    - **Broken link for the logo:** Change logo link to #home
 
 Wave accessibility final report can be found [here](documentation/reports/wavefinal.jpg).  
 

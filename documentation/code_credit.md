@@ -19,3 +19,8 @@
    Hover effects | Both fade and icon grow effects are from [Ian Lunn Hover.css](https://github.com/IanLunn/Hover/blob/master/css/hover.css), personalised with CSS. This resource was introduced during resume min-project by Code Institute. 
    Responsive font size | Source code for the clamp function for responsive font size from [css-trick](https://css-tricks.com/how-do-you-do-max-font-size-in-css/), changed value for own needs.
    Responsive padding | In addition of responsive font size, the following [slackoverflow post](https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css/38079002) explained how clamp function could be used for margin & paddings.
+   Viewport height mobile | -webkit-fill-available so that it doesn’t fill more than the viewport height on mobile as suggested in this [stack overflow post](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser)
+   Semantic | Heading style to classes  as suggested in this post from [Solodev](https://www.solodev.com/blog/web-design/how-to-adjust-header-styles-with-css-and-bootstrap.stml)
+   Link phone number | Remove automatic links of phone numbers as suggested by this [blog post](https://n8finch.com/disable-phone-number-linking-ios-safari)
+   Buttons on ipad | nowrap on button as suggested by this [stackoverflow post](https://stackoverflow.com/questions/12707317/ipad-breaks-button-text-into-two-separate-lines/12708061)
+   Icons, links & accessibility | Add aria label and aria-hidden attributes as suggested by [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)

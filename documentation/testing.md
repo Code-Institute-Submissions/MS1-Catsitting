@@ -156,11 +156,11 @@ Testing has been an on-going process during the coding stage of the project with
         - when I leave the “message” field empty and/or
         - when I click submit, a message will appear to prompt me to enter the required fields.
 
-        > **Issue:** 
-        > - No message appears when the message field is empty.
-        >
-        > **Fix:** 
-        > - Add required to text area element 
+            > **Issue:** 
+            > - No message appears when the message field is empty.
+            >
+            > **Fix:** 
+            > - Add required to text area element 
 
         **T09 Result after fixes: PASS**
  

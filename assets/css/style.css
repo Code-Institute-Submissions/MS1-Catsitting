@@ -23,9 +23,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 500;
+  /*ipad buttons - https://stackoverflow.com/questions/12707317/ipad-breaks-button-text-into-two-separate-lines/12708061*/
   white-space: nowrap;
 }
-/*https://stackoverflow.com/questions/12707317/ipad-breaks-button-text-into-two-separate-lines/12708061*/
 
 /*---------------------------------[ LIST LI ]-----------------------------------*/
 li {
@@ -84,7 +84,7 @@ li {
 
 /*-----------------------------------[ ANCHORS]-----------------------------------*/
 
-/*https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors/*/
+/*anchors positioning - https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors/*/
 .anchors {
   display: block;
   position: absolute;
@@ -171,10 +171,10 @@ a.navbar-brand {
 
 /*-------------------------[ HERO IMAGE & JUMBOTRON]-----------------------------*/
 
-/*https://www.w3schools.com/howto/howto_css_hero_image.asp*/
-/*https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser*/
+/*hero-image - https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 .hero-background {
   height: 95vh;
+  /*fill mobile viewport height - https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser*/
   max-height: -webkit-fill-available;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat-hero.jpg");
   background-position-x: 71%;
@@ -304,7 +304,7 @@ a.navbar-brand {
   margin: 0 1.5% 0% 1.5%;
 }
 
-/*https://www.w3schools.com/howto/howto_css_aspect_ratio.asp*/
+/*block aspect ratio 1:1 - https://www.w3schools.com/howto/howto_css_aspect_ratio.asp*/
 .credentials-box {
   width: 100%;
   padding-top: 100%;
@@ -313,7 +313,7 @@ a.navbar-brand {
   border-radius: 50%;
 }
 
-/*https://medium.com/front-end-weekly/absolute-centering-in-css-ea3a9d0ad72e*/
+/*absolute centering - https://medium.com/front-end-weekly/absolute-centering-in-css-ea3a9d0ad72e*/
 .credentials-text {
   position: absolute;
   top: 50%;
@@ -334,7 +334,7 @@ a.navbar-brand {
 
 /*-------------------------------[ TESTIMONIALS ]--------------------------------*/
 
-/* Carousel https://flickity.metafizzy.co/options.html#setup
+/* carousel https://flickity.metafizzy.co/options.html#setup
 and  https://codepen.io/desandro/pen/zxRYMP
 */
 
@@ -359,7 +359,7 @@ and  https://codepen.io/desandro/pen/zxRYMP
   margin-right: 3.5%;
   padding: 5px;
 }
-/* Flickity small rounded square buttons*/
+/* flickity small rounded square buttons*/
 /*https://flickity.metafizzy.co/style.html*/
 .flickity-prev-next-button {
   width: 30px;
@@ -625,7 +625,7 @@ footer a:hover {
 
 @media only screen and (min-width: 410px) {
 /*----------------------area we cover--------------------------*/
-/*https://www.w3schools.com/cssref/css3_pr_columns.asp*/
+/*List in 2 columns - https://www.w3schools.com/cssref/css3_pr_columns.asp*/
   .area-list {
     column-count: 2;
   }

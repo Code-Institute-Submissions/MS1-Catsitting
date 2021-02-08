@@ -91,79 +91,79 @@ Based on a fictional business offering cat sitting services, this website was bu
     - ### **Responsive layout:**
 
       The website will resize according to the device used for better visibility and user experience.  
-
-            - As a first time visitor, I want a responsive website so that I can view the website across different devices. 
-            - As a business owner, I want a user-friendly responsive website so that I can create an online presence.
+        
+        >- As a first time visitor, I want a responsive website so that I can view the website across different devices. 
+        >- As a business owner, I want a user-friendly responsive website so that I can create an online presence.
 
 
     - ### **Collapsible navigation menu:**
 
        The website will feature a fixed navigation menu on top of the page to allow users to easily navigate back and forth. The navigation will be collapsible on mobile devices for better visibility and automatically update according to the user's position on the page for better user experience.
 
-            - As a first time visitor, I want a responsive website so that I can view the website across different devices. 
-            - As a first time visitor, I want to be able to easily navigate across the website so that I can quickly find the information I need. 
-
-            - As a business owner, I want a user-friendly responsive website so that I can create an online presence.
+        >- As a first time visitor, I want a responsive website so that I can view the website across different devices. 
+        >- As a first time visitor, I want to be able to easily navigate across the website so that I can quickly find the information I need. 
+          
+        >- As a business owner, I want a user-friendly responsive website so that I can create an online presence.
 
 
     - ### **Hero banner section:**
 
       This section will feature a hero image with a tagline and a call for action. 
 
-            - As a business owner I want to feature a logo and a tagline so that I can raise my business brand awareness.
-            - As a business owner, I want a call for action so that I can generate leads.
+        >- As a business owner I want to feature a logo and a tagline so that I can raise my business brand awareness.
+        >- As a business owner, I want a call for action so that I can generate leads.
 
 
    - ### **Services section:**
 
      This section will feature a description of what is included in the services as well pricing information and a call for action to encourage users to contact the company.
 
-            - As a first time user, I want to read about the company's services so that I can assess whether they fit my needs   
-            - As a first time user, I want to look at prices so that I can check wether I can afford their services. 
+        >- As a first time user, I want to read about the company's services so that I can assess whether they fit my needs   
+        >- As a first time user, I want to look at prices so that I can check wether I can afford their services. 
 
-            - As a business owner, I want to provide clear and concise information so that I can advertise services and pricing.
-            - As a business owner, I want a call for action so that I can generate leads.
+        >- As a business owner, I want to provide clear and concise information so that I can advertise services and pricing.
+        >- As a business owner, I want a call for action so that I can generate leads.
             
     - ### **About us section:**
     
       This section will feature the profile, a photo and the relevant qualification of the business owner to provide users with information about the business' credentials. 
 
-            - As a returning visitor, I want to read more about the company so that I can assess its credentials and professionalism.  
-            - As a business owner, I want to feature my profile so that I can raise my company's brand awareness and credentials.
+        >- As a returning visitor, I want to read more about the company so that I can assess its credentials and professionalism.  
+        >- As a business owner, I want to feature my profile so that I can raise my company's brand awareness and credentials.
 
 
     - ### **Testimonials section:**
 
        This section will feature quotes from customers, including full names and photos to add further credibility. The testimonials will be presented in a responsive carousel for better user experience.
 
-            - As a returning visitor, I want to read customer testimonials so that I can assess if the company is reliable and professional.
+        >- As a returning visitor, I want to read customer testimonials so that I can assess if the company is reliable and professional.
 
 
     - ### **Areas we cover section:**
     
        This section will list the areas the business covers and will feature an embedded map to help users to visualise  where the business operates. Users can use the search tool on the map to look-up if their post-code is in the area covered by the business.
 
-            - I want to view the areas where the company operates so that I can check that they provide services where I live.
+        >- As a returning visitor, I want to view the areas where the company operates so that I can check that they provide services where I live.
 
 
     - ### **Contact us section:** 
 
       The contact page will feature the business' contact details and a form to allow users to contact the business directly via the website. The form will include an option to select the subject of the message so that users can either make a general query or arrange a meet and greet. 
 
-            - As a returning visitor, I want to access contact options so that I can reach the company for further queries.
-            - As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.
-            - As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.
+        >- As a returning visitor, I want to access contact options so that I can reach the company for further queries.
+        >- As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.
+        >- As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.
 
-            - As a business owner, I want to encourage users to contact me so that I can answer queries promptly and arrange meets & greets.
+        >- As a business owner, I want to encourage users to contact me so that I can answer queries promptly and arrange meets & greets.
 
     - ### **Footer:** 
  
       The footer will display contact information  and icons with links to the business’s social media accounts opening onto a new tab, so that users can browse these without losing access to the website. 
 
-            - As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.
-            - As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.
+        >- As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.
+        >- As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.
 
-            - As a business owner, I want to provide links to our social media accounts so that I can grow my online community.
+        >- As a business owner, I want to provide links to our social media accounts so that I can grow my online community.
 
 
 - ## **Wireframes**

@@ -99,6 +99,7 @@ li {
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
+  /*https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css/38079002*/
   padding-top: max(43px, min(4%, 60px));
 }
 
@@ -174,7 +175,7 @@ a.navbar-brand {
 /*hero-image - https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 .hero-background {
   height: 95vh;
-  /*fill mobile viewport height - https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser*/
+  /*Viewport height mobile - https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser*/
   max-height: -webkit-fill-available;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/cat-hero.jpg");
   background-position-x: 71%;

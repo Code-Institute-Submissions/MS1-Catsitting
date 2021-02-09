@@ -66,10 +66,11 @@ Testing has been an on-going process during the coding stage of the project with
           > - Responsive paddings were not displayed on tablets
           > - Hero image covering more than viewport heights on mobile, resulting in the jumbotron text not being fully visible and centered, due to top and bottom menus on devices
           > - Responsive font styles in jumbotron text not applied on tablets and mobile
-          >  - Buttons on ipad text wrapping on 2 lines
-          >  - Phone number links automatically activated on iphones and ipad
-          >  - Hero image appeared quite slow to upload
-          >  - Some balance issues on very big screens     
+          > - Buttons on ipad text wrapping on 2 lines
+          > - Phone number links automatically activated on iphones and ipad
+          > - Hero image appeared quite slow to upload
+          > - Some balance issues on very big screens  
+          > - Jumbotron text alignment and balance issues in landscape  & near-landscape viewport (ex. when tabs are not opened in full size)  
           >
           >  **Fix**
           >  - Responsive fonts and paddings were adjusted using a different css function. 
@@ -79,6 +80,7 @@ Testing has been an on-going process during the coding stage of the project with
           >  - Maximum height for the hero image was set to -webkit-fill-available so that it doesn’t fill more than the viewport height on mobile as suggested in this [stack overflow post](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser)
           >  - Hero image's size was compressed to optimise performance. 
           >  - Body was set to a maximum  width of 2000px and media queries for medium screens were adjusted so that there’s a better balance on medium, large and extra large screens.
+          >  - A media query was created for landscape and screens with an aspect ratio 5:4 so that the jumbotron container doesn't grow over a certain part of the hero image, whilst being positioned just below the navigation bar. The text in the jumbotron container is vertically align for all screen size and orientation.
 
         **T01 Result after fixes: PASS**
 

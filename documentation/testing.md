@@ -327,10 +327,11 @@ The best performance that could be achieved:
    ![CSSS Validation error](reports/w3c_css_errors.png)
 
     - **Issues:** Hide is not value of display.
-    - **Fix:** The css was subsequently changed to display:none;
+    - **Fix:** The css was subsequently changed to display:none as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/4232baa58b29e91f882a8de2119ee5fdbef629a6#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524).
+      ![css display correction](code/w3c_css_correctdisplay.png)
     - **Warnings:** Many of the browers vendor extension were unknown. 
-    - **Fix**: The css file was amended and all the redundant vendors' extensions removed.
-
+    - **Fix**: The css file was amended and all the redundant vendors' extensions removed as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/e455d0bcc870ff41834144dc11f8c3dd54bdb76d). Below is an example of the modifications to the code.
+       ![example remove vendor prefix](code/w3c_css_rem_vendorprefix.png)
     The final report, which can be found [here](documentation/reports/w3c_css_success.png), shows that all issues were resolved & that the CSS styles were validated. 
 
     ![CSS Validation Success](reports/w3c_css_success.png)

@@ -268,7 +268,7 @@ Testing has been an on-going process during the coding stage of the project with
  - ### **Errors:**  
    - **Contrast on buttons** : Change color from #23B06A to #078847 as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/bb9d32b70a86ea7c20db9861df1cabb0b6d4efab#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524), even if it meant compromising slightly the design.
      ![Change button color](code/accessibility_buttons.png)
-     
+
    - **Missing aria-labels on links:** Add aria-labels on links and aria-hidden is true to icons as suggested by [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/2a5ec41f083698fc862b0dcf78316bbeb0fed9e9#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
     ![Aria-labels on links](code/accessibility_links.png)
 
@@ -312,8 +312,11 @@ The best performance that could be achieved:
     - Stray start tag script 
 
     **Fixes**
-    - Remove frameborder and move width for iframe to css style .mapframe 
-    - Move the scripts at the end of the body of html 
+    - Remove frameborder and move width for iframe to css style .mapframe as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/a6fd57600882815f21991625ccfa677fccb825f8#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
+      ![change to iframe](code/w3c_frame_fixes.png)
+      
+    - Move the scripts at the end of the body of html as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/e10b3cdcc461c248b021d06810f24f164bc13081#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
+      ![move script](code/w3c_html_movescript.png)
 
     The final report, which can can be found [here](documentation/reports/w3c_html_success.png) shows that all issues were resolved & that HTML code was validated. 
  

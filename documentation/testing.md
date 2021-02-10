@@ -77,7 +77,7 @@ Testing has been an on-going process during the coding stage of the project with
      
      About me background image
      ![background image css code](code/background-image-aboutme.png)
-     
+
      Embedded map 
      ![embedded map frame css code](code/map-frame.png)
 
@@ -266,14 +266,22 @@ Testing has been an on-going process during the coding stage of the project with
 
 
  - ### **Errors:**  
-   - **Contrast on buttons** : Change color from #23B06A to #078847 even if it meant compromising slightly the design
-   - **Missing aria-labels on links:** Add aria-labels on links and aria-hidden is true to icons as suggested by [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
+   - **Contrast on buttons** : Change color from #23B06A to #078847 as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/bb9d32b70a86ea7c20db9861df1cabb0b6d4efab#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524), even if it meant compromising slightly the design.
+     ![Change button color](code/accessibility_buttons.png)
+     
+   - **Missing aria-labels on links:** Add aria-labels on links and aria-hidden is true to icons as suggested by [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/2a5ec41f083698fc862b0dcf78316bbeb0fed9e9#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
+    ![Aria-labels on links](code/accessibility_links.png)
 
  - ### **Alerts:**
-    - **Semantics**: Change headings where necessary and apply heading style to classes  as suggested in this post from [Solodev](https://www.solodev.com/blog/web-design/how-to-adjust-header-styles-with-css-and-bootstrap.stml)
-    - **Text align:** Remove text align  
-    - **Not sufficient alt text for the logo:** Include additional description
-    - **Broken link for the logo:** Change logo link to #home
+    - **Semantics**: Change headings where necessary and apply heading style to classes  as suggested in this post from [Solodev](https://www.solodev.com/blog/web-design/how-to-adjust-header-styles-with-css-and-bootstrap.stml) and as displayed in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/13f2e26826f07e345bedb63fffa5d6eac9f22489#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
+       ![Semantic changes example](code/accessibility_semantics_ex.png)
+
+    - **Text align:** Remove text align as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/e0e4fc464baabd7d495753dc7e4a5382c3ab36d2#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524).
+       ![Text align change](code/accessibility_rem_textalign.png) 
+
+    - **Not sufficient alt text and broken link for the logo:** Include additional description and change the href link to #home as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/38c05155beda8176b1994ae79d6578d8c0bd9738#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
+       ![Changes to logo](code/accessibility_logo_altlink.png)
+   
 
 Wave accessibility final report can be found [here](documentation/reports/wavefinal.jpg).  
 

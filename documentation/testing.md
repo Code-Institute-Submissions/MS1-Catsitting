@@ -8,44 +8,78 @@ Testing has been an on-going process during the coding stage of the project with
 
  - **Issue**: Part of the content was hidden under the fixed navigation bar.  
 
-    > Solution: The solution was to create fixed invisible anchors positioned above the start of each section, as per suggestion of [Caktus Group blog post](https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors).
+    > Solution: The solution was to create fixed invisible anchors positioned above the start of each section, as per suggestion of [Caktus Group blog post](https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors). Invisible anchors were first committed [here](https://github.com/lemocla/MS1-Catsitting/commit/c598a61d3658ca1479b70d3f3ff02e3b3279c1ae?branch=c598a61d3658ca1479b70d3f3ff02e3b3279c1ae&diff=split) with top finally adjusted [here](https://github.com/lemocla/MS1-Catsitting/commit/4678445e7b5e839796a8378d00c7b3e1cafa2e1a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae).
+      
+      ![sample_code_invisible_anchors](code/invisible_anchors.png)
  
  - **Issue**: When navigating to a section of the website, the link in the navigation didn’t show as active.  
 
-     > Solution: After browsing bootstrap library, the solution was to implement [bootstrap spyscroll](https://getbootstrap.com/docs/4.5/components/scrollspy/).  
+     > Solution: After browsing bootstrap library, the solution was to implement [bootstrap scrollspy](https://getbootstrap.com/docs/4.5/components/scrollspy/) as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/17f98e83bdb505cec250a84bc3e69bc61b51da01#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051). The offset of the scrollspy needed to be adjusted so that the links are activated at the start of each section rather than the position of the invisible anchors, as shown [here](https://github.com/lemocla/MS1-Catsitting/commit/95e65d66c56f0f7124315ad8f16d66bd9a60ee8b#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
+
+      ![scrollspy added](code/scrollspy_added.png)
+      ![scrollspy offset adjusted](code/scrollspy_offset_adjusted.png)
 
  - **Issue**: Once collapsed, the menu did not collapse back when clicking on menu items.  
 
-     > Solution: This was the most challenging issue during development. The solution was to insert data-toggle="collapse" data-target=".navbar-collapse.show" in navigation items as suggested in this [stack overflow post](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click).
+     > Solution: This was the most challenging issue during development. The solution was to insert data-toggle="collapse" and data-target=".navbar-collapse.show" in navigation items as suggested in this [stack overflow post](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click) and as implemented in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/95e65d66c56f0f7124315ad8f16d66bd9a60ee8b?branch=95e65d66c56f0f7124315ad8f16d66bd9a60ee8b&diff=split). Please see below a screenshot sample of the code.
  
+      ![Navigation collapse solution](code/nav_collapse_working.png)
+
  - **Issue**: Navigation menu needed to expand at a different breakpoint than those offered as part of the bootstrap library.  
 
-     > Solution: Using Google Inspect, I was able to create a media queries for desired breakpoint and recreate the different elements required for navbar-expand to work. 
+     > Solution: Using Google Inspect, I was able to create a media queries for desired breakpoint and recreate the different elements required for navbar-expand to work, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/5973543c65791051c0eded943fcfdfeec523e17b#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae). 
+
+     ![Navbar expand new media query](code/navbar_expand_mediaquery.png) 
  
 ## Toggle button 
 
  - **Issue**: Using Google inspect, I did not seem able to target the element to style the toggle button.  
 
-     > Solution: The solution was to replace the bootstrap default toggle button by a Font Awsome icon as suggested by [this stack overflow post](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)
+     > Solution: The solution was to replace the bootstrap default toggle button by a Font Awsome icon as suggested by [this stack overflow post](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color). The Font Awesome icon was first added within the span containing the toggler button as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/17f98e83bdb505cec250a84bc3e69bc61b51da01#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051). The span containing the toggler was removed and the toggle-btn navbar-toggler-icon styles moved to the element containing the icon, as shown in this [commit]( https://github.com/lemocla/MS1-Catsitting/commit/95e65d66c56f0f7124315ad8f16d66bd9a60ee8b?branch=95e65d66c56f0f7124315ad8f16d66bd9a60ee8b&diff=split).
+
+     HTML screenshot 
+     ![Font awesome toggler button HTML](code/icon_toggler_btn_HTML.png)
+
+     CSS screenshot 
+     ![Font awesome toggler button CSS](code/icon_toggler_btn_CSS.png)
+
 
 ## Jumbotron - font-size
 
    - **Issue**: Responsive font size such as %, em or rem pretty much resulted in the text to be out of proportion on small or big screens.  
    
-     > Solution: Solution was to “clamp” the font size between a minimum and maximum value, as suggested in this post from [css-trick](https://css-tricks.com/how-do-you-do-max-font-size-in-css/). This was then changed to a different css function during testing user stories.
+     > Solution: The solution was to “clamp” the font size between a minimum and maximum value, as suggested in this post from [css-trick](https://css-tricks.com/how-do-you-do-max-font-size-in-css/) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/26872e263ccc0172f1ee334c111d1f1184895bde#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae). During the testing of the user stories, this was then changed to a different css function - max(val-min, min(val-preferred, val-max)) - as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/d127f0c5cd821fad06c8755167ff663891de1e28#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae).
+     
+     Responsive font - clamp
+     ![Responsive font - clamp](code/responsive_font_clamp.png)
+    
+     Resonsive font - max(val-min, min(val-preferred, val-max))
+     ![Responsive font - final](code/responsive_font_maxmin.png)
 
 ## Paddings 
 
  - **Issue**: As the website was designed for mobile first, spacing was an issue on larger screens and the different sections of the website needed to occupy more space for better balance.  
 
-     > Solution: After some research, responsive paddings were applied at different breakpoints using the clamp function as suggested in this [stack overflow post](https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css/38079002). This was then changed to a different css function during testing user stories.
+     > Solution: After some research, responsive paddings were applied at different breakpoints using the clamp function as suggested in this [stack overflow post](https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css/38079002) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/b135cf2ef81300bb41a8e59d2663be84809d55f6#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). During the testing of the user stories, responsive paddings were then changed to a different css function, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/cca974e40bfefb1c7b611204d9c0faa080620104#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). 
+
+     Responsive paddings - clamp function
+     ![Responsive padding - clamp](code/responsive_padding_clamp.png)
+
+     Responsive paddings - max(val-min, min(val-preferred, val-max))
+     ![Responsive padding - max](code/responsive_padding_maxmin.png)
+
 
 ## Background image and i-frame
 
  - **Issue**: The background image in the "about me" section and the embedded map did not display properly on small screens when occupying the full width.  
 
-     > Solution: The solution was in the case of the background image to apply a vmin function to keep the size balanced with the container above. For the frame, a minimum height was applied, so the content of the map displayed properly.
-
+     > Solution: The solution was in the case of the background image to apply a vmin function to keep the size balanced with the container above, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/199b43770e882b92b7f7f59bbe94260da3dc7d20#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). For the frame, a minimum height was applied as displayed in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/8604c77f2ca1edcd53af3713fd8e31e8978cec82#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524), so the content of the map displayed properly.
+     
+     About me background image
+     ![background image css code](code/background-image-aboutme.png)
+     
+     Embedded map 
+     ![embedded map frame css code](code/map-frame.png)
 
 # Testing user stories 
 

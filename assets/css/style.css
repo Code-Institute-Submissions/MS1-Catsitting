@@ -673,6 +673,7 @@ footer a:hover {
   .price-item {
     max-width: 240px;
     min-width: 220px;
+    flex: 0 0 auto;
   }
 /*---------------------about me section----------------------*/
   .md-reverse {

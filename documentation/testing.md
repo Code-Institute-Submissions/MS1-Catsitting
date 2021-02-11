@@ -43,22 +43,9 @@ Testing has been an on-going process during the coding stage of the project with
      CSS screenshot 
      ![Font awesome toggler button CSS](code/icon_toggler_btn_CSS.png)
 
-
-## Jumbotron - font-size
-
-   - **Issue**: Responsive font size such as %, em or rem pretty much resulted in the text to be out of proportion on small or big screens.  
-   
-     > Solution: The solution was to “clamp” the font size between a minimum and maximum value, as suggested in this post from [css-trick](https://css-tricks.com/how-do-you-do-max-font-size-in-css/) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/26872e263ccc0172f1ee334c111d1f1184895bde#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae). During the testing of the user stories, this was then changed to a different css function - max(val-min, min(val-preferred, val-max)) - as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/d127f0c5cd821fad06c8755167ff663891de1e28#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae).
-     
-     Responsive font - clamp
-     ![Responsive font - clamp](code/responsive_font_clamp.png)
-    
-     Responsive font - max(val-min, min(val-preferred, val-max))
-     ![Responsive font - final](code/responsive_font_maxmin.png)
-
 ## Paddings 
 
- - **Issue**: As the website was designed for mobile first, spacing was an issue on larger screens and the different sections of the website needed to occupy more space for better balance.  
+ - **Issue**: As the website was designed for mobile first, spacing on larger screens was an issue and the different sections of the website needed to occupy more space for better balance.  
 
      > Solution: After some research, responsive paddings were applied at different breakpoints using the clamp function as suggested in this [stack overflow post](https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css/38079002) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/b135cf2ef81300bb41a8e59d2663be84809d55f6#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). During the testing of the user stories, responsive paddings were then changed to a different css function, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/cca974e40bfefb1c7b611204d9c0faa080620104#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). 
 
@@ -81,6 +68,50 @@ Testing has been an on-going process during the coding stage of the project with
      Embedded map 
      ![embedded map frame css code](code/map-frame.png)
 
+## Hero image and jumbotron text
+
+  Hero image should cover the full height of the viewport - excluding top and bottom menus - across different devices and screen sizes, whilst in  balance and the jumbotron text being displayed responsively in the best light. 
+
+  - **Issue:** Mobile viewports include top and bottom menus and hero image covers more than the height of the device.
+    > **Solution:** Maximum height for the hero image set to -webkit-fill-available so that it doesn’t fill more than the viewport height on mobile, as suggested in this [stack overflow post](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/86862a31e46c8dc258f89eff4fce58bb09b5c0cc#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). 
+    > ![Add -webkit-fill-available](code/hero_mobile_viewport_height.png)
+
+  - **Issue:** -webkit-fill-available worked on safari and iphones, but not on devices such as Samsung s10 for example. 
+    > **Solution:** Height was also set at 95vh so that the image doesn't overflow as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/0b721f4feba412d2210f07273d155e2b2eb5f8d4#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae)
+    > ![Set height at 95vh](code/hero_set_height_95vh.png)
+  
+  - **Issue:** Fixing height at 95vh was causing a gap on small window sizes on desktop, 
+    > **Solution:** Adjust media queries in small screens so that hero background image height is set at 100 vh from small screen onward, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/b39ae2b7847d5fc947a4ffd757af473a85764e88#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). 
+    > ![media queries - height 100vh](code/hero_height_100vh.png)
+    >
+    > *Note:* the gap is still present on desktop when window size is below 576px, but browsing on such a small window on a desktop is not a likely occurrence. 
+
+  - **Issue:** lack of balance on extra large screens
+    > **Solution:**  A final media query was set for extra large screens where the max-height of the hero background is set at 850px to keep the overall website in balance, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/630752f5885d21ddae2f3efcbcb923965c01a388#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524).   
+    >  Issues with navigation bar not being positioned in line with body were resolved [here](https://github.com/lemocla/MS1-Catsitting/commit/61fecc74e18964f676f864c51ea8ee208d803ab3#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). A sample screenshot is shown below:
+    >  ![body max width](code/hero_body_max_width.png)
+    >  ![media queries for navigation](code/hero_max_width_2000px.png)
+
+  - **Issue:** Jumbotron text needed to be responsive according to the screen size to keep in balance and for better visual impact. 
+    > **Solution:**
+    > - On portrait viewport (default): text aligned centrally at the bottom of the background image. 
+    > - On landscape viewports (and viewport with a ratio less than 5:4): text is vertically aligned on the left of the hero image. Jumbotron container’s width is set with responsive values so that IT doesn't grow over a certain part of the hero image, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/20a43a4997e0c9d44c0ca3adba824cd7c1dc555f#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). 
+    > ![sample code media query](code/hero_mediaquery_landscape.png)
+
+ - **Issue:** The font in the jumbotron container also needed to be fully responsive to all screen size configuration for maximal visual impact. 
+   > **Solution**: The solution was to “clamp” the font size between a minimum and maximum value, as suggested in this post from [css-trick](https://css-tricks.com/how-do-you-do-max-font-size-in-css/) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/26872e263ccc0172f1ee334c111d1f1184895bde#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae). During the testing of the user stories, this was then changed to a different css function - max(val-min, min(val-preferred, val-max)) - as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/d127f0c5cd821fad06c8755167ff663891de1e28#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae).
+   >
+   > Responsive font - clamp
+   > ![Responsive font - clamp](code/responsive_font_clamp.png)
+   > 
+   > Responsive font - max(val-min, min(val-preferred, val-max))
+   > ![Responsive font - final](code/responsive_font_maxmin.png)
+  
+ - **Issue:** Setting -webkit-fill-available for mobile made the jumbotron text not fully visible on landscape mobile devices. 
+   > **Solution:** To remedy this issue (although browsing a website on landscape mobile may not be a frequent occurrence), a media query was set so that the promotional text is hidden and bottom padding reduced, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/ce519e0b70125fe36dac9f87356d5a44a37fee38#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae), to allow text to breathe and be displayed properly. 
+   > ![sample code media queries x-small landscape](code/hero_mobilelandscape_mq.png)
+
+
 # Testing user stories 
 
 - ### **Introduction**
@@ -98,36 +129,18 @@ Testing has been an on-going process during the coding stage of the project with
 
           > **Issues:**   
           > - Responsive paddings were not displayed on tablets
-          > - Hero image covering more than viewport heights on mobile, resulting in the jumbotron text not being fully visible and centered, due to top and bottom menus on devices
-          > - Responsive font styles in jumbotron text not applied on tablets and mobile
           > - Buttons on ipad text wrapping on 2 lines
           > - Phone number links automatically activated on iphones and ipad
-          > - Hero image appeared quite slow to upload
-          > - Some balance issues on very big screens  
-          > - Jumbotron text alignment and balance issues in landscape  & near-landscape viewport (ex. when tabs are not opened in full size)  
+          > - Hero image appeared quite slow to upload 
           >
           >  **Fix**
-          >  - Responsive fonts ([view commit](https://github.com/lemocla/MS1-Catsitting/commit/d127f0c5cd821fad06c8755167ff663891de1e28#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae)) and paddings ([view commit](https://github.com/lemocla/MS1-Catsitting/commit/cca974e40bfefb1c7b611204d9c0faa080620104#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524)) were adjusted using a different css function.  
-               Responsive font - max(val-min, min(val-preferred, val-max))
-               ![Responsive font - final](code/responsive_font_maxmin.png)
-               Responsive paddings - max(val-min, min(val-preferred, val-max))
-               ![Responsive padding - max](code/responsive_padding_maxmin.png)
+          >  - Responsive paddings ([view commit](https://github.com/lemocla/MS1-Catsitting/commit/cca974e40bfefb1c7b611204d9c0faa080620104#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524)) were adjusted using a different css function.  
+          >     ![Responsive padding - max](code/responsive_padding_maxmin.png)
           >  - Add white-space: nowrap on button as suggested by this [stackoverflow post](https://stackoverflow.com/questions/12707317/ipad-breaks-button-text-into-two-separate-lines/12708061) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/d06f2061a1c92c5a63c8e2cdf4f04d697d0f8461#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524).
-               ![fixing ipad button](code/T01_button_ipad.png)
+          >     ![fixing ipad button](code/T01_button_ipad.png)
           >  - A meta data was added in the header to remove automatic links of phone numbers as suggested by this [blog post](https://n8finch.com/disable-phone-number-linking-ios-safari) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/f01c180a90d5b8279ea5037430b6bcb4a8f3e7d3#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
                ![removing automatic phone links](code/T01_remove_phone_links.png)
-          >  - Maximum height for the hero image was set to -webkit-fill-available so that it doesn’t fill more than the viewport height on mobile as suggested in this [stack overflow post](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/86862a31e46c8dc258f89eff4fce58bb09b5c0cc#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). Height was also set at 95vh so that the image doesn't overflow in high definition devices such as Samsung S10, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/0b721f4feba412d2210f07273d155e2b2eb5f8d4#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae)
-               Mobile fill height 
-               ![Add -webkit-fill-available](code/T01_mobile_viewport_height.png)
-               Set height at 95vh
-               ![Set height at 95vh](code/T01_set_height_95vh.png)
           >  - Hero image's size was compressed to optimise performance. 
-          >  - Body was set to a maximum  width of 2000px and media queries for medium screens were adjusted so that there’s a better balance on medium, large and extra large screens, as displayed in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/630752f5885d21ddae2f3efcbcb923965c01a388#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). Issues 
-               Issues with navigation bar not being positioned in line with body were resolved [here](https://github.com/lemocla/MS1-Catsitting/commit/61fecc74e18964f676f864c51ea8ee208d803ab3#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). A sample screenshot is shown below:
-               ![body max width](code/T01_body_max_width.png)
-               ![media queries for navigation](code/T01_max_width_2000px.png)
-          >  - A media query was created for landscape and screens with an aspect ratio 5:4 so that the jumbotron container doesn't grow over a certain part of the hero image, whilst being positioned just below the navigation bar, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/20a43a4997e0c9d44c0ca3adba824cd7c1dc555f#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). The text in the jumbotron container is vertically align for all screen size and orientation.
-               ![sample code media query](code/T01_mediaquery_landscape_hero.png)
 
         **T01 Result after fixes: PASS**
 
@@ -209,7 +222,7 @@ Testing has been an on-going process during the coding stage of the project with
             > - No message appears when the message field is empty.
             > **Fix:** 
             > - Add required to text area element (as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/471e2101fbf9d7ae31d53e188080346e166938cc#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051))
-              ![Fix form validation](code/T09_form_validation)
+              ![Fix form validation](code/T09_form_validation.png)
 
         **T09 Result after fixes: PASS**
  

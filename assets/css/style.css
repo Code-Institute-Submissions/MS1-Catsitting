@@ -634,7 +634,11 @@ footer a:hover {
 
 /*------------------------small size to large screen-------------------------------*/
 
-@media only screen and (min-width: 576px) and (max-width: 991px) {
+@media only screen and (min-width: 576px){
+/*------------------------Hero image-------------------------*/
+.hero-background {
+    height: 100vh;
+  }
 /*------------------------services----------------------------*/
   .price-item {
     flex: 0 0 31%;
@@ -648,10 +652,6 @@ footer a:hover {
 /*------------------------------from medium screen----------------------------------*/
 
 @media only screen and (min-width: 768px) {
-  .hero-background {
-    height: 100vh;
-    
-  }
 /*---------------------------list------------------------------*/
   li {
     line-height: 2;

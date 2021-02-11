@@ -53,7 +53,7 @@ Testing has been an on-going process during the coding stage of the project with
      Responsive font - clamp
      ![Responsive font - clamp](code/responsive_font_clamp.png)
     
-     Resonsive font - max(val-min, min(val-preferred, val-max))
+     Responsive font - max(val-min, min(val-preferred, val-max))
      ![Responsive font - final](code/responsive_font_maxmin.png)
 
 ## Paddings 
@@ -107,14 +107,27 @@ Testing has been an on-going process during the coding stage of the project with
           > - Jumbotron text alignment and balance issues in landscape  & near-landscape viewport (ex. when tabs are not opened in full size)  
           >
           >  **Fix**
-          >  - Responsive fonts and paddings were adjusted using a different css function. 
-          >  - Additional media queries for landscape screens were set to adjust the hero image and jumbotron text
-          >  - Add white-space: nowrap on button as suggested by this [stackoverflow post](https://stackoverflow.com/questions/12707317/ipad-breaks-button-text-into-two-separate-lines/12708061)
-          >  - A meta data was added in the header to remove automatic links of phone numbers as suggested by this [blog post](https://n8finch.com/disable-phone-number-linking-ios-safari)
-          >  - Maximum height for the hero image was set to -webkit-fill-available so that it doesn’t fill more than the viewport height on mobile as suggested in this [stack overflow post](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser)
+          >  - Responsive fonts ([view commit](https://github.com/lemocla/MS1-Catsitting/commit/d127f0c5cd821fad06c8755167ff663891de1e28#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae)) and paddings ([view commit](https://github.com/lemocla/MS1-Catsitting/commit/cca974e40bfefb1c7b611204d9c0faa080620104#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524)) were adjusted using a different css function.  
+               Responsive font - max(val-min, min(val-preferred, val-max))
+               ![Responsive font - final](code/responsive_font_maxmin.png)
+               Responsive paddings - max(val-min, min(val-preferred, val-max))
+               ![Responsive padding - max](code/responsive_padding_maxmin.png)
+          >  - Add white-space: nowrap on button as suggested by this [stackoverflow post](https://stackoverflow.com/questions/12707317/ipad-breaks-button-text-into-two-separate-lines/12708061) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/d06f2061a1c92c5a63c8e2cdf4f04d697d0f8461#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524).
+               ![fixing ipad button](code/T01_button_ipad.png)
+          >  - A meta data was added in the header to remove automatic links of phone numbers as suggested by this [blog post](https://n8finch.com/disable-phone-number-linking-ios-safari) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/f01c180a90d5b8279ea5037430b6bcb4a8f3e7d3#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
+               ![removing automatic phone links](code/T01_remove_phone_links.png)
+          >  - Maximum height for the hero image was set to -webkit-fill-available so that it doesn’t fill more than the viewport height on mobile as suggested in this [stack overflow post](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/86862a31e46c8dc258f89eff4fce58bb09b5c0cc#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). Height was also set at 95vh so that the image doesn't overflow in high definition devices such as Samsung S10, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/0b721f4feba412d2210f07273d155e2b2eb5f8d4#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae)
+               Mobile fill height 
+               ![Add -webkit-fill-available](code/T01_mobile_viewport_height.png)
+               Set height at 95vh
+               ![Set height at 95vh](code/T01_set_height_95vh.png)
           >  - Hero image's size was compressed to optimise performance. 
-          >  - Body was set to a maximum  width of 2000px and media queries for medium screens were adjusted so that there’s a better balance on medium, large and extra large screens.
-          >  - A media query was created for landscape and screens with an aspect ratio 5:4 so that the jumbotron container doesn't grow over a certain part of the hero image, whilst being positioned just below the navigation bar. The text in the jumbotron container is vertically align for all screen size and orientation.
+          >  - Body was set to a maximum  width of 2000px and media queries for medium screens were adjusted so that there’s a better balance on medium, large and extra large screens, as displayed in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/630752f5885d21ddae2f3efcbcb923965c01a388#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). Issues 
+               Issues with navigation bar not being positioned in line with body were resolved [here](https://github.com/lemocla/MS1-Catsitting/commit/61fecc74e18964f676f864c51ea8ee208d803ab3#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). A sample screenshot is shown below:
+               ![body max width](code/T01_body_max_width.png)
+               ![media queries for navigation](code/T01_max_width_2000px.png)
+          >  - A media query was created for landscape and screens with an aspect ratio 5:4 so that the jumbotron container doesn't grow over a certain part of the hero image, whilst being positioned just below the navigation bar, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/20a43a4997e0c9d44c0ca3adba824cd7c1dc555f#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). The text in the jumbotron container is vertically align for all screen size and orientation.
+               ![sample code media query](code/T01_mediaquery_landscape_hero.png)
 
         **T01 Result after fixes: PASS**
 
@@ -194,9 +207,9 @@ Testing has been an on-going process during the coding stage of the project with
 
             > **Issue:** 
             > - No message appears when the message field is empty.
-            >
             > **Fix:** 
-            > - Add required to text area element 
+            > - Add required to text area element (as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/471e2101fbf9d7ae31d53e188080346e166938cc#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051))
+              ![Fix form validation](code/T09_form_validation)
 
         **T09 Result after fixes: PASS**
  

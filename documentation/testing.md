@@ -8,26 +8,26 @@ Testing has been an on-going process during the coding stage of the project with
 
  - **Issue**: Part of the content was hidden under the fixed navigation bar.  
 
-    > Solution: The solution was to create fixed invisible anchors positioned above the start of each section, as per suggestion of [Caktus Group blog post](https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors). Invisible anchors were first committed [here](https://github.com/lemocla/MS1-Catsitting/commit/c598a61d3658ca1479b70d3f3ff02e3b3279c1ae?branch=c598a61d3658ca1479b70d3f3ff02e3b3279c1ae&diff=split) with top finally adjusted [here](https://github.com/lemocla/MS1-Catsitting/commit/4678445e7b5e839796a8378d00c7b3e1cafa2e1a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae).
+    > **Solution:** The solution was to create fixed invisible anchors positioned above the start of each section, as per suggestion of [Caktus Group blog post](https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors). Invisible anchors were first committed [here](https://github.com/lemocla/MS1-Catsitting/commit/c598a61d3658ca1479b70d3f3ff02e3b3279c1ae?branch=c598a61d3658ca1479b70d3f3ff02e3b3279c1ae&diff=split) with top finally adjusted [here](https://github.com/lemocla/MS1-Catsitting/commit/4678445e7b5e839796a8378d00c7b3e1cafa2e1a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae).
       
       ![sample_code_invisible_anchors](code/invisible_anchors.png)
  
  - **Issue**: When navigating to a section of the website, the link in the navigation didn’t show as active.  
 
-     > Solution: After browsing bootstrap library, the solution was to implement [bootstrap scrollspy](https://getbootstrap.com/docs/4.5/components/scrollspy/) as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/17f98e83bdb505cec250a84bc3e69bc61b51da01#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051). The offset of the scrollspy needed to be adjusted so that the links are activated at the start of each section rather than the position of the invisible anchors, as shown [here](https://github.com/lemocla/MS1-Catsitting/commit/95e65d66c56f0f7124315ad8f16d66bd9a60ee8b#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
+     > **Solution:** After browsing bootstrap library, the solution was to implement [bootstrap scrollspy](https://getbootstrap.com/docs/4.5/components/scrollspy/) as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/17f98e83bdb505cec250a84bc3e69bc61b51da01#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051). The offset of the scrollspy needed to be adjusted so that the links are activated at the start of each section rather than the position of the invisible anchors, as shown [here](https://github.com/lemocla/MS1-Catsitting/commit/95e65d66c56f0f7124315ad8f16d66bd9a60ee8b#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
 
       ![scrollspy added](code/scrollspy_added.png)
       ![scrollspy offset adjusted](code/scrollspy_offset_adjusted.png)
 
  - **Issue**: Once collapsed, the menu did not collapse back when clicking on menu items.  
 
-     > Solution: This was the most challenging issue during development. The solution was to insert data-toggle="collapse" and data-target=".navbar-collapse.show" in navigation items as suggested in this [stack overflow post](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click) and as implemented in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/95e65d66c56f0f7124315ad8f16d66bd9a60ee8b?branch=95e65d66c56f0f7124315ad8f16d66bd9a60ee8b&diff=split). Please see below a screenshot sample of the code.
+     > **Solution:** This was the most challenging issue during development. The solution was to insert data-toggle="collapse" and data-target=".navbar-collapse.show" in navigation items as suggested in this [stack overflow post](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click) and as implemented in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/95e65d66c56f0f7124315ad8f16d66bd9a60ee8b?branch=95e65d66c56f0f7124315ad8f16d66bd9a60ee8b&diff=split). Please see below a screenshot sample of the code.
  
       ![Navigation collapse solution](code/nav_collapse_working.png)
 
  - **Issue**: Navigation menu needed to expand at a different breakpoint than those offered as part of the bootstrap library.  
 
-     > Solution: Using Google Inspect, I was able to create a media queries for desired breakpoint and recreate the different elements required for navbar-expand to work, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/5973543c65791051c0eded943fcfdfeec523e17b#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae). 
+     > **Solution:** Using Google Inspect, I was able to create a media queries for desired breakpoint and recreate the different elements required for navbar-expand to work, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/5973543c65791051c0eded943fcfdfeec523e17b#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae). 
 
      ![Navbar expand new media query](code/navbar_expand_mediaquery.png) 
  
@@ -35,7 +35,7 @@ Testing has been an on-going process during the coding stage of the project with
 
  - **Issue**: Using Google inspect, I did not seem able to target the element to style the toggle button.  
 
-     > Solution: The solution was to replace the bootstrap default toggle button by a Font Awsome icon as suggested by [this stack overflow post](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color). The Font Awesome icon was first added within the span containing the toggler button as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/17f98e83bdb505cec250a84bc3e69bc61b51da01#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051). The span containing the toggler was removed and the toggle-btn navbar-toggler-icon styles moved to the element containing the icon, as shown in this [commit]( https://github.com/lemocla/MS1-Catsitting/commit/95e65d66c56f0f7124315ad8f16d66bd9a60ee8b?branch=95e65d66c56f0f7124315ad8f16d66bd9a60ee8b&diff=split).
+     > **Solution:** The solution was to replace the bootstrap default toggle button by a Font Awsome icon as suggested by [this stack overflow post](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color). The Font Awesome icon was first added within the span containing the toggler button as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/17f98e83bdb505cec250a84bc3e69bc61b51da01#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051). The span containing the toggler was removed and the toggle-btn navbar-toggler-icon styles moved to the element containing the icon, as shown in this [commit]( https://github.com/lemocla/MS1-Catsitting/commit/95e65d66c56f0f7124315ad8f16d66bd9a60ee8b?branch=95e65d66c56f0f7124315ad8f16d66bd9a60ee8b&diff=split).
 
      HTML screenshot 
      ![Font awesome toggler button HTML](code/icon_toggler_btn_HTML.png)
@@ -47,7 +47,7 @@ Testing has been an on-going process during the coding stage of the project with
 
  - **Issue**: As the website was designed for mobile first, spacing on larger screens was an issue and the different sections of the website needed to occupy more space for better balance.  
 
-     > Solution: After some research, responsive paddings were applied at different breakpoints using the clamp function as suggested in this [stack overflow post](https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css/38079002) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/b135cf2ef81300bb41a8e59d2663be84809d55f6#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). During the testing of the user stories, responsive paddings were then changed to a different css function, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/cca974e40bfefb1c7b611204d9c0faa080620104#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). 
+     > **Solution:** After some research, responsive paddings were applied at different breakpoints using the clamp function as suggested in this [stack overflow post](https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css/38079002) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/b135cf2ef81300bb41a8e59d2663be84809d55f6#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). During the testing of the user stories, responsive paddings were then changed to a different css function, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/cca974e40bfefb1c7b611204d9c0faa080620104#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). 
 
      Responsive paddings - clamp function
      ![Responsive padding - clamp](code/responsive_padding_clamp.png)
@@ -60,7 +60,7 @@ Testing has been an on-going process during the coding stage of the project with
 
  - **Issue**: The background image in the "about me" section and the embedded map did not display properly on small screens when occupying the full width.  
 
-     > Solution: The solution was in the case of the background image to apply a vmin function to keep the size balanced with the container above, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/199b43770e882b92b7f7f59bbe94260da3dc7d20#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). For the frame, a minimum height was applied as displayed in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/8604c77f2ca1edcd53af3713fd8e31e8978cec82#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524), so the content of the map displayed properly.
+     > **Solution:** The solution was in the case of the background image to apply a vmin function to keep the size balanced with the container above, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/199b43770e882b92b7f7f59bbe94260da3dc7d20#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). For the frame, a minimum height was applied as displayed in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/8604c77f2ca1edcd53af3713fd8e31e8978cec82#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524), so the content of the map displayed properly.
      
      About me background image
      ![background image css code](code/background-image-aboutme.png)
@@ -216,13 +216,14 @@ Testing has been an on-going process during the coding stage of the project with
         - when I leave the “full name” field empty and/or 
         - when I leave the “email” field empty and/or
         - when I leave the “message” field empty and/or
-        - when I click submit, a message will appear to prompt me to enter the required fields.
-
-            > **Issue:** 
-            > - No message appears when the message field is empty.
-            > **Fix:** 
-            > - Add required to text area element (as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/471e2101fbf9d7ae31d53e188080346e166938cc#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051))
-              ![Fix form validation](code/T09_form_validation.png)
+        - when I click submit, a message will appear to prompt me to enter the required fields.      
+          > 
+          >**Issue:**   
+          >  - No message appears when the message field is empty.  
+          >  
+          > **Fix:**   
+          > - Add required to text area element (as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/471e2101fbf9d7ae31d53e188080346e166938cc#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051))
+            ![Fix form validation](code/T09_form_validation.png)
 
         **T09 Result after fixes: PASS**
  
@@ -327,8 +328,7 @@ The best performance that could be achieved:
 
  - ## **W3C HTML validation** 
 
-    The [W3C HTML validator](https://validator.w3.org/) service was used to insure there is not syntax errors on index.html. The initial report, which can be found [here](documentation/reports/w3c_html_error.png
-    documentation/testing/reports) showed the following mistakes:
+    The [W3C HTML validator](https://validator.w3.org/) service was used to insure there is not syntax errors on index.html. The initial report, which can be found [here](documentation/reports/w3c_html_error.png) showed the following mistakes:
 
     ![W3C HTML Validation errors](reports/w3c_html_error.png)
 
@@ -358,7 +358,10 @@ The best performance that could be achieved:
     - **Warnings:** Many of the browers vendor extension were unknown. 
     - **Fix**: The css file was amended and all the redundant vendors' extensions removed as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/e455d0bcc870ff41834144dc11f8c3dd54bdb76d). Below is an example of the modifications to the code.
        ![example remove vendor prefix](code/w3c_css_rem_vendorprefix.png)
+    
     The final report, which can be found [here](documentation/reports/w3c_css_success.png), shows that all issues were resolved & that the CSS styles were validated. 
+    
+    One alert "-webkit-fill-available is an unknown vendor extension" remains, however this is needed to allow the hero background image to cover the full height on mobile devices.  
 
     ![CSS Validation Success](reports/w3c_css_success.png)
 

@@ -170,7 +170,7 @@ Based on a fictional business offering cat sitting services, this website was bu
 
     The wireframes were created using Balsamic during the skeleton plane of the project and illustrates the structure of the website across different devices.
 
-    You can either view the wireframe [here](documentation/wireframes/wireframes.png) (in png format) or [download](https://a45c73f1-3de6-45f3-bdf8-7fdbe308ac5f.ws-eu03.gitpod.io/files/download/?id=95c97e92-df00-454b-b48c-78da8ab2c0f3) the pdf version of the wireframes should the images not display properly. 
+    You can either view the wireframe [here](documentation/wireframes/wireframes.png) (in png format) or [download](https://github.com/lemocla/MS1-Catsitting/blob/59f8d1c910c37ed7b9d618288a6e07ba8d6ed29a/documentation/wireframes/wireframes.pdf) the pdf version of the wireframes should the images not display properly. 
     [download pdf wireframes]
 
     ### **Differences to wireframes** 

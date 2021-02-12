@@ -255,13 +255,10 @@ Testing has been an on-going process during the coding stage of the project with
         **Contact us - invalid path - screenshots**
         ![contact](screenshots/contact_us_invalid_path.png)
  
-    - **<ins>T10 - Acceptance criteria<</ins>**
+    - **<ins>T10 - Acceptance criteria</ins>**
         - when I scroll to the footer of the webpage, the company contact details with a phone number and an email address are displayed
 
         **T10 Result: PASS**
-
-        **Footer screenshots**
-        ![footer](screenshots/footer.png)
  
 - ### **As a returning visitor,I want to view the areas where the company operates so that I can check that they provide services where I live.**
  
@@ -297,25 +294,12 @@ Testing has been an on-going process during the coding stage of the project with
         - When I click on the “contact us” button, the page scroll to the “contact us” section, 
     
       **T13 - Result: PASS**
+      
 
-    - **<ins>T08 - Acceptance criteria - Form valid path</ins>**  
-        - when I view or scroll to the “contact us” section, contact details with a phone number and an email address are displayed, as well as a contact form containing “full name”, “email address”, “subject” and “message” fields, 
-        - when I enter my name in the “full name” field, and
-        - when I enter a valid email address in the “email” field and,
-        - when I go to the subject field, I can select “Arrange a meet & greet” and,
-        - when I enter a message in the “message” field and,
-        - when I click submit, I am brought back to the top of the page (as the form is not linked with any server)
-       
-        **T08 Result: PASS**
-
-    - **<ins>T09 - Acceptance criteria - Form invalid path</ins>**  
-        - when I enter an invalid “email” address and when I click submit, a message prompts me to enter a valid address. 
-        - when I leave the “full name” field empty and/or 
-        - when I leave the “email” field empty and/or
-        - when I leave the “message” field empty and/or
-        - when I click submit, a message will appear to prompt me to enter the required fields  
- 
-       **T09 Result: PASS (issue resolved earlier)**
+    - **<ins>Acceptance criteria - Form valid path</ins>**  
+    - **<ins>TAcceptance criteria - Form invalid path</ins>**  
+        
+        Form valid (T08) and invalid paths (T09) have already been tested, please refer to section above. 
 
     - **<ins>T14 - Acceptance criteria</ins>**
         - when I scroll to the footer of the webpage, the company contact details with a phone number and email address are displayed.  
@@ -326,7 +310,7 @@ Testing has been an on-going process during the coding stage of the project with
 
   Wave evaluation report was used on the website to assess its accessibility. The report showed the following issues:  
 
- Initial report can be found [here](documentation/reports/waveinitial.jpg)  
+ Initial report can be found [here](reports/waveinitial.jpg)  
 
  ![Wave initial report](reports/waveinitial.jpg)
 
@@ -335,11 +319,11 @@ Testing has been an on-going process during the coding stage of the project with
    - **Contrast on buttons** : Change color from #23B06A to #078847 as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/bb9d32b70a86ea7c20db9861df1cabb0b6d4efab#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524), even if it meant compromising slightly the design.
      ![Change button color](code/accessibility_buttons.png)
 
-   - **Missing aria-labels on links:** Add aria-labels on links and aria-hidden is true to icons as suggested by [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/2a5ec41f083698fc862b0dcf78316bbeb0fed9e9#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
+   - **Missing aria-labels on links:** Add aria-labels on links and aria-hidden is true to icons as suggested by [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/2a5ec41f083698fc862b0dcf78316bbeb0fed9e9#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051) and as illustrated in the screenshot below.
     ![Aria-labels on links](code/accessibility_links.png)
 
  - ### **Alerts:**
-    - **Semantics**: Change headings where necessary and apply heading style to classes  as suggested in this post from [Solodev](https://www.solodev.com/blog/web-design/how-to-adjust-header-styles-with-css-and-bootstrap.stml) and as displayed in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/13f2e26826f07e345bedb63fffa5d6eac9f22489#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
+    - **Semantics**: Change headings where necessary and apply heading style to classes  as suggested in this post from [Solodev](https://www.solodev.com/blog/web-design/how-to-adjust-header-styles-with-css-and-bootstrap.stml) and as displayed in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/13f2e26826f07e345bedb63fffa5d6eac9f22489#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051) and as illustrated in the example below.
        ![Semantic changes example](code/accessibility_semantics_ex.png)
 
     - **Text align:** Remove text align as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/e0e4fc464baabd7d495753dc7e4a5382c3ab36d2#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524).
@@ -349,7 +333,7 @@ Testing has been an on-going process during the coding stage of the project with
        ![Changes to logo](code/accessibility_logo_altlink.png)
    
 
-Wave accessibility final report can be found [here](documentation/reports/wavefinal.jpg).  
+Wave accessibility final report can be found [here](reports/wavefinal.jpg).  
 
 ![Wave final report](reports/wavefinal.jpg)
 
@@ -375,7 +359,7 @@ The best performance that could be achieved:
 
  - ## **W3C HTML validation** 
 
-    The [W3C HTML validator](https://validator.w3.org/) service was used to insure there is not syntax errors on index.html. The initial report, which can be found [here](documentation/reports/w3c_html_error.png) was run using direct input and showed the following mistakes:
+    The [W3C HTML validator](https://validator.w3.org/) service was used to insure there is not syntax errors on index.html. The initial report, which can be found [here](reports/w3c_html_error.png) was run using direct input and showed the following mistakes:
 
     ![W3C HTML Validation errors](reports/w3c_html_error.png)
 
@@ -391,11 +375,11 @@ The best performance that could be achieved:
     - Move the scripts at the end of the body of html as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/e10b3cdcc461c248b021d06810f24f164bc13081#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
       ![move script](code/w3c_html_movescript.png)
 
-    The final report, which can can be found [here](documentation/reports/w3c_html_success.png) shows that all issues were resolved & that HTML code was validated. 
+    The final report, which can can be found [here](reports/w3c_html_success.png) shows that all issues were resolved & that HTML code was validated. 
  
  - ## **W3C CSS validation** 
 
-   The [W3C CSS validator](https://jigsaw.w3.org/css-validator/) service was used using direct input to insure there is no errors in the css styles. The initial report, which can be found [here](documentation/reports/w3c_css_errors.png) showed the following mistakes:
+   The [W3C CSS validator](https://jigsaw.w3.org/css-validator/) service was used using direct input to insure there is no errors in the css styles. The initial report, which can be found [here](reports/w3c_css_errors.png) showed the following mistakes:
 
    ![CSSS Validation error](reports/w3c_css_errors.png)
 
@@ -406,7 +390,7 @@ The best performance that could be achieved:
     - **Fix**: The css file was amended and all the redundant vendors' extensions removed as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/e455d0bcc870ff41834144dc11f8c3dd54bdb76d). Below is an example of the modifications to the code.
        ![example remove vendor prefix](code/w3c_css_rem_vendorprefix.png)
     
-    The final report, which can be found [here](documentation/reports/w3c_css_success.png), shows that all issues were resolved & that the CSS styles were validated. 
+    The final report, which can be found [here](reports/w3c_css_success.png), shows that all issues were resolved & that the CSS styles were validated. 
     
     One alert "-webkit-fill-available is an unknown vendor extension" remains, however this is needed to allow the hero background image to cover the full height on mobile devices.  
 

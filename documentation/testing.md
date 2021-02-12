@@ -272,6 +272,8 @@ Testing has been an on-going process during the coding stage of the project with
       **Area we cover screenshots**
       ![area](screenshots/area_we_cover.png)
 
+      *Note* On xxl-screens the embedded map applies a default padding of 8px which results in what appears to be a grey border around the map.
+
 - ### **As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.**
  
     - **<ins>T12 - Acceptance criteria</ins>**
@@ -362,7 +364,7 @@ The best performance that could be achieved:
 
  - ## **W3C HTML validation** 
 
-    The [W3C HTML validator](https://validator.w3.org/) service was used to insure there is not syntax errors on index.html. The initial report, which can be found [here](documentation/reports/w3c_html_error.png) showed the following mistakes:
+    The [W3C HTML validator](https://validator.w3.org/) service was used to insure there is not syntax errors on index.html. The initial report, which can be found [here](documentation/reports/w3c_html_error.png) was run using direct input and showed the following mistakes:
 
     ![W3C HTML Validation errors](reports/w3c_html_error.png)
 
@@ -382,7 +384,7 @@ The best performance that could be achieved:
  
  - ## **W3C CSS validation** 
 
-   The [W3C CSS validator](https://jigsaw.w3.org/css-validator/) service was used to insure there is no errors in the css styles. The initial report, which can be found [here](documentation/reports/w3c_css_errors.png) showed the following mistakes:
+   The [W3C CSS validator](https://jigsaw.w3.org/css-validator/) service was used using direct input to insure there is no errors in the css styles. The initial report, which can be found [here](documentation/reports/w3c_css_errors.png) showed the following mistakes:
 
    ![CSSS Validation error](reports/w3c_css_errors.png)
 

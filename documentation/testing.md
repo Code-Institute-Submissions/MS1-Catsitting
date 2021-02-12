@@ -167,7 +167,7 @@ Testing has been an on-going process during the coding stage of the project with
     
        **T03 Result: PASS**
 
-       **Screenshots**
+       **Navigation screenshots**
 
        ![navigation](screenshots/navigation.png)
 
@@ -198,7 +198,10 @@ Testing has been an on-going process during the coding stage of the project with
         - When I click on one of the dotted indicators, the first slide to be displayed is relevant to the position on the dotter indicator. 
 
         **T05 Result: PASS**
- 
+
+        **Testimonials screenshots**
+        ![testimonials](screenshots/testimonials.png)
+
 - ### **As a returning visitor, I want to read more about the company so that I can assess its credentials, professionalism and cat friendliness.**
  
     - **<ins>T06 - Acceptance criteria</ins>** 
@@ -206,6 +209,9 @@ Testing has been an on-going process during the coding stage of the project with
         - When I view / scroll to the testimonials section, text and a background image are visible and displayed responsively.  
 
         **T06 Result: PASS**
+
+        **About me screenshots**
+        ![about][screenshots/about_me.png]
  
 - ### **As a returning visitor, I want to access contact options so that I can reach the company for further queries.**
  
@@ -223,6 +229,9 @@ Testing has been an on-going process during the coding stage of the project with
         - when I click submit, I am brought back to the top of the page (as the form is not linked with any server)
 
         **T08 Result: PASS**
+
+        **Contact us screenshots**
+        ![contact](screenshots/contact_us.png)        
     
     - **<ins>T09 - Acceptance criteria - Form invalid path</ins>**
         - when I enter an invalid email address and when I click submit, a message prompts me to enter a valid email address. 
@@ -239,11 +248,17 @@ Testing has been an on-going process during the coding stage of the project with
             ![Fix form validation](code/T09_form_validation.png)
 
         **T09 Result after fixes: PASS**
+
+        **Contact us - invalid path - screenshots**
+        ![contact](screenshots/contact_us_invalid_path.png)
  
     - **<ins>T10 - Acceptance criteria<</ins>**
         - when I scroll to the footer of the webpage, the company contact details with a phone number and an email address are displayed
 
         **T10 Result: PASS**
+
+        **Footer screenshots**
+        ![footer](screenshots/footer.png)
  
 - ### **As a returning visitor,I want to view the areas where the company operates so that I can check that they provide services where I live.**
  
@@ -252,7 +267,10 @@ Testing has been an on-going process during the coding stage of the project with
         - when I view / scroll to the “area we cover” section, a list of areas where the business operates is displayed responsively.
         - when I view the “area we cover” section, a map with a designated zone is displayed and I can zoom in and out, as well as searching my postcode.(the zoom and searching option are third party functionalities)
     
-    **T11 Result: PASS**
+      **T11 Result: PASS**
+
+      **Area we cover screenshots**
+      ![area](screenshots/area_we_cover.png)
 
 - ### **As a frequent visitor, I want to quickly access the company social media account so that I can further check their credentials.**
  
@@ -262,6 +280,9 @@ Testing has been an on-going process during the coding stage of the project with
         - when I click on one of the icons, I am redirected to the right website in a new tab (ex. Facebook icon redirects to www.facebook.com.).
     
       **T12 - Result: PASS**
+      
+      **Footer screenshots**
+      ![footer](screenshots/footer.png)
 
 - ### **As a frequent visitor, I want to contact the company so that I can arrange a meet & greet.**
  

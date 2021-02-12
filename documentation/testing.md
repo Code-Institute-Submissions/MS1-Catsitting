@@ -153,6 +153,11 @@ Testing has been an on-going process during the coding stage of the project with
         - When the vertical menu is displayed and I click on any items, the page scrolls to the relevant section and the menu will collapse back.  
 
         **T02 Result: PASS**
+
+        **Homepage screenshot**
+
+        ![homepage](screenshots/home_page.png)
+
  
 - ### **As a first time visitor, I want to be able to easily navigate across the website so that I can quickly find information.**
  
@@ -161,6 +166,10 @@ Testing has been an on-going process during the coding stage of the project with
        - When I click on a menu item in the navigation bar, the page scrolls to the top of the relevant section of the webpage without spacing or content being covered by the navigation bar.
     
        **T03 Result: PASS**
+
+       **Screenshots**
+
+       ![navigation](screenshots/navigation.png)
 
 - ### **As a first time visitor, I want to read about the company's services so that I can assess whether they fit my needs / As a first time visitor, I want to look at prices so that I can check whether I can afford their services.**
  
@@ -173,6 +182,10 @@ Testing has been an on-going process during the coding stage of the project with
         - when I click on the button, the page scrolls to the “contact us” section. 
  
        **T04 Result: PASS**
+
+       **Services screenshots**
+
+       ![navigation](screenshots/services.png)
 
 - ### **As a returning visitor, I want to read customer testimonials so that I can assess if the company is reliable and professional.**
  

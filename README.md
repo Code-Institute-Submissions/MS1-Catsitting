@@ -170,7 +170,7 @@ Based on a fictional business offering cat sitting services, this website was bu
 
     The wireframes were created using Balsamic during the skeleton plane of the project and illustrates the structure of the website across different devices.
 
-    You can either view the wireframe [here](documentation/wireframes/wireframes.png) (in png format) or [download](https://github.com/lemocla/MS1-Catsitting/blob/59f8d1c910c37ed7b9d618288a6e07ba8d6ed29a/documentation/wireframes/wireframes.pdf) the pdf version of the wireframes should the images not display properly. 
+    You can either view the wireframe [here](documentation/wireframes/wireframes.png) (in png format) or view the [pdf version](https://github.com/lemocla/MS1-Catsitting/blob/59f8d1c910c37ed7b9d618288a6e07ba8d6ed29a/documentation/wireframes/wireframes.pdf) of the wireframes should the image not display properly. 
     [download pdf wireframes]
 
     ### **Differences to wireframes** 
@@ -281,6 +281,8 @@ Based on a fictional business offering cat sitting services, this website was bu
      - [Responsive viewer](https://www.producthunt.com/posts/responsive-viewer): This add-on was used to test website responsiveness across different devices.
      - [Google lighthouse](https://developers.google.com/web/tools/lighthouse): Google lighthouse was used to assess performance of the site
      - [Wave Accessibility](https://wave.webaim.org/): This tool was used to evaludate accessibility of the webiste.
+     - [W3C HTML Validator](https://validator.w3.org/): This tool was used to check there's no error in the HTML code.
+     - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): This tool was used to check there's no error in the CSS code.
 
 
 # **Testing**
@@ -307,7 +309,7 @@ Based on a fictional business offering cat sitting services, this website was bu
  - ## **Deployment on GitHub**
 
     The project was deployed to GitHub Pages as follows:  
-      - Log in to GitHub and locate the GitHub Repository lemocla/MS1-Catsitting.
+      - Log in to GitHub and locate the GitHub Repository: lemocla/MS1-Catsitting.
       - Click on "Settings" located in the menu above the repository.
       - Scroll down the "GitHub Pages" section. 
       - Under "Source", select "Master" in the dropdown menu.
@@ -320,16 +322,16 @@ Based on a fictional business offering cat sitting services, this website was bu
   You can either fork or clone the github repository to use this project.
 
   - ### **Forking the GitHub Repository**
-    - Log in to GitHub and locate the GitHub Repository mentioned above
+    - Log in to GitHub and locate the GitHub Repository mentioned above.
     - Make a copy of the GitHub Repository by "forking" the orginal repository onto your own account, where changes can be made without affecting original repository. 
     - Click on the fork icon (located on top right of the page at the same level of repository name)
-    - You should now have a copy of this repository into your GitHub account
+    - You should now have a copy of this repository into your GitHub account.
 
-    For more information on how to clone a repository, please check this [github documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
+    For more information on how to clone a repository, please check this [github documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
     
   - ### **Cloning the GitHub Repository**
     
-    - Log in to GitHub and locate the GitHub Repository
+    - Log in to GitHub and locate the GitHub Repository.
     - Under the repository name, click "Clone or download".
     
     You can find all the steps to follow according your chosen method in this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on how to clone a reposistory.
@@ -346,7 +348,7 @@ Based on a fictional business offering cat sitting services, this website was bu
   
  - ## **Media**
  
-    The logo was obtained from Shutterstock and the photos used in this website were from Pexels and Pixabay. The full list of credits can be found [here](documentation/media_credit.md)
+    The logo was obtained from Shutterstock and the photos used in this website were from Pexels and Pixabay. The full list of credits can be found [here](documentation/media_credit.md).
 
 - ## **Acknowlegements**
 

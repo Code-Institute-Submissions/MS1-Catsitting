@@ -8,15 +8,16 @@ Testing has been an on-going process during the coding stage of the project with
 
  - **Issue**: Part of the content was hidden under the fixed navigation bar.  
 
-    > **Solution:** The solution was to create fixed invisible anchors positioned above the start of each section, as per suggestion of [Caktus Group blog post](https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors). Invisible anchors were first committed [here](https://github.com/lemocla/MS1-Catsitting/commit/c598a61d3658ca1479b70d3f3ff02e3b3279c1ae?branch=c598a61d3658ca1479b70d3f3ff02e3b3279c1ae&diff=split) with top finally adjusted [here](https://github.com/lemocla/MS1-Catsitting/commit/4678445e7b5e839796a8378d00c7b3e1cafa2e1a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae).
+    > **Solution:** The solution was to create fixed invisible anchors positioned above the start of each section, as per suggestion of [Caktus Group blog post](https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors). Invisible anchors were first committed [here](https://github.com/lemocla/MS1-Catsitting/commit/c598a61d3658ca1479b70d3f3ff02e3b3279c1ae?branch=c598a61d3658ca1479b70d3f3ff02e3b3279c1ae&diff=split) with top finally adjusted [here](https://github.com/lemocla/MS1-Catsitting/commit/4678445e7b5e839796a8378d00c7b3e1cafa2e1a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae), as shown below.
       
       ![sample_code_invisible_anchors](code/invisible_anchors.png)
  
  - **Issue**: When navigating to a section of the website, the link in the navigation didn’t show as active.  
 
-     > **Solution:** After browsing bootstrap library, the solution was to implement [bootstrap scrollspy](https://getbootstrap.com/docs/4.5/components/scrollspy/) as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/17f98e83bdb505cec250a84bc3e69bc61b51da01#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051). The offset of the scrollspy needed to be adjusted so that the links are activated at the start of each section rather than the position of the invisible anchors, as shown [here](https://github.com/lemocla/MS1-Catsitting/commit/95e65d66c56f0f7124315ad8f16d66bd9a60ee8b#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
+     > **Solution:** After browsing bootstrap library, the solution was to implement [bootstrap scrollspy](https://getbootstrap.com/docs/4.5/components/scrollspy/) as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/17f98e83bdb505cec250a84bc3e69bc61b51da01#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051). The offset of the scrollspy needed to be adjusted so that the links are activated at the start of each section rather than the position of the invisible anchors, as shown [here](https://github.com/lemocla/MS1-Catsitting/commit/95e65d66c56f0f7124315ad8f16d66bd9a60ee8b#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051) and on the screenshot below.
 
       ![scrollspy added](code/scrollspy_added.png)
+
       ![scrollspy offset adjusted](code/scrollspy_offset_adjusted.png)
 
  - **Issue**: Once collapsed, the menu did not collapse back when clicking on menu items.  
@@ -37,10 +38,10 @@ Testing has been an on-going process during the coding stage of the project with
 
      > **Solution:** The solution was to replace the bootstrap default toggle button by a Font Awsome icon as suggested by [this stack overflow post](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color). The Font Awesome icon was first added within the span containing the toggler button as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/17f98e83bdb505cec250a84bc3e69bc61b51da01#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051). The span containing the toggler was removed and the toggle-btn navbar-toggler-icon styles moved to the element containing the icon, as shown in this [commit]( https://github.com/lemocla/MS1-Catsitting/commit/95e65d66c56f0f7124315ad8f16d66bd9a60ee8b?branch=95e65d66c56f0f7124315ad8f16d66bd9a60ee8b&diff=split).
 
-     HTML screenshot 
+     **HTML screenshot** 
      ![Font awesome toggler button HTML](code/icon_toggler_btn_HTML.png)
 
-     CSS screenshot 
+     **CSS screenshot** 
      ![Font awesome toggler button CSS](code/icon_toggler_btn_CSS.png)
 
 ## Paddings 
@@ -49,10 +50,10 @@ Testing has been an on-going process during the coding stage of the project with
 
      > **Solution:** After some research, responsive paddings were applied at different breakpoints using the clamp function as suggested in this [stack overflow post](https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css/38079002) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/b135cf2ef81300bb41a8e59d2663be84809d55f6#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). During the testing of the user stories, responsive paddings were then changed to a different css function, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/cca974e40bfefb1c7b611204d9c0faa080620104#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). 
 
-     Responsive paddings - clamp function
+     **Responsive paddings - clamp function**
      ![Responsive padding - clamp](code/responsive_padding_clamp.png)
 
-     Responsive paddings - max(val-min, min(val-preferred, val-max))
+     **Responsive paddings - max(val-min, min(val-preferred, val-max))**
      ![Responsive padding - max](code/responsive_padding_maxmin.png)
 
 
@@ -62,10 +63,10 @@ Testing has been an on-going process during the coding stage of the project with
 
      > **Solution:** The solution was in the case of the background image to apply a vmin function to keep the size balanced with the container above, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/199b43770e882b92b7f7f59bbe94260da3dc7d20#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). For the frame, a minimum height was applied as displayed in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/8604c77f2ca1edcd53af3713fd8e31e8978cec82#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524), so the content of the map displayed properly.
      
-     About me background image
+     **About me background image**
      ![background image css code](code/background-image-aboutme.png)
 
-     Embedded map 
+     **Embedded map** 
      ![embedded map frame css code](code/map-frame.png)
 
 ## Hero image and jumbotron text
@@ -89,7 +90,9 @@ Testing has been an on-going process during the coding stage of the project with
   - **Issue:** lack of balance on extra large screens
     > **Solution:**  A final media query was set for extra large screens where the max-height of the hero background is set at 850px to keep the overall website in balance, as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/630752f5885d21ddae2f3efcbcb923965c01a388#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524).   
     >  Issues with navigation bar not being positioned in line with body were resolved [here](https://github.com/lemocla/MS1-Catsitting/commit/61fecc74e18964f676f864c51ea8ee208d803ab3#diff-690d03bb19dd15d34a545fe631217b9141f4b1e5a9071c8438360914317fd524). A sample screenshot is shown below:
+    > **Body set at max width of 2000px**
     >  ![body max width](code/hero_body_max_width.png)
+    > **Navigation**
     >  ![media queries for navigation](code/hero_max_width_2000px.png)
 
   - **Issue:** Jumbotron text needed to be responsive according to the screen size to keep in balance and for better visual impact. 
@@ -101,10 +104,10 @@ Testing has been an on-going process during the coding stage of the project with
  - **Issue:** The font in the jumbotron container also needed to be fully responsive to all screen size configuration for maximal visual impact. 
    > **Solution**: The solution was to “clamp” the font size between a minimum and maximum value, as suggested in this post from [css-trick](https://css-tricks.com/how-do-you-do-max-font-size-in-css/) and as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/26872e263ccc0172f1ee334c111d1f1184895bde#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae). During the testing of the user stories, this was then changed to a different css function - max(val-min, min(val-preferred, val-max)) - as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/d127f0c5cd821fad06c8755167ff663891de1e28#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae).
    >
-   > Responsive font - clamp
+   > **Responsive font - clamp**
    > ![Responsive font - clamp](code/responsive_font_clamp.png)
    > 
-   > Responsive font - max(val-min, min(val-preferred, val-max))
+   > **Responsive font - max(val-min, min(val-preferred, val-max))**
    > ![Responsive font - final](code/responsive_font_maxmin.png)
   
  - **Issue:** Setting -webkit-fill-available for mobile made the jumbotron text not fully visible on landscape mobile devices. 

@@ -352,13 +352,21 @@ Wave accessibility final report can be found [here](documentation/reports/wavefi
 
 # Google lighthouse
 
+![Google lighthouse](reports/google_lighthouse.png)
+
 The following actions taken to improve performance:
 - Compress images using tinyjpg 
 - Move scripts to bottom from header to the bottom of the page 
 
+The report also flagged up that the title was missing for the iframe for accessibility purposes, which as added as shown in this [commit](https://github.com/lemocla/MS1-Catsitting/commit/a725364349af0f01b7eeac4f027ecf709582c8d8#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051).
+
+![Add title to frame](code/title_to_frame.png)
+
+*Note:* Many of the recommendations to improve performance concerns third party libararies. 
+
 The best performance that could be achieved:
 
-![Google lighthouse](reports/google_lighthouse.png)
+![Google lighthouse final](reports/google_lighthouse_final.png)
 
 # HTML & CSS validation 
 
